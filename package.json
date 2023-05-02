@@ -14,7 +14,29 @@
     "web-vitals": "^3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "vite build",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "eslintConfig": {
+    "extends": "@devacademy/eslint-config/react",
+    "ignorePatterns": [
+      "bundle.js"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.3",
+    "eslint": "^8.10.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }
