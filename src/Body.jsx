@@ -58,7 +58,7 @@ function Body() {
         <h1>
           <RiFlashlightLine /> Why hire me?
         </h1>
-        <p className="p1">
+        <p class="p1">
           I am an enthusiastic, adaptive, and organized individual with a
           passion for developing new skills. I am proud to hold a Software
           Development L6 certification from Dev Academy, which provided me with

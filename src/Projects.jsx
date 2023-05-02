@@ -20,7 +20,9 @@ function Projects() {
 
   return (
     <div className="projects">
-      <NavBar />
+      <div className="navpro">
+        <NavBar />
+      </div>
       <div className="projects1">
         <h2 className="h2-projects">Projects</h2>
         {/* <div
@@ -149,17 +151,6 @@ function Projects() {
           </p>
         </div>
         {/* </div> */}
-
-        <div className="div-squish">
-          <p className="p-projects">
-            <img className="picsquish" src={Portfolio} alt="Portfolio" />
-            This is my portfolio which I did it to introduce myself and say
-            about my passion for Tech and programming
-            <a href="https://github.com/sedrz/my-portfolio">
-              view my project here
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   )
