@@ -33,11 +33,6 @@ function Projects() {
         <div className="rows">
           <div className="div-squish">
             <p className="p-projects">
-              <img className="picsquish" src={Squish} alt="Jumpy" />
-              <br />
-              {/* {showText && ( */}
-              {/* // <div className="text-layer"> */}
-              {/* show the text layer when showText is true */}
               This web site is a game Using p5 library, reactjs, TypeScript,
               redux.js and jest It was our final project which lasted 1 week. we
               thought about using phaser 3 instead of p5, but finally we decided
@@ -46,6 +41,11 @@ function Projects() {
               <a href="https://github.com/sue-raisianzadeh/Squishy-Squish">
                 view my project here
               </a>
+              <img className="picsquish" src={Squish} alt="Jumpy" />
+              <br />
+              {/* {showText && ( */}
+              {/* // <div className="text-layer"> */}
+              {/* show the text layer when showText is true */}
             </p>
           </div>
 
@@ -54,54 +54,60 @@ function Projects() {
 
           <div className="div-squish">
             <p className="p-projects">
-              <img className="picsquish" src={Devflix} alt="Flim" />
-              <br />
               The website provides list of movies depends on genres, using
-              reactjs and Typescript <br />
+              reactjs and Typescript &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://github.com/sue-raisianzadeh/Flimflix">
                 view my project here
               </a>
+              <img className="picsquish" src={Devflix} alt="Flim" />
             </p>
           </div>
 
           <div className="div-squish">
             <p className="p-projects">
-              <img className="picsquish" src={Devstagram} alt="Devstagram" />
-              <br />
               This website can get some information, and should that in another
               page and add data on the data.jason too using reactjs, Typescript,
-              Redux.js
-              <br />
+              Redux.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://github.com/sue-raisianzadeh/DevStagram">
                 view my project here
               </a>
+              <img className="picsquish" src={Devstagram} alt="Devstagram" />
             </p>
           </div>
         </div>
 
         {/* <div className="rows"> */}
+        {/* <div className="div-squish"> */}
+        <p className="p-projects">
+          This website is about a game, using reactjs, Typescript, Redux.js
+          &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/sue-raisianzadeh/no-deal-or-deal">
+            view my project here
+          </a>
+          <img className="picsquish" src={Nodeal} alt="Nodeal" />
+        </p>
+        {/* </div> */}
+
         <div className="div-squish">
           <p className="p-projects">
-            <img className="picsquish" src={Nodeal} alt="Nodeal" />
-            <br />
-            This website is about a game, using reactjs, Typescript, Redux.js{' '}
-            <br />
-            <a href="https://github.com/sue-raisianzadeh/no-deal-or-deal">
+            This website is about offering some Indian, Italian, Asian, and
+            Vegan restorants. using Javascript, Server-side-handeling and CSS3
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/sue-raisianzadeh/dev-eats">
               view my project here
             </a>
+            <img className="picsquish" src={Eat} alt="Eat" />
           </p>
         </div>
 
         <div className="div-squish">
           <p className="p-projects">
-            <img className="picsquish" src={Eat} alt="Eat" />
-            <br />
-            This website is about offering some Indian, Italian, Asian, and
-            Vegan restorants. using Javascript, Server-side-handeling and CSS3
-            <br />
-            <a href="https://github.com/sue-raisianzadeh/dev-eats">
-              view my project here
+            This is the Minesweeper game, using Javascript and CSS3
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/sue-raisianzadeh/minesweeper">
+              view minesweeper here
             </a>
+            <img className="picsquish" src={Minesweeper} alt="Minesweeper" />
           </p>
         </div>
 
@@ -114,15 +120,12 @@ function Projects() {
             </div>
             <div className="game-images">
               <img className="picsquish" src={Toe} alt="Toe" />
-              <img className="picsquish" src={Minesweeper} alt="Minesweeper" />
               <img className="picsquish" src={Calc} alt="Calc" />
             </div>
             - there are 3 repositories that contain 5 games using Javascript.
             and there is a Calculator, using Javascript too.
             <br />
-            <a href="https://github.com/sue-raisianzadeh/minesweeper">
-              view minesweeper here
-            </a>
+            
             <br />
             <a href="https://github.com/sue-raisianzadeh/javascript-carnival">
               view Carnival-games (Inflate the unicorn, Dress the clown, Wack a
@@ -140,14 +143,12 @@ function Projects() {
 
         <div className="div-squish">
           <p className="p-projects">
-            <img className="picsquish" src={Music} alt="Music" />
-            <br />
             The website about an Iranian music band (folk music), using HTML5
-            and CSS3
-            <br />
+            and CSS3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://github.com/sue-raisianzadeh/music-band">
               view my project here
             </a>
+            <img className="picsquish" src={Music} alt="Music" />
           </p>
         </div>
         {/* </div> */}

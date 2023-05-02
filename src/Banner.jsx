@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaLaptopCode, FaGraduationCap, FaLightbulb } from 'react-icons/fa'
-import { AiOutlineCode } from 'react-icons/ai'
-import Sue4 from './Assets/Sue4.jpg'
+// import { AiOutlineCode } from 'react-icons/ai'
 
 function Banner() {
   const [sentenceIndex, setSentenceIndex] = useState(0)
@@ -10,7 +9,7 @@ function Banner() {
       text: 'Full Stack Web Developer',
       icon: (
         <FaLaptopCode
-          size={50}
+          size={51}
           color="#3cacbb"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
@@ -20,7 +19,7 @@ function Banner() {
       text: 'Dev Academy Graduate',
       icon: (
         <FaGraduationCap
-          size={50}
+          size={51}
           color="#4caf50"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
@@ -30,7 +29,7 @@ function Banner() {
       text: 'Tech enthusiast',
       icon: (
         <FaLightbulb
-          size={50}
+          size={51}
           color="#2196f3"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
