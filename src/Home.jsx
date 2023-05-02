@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Banner from './Banner.jsx'
-import NavBar from './NavBar.js'
-import Body from './Body.jsx'
+import Banner from './Banner'
+import NavBar from './NavBar'
+import Body from './Body'
 
-import './main.css'
+// import './main.css'
 
 function Home() {
   return (

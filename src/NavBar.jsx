@@ -31,7 +31,7 @@ const NavBar = () => {
               <li className="NavBarli">
                 <NavLink
                   className="Nav1"
-                  activeClassName="is-active"
+                  // activeClassName="is-active"
                   to="/"
                   style={{ marginRight: '5px' }}
                 >
@@ -42,7 +42,7 @@ const NavBar = () => {
               <li className="NavBarli">
                 <a
                   className="Nav2"
-                  activeClassName="is-active"
+                  // activeClassName="is-active"
                   href="https://drive.google.com/file/d/1F3vJeYBXPDSgbHq43EqgWRgnDeAVJPDJ/view?usp=share_link"
                   style={{ marginRight: '5px' }}
                   target="_blank"
@@ -54,7 +54,7 @@ const NavBar = () => {
               <li className="NavBarli">
                 <NavLink
                   className="Nav3"
-                  activeClassName="is-active"
+                  // activeClassName="is-active"
                   to="/AboutMe"
                   style={{ marginRight: '5px' }}
                   role="button"
@@ -66,7 +66,7 @@ const NavBar = () => {
               <li className="NavBarli">
                 <NavLink
                   className="Nav4"
-                  activeClassName="is-active"
+                  // activeClassName="is-active"
                   to="/Projects"
                   style={{ marginRight: '5px' }}
                   role="button"
