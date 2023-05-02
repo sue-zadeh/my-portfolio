@@ -1,5 +1,5 @@
 // import React, { useState } from 'react'
-import NavBar from './NavBar.js'
+import NavBar from './NavBar.jsx'
 import Squish from './Assets/squish.png'
 import Devstagram from './Assets/Devstagram.png'
 import Nodeal from './Assets/nodeal.png'
