@@ -29,13 +29,18 @@ function AboutMe() {
           Academy. In addition to technical skills, I also gained valuable human
           skills, including teamwork, collaboration, and problem-solving through
           debugging.
-          <br /> I'm a certified ISTQB tester and have experience teaching IT
-          concepts to those without a coding background, which helped me develop
-          leadership and communication skills. I believe that my technical and
-          human skills, coupled with my desire to continuously improve, will
-          enable me to succeed and make a positive impact in the industry, and I
-          hope to find a job in tech to continue improving my skills and pursue
-          my passion.
+          <br /> I am a certified ISTQB tester. In my previous role as an IT
+          teacher, I have had the opportunity to demonstrate my problem-solving
+          skills by troubleshooting for clients both remotely and on-site. I
+          refined my ability to communicate efficiently by delivering an
+          effective computer workshop to students from diverse backgrounds. With
+          my technical expertise and strong interpersonal skills, I am eager to
+          make a positive impact in the tech industry. I am driven by a passion{' '}
+          <br />
+          I believe that my technical and human skills, coupled with my desire
+          to continuously improve, will enable me to succeed and make a positive
+          impact in the industry, and I hope to find a job in tech to continue
+          improving my skills and pursue my passion.
           <br />
         </p>
       </div>
