@@ -435,7 +435,8 @@ h4 {
   left: 42%;
   transform: translate(-50%, 40%);
   margin: 0px 0px 0px 80px;
-  color:#10011d;
+  font-family:Arial, Helvetica, sans-serif ;
+  color:black;
   font-weight: bolder;
   text-align: center;
 }
@@ -448,12 +449,12 @@ h4 {
   margin-bottom: 30px;
   padding-bottom: 15%;
   text-indent: 20px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-family: sans-serif,"Nunito" ;
-  font-size: 20px;
+  font-size: 17px;
   text-align: justify;
   /* text-shadow: 2px 2px #f0e586; */
-  color:#10011d;
+  color:black;
   line-height: 50px;
 }
 
@@ -495,44 +496,56 @@ h4 {
 .h2-projects {
   margin: 15px;
   color: rgb(249, 252, 216);
+  letter-spacing: 12px;
   font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-align: center;
   text-shadow: 2px 3px 5px #fad9ad;
 }
 
 .p-projects {
+  display: grid;
   margin: 20px;
   padding: 30px;
-  width: 60%;
-  height: 30%;
+  width: 78%;
+  height: 40%;
   background-color: rgb(211, 245, 247);
-  font-family: "Nunito", sans-serif;
-  color: #25271c;
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(48, 36, 69);
+  font-weight: bold;
+  font-size: 17px;
   text-align: justify;
   line-height: 35px;
   border-radius: 15px;
   justify-content: center;
+  text-shadow: 1px #999;
   justify-self: center;
   box-shadow: 1px 2px 5px 5px #999;
 }
-.a{
-  color: #e1dbe7;
+.aa{
+  color: #cd7706;
+  text-shadow: 1px #999;
   align-items: right;
+  text-decoration: none;
+  font-size: 1em;
+  text-align: right;
+}
+.aa:hover {
+  align-items: end;
+  font-size: 1.02em;
+  color: #ba7205;
+
 }
 .picsquish {
   display: flex;
-  
   align-items: right;
-  /* position: relative; added */
-  width:280px;
+  width:278px;
   height: 280px;
   border-radius: 20px;
   box-shadow: 10px #999;
-  padding-bottom: 10px;
-  box-shadow: 5px 5px 5px 5px #999;
+  margin-top: 10px;
+  box-shadow: 6px 6px 6px 6px #999;
 
 
 }

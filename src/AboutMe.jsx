@@ -11,7 +11,6 @@ function AboutMe() {
       </div>
       <div>
         <h1 className="h-me2">
-          {' '}
           <MdDeveloperBoard />
           About Me
         </h1>

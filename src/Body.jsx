@@ -39,7 +39,7 @@ function Body() {
 
         <h1 className="hh5">Download</h1>
         <p className="pp4">
-          Need a printable version of my CV? Download it here
+          Need a printable version of my CV? Download it here &nbsp;
           <a href="/cvSueRZ.pdf" download>
             <ImDownload2 />
           </a>
