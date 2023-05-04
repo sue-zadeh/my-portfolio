@@ -34,9 +34,9 @@ function Projects() {
         <div className="div-squish">
           <p className="p-projects">
             This web site is a game Using p5 library, reactjs, TypeScript,
-            redux.js and jest It was our final project which lasted 1 week. we
-            thought about using phaser 3 instead of p5, but finally we decided
-            to use p5. But that was good as I learnt phaser3 too
+            Redux.js and jest It was our final project which lasted 1 week. we
+            thought about using phaser3 instead of p5, but finally we decided to
+            use p5. But that was good as I learnt phaser3 too
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/Squishy-Squish"
