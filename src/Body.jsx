@@ -40,7 +40,10 @@ function Body() {
         <h1 className="hh5">Download</h1>
         <p className="pp4">
           Need a printable version of my CV? Download it here &nbsp;
-          <a href="cvSueRZ.pdf" download>
+          <a
+            href="https://drive.google.com/file/d/1F3vJeYBXPDSgbHq43EqgWRgnDeAVJPDJ/view?usp=share_link"
+            target="_blank"
+          >
             <ImDownload2 />
           </a>
         </p>
