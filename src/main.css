@@ -422,7 +422,7 @@ h4 {
 
 .navme-position {
   position:absolute;
-  margin-top: 7%;
+  margin-top: 5%;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -432,7 +432,7 @@ h4 {
 .h-me2 {
   position:absolute;
   letter-spacing: 6px;
-  top: 25%;
+  top: 20%;
   left: 42%;
   transform: translate(-50%, 40%);
   margin: 0px 0px 0px 80px;
