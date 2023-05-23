@@ -23,6 +23,7 @@
 
   /* background-color: #b3caca; */
 }
+
 @media only-screen and (max-width: 600px){
   .Banner {
 padding: 2px;
@@ -115,8 +116,6 @@ padding: 2px;
   }
 }
 
-
-
 .Nav1 {
   background-color: rgb(131, 181, 209);
   display: flex;
@@ -174,6 +173,7 @@ padding: 2px;
   box-shadow: 0 5px #666;
   /* transform: translateY(4px); */
 }
+
 .Nav3 {
   background-color: rgb(120, 120, 185);
   display: flex;
