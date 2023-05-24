@@ -6,7 +6,7 @@
   align-items: center;
   font-size: 18px;
   font-weight: bold;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .Banner {
@@ -16,10 +16,10 @@
   justify-items: center;
   justify-content: center;
   justify-self: center;
-  margin: 0;
-  padding-bottom:10px;
+  margin: 0px;
+  /* padding-bottom: 5px; */
   width: 95vm;
-  height: 22vh;
+  height: 14vh;
 
   /* background-color: #b3caca; */
 }
@@ -55,7 +55,7 @@ padding: 2px;
 
 .web {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.50em;
+  font-size: 3em;
   color: rgb(22, 4, 88);
   font-style: italic;
   font-weight: bolder;
@@ -71,7 +71,7 @@ padding: 2px;
   .web {
     font-size: 1.5em;
     padding: 0% 5% 5% 0%;
-    margin: 4% 0% 0% 10%;
+    margin: 2% 0% 0% 10%;
   }
 }
 
@@ -89,7 +89,7 @@ padding: 2px;
   text-decoration: none;
   font-family:sans-serif, Arial, Helvetica;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.2em;
   
 }
 
@@ -254,7 +254,7 @@ padding: 2px;
   align-content: center;
   grid-gap: 0.2em;
   margin: auto;
-  padding: auto;
+  padding: 0px;
 }
 
 .grid1 {
@@ -265,7 +265,7 @@ padding: 2px;
   background-color: #fcedc5;
   border-radius: 35px;
   box-shadow: 15px #999;
-  margin: 40px 5px;
+  margin: 18px 5px;
   padding: 25px;
   padding-top: 0px;
 } 
@@ -282,10 +282,10 @@ padding: 2px;
   grid-template-rows: repeat(40px 40px 20px);
   background-color: #f8eece;
   border-radius: 45px;
-  box-shadow: 15px #999;
+  box-shadow: 18px #999;
   text-align: justify;
-  padding: 35px;
-  margin: 40px 3px;
+  padding: 18px;
+  margin: 15px 3px;
 }
 .grid3 {
   /*culomn 3 */
@@ -293,7 +293,7 @@ padding: 2px;
   grid-template-rows: repeat(15, auto);
   background-color: #fcf2d7;
   padding: 20px 50px 5px 30px;
-  margin: 40px 3px;
+  margin: 18px 3px;
   border-radius: 45px;
   box-shadow: 15px #999;
   text-align: justify;
@@ -337,19 +337,21 @@ padding: 2px;
 h1,
 h2,
 h4 {
-  padding: 5px;
+  padding: 2px;
   margin: 0px;
   text-align: center;
+  font-family: "Nunito", sans-serif;
+
   /* line-height: 30px; */
 }
 h4 {
-  font-size: 15px;
+  font-size: 19px;
 }
 .hh1 {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .hh2{
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .p2 {
   padding: 0px;
@@ -377,7 +379,7 @@ h4 {
 }
 .hh4 {
   padding: 20px 0px 0px 0px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   text-align: center;
@@ -392,12 +394,23 @@ h4 {
 .download{
   background-color: #10011d;
 }
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
 .social2 {
-  justify-self: left;
-  text-align: left;
-  margin: 5%;
-  font-size: 1.25em;
-  padding: 5%;
+  
+  text-align: center;
+  margin-top: 10px;
+  margin: 2%;
+  font-size: 1.5em;
+  padding: 2%;
 }
 
 
