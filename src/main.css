@@ -341,8 +341,9 @@ h4 {
   margin: 0px;
   text-align: center;
   /* line-height: 30px; */
-  
 }
+h4 {
+  font-size: 15px;
 .hh1 {
   margin-top: 20px;
 }
@@ -374,8 +375,8 @@ h4 {
   text-align: justify;
 }
 .hh4 {
-  padding: 30px 0px 0px 0px;
-  margin-top: 25px;
+  padding: 20px 0px 0px 0px;
+  margin-top: 20px;
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   text-align: center;
