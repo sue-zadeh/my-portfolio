@@ -31,7 +31,7 @@ function Body() {
         <h4>Tech Skills:</h4>
         <p className="p4">
           HTML5, css3, Tailwind, Scss, Java Script, Typescript, Reactjs,
-          Debugging, P5, Phaser3, ISTQB, SQL, Squlit3, somnia, Postman, Heroku,
+          Debugging, Cloud, AWS, Azure Fundamentals, Phaser3, ISTQB, SQL, Squlit3, somnia, Postman, Heroku,
           Github, Adobe Dream weaver, Adobe Photoshop, visual studio. The
           capacity for structural and design thinking. Also I have Skills in
           cabling, socket handling and networking.
@@ -53,7 +53,7 @@ function Body() {
           <BsQuestionSquare /> What do I do?
         </h1>
         <p className="p1">
-          I am a junior full stack web developer and tech enthusiast. With a
+          I am a full stack web developer and tech enthusiast. With a
           deep passion for web development, I constantly strive to improve my
           skills and gain more experience in this field.
         </p>
@@ -62,18 +62,12 @@ function Body() {
           <RiFlashlightLine /> Why hire me?
         </h1>
         <p class="p1">
-          I am an enthusiastic, adaptive, and organized individual with a
-          passion for developing new skills. I am proud to hold a Software
-          Development L6 certification from Dev Academy, which provided me with
-          an invaluable learning experience, giving me the opportunity to
-          explore a range of technologies, from debugging to team working and
-          communication. Moreover, I obtained a Technology Product Development
-          certification from Otago Polytechnic in 2021, demonstrating my
-          commitment to continuous learning and self-improvement. I do my best
-          to succeed and I have confidence in my ability. I am always eager to
-          learn and improve my skills, and I see joining your team as a great
-          opportunity to do so. and I am excited about the prospect of
-          contributing to and learning from your team.
+          I am a dedicated and adaptable individual with a strong passion for acquiring new skills.
+          With a Software Development L6 certification from Dev Academy and a Technology Product 
+          Development certification from Otago Polytechnic, I have demonstrated my commitment to continuous 
+          learning and self-improvement. I thrive on challenges and have a positive outlook on my abilities.
+          Joining your team would be an excellent opportunity for me to learn and grow, 
+            and I am genuinely excited about the prospect of contributing to and learning from your team.
         </p>
       </div>
 
@@ -82,11 +76,10 @@ function Body() {
           <RiThumbUpFill /> How do I do it?
         </h1>
         <p className="pp1">
-          I use agile methods in projects to increase the efficiency and
-          collaborate better with my team. I Communicate effectively using
-          positive and actionable feedback, reflects on what can be improved,
-          open communication while striving to use technology to make a positive
-          impact on the community around us.
+          I employ agile methods in my projects to enhance efficiency and foster better collaboration within my team.
+          Effective communication is one of my strengths, and I provide positive and actionable feedback while continuously
+          reflecting on areas that can be improved.
+          I value open communication and strive to leverage technology to make a positive impact on the surrounding community.
         </p>
 
         <div className="Social">
