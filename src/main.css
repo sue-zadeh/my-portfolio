@@ -13,7 +13,6 @@
   font-size: 18px;
   font-weight: bold;
   border: 0px;
-  /* padding: 10px; */
   /* margin-right: 10px; */
 }
 
@@ -26,9 +25,11 @@
   justify-self: center;
   border: 0px;
   /* padding-bottom: 5px; */
-  width: 95vm;
-  height: 18vh;
+  width: 90vm;
+  height: 14vh;
   margin-top: 2rem;
+  padding-bottom: 3em;
+
   /* padding-bottom: 0px; */
 
   /* background-color: #b3caca; */
@@ -467,6 +468,7 @@ h4 {
   position:absolute;
   margin-top: 5%;
   align-items: center;
+  gap: 15px;
   align-content: center;
   justify-content: center;
   transform: translate(10%, -55%);
