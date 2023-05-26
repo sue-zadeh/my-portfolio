@@ -296,7 +296,7 @@ padding: 0.75em;
   border-radius: 35px;
   box-shadow: 10px 10px #b8b7b7;
   margin: 18px 5px;
-  padding: 25px;
+  padding: 18px 35px 18px 35px ;
   padding-top: 0px;
 } 
 
@@ -314,7 +314,7 @@ padding: 0.75em;
   border-radius: 45px;
   box-shadow: 10px 10px #b8b7b7;
   text-align: justify;
-  padding: 18px;
+  padding: 18px 40px 18px 40px ;
   margin: 15px 3px;
 }
 .grid3 {
@@ -322,7 +322,7 @@ padding: 0.75em;
   display: grid;
   grid-template-rows: repeat(15, auto);
   background-color: #fcf2d7;
-  padding: 20px 45px 5px 28px;
+  padding: 18px 40px 18px 40px ;
   margin: 18px 3px;
   border-radius: 45px;
   box-shadow: 10px 10px #b8b7b7;
