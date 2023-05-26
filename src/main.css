@@ -262,7 +262,7 @@ padding: 2px;
   align-content: center;
   grid-gap: 1.2em;
   margin: auto;
-  padding: auto;
+  padding: 0px;
 }
 
 .grid1 {
@@ -274,7 +274,7 @@ padding: 2px;
   border-radius: 35px;
   box-shadow: 15% 12% 15% #999;
   margin: 40px 5px;
-  padding: 25px;
+  padding: 24px;
   padding-top: 0px;
 } 
 
@@ -293,7 +293,7 @@ padding: 2px;
   box-shadow: 15% 12% 15% #999;
   text-align: justify;
   padding: 35px;
-  margin: 40px 3px;
+  margin: 38px 3px;
 }
 .grid3 {
   /*culomn 3 */
