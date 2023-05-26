@@ -54,13 +54,11 @@ function Body() {
         </h1>
         <p class="p1">
           I am a dedicated and adaptable individual with a strong passion for
-          acquiring new skills. With a Software Development L6 certification
-          from Dev Academy, I have demonstrated my commitment to continuous
-          learning and self-improvement. I thrive on challenges and have a
-          positive outlook on my abilities. Joining your team would provide an
-          excellent opportunity for me to learn, contribute, and grow. I am
-          genuinely excited about the prospect of being part of your team and
-          making a positive impact.
+          continuous learning and self-improvement. With a Software Development
+          L6 certification from Dev Academy, I have demonstrated my commitment
+          to acquiring new skills. I thrive on challenges, maintain a positive
+          outlook on my abilities, and am excited about the prospect of joining
+          your team to contribute, grow, and make a positive impact.
         </p>
       </div>
 

@@ -8,6 +8,7 @@ body {
 .sentence {
   display: grid;
   grid-template-rows: auto;
+
   align-items: center;
   font-size: 18px;
   font-weight: bold;
@@ -26,7 +27,7 @@ body {
   margin: 0;
   padding-bottom:0px;
   width: 95vm;
-  height: 20vh;
+  height: 19vh;
 
   /* background-color: #b3caca; */
 }
@@ -53,7 +54,7 @@ padding: 2px;
   display: flex;
   justify-content: left;
   margin: 0; 
-  color: rgb(28, 8, 48);
+  color: rgb(190, 159, 221);
   border: 5px solid #c0e3e8;
   border-radius: 90em;
   width: 8em;
@@ -251,7 +252,7 @@ padding: 2px;
   width: 95vw;
   background-color: #c3caca;
   border-radius: 25px;
-  box-shadow: 10% 12% 12% #999;
+  box-shadow: 14% 12% 12% #999;
   
 }
  .grid-wrapper{
@@ -385,7 +386,7 @@ h4 {
 }
 .hh4 {
   padding: 30px 0px 0px 0px;
-  margin-top: 6px;
+  margin-top: 2px;
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   text-align: center;
