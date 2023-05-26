@@ -34,7 +34,7 @@ body {
   border: 0px;
   /* padding-bottom: 5px; */
   width: 90vm;
-  height: 10vh;
+  height: 9vh;
   /* margin-bottom: 2em; */
 
   /* padding-bottom: 0px; */
@@ -114,7 +114,7 @@ padding: 2px;
   font-family:sans-serif, Arial, Helvetica;
   text-align: center;
   font-size: 1.2em;
-  margin: 3em 1em 1em 4em ;
+  margin: 3em 0.5em 1em 4em ;
   
 }
 
@@ -143,7 +143,7 @@ padding: 2px;
 
 .Nav1 {
   background-color: rgb(131, 181, 209);
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
   height: 45px;
@@ -494,7 +494,6 @@ h4 {
   left: 25%;
   bottom: 30%;
   transform: translate(-20%, -60%);
-  margin-bottom: 30px;
   padding-bottom: 15%;
   text-indent: 20px;
   font-family: Arial, sans-serif, 'Montserrat';
@@ -504,6 +503,7 @@ h4 {
   /* text-shadow: 2px 2px #f0e586; */
   color:rgb(10, 12, 9);
   line-height: 51px;
+  margin-bottom: 1em 0em 1em 0em;
 }
 
 /* Projects */

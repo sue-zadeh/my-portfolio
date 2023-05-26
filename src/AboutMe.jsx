@@ -17,25 +17,21 @@ function AboutMe() {
         <p className="p-me2">
           I was a teacher in my country when I discovered my passion for
           technology. I needed to learn computer skills to become a registrar at
-          my school, and I found it fascinating. I learned MCSE and MCSA and
-          even built a website for a real estate and agricultural company.
-          <br />
+          my school, and I found it fascinating. I learned MCSE and MCSA
+          certifications and even built a website for a real estate and
+          agricultural company. In addition, I pursued short online courses on
+          Azure, cloud computing, and AWS, earning certificates in these areas.
           When I moved to New Zealand, I decided to enroll in Dev Academy to
-          further my knowledge. It was an intensive course, but I loved every
-          moment of it. At Dev Academy, I've learned different programming
+          further expand my knowledge. It was an intensive course, but I loved
+          every moment of it. At Dev Academy, I've learned different programming
           languages like HTML5, CSS3, JavaScript, and Typescript. I also have
           experience working with databases like SQLite3 and MySQL, and I
           enjoyed working with ReactJS, P5, and Phaser3 during my time at Dev
-          Academy. In addition to technical skills, I also gained valuable human
+          Academy. In addition to technical skills, I have gained valuable human
           skills, including teamwork, collaboration, and problem-solving through
-          debugging.
-          <br /> I am a certified ISTQB tester. In my previous role as an IT
-          teacher, I have had the opportunity to demonstrate my problem-solving
-          skills by troubleshooting for clients both remotely and on-site. I
-          refined my ability to communicate efficiently by delivering an
-          effective computer workshop to students from diverse backgrounds. With
-          my technical expertise and strong interpersonal skills, I am eager to
-          make a positive impact in the tech industry. I am driven by a passion{' '}
+          debugging. I am driven by a passion for technology, and I hold
+          certificates in Azure, cloud computing, and AWS, along with my ISTQB
+          certification.
           <br />
           I believe that my technical and human skills, coupled with my desire
           to continuously improve, will enable me to succeed and make a positive

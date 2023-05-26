@@ -31,11 +31,11 @@ function Body() {
         <h4>Tech Skills:</h4>
         <p className="p4">
           HTML5, css3, Tailwind, Scss, Java Script, Typescript, Reactjs,
-          Debugging, Cloud, AWS, Azure Fundamentals, Phaser3, ISTQB, SQL,
-          Squlit3, somnia, Postman, Netlify, Heroku, Github, Adobe Dream weaver,
-          Adobe Photoshop, visual studio. The capacity for structural and design
-          thinking. Also I have Skills in cabling, socket handling and
-          networking.
+          Debugging, Microsoft Cloud, AWS, Azure Fundamentals, Phaser3, ISTQB,
+          SQL, Squlit3, somnia, Postman, Netlify, Heroku, Github, Adobe Dream
+          weaver, Adobe Photoshop, visual studio. The capacity for structural
+          and design thinking. Also I have Skills in cabling, socket handling
+          and networking.
         </p>
       </div>
       <div className="grid2">
