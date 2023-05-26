@@ -14,7 +14,7 @@ function Banner() {
       text: 'Hi, I am Sue Raisianz',
       icon: (
         <HiOutlineHand
-          size={55}
+          size={58}
           color="#cd7700"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
@@ -24,8 +24,8 @@ function Banner() {
       text: 'Full Stack Web Developer',
       icon: (
         <FaLaptopCode
-          size={55}
-          color="#68c48b"
+          size={60}
+          color="#2196f3"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
       ),
@@ -34,7 +34,7 @@ function Banner() {
       text: 'Dev Academy Graduate',
       icon: (
         <FaGraduationCap
-          size={57}
+          size={60}
           color="#4caf50"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
@@ -45,7 +45,7 @@ function Banner() {
       icon: (
         <FaLightbulb
           size={55}
-          color="#2196f3"
+          color="#cd7700"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
       ),
