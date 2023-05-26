@@ -1,16 +1,31 @@
 import React, { useState, useEffect } from 'react'
 import { FaLaptopCode, FaGraduationCap, FaLightbulb } from 'react-icons/fa'
+// import { HiOutlineHandWave } from 'react-icons/hi'
+// import { AiFillInfoCircle } from 'react-icons/ai'
+import { HiOutlineHand } from 'react-icons/hi'
+// import { RiUserFill } from 'react-icons/ri'
 // import { AiOutlineCode } from 'react-icons/ai'
+// import Sue4 from './Assets/Sue4.jpg'
 
 function Banner() {
   const [sentenceIndex, setSentenceIndex] = useState(0)
   const sentences = [
     {
+      text: 'Hi, I am Sue Raisianz',
+      icon: (
+        <HiOutlineHand
+          size={55}
+          color="#cd7700"
+          style={{ paddingRight: '10px', paddingLeft: '10px' }}
+        />
+      ),
+    },
+    {
       text: 'Full Stack Web Developer',
       icon: (
         <FaLaptopCode
-          size={51}
-          color="#3cacbb"
+          size={55}
+          color="#68c48b"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
       ),
@@ -19,7 +34,7 @@ function Banner() {
       text: 'Dev Academy Graduate',
       icon: (
         <FaGraduationCap
-          size={51}
+          size={57}
           color="#4caf50"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
@@ -29,7 +44,7 @@ function Banner() {
       text: 'Tech enthusiast',
       icon: (
         <FaLightbulb
-          size={51}
+          size={55}
           color="#2196f3"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />

@@ -40,7 +40,7 @@ function Body() {
       </div>
       <div className="grid2">
         <h1 className="hh2">
-          <BsQuestionSquare /> What do I do?
+          <BsQuestionSquare size={35} /> What do I do?
         </h1>
         <p className="p1">
           As a full stack web developer and tech enthusiast, I possess a
@@ -50,7 +50,7 @@ function Body() {
         </p>
 
         <h1>
-          <RiFlashlightLine /> Why hire me?
+          <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p class="p1">
           I am a dedicated and adaptable individual with a strong passion for
@@ -66,7 +66,7 @@ function Body() {
 
       <div className="grid3">
         <h1 className="hh2">
-          <RiThumbUpFill /> How do I do it?
+          <RiThumbUpFill size={35} /> How do I do it?
         </h1>
         <p className="pp1">
           I employ agile methods in my projects to enhance efficiency and foster
@@ -84,7 +84,7 @@ function Body() {
             href="https://drive.google.com/file/d/1F3vJeYBXPDSgbHq43EqgWRgnDeAVJPDJ/view?usp=share_link"
             target="_blank"
           >
-            <ImDownload2 />
+            <ImDownload2 size={28} />
           </a>
         </p>
 
