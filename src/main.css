@@ -273,8 +273,8 @@ padding: 2px;
   background-color: #fcedc5;
   border-radius: 35px;
   box-shadow: 15% 12% 15% #999;
-  margin: 40px 5px;
-  padding: 24px;
+  margin: 20px 5px;
+  padding: 20px;
   padding-top: 0px;
 } 
 
@@ -292,19 +292,20 @@ padding: 2px;
   border-radius: 45px;
   box-shadow: 15% 12% 15% #999;
   text-align: justify;
-  padding: 35px;
-  margin: 38px 3px;
+  padding: 20px;
+  margin: 20px 3px;
 }
 .grid3 {
   /*culomn 3 */
   display: grid;
   grid-template-rows: repeat(15, auto);
   background-color: #fcf2d7;
-  padding: 20px 50px 5px 30px;
-  margin: 40px 3px;
+  padding: 20px 50px 5px 20px;
+  margin: 20px 3px;
   border-radius: 45px;
   box-shadow: 15% 12% 15% #999;
   text-align: justify;
+  
 }
 
 .p4 {
@@ -313,7 +314,7 @@ padding: 2px;
   line-height: 30px;
   padding: 0px;
   margin: 0px 20px;
-  line-height: 30px;
+  line-height: 32px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: bold;
@@ -327,7 +328,7 @@ padding: 2px;
   padding-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  line-height: 30px;
+  line-height: 32px;
   text-align: justify;
   line-height: 30px;
 }
@@ -336,7 +337,7 @@ padding: 2px;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  line-height: 30px;
+  line-height: 32px;
   text-align: justify;
   line-height: 30px;
 }
