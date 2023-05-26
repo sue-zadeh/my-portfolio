@@ -26,9 +26,9 @@
   border: 0px;
   /* padding-bottom: 5px; */
   width: 90vm;
-  height: 14vh;
-  margin-top: 2rem;
-  padding-bottom: 3em;
+  height: 9vh;
+  margin-top: 1rem;
+  padding-bottom: 6em;
 
   /* padding-bottom: 0px; */
 
@@ -253,12 +253,7 @@ padding: 2px;
   transform: translateY(4px);
 }
 /* Body */
-body {
-  /* background-color: #d3eaf2; */
-  margin-left: 2em;
-  margin-right: 2em;
-padding: 0.75em;
-}
+
 
 .Body {
   display: grid;
@@ -468,7 +463,7 @@ h4 {
   position:absolute;
   margin-top: 5%;
   align-items: center;
-  gap: 15px;
+  gap: 18px;
   align-content: center;
   justify-content: center;
   transform: translate(10%, -55%);
