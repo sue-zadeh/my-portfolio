@@ -24,9 +24,9 @@ function Banner() {
       text: 'Full Stack Web Developer',
       icon: (
         <FaLaptopCode
-          size={60}
-          color="#2196f3"
-          style={{ paddingRight: '10px', paddingLeft: '10px' }}
+          size={63}
+          color="#312969"
+          style={{ paddingRight: '14px', paddingLeft: '14px' }}
         />
       ),
     },
@@ -34,9 +34,9 @@ function Banner() {
       text: 'Dev Academy Graduate',
       icon: (
         <FaGraduationCap
-          size={60}
-          color="#4caf50"
-          style={{ paddingRight: '10px', paddingLeft: '10px' }}
+          size={63}
+          color="#070513"
+          style={{ paddingRight: '14px', paddingLeft: '13px' }}
         />
       ),
     },
