@@ -66,12 +66,11 @@ function Body() {
           <RiThumbUpFill size={35} /> How do I do it?
         </h1>
         <p className="pp1">
-          I employ agile methods in my projects to enhance efficiency and foster
-          better collaboration within my team. Effective communication is one of
-          my strengths, and I provide positive and actionable feedback while
-          continuously reflecting on areas that can be improved. I value open
-          communication and strive to leverage technology to make a positive
-          impact on the surrounding community.
+          I apply agile methods to boost project efficiency and promote
+          collaborative teamwork. With strong communication skills, I provide
+          constructive feedback and constantly seek areas for improvement. I
+          prioritize open communication and leverage technology to make a
+          positive impact on the community.
         </p>
 
         <h1 className="hh5">Download</h1>

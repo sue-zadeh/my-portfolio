@@ -2,7 +2,7 @@
 
 body {
   background-color: #a0c3c8;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .sentence {
@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding-bottom:0px;
   width: 95vm;
-  height: 19vh;
+  height: 18.5vh;
 
   /* background-color: #b3caca; */
 }
