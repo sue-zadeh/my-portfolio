@@ -77,8 +77,8 @@ padding: 2px;
 @media only screen and (max-width: 600px) {
   .web {
     font-size: 1.5em;
-    padding: 4% 5% 5% 0%;
-    margin: 4% 0% 0% 0%;
+    padding: 0% 5% 5% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 
@@ -121,13 +121,16 @@ padding: 2px;
     color: #8181ac;
     
   }
-}
-.grid-wrapper{
-  grid-gap: 0.5em
-}
-.body{
-  grid-gap: 0.5em
-}
+  .grid-wrapper{
+    grid-gap: 0.5em
+  }
+  .body{
+    grid-gap: 0.5em
+  }
+
+  
+  }
+
 
 
 .Nav1 {
@@ -418,11 +421,10 @@ h4 {
   margin-top: 2em;
   font-size: 1.5em;
 }
-/* .social2 {
-} */
 
 
 /* AboutMe    */
+
 .AboutMe {
   display: grid;
   background-image: image(Computer);
@@ -455,21 +457,22 @@ h4 {
 .h-me2 {
   position:absolute;
   letter-spacing: 6px;
-  top: 15%;
+  top: 17%;
   left: 42%;
-  transform: translate(-50%, 38%);
+  transform: translate(-50%, 33%);
   margin: 0px 0px 0px 80px;
   font-family:Arial, Helvetica, sans-serif ;
   color:black;
+  font-size: 3em;
   font-weight: bolder;
   text-align: center;
 }
 .p-me2 {
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 25%;
-  bottom: 30%;
-  transform: translate(-18%, -60%);
+  bottom: 20%;
+  transform: translate(-18%, -71%);
   margin-bottom: 30px;
   padding-bottom: 15%;
   text-indent: 20px;
@@ -479,9 +482,26 @@ h4 {
   text-align: justify;
   /* text-shadow: 2px 2px #f0e586; */
   color:rgb(10, 12, 9);
-  line-height: 2.5em;
+  line-height: 2.45em;
 }
 
+@media screen and (max-width: 600px){
+  .h-me2{
+    position:absolute;
+  letter-spacing: 6px;
+  top: 15%;
+  left: 39%;
+  transform: translate(-48%, 33%);
+  font-size: 2.5em;
+
+  }
+  .p-me2 {
+    position: absolute;
+  top: 55%;
+  left: 25%;
+  bottom: 20%;
+  transform: translate(-18%, -71%);
+}
 /* Projects */
 
 .projects {
@@ -523,7 +543,7 @@ h4 {
   margin: 15px;
   color: rgb(249, 252, 216);
   letter-spacing: 12px;
-  font-size: 40px;
+  font-size: 3em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-align: center;
