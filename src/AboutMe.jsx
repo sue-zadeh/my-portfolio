@@ -12,7 +12,7 @@ function AboutMe() {
       <div>
         <h1 className="h-me2">
           <MdDeveloperBoard
-            size={50}
+            size={45}
             color="#1a032f"
             style={{ paddingRight: '10px', paddingLeft: '10px' }}
           />
@@ -43,7 +43,7 @@ function AboutMe() {
           enable me to succeed and make a positive impact in the tech industry.
           I am eager to find a job in the field, where I can further enhance my
           skills and pursue my passion.
-          <br />
+          <br /> <br />
         </p>
       </div>
     </div>

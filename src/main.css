@@ -455,7 +455,7 @@ h4 {
 .h-me2 {
   position:absolute;
   letter-spacing: 6px;
-  top: 18%;
+  top: 15%;
   left: 42%;
   transform: translate(-50%, 38%);
   margin: 0px 0px 0px 80px;
@@ -466,7 +466,7 @@ h4 {
 }
 .p-me2 {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 25%;
   bottom: 30%;
   transform: translate(-18%, -60%);
@@ -479,7 +479,7 @@ h4 {
   text-align: justify;
   /* text-shadow: 2px 2px #f0e586; */
   color:rgb(10, 12, 9);
-  line-height: 51px;
+  line-height: 2.5em;
 }
 
 /* Projects */
