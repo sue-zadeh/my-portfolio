@@ -122,7 +122,12 @@ padding: 2px;
     
   }
 }
-
+.grid-wrapper{
+  grid-gap: 0.5em
+}
+.body{
+  grid-gap: 0.5em
+}
 
 
 .Nav1 {
