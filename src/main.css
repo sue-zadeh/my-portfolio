@@ -213,11 +213,11 @@ padding: 2px;
 
 }
 .Nav3:hover {
-  background-color: rgb(154, 154, 224);
+  background-color: rgb(158, 158, 222);
   font-size: 1.02em;
 }
 .Nav3:active {
-  background-color: rgb(102, 102, 158);
+  background-color: rgb(141, 141, 197);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
