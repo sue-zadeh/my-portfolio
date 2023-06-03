@@ -191,7 +191,7 @@ padding: 2px;
   /* transform: translateY(4px); */
 }
 .Nav3 {
-  background-color: rgb(120, 120, 185);
+  background-color: rgb(149, 149, 211);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,7 +213,7 @@ padding: 2px;
 
 }
 .Nav3:hover {
-  background-color: rgb(146, 146, 224);
+  background-color: rgb(154, 154, 224);
   font-size: 1.02em;
 }
 .Nav3:active {
@@ -222,7 +222,7 @@ padding: 2px;
   transform: translateY(4px);
 }
 .Nav4 {
-  background-color: #68c48b;
+  background-color: #7acd9a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -241,7 +241,7 @@ padding: 2px;
 
 }
 .Nav4:hover {
-  background-color: rgb(128, 219, 151);
+  background-color: rgb(136, 219, 156);
   font-size: 1.02em;
 }
 .Nav4:active {
