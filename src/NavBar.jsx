@@ -43,7 +43,7 @@ const NavBar = () => {
                 <a
                   className="Nav2"
                   // activeClassName="is-active"
-                  href="https://drive.google.com/file/d/1F3vJeYBXPDSgbHq43EqgWRgnDeAVJPDJ/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1xacYbqRSj6Hub8sVRO54BjqwkTILIlBD/view?usp=sharing"
                   style={{ marginRight: '5px' }}
                   target="_blank"
                   role="button"
