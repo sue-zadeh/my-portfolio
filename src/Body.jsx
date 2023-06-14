@@ -42,10 +42,9 @@ function Body() {
           <BsQuestionSquare size={35} /> What do I do?
         </h1>
         <p className="p1">
-          As a full stack web developer and tech enthusiast, I possess a
-          profound passion for web development. I am dedicated to continuously
-          enhancing my skills and gaining valuable experience in this dynamic
-          field.
+          As a full time web developer and tech enthusiast, I have a deep
+          passion for web development. I am committed to continuously improving
+          my skills and gaining valuable experience in this dynamic field.
         </p>
 
         <h1>

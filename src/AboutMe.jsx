@@ -9,7 +9,7 @@ function AboutMe() {
       <div className="navme-position">
         <NavBar />
       </div>
-      <div>
+      <div className="div-me2">
         <h1 className="h-me2">
           <MdDeveloperBoard
             size={45}
@@ -29,11 +29,11 @@ function AboutMe() {
           expand my knowledge further. It was an intensive course, but I loved
           every moment of it. During my time at Dev Academy, I constantly
           learned new technologies including HTML5, CSS3, Tailwind, SCSS,
-          JavaScript, and TypeScript, and experienced working with databases.
-          Data using SQL and Sqlite3, I worked with libraries like Reactjs, P5,
-          Phaser3 and learned how to work with Heroku, Netlify. I also learned
-          how to write tests, work with Jest, GitHub, API, Adobe Dream Weaver,
-          Adobe Photoshop, Visual Studio, Postman and Insomnia through
+          JavaScript, and TypeScript, and experienced working with databases
+          using SQL and Sqlite3, I worked with libraries like Reactjs, P5,
+          Phaser3 and learned how to work with Heroku and Netlify. I also
+          learned how to write tests, work with Jest, GitHub, API, Adobe Dream
+          Weaver, Adobe Photoshop, Visual Studio, Postman and Insomnia through
           individual, pair and group projects. In addition to technical skills,
           I also gained valuable human skills, including teamwork,
           collaboration, and problem solving through debugging and the capacity
@@ -48,7 +48,7 @@ function AboutMe() {
           my passion for continuous improvement, will enable me to succeed, and
           I hope to find a career in technology to continue to improve my skills
           and pursue my passion.
-          <br /> <br />
+          <br /> <br /> <br />
         </p>
       </div>
     </div>

@@ -376,6 +376,8 @@ h4 {
   font-family: cursive;
   font-size: 1em;
   text-align: center;
+    line-height: 1em;
+
 }
 .p3 {
   padding: 10px 0px;
@@ -384,6 +386,8 @@ h4 {
   font-family: "Nunito", sans-serif;
   font-size: 1em;
   text-align: center;
+  line-height: 1em;
+
 }
 .pp4 {
   padding: 0px 0px;
@@ -470,19 +474,24 @@ h4 {
 .p-me2 {
   position: absolute;
   top: 48%;
-  left: 25%;
+  left: 14%;
   bottom: 20%;
-  transform: translate(-18%, -71%);
+  transform: translate(-10%, -70%);
   margin-bottom: 30px;
-  padding-bottom: 15%;
+  padding-bottom: 3em;
   text-indent: 20px;
   font-family: Arial, sans-serif, 'Montserrat';
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 22px;
   text-align: justify;
   /* text-shadow: 2px 2px #f0e586; */
-  color:rgb(10, 12, 9);
+  color:black;
   line-height: 2.45em;
+}
+
+.div-me2 {
+  margin-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 @media screen and (max-width: 600px){
