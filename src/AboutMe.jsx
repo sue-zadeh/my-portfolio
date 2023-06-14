@@ -39,15 +39,15 @@ function AboutMe() {
           collaboration, and problem solving through debugging and the capacity
           for structural and design thinking.
           <br />
-          I Learnt about Microsoft cloud, Azure Fundamentals and Aws through
-          short online course after graduating from Dev Academy. Also I achieved
-          2 certificates in ISTQB
+          I learnt Microsoft Cloud, Azure Fundamentals and Aws by taking a short
+          online course after graduating from Dev Academy. Also I got 2
+          certifications in ISTQB
           <br />
-          I am energetic person and always eager to learn and improve my skills
-          and I believe that my technical and human skills, coupled with my
-          desire to continuously improve, will enable me to succeed and make a
-          positive impact in the industry, and I hope to find a job in tech to
-          continue improving my skills and pursue my passion.
+          I am an energetic person and always eager to learn and improve my
+          skills. And I believe that my technical and human skills, along with
+          my passion for continuous improvement, will enable me to succeed, and
+          I hope to find a career in technology to continue to improve my skills
+          and pursue my passion.
           <br /> <br />
         </p>
       </div>

@@ -31,7 +31,7 @@ function Body() {
         <h4>Tech Skills:</h4>
         <p className="p4">
           HTML5, css3, Tailwind, Scss, Java Script, Typescript, Reactjs,
-          Debugging, Microsoft Cloud, AWS, Azure Fundamentals, ISTQB, P5,
+          Debugging, Microsoft Cloud, Azure Fundamentals, AWS, ISTQB, P5,
           Phaser3, SQL, Squlit3, somnia, Postman, Netlify, Heroku, Github, Adobe
           Dream weaver, Adobe Photoshop, visual studio. The capacity for
           structural and design thinking.
@@ -52,12 +52,12 @@ function Body() {
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p class="p1">
-          I am a dedicated and adaptable individual with a strong passion for
-          continuous learning and self-improvement. With a Software Development
-          L6 certification from Dev Academy, I have demonstrated my commitment
-          to acquiring new skills. I thrive on challenges, maintain a positive
-          outlook on my abilities, and am excited about the prospect of joining
-          your team to contribute, grow, and make a positive impact.
+          I am a committed and adaptable individual with a strong passion for
+          continuous learning and self-improvement. I have L6 software
+          development certification from Dev Academy. I thrive on challenges,
+          have a positive outlook on my abilities, and am excited at the
+          prospect of joining your team to contribute, grow and make a positive
+          impact.
         </p>
       </div>
 
@@ -66,11 +66,10 @@ function Body() {
           <RiThumbUpFill size={35} /> How do I do it?
         </h1>
         <p className="pp1">
-          I apply agile methods to boost project efficiency and promote
-          collaborative teamwork. With strong communication skills, I provide
-          constructive feedback and constantly seek areas for improvement. I
-          prioritize open communication and leverage technology to make a
-          positive impact on the community.
+          I use agile methods to increase project efficiency and promote
+          collaborative teamwork. With strong communication skills, I am
+          constantly looking for areas for improvement. I prioritize open
+          communication and using technology to positively impact society.
         </p>
 
         <h1 className="hh5">Download</h1>
