@@ -51,12 +51,12 @@ function Body() {
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p class="p1">
-          I am a committed and adaptive person with a strong passion for
-          continuous learning and self-improvement. I have L6 software
-          development certification from Dev Academy. I thrive on challenges,
-          have a positive outlook on my abilities, and am excited at the
-          prospect of joining your team to contribute, grow and make a positive
-          impact.
+          I am a committed, adaptive and fast learner person with a strong
+          passion for continuous learning and self-improvement. I have L6
+          software development certification from Dev Academy. I thrive on
+          challenges, have a positive outlook on my abilities, and am excited at
+          the prospect of joining your team to contribute, grow and make a
+          positive impact.
         </p>
       </div>
 
