@@ -19,30 +19,35 @@ function AboutMe() {
           About Me
         </h1>
         <p className="p-me2">
-          I was working as a teacher in my home country when I discovered my
-          passion for technology. As I aspired to become a registrar at my
-          school, I recognized the need to acquire computer skills, and I found
-          the subject fascinating. I pursued MCSE and MCSA certifications and
-          even developed a website for a real estate and agricultural company.
+          I was a teacher in my country when I discovered my passion for
+          technology. I needed to learn computer skills to become a registrar at
+          my school, and I found it fascinating. I learned MCSE and MCSA and
+          even built a website for a real estate and agricultural company and
+          sat up 2 Computer workshop in a high school.
           <br />
-          Upon moving to New Zealand, I made the decision to enroll in Dev
-          Academy to further expand my knowledge. It was an intensive course,
-          but I thoroughly enjoyed every moment of it. During my time at Dev
-          Academy, I gained proficiency in various programming languages such as
-          HTML5, CSS3, JavaScript, and Typescript. I also acquired experience
-          working with databases like SQLite3 and MySQL, and I had the
-          opportunity to work with ReactJS, P5, and Phaser3. Additionally, I
-          developed valuable interpersonal skills such as teamwork,
-          collaboration, and problem-solving through debugging.
+          After moving to New Zealand, I decided to enroll in Dev Academy to
+          expand my knowledge further. It was an intensive course, but I loved
+          every moment of it. During my time at Dev Academy, I constantly
+          learned new technologies including HTML5, CSS3, Tailwind, SCSS,
+          JavaScript, and TypeScript, and experienced working with databases.
+          Data using SQL and Sqlite3, I worked with libraries like Reactjs, P5,
+          Phaser3 and learned how to work with Heroku, Netlify. I also learned
+          how to write tests, work with Jest, GitHub, API, Adobe Dream Weaver,
+          Adobe Photoshop, Visual Studio, Postman and Insomnia through
+          individual, pair and group projects. In addition to technical skills,
+          I also gained valuable human skills, including teamwork,
+          collaboration, and problem solving through debugging and the capacity
+          for structural and design thinking.
           <br />
-          Driven by my passion for technology, I pursued short online courses on
-          Azure, cloud computing, and AWS, earning certifications in these
-          areas, in addition to my ISTQB certification.
-          <br />I firmly believe that my technical expertise, coupled with my
-          interpersonal skills and desire for continuous improvement, will
-          enable me to succeed and make a positive impact in the tech industry.
-          I am eager to find a job in the field, where I can further enhance my
-          skills and pursue my passion.
+          I Learnt about Microsoft cloud, Azure Fundamentals and Aws through
+          short online course after graduating from Dev Academy. Also I achieved
+          2 certificates in ISTQB
+          <br />
+          I am energetic person and always eager to learn and improve my skills
+          and I believe that my technical and human skills, coupled with my
+          desire to continuously improve, will enable me to succeed and make a
+          positive impact in the industry, and I hope to find a job in tech to
+          continue improving my skills and pursue my passion.
           <br /> <br />
         </p>
       </div>
