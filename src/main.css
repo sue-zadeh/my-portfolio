@@ -2,17 +2,16 @@
 
 body {
   background-color: #a0c3c8;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .sentence {
   display: grid;
   grid-template-rows: auto;
-
   align-items: center;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 2.5em;
+  margin-top: 0em;
   margin-bottom: 0em;
   padding: 1.25em
 }
@@ -27,7 +26,7 @@ body {
   margin: 0;
   padding-bottom:0px;
   width: 95vm;
-  height: 18.5vh;
+  height: 18vh;
 
   /* background-color: #b3caca; */
 }
@@ -552,7 +551,7 @@ h4 {
 
 .h2-projects {
   margin: 15px;
-  padding: 1em;
+  padding-top: 1em;
   color: rgb(249, 252, 216);
   letter-spacing: 14px;
   font-size: 3em;

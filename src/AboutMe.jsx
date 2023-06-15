@@ -33,7 +33,7 @@ function AboutMe() {
           listening, conflict resolution, giving and receiving feedback,
           collaborative and problem-solving.
           <br />
-          But what I loved most was discovering myself and finding out how fast
+          what I loved most was discovering myself more and finding out how fast
           I can learn, how hard I work, and how dedicated I am to what I believe
           in. I also realized that I am good at structural thinking and design ,
           which helps me approach problems with creativity and strategic
