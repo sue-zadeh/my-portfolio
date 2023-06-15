@@ -30,10 +30,10 @@ function Body() {
         {/* <p className="p4">Full Stack Web Developer.</p> */}
         <h4>Tech Skills:</h4>
         <p className="p4">
-          HTML5, css3, Tailwind, Scss, Java Script, Typescript, Reactjs,
+          HTML5, CSS3, Tailwind, SCSS, Java Script, TypeScript, Reactjs,
           Debugging, Microsoft Cloud, Azure Fundamentals, AWS, ISTQB, P5,
-          Phaser3, SQL, Squlit3, somnia, Postman, Netlify, Heroku, Github, Adobe
-          Dream weaver, Adobe Photoshop, visual studio. The capacity for
+          Phaser3, SQL, Squlit3, API, somnia, Postman, Netlify, Heroku, Github,
+          Adobe Dream weaver, Adobe Photoshop, visual studio. The capacity for
           structural and design thinking.
         </p>
       </div>
