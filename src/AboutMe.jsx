@@ -39,11 +39,11 @@ function AboutMe() {
           which helps me approach problems with creativity and strategic
           planning.
           <br />
-          I am an energetic and always eager to learn and improve my skills. And
-          I believe that my technical and human skills, along with my passion
-          for continuous improvement, will enable me to succeed, and I hope to
-          find a career in technology to continue to improve my skills and
-          pursue my passion.
+          I am an energetic person and always eager to learn and improve my
+          skills. And I believe that my tech and human skills, along with my
+          passion for continuous improvement, will enable me to succeed, and I
+          hope to find a career in technology to continue to improve my skills
+          and pursue my passion.
           <br /> <br /> <br />
         </p>
       </div>
