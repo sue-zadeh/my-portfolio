@@ -33,6 +33,8 @@ body {
 @media only screen and (max-width: 600px){
   .Banner {
 padding: 2px;
+height: 30vh;
+
   }  
   .web {
     font-size: 0.8vm;
@@ -40,7 +42,7 @@ padding: 2px;
    .sentence   
    {
     width: auto;
-    padding-top:12px;
+    padding-top:2em;
     
   }
   .nav1,.nav2, .nav3, .nav4 {
@@ -458,17 +460,17 @@ h4 {
 
 .navme-position {
   position:absolute;
-  margin-top: 4em;
+  margin-top: 6em;
   align-items: center;
   align-content: center;
   justify-content: center;
-  transform: translate(10%, -55%);
+  transform: translate(12%, -48%);
 } 
 
 .h-me2 {
   position:absolute;
   letter-spacing: 6px;
-  top: 17%;
+  top: 19%;
   left: 42%;
   transform: translate(-50%, 33%);
   margin: 0px 0px 0px 80px;
@@ -480,7 +482,7 @@ h4 {
 }
 .p-me2 {
   position: absolute;
-  top: 48%;
+  top: 50%;
   left: 14%;
   bottom: 10%;
   transform: translate(-10%, -67%);
@@ -507,18 +509,24 @@ h4 {
   letter-spacing: 6px;
   top: 15%;
   left: 39%;
-  transform: translate(-48%, 33%);
+  transform: translate(-58%, 31%);
   font-size: 2.5em;
   color:white;
-
-
   }
   .p-me2 {
     position: absolute;
   top: 0%;
   left: 25%;
   bottom: 20%;
-  transform: translate(-18%, -7%);
+  transform: translate(-18%, 54%);
+}
+
+.navme-position {
+  position:absolute;
+  margin-top: 4em;
+  justify-content: center;
+  transform: translate(6%, -48%);
+
 }
 }
 /* Projects */
