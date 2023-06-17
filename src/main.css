@@ -11,9 +11,9 @@ body {
   align-items: center;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 0em;
+  margin-top: 3em;
   margin-bottom: 0em;
-  padding: 0.25em
+  padding: 2.5em
 }
 
 .Banner {
@@ -26,11 +26,11 @@ body {
   margin: 0;
   padding-bottom:0px;
   width: 95vm;
-  height: 15vh;
+  height: 20vh;
 
   /* background-color: #b3caca; */
 }
-@media only-screen and (max-width: 600px){
+@media only screen and (max-width: 600px){
   .Banner {
 padding: 2px;
   }  
@@ -38,14 +38,19 @@ padding: 2px;
     font-size: 0.8vm;
    }
    .sentence   
-  .pic {
+   {
     width: auto;
-    padding-top:20px;
+    padding-top:12px;
     
   }
   .nav1,.nav2, .nav3, .nav4 {
       padding: 10px;
       margin: 5px;
+    }
+
+    .grid1, .grid2, .grid3 {
+      padding: 250px 60px 10px 25px;
+       
     }
   } 
 
@@ -128,7 +133,10 @@ padding: 2px;
     grid-gap: 0.5em
   }
 
-  
+  .grid1, .grid2, .grid3 {
+    padding: 250px 60px 10px 25px;
+     
+  }
   }
 
 
