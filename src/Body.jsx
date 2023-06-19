@@ -42,21 +42,29 @@ function Body() {
           <BsQuestionSquare size={35} /> What do I do?
         </h1>
         <p className="p1">
-          As a full time web developer and tech enthusiast, I have a deep
-          passion for web development. I am committed to continuously improving
-          my skills and gaining valuable experience in this dynamic field.
+          As a web developer and tech enthusiast, I have a deep passion for web
+          development. I am committed to continuously improving my skills and
+          gaining valuable experience in this dynamic field.
+          <b>
+            Since graduating from Dev Academy, I have been building my coding
+            knowledge by learning AWS and Azure Fundamentals. I will take my
+            Azure exam in a few weeks.
+          </b>
         </p>
 
         <h1>
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p class="p1">
-          I am a committed, adaptive and fast learner person with a strong
-          passion for continuous learning and self-improvement. I have L6
-          software development certification from Dev Academy. I thrive on
-          challenges, have a positive outlook on my abilities, and am excited at
-          the prospect of joining your team to contribute, grow and make a
-          positive impact.
+          I am a committed, adaptive and a fast learner with a strong passion
+          for continuous learning and self-improvement.
+          <b>
+            A New Zealand Certificate in Applied Software Development (Level 6)
+            from
+          </b>
+          Dev Academy. I thrive on challenges, have a positive outlook and am
+          excited at the prospect of joining your team to contribute, grow and
+          make a positive impact.
         </p>
       </div>
 
