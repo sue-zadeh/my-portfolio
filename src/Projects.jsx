@@ -33,12 +33,12 @@ function Projects() {
         {/* <div className="rows"> */}
         <div className="div-squish">
           <p className="p-projects">
-            This website is a game Using p5 library, Reactjs, Typescript,
-            Redux.js and jest It was our final project which lasted 1 week. we
-            thought about using phaser3 instead of p5, but finally we decided to
-            use p5. But that was good as I learnt phaser3 too. I worked on some
-            part of frontend and backend and wrote tests for some pages and
-            worked with git.
+            This <span style={{ fontWeight: 'bold' }}>website</span> is a game
+            Using p5 library, Reactjs, TypeScript, Redux.js and jest. It was our
+            final project which lasted 1 week. we thought about using phaser3
+            instead of p5, but finally we decided to use p5. But that was good
+            as I learnt phaser3 too. I worked on some part of frontend, backend,
+            git and wrote tests for some pages.
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/Squishy-Squish"

@@ -25,7 +25,7 @@ function Banner() {
       icon: (
         <FaLaptopCode
           size={63}
-          color="#312969"
+          color="beige"
           style={{ paddingRight: '14px', paddingLeft: '14px' }}
         />
       ),
@@ -35,7 +35,7 @@ function Banner() {
       icon: (
         <FaGraduationCap
           size={63}
-          color="#070513"
+          color="beige"
           style={{ paddingRight: '14px', paddingLeft: '13px' }}
         />
       ),
