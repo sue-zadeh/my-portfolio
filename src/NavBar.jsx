@@ -6,6 +6,7 @@ import { MdSchool } from 'react-icons/md'
 import { TiHome } from 'react-icons/ti'
 import { ImDownload2 } from 'react-icons/im'
 import { CgStack } from 'react-icons/cg'
+import { FaComment } from 'react-icons/fa'
 
 const NavBar = () => {
   const [isOpen, setOpen] = useState(false)
@@ -73,6 +74,18 @@ const NavBar = () => {
                 >
                   <CgStack size={27} />
                   Projects
+                </NavLink>
+              </li>
+              <li className="NavBarli">
+                <NavLink
+                  className="Nav5"
+                  // activeClassName="is-active"
+                  to="/ContactMe"
+                  style={{ marginRight: '5px' }}
+                  role="button"
+                >
+                  <FaComment size={27} style={{ marginRight: '5px' }} />
+                  Contact Me
                 </NavLink>
               </li>
             </ul>

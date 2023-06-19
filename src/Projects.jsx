@@ -33,12 +33,11 @@ function Projects() {
         {/* <div className="rows"> */}
         <div className="div-squish">
           <p className="p-projects">
-            This <strong>website</strong>is a game Using p5 library, Reactjs,
-            Typescript, Redux.js and jest. It was our final project which lasted
-            1 week. we thought about using phaser3 instead of p5, but finally we
-            decided to use p5. But that was good as I learnt phaser3 too. I
-            worked on some part of frontend, backend, git and wrote tests for
-            some pages.
+            This website is a game Using p5 library, Reactjs, Typescript,
+            Redux.js and jest. It was our final project which lasted 1 week. we
+            thought about using phaser3 instead of p5, but finally we decided to
+            use p5. But that was good as I learnt phaser3 too. I worked on some
+            part of frontend, backend, git and wrote tests for some pages.
             <br />
             <a
               className="aa"
@@ -99,7 +98,7 @@ function Projects() {
           <p className="p-projects">
             This is a game created using React.js, Typescript and Redux.js.
             <b>
-              We created this in a group and my role was working on frontend
+              We created this in a group and my role was to work on frontend
             </b>
             <br />
             <a

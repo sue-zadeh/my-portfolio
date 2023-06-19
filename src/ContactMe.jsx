@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
-function ContactForm() {
+function ContactMe() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [showPopup, setShowPopup] = useState(false)
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value)
+    setShowPopup(false)
   }
 
   const handleMessageChange = (e) => {
@@ -14,36 +17,56 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Perform any necessary form submission logic here
-    // e.g., sending the data to a server
-
-    // Reset the form after submission
     setEmail('')
     setMessage('')
+    sendEmail(email, message)
+    setShowPopup(true)
+  }
+
+  const sendEmail = (email, message) => {
+    console.log('Sending email to', email)
+    console.log('Message:', message)
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Email:</label>
-      <input
-        type="email"
-        id="email"
-        value={email}
-        onChange={handleEmailChange}
-        required
-      />
+    <div>
+      <div className="devNavcontact">
+        <NavBar />
+      </div>
 
-      <label htmlFor="message">Message:</label>
-      <textarea
-        id="message"
-        value={message}
-        onChange={handleMessageChange}
-        required
-      ></textarea>
+      <div className="container">
+        <form onSubmit={handleSubmit}>
+          <h2 className="h2-form">Please fill out the form</h2>
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={handleEmailChange}
+            required
+          />
 
-      <button type="submit">Submit</button>
-    </form>
+          <label htmlFor="message">Message:</label>
+          <textarea
+            id="message"
+            value={message}
+            onChange={handleMessageChange}
+            required
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+
+        {/* Message Popup */}
+        {showPopup && (
+          <div className="popup">
+            <p>Thank you for contacting me!</p>
+            <p>A copy of your message has been sent to your email.</p>
+          </div>
+        )}
+      </div>
+    </div>
   )
 }
 
-export default ContactForm
+export default ContactMe
