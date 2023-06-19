@@ -33,10 +33,12 @@ function Projects() {
         {/* <div className="rows"> */}
         <div className="div-squish">
           <p className="p-projects">
-            This website is a game Using P5 library, React.js, TypeScript,
-            Redux.js and Jest. It was our final project which was one week long
-            . We thought about using Phaser3 instead of P5, but finally we
-            decided to use P5 which .But that was good as I learnt Phaser3 too.
+            This website is a game Using p5 library, Reactjs, Typescript,
+            Redux.js and jest It was our final project which lasted 1 week. we
+            thought about using phaser3 instead of p5, but finally we decided to
+            use p5. But that was good as I learnt phaser3 too. I worked on some
+            part of frontend and backend and wrote tests for some pages and
+            worked with git.
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/Squishy-Squish"
@@ -57,8 +59,9 @@ function Projects() {
 
         <div className="div-squish">
           <p className="p-projects">
-            The website provides list of movies depends on genres, using reactjs
-            and Typescript.
+            The website provides list of movies based on genres, using React.js,
+            Typescript and API . It was a good practice to learn more about API
+            and backend
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/Flimflix"
@@ -72,9 +75,10 @@ function Projects() {
 
         <div className="div-squish">
           <p className="p-projects">
-            This website can get some information, and showd it in another page
-            and add data on the data.jason too using reactjs, Typescript,
-            Redux.js. I am going to improve it and make a chatroom with media
+            This website can retrieve information, showed it in another page and
+            add data on the JSON too using React.js, Typescript and Redux.js. I
+            would like to improve this project by making it a chatroom with
+            media. I worked on sign in page and git.
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/DevStagram"
@@ -88,25 +92,30 @@ function Projects() {
         {/* </div> */}
 
         {/* <div className="rows"> */}
-        {/* <div className="div-squish"> */}
-        <p className="p-projects">
-          This website is about a game, using reactjs, Typescript, Redux.js
-          <a
-            className="aa"
-            href="https://github.com/sue-raisianzadeh/no-deal-or-deal"
-            target="blank"
-          >
-            view my project here
-          </a>
-          <img className="picsquish" src={Nodeal} alt="Nodeal" />
-        </p>
-        {/* </div> */}
+        <div className="div-squish">
+          <p className="p-projects">
+            This is a game created using React.js, Typescript and Redux.js.
+            <b>
+              {' '}
+              We created this in a group and my role was working on frontend
+            </b>
+            <a
+              className="aa"
+              href="https://github.com/sue-raisianzadeh/no-deal-or-deal"
+              target="blank"
+            >
+              view my project here
+            </a>
+            <img className="picsquish" src={Nodeal} alt="Nodeal" />
+          </p>
+        </div>
 
         <div className="div-squish">
           <p className="p-projects">
             This website is about offering some Indian, Italian, Asian, and
-            Vegan restorants. using Javascript, Server-side-handeling and CSS3.I
-            am going to add 'Search' on it later
+            Vegan restaurants. We created this using Javascript,
+            Server-side-handeling and CSS3.I would improve this project by
+            adding in a ‘Search’ function.
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/dev-eats"
@@ -120,7 +129,8 @@ function Projects() {
 
         <div className="div-squish">
           <p className="p-projects">
-            This is the Minesweeper game, using Javascript and CSS3.
+            This is the Minesweeper game, using Javascript and CSS3. I built
+            this to have more practice on javascript
             <br />
             <a
               className="aa"
@@ -165,9 +175,10 @@ function Projects() {
 
         <div className="div-squish">
           <p className="p-projects">
-            This website about an Iranian music band (folk music), using HTML5
-            and CSS3. I want to transition this website from HTML to ReactJS,and
-            add back-end functionality to the site.
+            I built this website 2 years ago based on my self-studying and
+            online courses. It is about an Iranian music band (folk music),
+            created using HTML5 and CSS3. I want to transition this website from
+            HTML to ReactJS, and add back-end functionality to the site.
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a
               className="aa"
