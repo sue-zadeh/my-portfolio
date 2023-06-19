@@ -33,12 +33,13 @@ function Projects() {
         {/* <div className="rows"> */}
         <div className="div-squish">
           <p className="p-projects">
-            This <span style={{ fontWeight: 'bold' }}>website</span> is a game
-            Using p5 library, Reactjs, TypeScript, Redux.js and jest. It was our
-            final project which lasted 1 week. we thought about using phaser3
-            instead of p5, but finally we decided to use p5. But that was good
-            as I learnt phaser3 too. I worked on some part of frontend, backend,
-            git and wrote tests for some pages.
+            This <strong>website</strong>is a game Using p5 library, Reactjs,
+            Typescript, Redux.js and jest. It was our final project which lasted
+            1 week. we thought about using phaser3 instead of p5, but finally we
+            decided to use p5. But that was good as I learnt phaser3 too. I
+            worked on some part of frontend, backend, git and wrote tests for
+            some pages.
+            <br />
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/Squishy-Squish"
@@ -62,6 +63,7 @@ function Projects() {
             The website provides list of movies based on genres, using React.js,
             Typescript and API . It was a good practice to learn more about API
             and backend
+            <br />
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/Flimflix"
@@ -79,6 +81,7 @@ function Projects() {
             add data on the JSON too using React.js, Typescript and Redux.js. I
             would like to improve this project by making it a chatroom with
             media. I worked on sign in page and git.
+            <br />
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/DevStagram"
@@ -96,9 +99,9 @@ function Projects() {
           <p className="p-projects">
             This is a game created using React.js, Typescript and Redux.js.
             <b>
-              {' '}
               We created this in a group and my role was working on frontend
             </b>
+            <br />
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/no-deal-or-deal"
@@ -116,6 +119,7 @@ function Projects() {
             Vegan restaurants. We created this using Javascript,
             Server-side-handeling and CSS3.I would improve this project by
             adding in a ‘Search’ function.
+            <br />
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/dev-eats"

@@ -269,9 +269,11 @@ height: 30vh;
   align-self: center;
   justify-content: center;
   width: 95vw;
-  background-color: #c3caca;
+  /* background-color: #c3caca; */
   border-radius: 25px;
   box-shadow: 14% 12% 12% #999;
+  color:black
+
   
 }
  .grid-wrapper{
@@ -282,6 +284,7 @@ height: 30vh;
   grid-gap: 1.2em;
   margin: auto;
   padding: 0px;
+  color:rgb(18, 21, 21)
 }
 
 .grid1 {
@@ -572,44 +575,62 @@ h4 {
   padding-top: 2em;
   padding-bottom: 0.5em;
   color: rgb(249, 252, 216);
-  letter-spacing: 14px;
+  letter-spacing: 16px;
   font-size: 3em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-family: 'Arial', 'Montserrat', sans-serif;
+  font-weight: bolder;
   text-align: center;
-  text-shadow: 2px 3px 5px #fad9ad;
+  text-shadow: 2px 3px 3px #fad9ad;
 }
 
-.p-projects {
-  display: grid;
-  /* margin: 20px; */
-  padding: 22px 55px;
+/* .p-projects {
+display: grid;
+padding: 22px 55px;
   width: 60%;
   height: 42%;
   background-color: rgb(211, 245, 247);
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(23, 17, 34);
-  font-weight: bold;
-  font-size: 17px;
+  justify-content: center;
+  border-radius: 45px;
+  box-shadow: 15% 12% 15% #999;
   text-align: justify;
   line-height: 35px;
-  border-radius: 15px;
-  justify-content: center;
   justify-self: center;
   box-shadow: 1px 2px 5px 5px #999;
-}
+  padding: 20px;
+  margin: 20px 3px;
+} */
+ .p-projects {
+  display: grid;
+  margin: 20px 30px; 
+  padding: 22px 55px;
+  width: 60%;
+  height: 42%;
+  font-family: 'Arial', 'Montserrat', sans-serif;
+  color: white;
+  font-size: 19px;
+  text-align: justify;
+  line-height: 35px;
+  border-radius: 30px;
+  /* justify-content: center; */
+  justify-self: center;
+  box-shadow: 1px 2px 5px 5px #5e6264;
+} 
 .aa{
-  color: #cd7706;
-  text-shadow: 1px #999;
+  color: #eedfcc;
+  /* text-shadow: 1px #999; */
   align-items: right;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
   font-size: 1em;
   text-align: right;
 }
 .aa:hover {
   align-items: end;
+  font-weight: bolder;
   font-size: 1.02em;
-  color: #ba7205;
+  color: #e0c397;
+  text-decoration: underline;
+
 
 }
 .picsquish {
@@ -621,7 +642,7 @@ h4 {
   border-radius: 20px;
   box-shadow: 10px #999;
   margin-top: 0px;
-  box-shadow: 6px 6px 6px 6px #999;
+  box-shadow: 6px 6px 6px 6px #57595a;
 
 
 }

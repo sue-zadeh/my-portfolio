@@ -32,9 +32,9 @@ function Body() {
         <p className="p4">
           HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs,
           Debugging, Microsoft Cloud, Azure Fundamentals, AWS, ISTQB, P5,
-          Phaser3, SQL, Squlit3, API, somnia, Postman, Netlify, Heroku, Github,
-          Adobe Dream weaver, Adobe Photoshop, visual studio. The capacity for
-          structural and design thinking.
+          Phaser3, SQL, Squlit3, API, Github, Git, somnia, Postman, Netlify,
+          Heroku, Adobe Dream weaver, Adobe Photoshop, visual studio. The
+          capacity for structural and design thinking.
         </p>
       </div>
       <div className="grid2">
@@ -86,7 +86,7 @@ function Body() {
             href="https://drive.google.com/file/d/1xacYbqRSj6Hub8sVRO54BjqwkTILIlBD/view?usp=sharing"
             target="_blank"
           >
-            <ImDownload2 size={28} />
+            <ImDownload2 size={28} color="darkBlue" />
           </a>
         </p>
 
