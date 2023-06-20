@@ -722,12 +722,12 @@ body {
 
 .container {
   display: flex;
+  flex-direction: column;
   background-color: black;
   justify-content: center;
   align-items: center;
-  /* height: 100vh;
-  width: 100%; */
 }
+
 
 .devNavcontact {
   margin-top: 3em;
@@ -738,44 +738,60 @@ body {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 90px;
   border-radius: 15px;
   width: 70vw;
-  margin-top: 10em;
+  margin: 10em auto;
 }
+
 
 form label {
   display: block;
   margin-bottom: 10px;
+  justify-self: center;
+  justify-content: center;
+
   height: 50px; /* Decreased height to bring the labels closer to the input boxes */
   line-height: 90px; /* Added line-height property for vertical alignment */
 }
 
 
 form input {
-  width: 100%;
+  width: 60%;
   height: 40px;
 }
 
 form textarea {
-  width: 100%;
+  width: 60%;
   height: 7em;
   padding: 8px;
   margin-bottom: 20px;
   border: none;
   border-radius: 3px;
   line-height: 20px;
+  justify-self: center;
+  justify-content: center;
 
 }
 
 form button {
   background-color: #1d4159;
+  height: 4em;
+  width: 15em;
+  align-self: center;
+  font-size: 1em;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  justify-self: center;
+  justify-content: center;
 }
 
 .popup {
@@ -794,4 +810,11 @@ form button {
 
 .popup p {
   margin-bottom: 10px;
+}
+.soon {
+  padding-top: 0%;
+  /* padding-bottom: 2em; */
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px;
 }

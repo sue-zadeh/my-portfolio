@@ -35,6 +35,11 @@ function ContactMe() {
       </div>
 
       <div className="container">
+        <div className="soon">
+          <h3>
+            <i>comming soon</i>
+          </h3>
+        </div>
         <form onSubmit={handleSubmit}>
           <h2 className="h2-form">Please fill out the form</h2>
           <label htmlFor="email">Email:</label>
