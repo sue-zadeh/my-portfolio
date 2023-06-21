@@ -31,7 +31,9 @@ function addContact(newContact) {
     to: newContact.email,
     subject:
       'Thank you for contacting me. I will contact you as soon as posible',
-    text: `Dear ${newContact.name},\n\nThank you for contacting me. I will get back to you as soon as possible.\n\nBest regards,\nYour Name`,
+    text: `Dear ${newContact.name},\n\nThank you for contacting me.
+     I will get back to you as soon as possible.
+     \n\nYour Message is: ${newContact.message},\n\nBest regards,\nSue`,
   }
 
   transporter.sendMail(mailOptionsToMyself, (error, info) => {
