@@ -1,10 +1,17 @@
 import React, { useState } from 'react'
+import { addTocontactme } from './apiClient'
 import NavBar from './NavBar'
 
 function ContactMe() {
+  const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   const [showPopup, setShowPopup] = useState(false)
+
+  const handleNameChange = (e) => {
+    setName(e.target.value)
+    setShowPopup(false)
+  }
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value)
@@ -15,17 +22,20 @@ function ContactMe() {
     setMessage(e.target.value)
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
+    setName('')
     setEmail('')
     setMessage('')
-    sendEmail(email, message)
     setShowPopup(true)
-  }
 
-  const sendEmail = (email, message) => {
-    console.log('Sending email to', email)
-    console.log('Message:', message)
+    try {
+      const newData = { name, email, message }
+      await addTocontactme(newData)
+      setShowPopup(true)
+    } catch (error) {
+      console.error(error)
+    }
   }
 
   return (
@@ -37,11 +47,22 @@ function ContactMe() {
       <div className="container">
         <div className="soon">
           <h3>
-            <i>comming soon</i>
+            <u>
+              <i>coming soon</i>
+            </u>
           </h3>
         </div>
         <form onSubmit={handleSubmit}>
           <h2 className="h2-form">Please fill out the form</h2>
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            value={name}
+            onChange={handleNameChange}
+            required
+          />
+
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -62,11 +83,9 @@ function ContactMe() {
           <button type="submit">Submit</button>
         </form>
 
-        {/* Message Popup */}
         {showPopup && (
           <div className="popup">
             <p>Thank you for contacting me!</p>
-            <p>A copy of your message has been sent to your email.</p>
           </div>
         )}
       </div>

@@ -156,7 +156,7 @@ height: 30vh;
   align-items: center;
   justify-content: center;
   padding: 2%;
-  color: #50505e;
+  color: black;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px grey;
@@ -170,7 +170,7 @@ height: 30vh;
 .Nav1:active {
   background-color: rgb(146, 183, 204);
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  transform: translateY(7px);
 }
 
 .Nav2 {
@@ -185,7 +185,7 @@ height: 30vh;
   align-items: center;
   justify-content: center;
   padding: 2%;
-  color: #50505e;
+  color: black;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px grey;
@@ -199,7 +199,7 @@ height: 30vh;
 .Nav2:active {
   background-color: rgb(245, 242, 99);
   box-shadow: 0 5px #666;
-  /* transform: translateY(4px); */
+  transform: translateY(7px);
 }
 .Nav3 {
   background-color: rgb(149, 149, 211);
@@ -216,7 +216,7 @@ height: 30vh;
   justify-content: center;
   justify-self: center;
   padding: 2%;
-  color: #41414d;
+  color: black;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px grey;
@@ -230,7 +230,7 @@ height: 30vh;
 .Nav3:active {
   background-color: rgb(141, 141, 197);
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  transform: translateY(7px);
 }
 .Nav4 {
   background-color: #7acd9a;
@@ -244,7 +244,7 @@ height: 30vh;
   align-items: center;
   justify-content: center;
   padding: 2%;
-  color: #50505e;
+  color: black;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px grey;
@@ -259,7 +259,7 @@ height: 30vh;
   background-color: rgb(121, 246, 169);
   box-shadow: 0 5px #666;
 
-  transform: translateY(4px);
+  transform: translateY(7px);
 }
 
 .Nav5 {
@@ -277,8 +277,8 @@ height: 30vh;
   justify-content: center;
   justify-self: center;
   padding: 2%;
-  color: #41414d;
-  border: none;
+  color: black;
+     border: none;
   border-radius: 15px;
   box-shadow: 0 9px grey;
   text-decoration: none;
@@ -291,7 +291,7 @@ height: 30vh;
 .Nav5:active {
   background-color: rgb(141, 141, 197);
   box-shadow: 0 5px #666;
-  transform: translateY(5px);
+  transform: translateY(7px);
 }
 /* Body */
 
@@ -602,6 +602,11 @@ h4 {
   margin-top: 4%;
 }
 
+/* @media screen and (max-width: 600px){
+  .p-projects {
+    width: 70%;
+} */
+
 .h2-projects {
   margin: 5px;
   padding-top: 2em;
@@ -635,7 +640,7 @@ padding: 22px 55px;
   display: grid;
   margin: 20px 30px; 
   padding: 22px 55px;
-  width: 70%;
+  width: 50%;
   height: 49%;
   font-family: 'Arial', 'Montserrat', sans-serif;
   color: white;
@@ -643,7 +648,8 @@ padding: 22px 55px;
   text-align: justify;
   line-height: 35px;
   border-radius: 30px;
-  /* justify-content: center; */
+  border: 2px dashed;
+  justify-content: center;
   justify-self: center;
   box-shadow: 1px 2px 5px 5px #5e6264;
 } 
@@ -743,10 +749,10 @@ form {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 90px;
+  padding: 4em;
   border-radius: 15px;
   width: 70vw;
-  margin: 10em auto;
+  margin: auto 10em;
 }
 
 
@@ -803,6 +809,7 @@ form button {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
+  color:white;
   text-align: center;
   box-shadow: 2px 2px #57595a;
   z-index: 9999; /* Higher z-index value to bring it to the top */
