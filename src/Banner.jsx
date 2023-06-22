@@ -11,7 +11,7 @@ function Banner() {
   const [sentenceIndex, setSentenceIndex] = useState(0)
   const sentences = [
     {
-      text: 'Hi, I am Sue Raisianz',
+      text: 'Hi, I am Sue Raisianzadeh',
       icon: (
         <HiOutlineHand
           size={58}

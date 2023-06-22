@@ -140,7 +140,7 @@ function Projects() {
               href="https://github.com/sue-raisianzadeh/minesweeper"
               target="blank"
             >
-              view minesweeper here
+              view my project here
             </a>
             <img className="picsquish" src={Minesweeper} alt="Minesweeper" />
           </p>

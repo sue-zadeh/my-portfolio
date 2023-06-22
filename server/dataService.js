@@ -1,6 +1,10 @@
 const fs = require('fs')
+const express = require('express')
 const nodemailer = require('nodemailer')
-
+const { promises } = require('nodemailer/lib/xoauth2')
+const { getMaxListeners } = require('superagent')
+const app = express
+const port = 5173
 const filePath = './data/contactData.json'
 
 function addContact(newContact) {
@@ -50,6 +54,15 @@ function addContact(newContact) {
     } else {
       console.log('Email sent to user:', info.response)
     }
+  })
+
+  fs.appendFile.get('/', (req, res) => {
+    sendEmail()
+      .then((response) => res.send(response.message))
+      .catch((error) => res.status(500).send(error.message))
+  })
+  app.listen(5173, () => {
+    console.log(`nodemailerproject is listenng at http://localhost:${5173}`)
   })
 }
 

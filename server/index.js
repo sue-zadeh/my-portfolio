@@ -1,16 +1,11 @@
-const express = require('express')
-const app = express()
-const router = require('./routes')
+// const express = require('express')
+// const server = express()
 
-// ... any other middleware setup
+// const routes = require('./routes')
 
-app.use(express.json())
-app.use('/api', router)
+// server.use(express.json())
+// server.use(routes)
 
-// ... any other server configuration
-
-const PORT = process.env.PORT || 5173
-
-app.listen(PORT, () => {
-  console.log('Server is running on port', PORT)
-})
+// server.listen(5173, () => {
+//   console.log('Server is running on port 5173')
+// })
