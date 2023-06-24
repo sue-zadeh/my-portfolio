@@ -55,7 +55,7 @@ function Body() {
         <h1>
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
-        <p class="p1">
+        <p className="p1">
           I am a committed, adaptive and a fast learner with a strong passion
           for continuous learning and self-improvement.
           <b>
