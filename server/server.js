@@ -1,25 +1,29 @@
 const express = require('express')
 const app = express()
-const fs = require('fs')
+const knex = require('knex')
+const knexConfig = require('./knexfile')
+
+// Initialize Knex instance
+const knexInstance = knex(knexConfig.development)
 
 app.use(express.json())
 
-app.post('/api/contact', (req, res) => {
-  const { name, email, message } = req.body
+// Endpoint to handle form submission
+app.post('/contactMe', async (req, res) => {
+  try {
+    const { name, email, message } = req.body
 
-  // Load existing data from the JSON file
-  const rawData = fs.readFileSync('contactData.json')
-  const contactData = JSON.parse(rawData)
+    // Insert the form data into the contactForm table using Knex
+    await knexInstance('contactForm').insert({ name, email, message })
 
-  // Add the new contact to the contactme array
-  contactData.contactme.push({ name, email, message })
-
-  // Save the updated data back to the JSON file
-  fs.writeFileSync('contactData.json', JSON.stringify(contactData))
-
-  res.sendStatus(200)
+    res.status(200).json({ message: 'Form submitted successfully' })
+  } catch (error) {
+    console.error(error)
+    res.status(500).json({ message: 'An error occurred' })
+  }
 })
 
-app.listen(5173, () => {
-  console.log('Server is running on port 5173')
+const port = 5173
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`)
 })

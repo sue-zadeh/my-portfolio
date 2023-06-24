@@ -1,46 +1,31 @@
-// Update with your config settings.
-
-/**
- * @type { Object.<string, import("knex").Knex.Config> }
- */
 module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './dev.sqlite3',
-    },
-    useNullAsDefault: true,
-  },
-
-  staging: {
-    client: 'postgresql',
-    connection: {
-      database: 'my_db',
-      user: 'username',
-      password: 'password',
-    },
-    pool: {
-      min: 2,
-      max: 10,
+      filename: './seeds/contactForm.js', // Update with your desired database file path
     },
     migrations: {
-      tableName: 'knex_migrations',
+      directory: './migrations', // Update with the migrations directory path
+    },
+    seeds: {
+      directory: './seeds', // Update with the seeds directory path
     },
   },
 
   production: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user: 'username',
-      password: 'password',
-    },
-    pool: {
-      min: 2,
-      max: 10,
+      host: 'localhost', // Update with your database host
+      database: 'contactForm', // Update with your database name
+      user: 'raisianz@gmail.com', // Update with your database username
+      password: '123***Sue', // Update with your database password
     },
     migrations: {
       tableName: 'knex_migrations',
+      directory: './migrations', // Update with the migrations directory path
+    },
+    seeds: {
+      directory: './seeds', // Update with the seeds directory path
     },
   },
 }
