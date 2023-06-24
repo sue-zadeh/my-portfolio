@@ -19,7 +19,7 @@ function addContact(newContact) {
     service: 'gmail',
     auth: {
       user: 'raisianz@gmail.com',
-      pass: '1*2*3*Sue',
+      pass: '123***Sue',
     },
   })
 
