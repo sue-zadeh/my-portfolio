@@ -7,6 +7,7 @@ function ContactMe() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   const [showPopup, setShowPopup] = useState(false)
+  const [errors, setErrors] = useState({})
 
   const handleNameChange = (e) => {
     setName(e.target.value)
@@ -22,19 +23,45 @@ function ContactMe() {
     setMessage(e.target.value)
   }
 
+  const validateForm = () => {
+    const errors = {}
+
+    if (!name.trim()) {
+      errors.name = 'Name is required'
+    }
+
+    if (!email.trim()) {
+      errors.email = 'Email is required'
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+      errors.email = 'Invalid email format'
+    }
+
+    if (!message.trim()) {
+      errors.message = 'Message is required'
+    }
+
+    return errors
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault()
-    setName('')
-    setEmail('')
-    setMessage('')
-    setShowPopup(true)
+    const formErrors = validateForm()
 
-    try {
-      const newData = { name, email, message }
-      await addTocontactme(newData)
+    if (Object.keys(formErrors).length === 0) {
+      setName('')
+      setEmail('')
+      setMessage('')
       setShowPopup(true)
-    } catch (error) {
-      console.error(error)
+
+      try {
+        const newData = { name, email, message }
+        await addTocontactme(newData)
+        setShowPopup(true)
+      } catch (error) {
+        console.error(error)
+      }
+    } else {
+      setErrors(formErrors)
     }
   }
 
@@ -62,6 +89,7 @@ function ContactMe() {
             onChange={handleNameChange}
             required
           />
+          {errors.name && <p className="error">{errors.name}</p>}
 
           <label htmlFor="email">Email:</label>
           <input
@@ -71,6 +99,7 @@ function ContactMe() {
             onChange={handleEmailChange}
             required
           />
+          {errors.email && <p className="error">{errors.email}</p>}
 
           <label htmlFor="message">Message:</label>
           <textarea
@@ -79,6 +108,7 @@ function ContactMe() {
             onChange={handleMessageChange}
             required
           ></textarea>
+          {errors.message && <p className="error">{errors.message}</p>}
 
           <button type="submit">Submit</button>
         </form>
