@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const knex = require('knex')
-const knexConfig = require('./knexfile')
+const knexConfig = require('../knexfile') // Updated path to knexfile.js
 
 // Initialize Knex instance
 const knexInstance = knex(knexConfig.development)
@@ -9,7 +9,7 @@ const knexInstance = knex(knexConfig.development)
 app.use(express.json())
 
 // Endpoint to handle form submission
-app.post('/contactMe', async (req, res) => {
+app.post('/api/contact', async (req, res) => {
   try {
     const { name, email, message } = req.body
 

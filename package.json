@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite start",
+    "start": "node server.js",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "knex": "knex",
@@ -37,7 +37,7 @@
     "vite": "^4.3.2"
   },
   "description": "This is my portfolio that I built it from scratch with reactjs, Javascript and css3. I used photoshop for pictures.\r You can view the deployed version of my portfolio on Netlify:",
-  "main": "knexfile.js",
+  "main": "server/server.js", 
   "keywords": [],
   "author": "",
   "license": "ISC"

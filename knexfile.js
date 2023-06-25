@@ -2,7 +2,7 @@ module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './seeds/contactForm.js', // Update with your desired database file path
+      filename: './dev.squlite3',
     },
     migrations: {
       directory: './migrations', // Update with the migrations directory path
