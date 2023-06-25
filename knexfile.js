@@ -2,30 +2,31 @@ module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './dev.squlite3',
+      filename: './server/database/dev.sqlite3',
     },
+    useNullAsDefault: true,
     migrations: {
-      directory: './migrations', // Update with the migrations directory path
+      directory: './server/database/migrations',
     },
     seeds: {
-      directory: './seeds', // Update with the seeds directory path
+      directory: './server/database/seeds',
     },
   },
 
   production: {
     client: 'postgresql',
     connection: {
-      host: 'localhost', // Update with your database host
-      database: 'contactForm', // Update with your database name
-      user: 'raisianz@gmail.com', // Update with your database username
-      password: '123***Sue', // Update with your database password
+      host: 'localhost',
+      database: 'contactForm',
+      user: 'sue',
+      password: '123***Sue',
     },
     migrations: {
-      tableName: 'knex_migrations',
-      directory: './migrations', // Update with the migrations directory path
+      tableName: 'contactForm',
+      directory: './server/database/migrations',
     },
     seeds: {
-      directory: './seeds', // Update with the seeds directory path
+      directory: './server/database/seeds',
     },
   },
 }

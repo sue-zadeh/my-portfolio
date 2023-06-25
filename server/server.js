@@ -1,29 +1,33 @@
 const express = require('express')
+const knexConfig = require('../knexfile')
+const knex = require('knex')(knexConfig)
+const db = knex(config.development)
 const app = express()
-const knex = require('knex')
-const knexConfig = require('../knexfile') // Updated path to knexfile.js
-
-// Initialize Knex instance
-const knexInstance = knex(knexConfig.development)
+const port = 5173
 
 app.use(express.json())
 
-// Endpoint to handle form submission
-app.post('/api/contact', async (req, res) => {
+// Serve static files from the "dist" directory
+app.use(express.static('dist'))
+
+// Add the endpoint for handling form submissions
+app.post('/ContactMe', async (req, res) => {
   try {
     const { name, email, message } = req.body
+    // Insert the data into the contactForm table using the knex instance
+    await knex('contactForm').insert({ name, email, message })
 
-    // Insert the form data into the contactForm table using Knex
-    await knexInstance('contactForm').insert({ name, email, message })
-
+    // Send a confirmation response back to the frontend
     res.status(200).json({ message: 'Form submitted successfully' })
   } catch (error) {
     console.error(error)
-    res.status(500).json({ message: 'An error occurred' })
+    res
+      .status(500)
+      .json({ message: 'An error occurred while submitting the form' })
   }
 })
 
-const port = 5173
+// Start the server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`)
 })
