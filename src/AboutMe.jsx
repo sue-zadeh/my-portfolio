@@ -1,3 +1,4 @@
+import React from 'react'
 import NavBar from './NavBar'
 import developer1 from './Assets/developer1.jpg'
 import { MdDeveloperBoard } from 'react-icons/md'

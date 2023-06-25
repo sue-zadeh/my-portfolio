@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { addNewUser } from '../server/routes'
+import axios from 'axios'
 import NavBar from './NavBar'
 
 function ContactMe() {
@@ -54,9 +54,8 @@ function ContactMe() {
       setShowPopup(true)
 
       try {
-        const user = { name, email, message }
-        await addNewUser(user)
-        setShowPopup(true)
+        const newUser = { name, email, message }
+        await axios.post('/add-user', newUser)
       } catch (error) {
         console.error(error)
       }

@@ -2,17 +2,15 @@ import express from 'express'
 const server = express()
 
 import contactForm from './routes'
-app.use(express.json())
-
-// Middleware
 server.use(express.json())
-// Previously we've used:
-// server.use(express.urlencoded({ extended: false }))
 
 // Routes
-server.use('/routes', contactForm)
+server.use('/add-user', contactForm)
 
 export default server
+
+// Previously we've used:
+// server.use(express.urlencoded({ extended: false }))
 
 // Add the endpoint for handling form submissions
 // try {

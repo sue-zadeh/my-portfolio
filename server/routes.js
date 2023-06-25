@@ -1,10 +1,8 @@
 const express = require('express')
 const router = express.Router()
-import * as db from '../db'
+import * as db from './database/db'
 
-// const dataService = require('./dataServer')
-
-router.get('/:ContactMe', async (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
     const userId = Number(req.params.id)
     // Get the user by id
@@ -16,11 +14,9 @@ router.get('/:ContactMe', async (req, res) => {
   }
 })
 
-router.post('/', async (req, res) => {
+router.post('/add-user', async (req, res) => {
   try {
     const user = req.body
-    console.log(user)
-
     await db.addNewUser(user)
     res.status(201).json({ message: 'Contact added successfully' })
   } catch (error) {

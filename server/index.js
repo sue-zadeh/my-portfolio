@@ -1,10 +1,26 @@
 const express = require('express')
-const path = require('path')
 // const knexConfig = require('../knexfile')
 // const knex = require('knex')(knexConfig)
-const db = knex(config.development)
 // const server = require('./server')
+
+const path = require('path')
+const express = require('express')
+const app = express()
 const port = process.env.PORT || 5173
+
+// Import your route handlers
+const routes = require('./routes')
+
+// Add middleware to parse JSON data
+app.use(express.json())
+
+// Set up your routes
+app.use('/add-user', routes) // Replace '/' with the appropriate URL for serving your React application
+
+// Start the server
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`)
+})
 
 // async function addFormData(name, email, message) {
 //   const newFormData = { name: name, email: email, message: message }
@@ -16,11 +32,6 @@ const port = process.env.PORT || 5173
 //   }
 // }
 // addFormData(` ${(name, email, message)}`)
-
-server.listen(port, () => {
-  // eslint-disable-next-line no-console
-  console.log(`Server is running on http://localhost:${port}`)
-})
 
 // server.get('/contactMe', (req, res) => {
 //   const formPath = path.join(__dirname, 'contactData.json')
