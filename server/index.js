@@ -1,24 +1,24 @@
 const express = require('express')
 const path = require('path')
-const server = express()
-// const routes = require('./routes')
-const knexConfig = require('../knexfile')
-const { log } = require('console')
-const knex = require('knex')(knexConfig)
+// const knexConfig = require('../knexfile')
+// const knex = require('knex')(knexConfig)
 const db = knex(config.development)
-const port = 5173
+// const server = require('./server')
+const port = process.env.PORT || 5173
 
-async function addFormData(name, email, message) {
-  const newFormData = { name: name, email: email, message: message }
-  try {
-    const contactForm = await db('contactForm').insert(newFormData)
-    console.log(`successfuly added data id: ${contactForm}`)
-  } catch (err) {
-    console.log(err.messag)
-  }
-}
-addFormData(` ${(name, email, message)}`)
+// async function addFormData(name, email, message) {
+//   const newFormData = { name: name, email: email, message: message }
+//   try {
+//     const contactForm = await db('contactForm').insert(newFormData)
+//     console.log(`successfuly added data id: ${contactForm}`)
+//   } catch (err) {
+//     console.log(err.messag)
+//   }
+// }
+// addFormData(` ${(name, email, message)}`)
+
 server.listen(port, () => {
+  // eslint-disable-next-line no-console
   console.log(`Server is running on http://localhost:${port}`)
 })
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { addTocontactme } from './apiClient'
+import { addNewUser } from '../server/routes'
 import NavBar from './NavBar'
 
 function ContactMe() {
@@ -54,8 +54,8 @@ function ContactMe() {
       setShowPopup(true)
 
       try {
-        const newData = { name, email, message }
-        await addTocontactme(newData)
+        const user = { name, email, message }
+        await addNewUser(user)
         setShowPopup(true)
       } catch (error) {
         console.error(error)
