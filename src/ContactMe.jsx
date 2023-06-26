@@ -55,7 +55,7 @@ function ContactMe() {
 
       try {
         const newUser = { name, email, message }
-        await axios.post('/add-user', newUser)
+        await axios.post('/api/add-user', newUser)
       } catch (error) {
         console.error(error)
       }

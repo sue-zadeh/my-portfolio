@@ -1,27 +1,16 @@
 const express = require('express')
-const router = express.Router()
-import * as db from './database/db'
+const { addNewUser } = require('./database/db')
 
-router.get('/:id', async (req, res) => {
-  try {
-    const userId = Number(req.params.id)
-    // Get the user by id
-    const user = await db.getUser(userId)
-    // json response
-    res.json({ user: user })
-  } catch (error) {
-    res.status(500).json(error.message)
-  }
-})
+const router = express.Router()
 
 router.post('/add-user', async (req, res) => {
   try {
-    const user = req.body
-    await db.addNewUser(user)
+    const newUser = req.body
+    await addNewUser(newUser)
     res.status(201).json({ message: 'Contact added successfully' })
   } catch (error) {
-    res.status(500).json(error.message)
+    res.status(500).json({ error: error.message })
   }
 })
 
-export default router
+module.exports = router
