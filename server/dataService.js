@@ -1,20 +1,12 @@
+// // const { promises } = require('nodemailer/lib/xoauth2')
+// // const { getMaxListeners } = require('superagent')
 // const fs = require('fs')
 // const express = require('express')
 // const nodemailer = require('nodemailer')
-// const { promises } = require('nodemailer/lib/xoauth2')
-// const { getMaxListeners } = require('superagent')
 // const app = express
-// const port = 5173
-// const filePath = './data/contactData.json'
+// const port = 3000
 
 // function addContact(newContact) {
-//   const jsonData = fs.readFileSync(filePath, 'utf8')
-//   const data = JSON.parse(jsonData)
-
-//   data.contactme.push(newContact)
-
-//   fs.writeFileSync(filePath, JSON.stringify(data))
-
 //   const transporter = nodemailer.createTransport({
 //     service: 'gmail',
 //     auth: {
@@ -67,3 +59,10 @@
 // }
 
 // module.exports = { addContact }
+
+// //   const jsonData = fs.readFileSync(filePath, 'utf8')
+// //   const data = JSON.parse(jsonData)
+
+// //   data.contactme.push(newContact)
+
+// //   fs.writeFileSync(filePath, JSON.stringify(data))

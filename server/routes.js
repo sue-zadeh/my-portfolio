@@ -9,6 +9,7 @@ router.post('/add-user', async (req, res) => {
     await addNewUser(newUser)
     res.status(201).json({ message: 'Contact added successfully' })
   } catch (error) {
+    console.error(error)
     res.status(500).json({ error: error.message })
   }
 })
