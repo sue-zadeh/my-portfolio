@@ -4,12 +4,11 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [reactRefresh()],
   server: {
-    hmr: {
-      overlay: false,
+    proxy: {
+      '/api': {
+        target: `http://0.0.0.0:${process.env.PORT || 3000}`,
+        changeOrigin: true,
+      },
     },
-    fs: {
-      strict: false, // Allows Vite to serve files outside of the project root
-    },
-    open: true,
   },
 })
