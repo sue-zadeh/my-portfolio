@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server/server.js",
     "dev": "run-p dev:server dev:client",
     "dev:client": "vite",
     "dev:server": "nodemon server/server.js",

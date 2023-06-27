@@ -6,7 +6,10 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: `http://0.0.0.0:${process.env.PORT || 3000}`,
+        target:
+          process.env.NODE_ENV === 'production'
+            ? `http://0.0.0.0:${process.env.PORT}`
+            : 'http://localhost:3000',
         changeOrigin: true,
       },
     },
