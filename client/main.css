@@ -224,11 +224,11 @@ height: 30vh;
 
 }
 .Nav3:hover {
-  background-color: rgb(158, 158, 222);
+  background-color: rgb(168, 168, 229);
   font-size: 1.02em;
 }
 .Nav3:active {
-  background-color: rgb(141, 141, 197);
+  background-color: rgb(158, 158, 217);
   box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
