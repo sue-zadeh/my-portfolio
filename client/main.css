@@ -145,7 +145,7 @@ height: 30vh;
 
 
 .Nav1 {
-  background-color: rgb(131, 181, 209);
+  background-color: rgb(139, 194, 225);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,27 +154,29 @@ height: 30vh;
   font-weight: bold;
   text-align: center;
   align-items: center;
+  align-content: center;
+  align-self: center;
   justify-content: center;
+  justify-self: center;
   padding: 2%;
   color: black;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
-}
 
+}
 .Nav1:hover {
-  background-color: rgb(139, 194, 225);
+  background-color: rgb(202, 202, 237);
   font-size: 1.02em;
 }
 .Nav1:active {
-  background-color: rgb(150, 184, 203);
+  background-color: rgb(171, 213, 237);
   box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
-
 .Nav2 {
-  background-color: rgb(237, 205, 137);
+  background-color: rgb(243, 214, 150);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,7 +195,7 @@ height: 30vh;
 
 }
 .Nav2:hover {
-  background-color: rgb(246, 228, 190);
+  background-color: rgb(249, 234, 200);
   font-size: 1.02em;
 }
 .Nav2:active {
@@ -202,7 +204,7 @@ height: 30vh;
   transform: translateY(7px);
 }
 .Nav3 {
-  background-color: rgb(149, 149, 211);
+  background-color: rgb(139, 194, 225);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,46 +226,16 @@ height: 30vh;
 
 }
 .Nav3:hover {
-  background-color: rgb(168, 168, 229);
+  background-color: rgb(202, 202, 237);
   font-size: 1.02em;
 }
 .Nav3:active {
-  background-color: rgb(158, 158, 217);
+  background-color: rgb(171, 213, 237);
   box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
 .Nav4 {
-  background-color: #7acd9a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45px;
-  width:13vw;
-  font-weight: bold;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 2%;
-  color: black;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(167, 163, 163);
-  text-decoration: none;
-
-}
-.Nav4:hover {
-  background-color: rgb(153, 224, 170);
-  font-size: 1.02em;
-}
-.Nav4:active {
-  background-color: rgb(150, 240, 185);
-  box-shadow: 0 5px #c9c9c9;
-
-  transform: translateY(7px);
-}
-
-.Nav5 {
-  background-color: rgb(165, 165, 219);
+  background-color: rgb(139, 194, 225);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,18 +250,50 @@ height: 30vh;
   justify-self: center;
   padding: 2%;
   color: black;
-     border: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(167, 163, 163);
+  text-decoration: none;
+
+}
+.Nav4:hover {
+  background-color: rgb(202, 202, 237);
+  font-size: 1.02em;
+}
+.Nav4:active {
+  background-color: rgb(171, 213, 237);
+  box-shadow: 0 5px #c9c9c9;
+  transform: translateY(7px);
+}
+
+.Nav5 {
+  background-color: rgb(139, 194, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width:13vw;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  padding: 2%;
+  color: black;
+  border: none;
   border-radius: 15px;
   box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
 
 }
 .Nav5:hover {
-  background-color: rgb(173, 173, 222);
+  background-color: rgb(202, 202, 237);
   font-size: 1.02em;
 }
 .Nav5:active {
-  background-color: rgb(166, 166, 208);
+  background-color: rgb(171, 213, 237);
   box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
