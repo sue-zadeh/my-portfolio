@@ -16,15 +16,13 @@ module.exports = {
   },
 
   production: {
-    client: 'postgresql',
-    connection: process.env.DATABASE_URL,
-    migrations: {
-      directory: './server/database/migrations',
-      extension: 'js',
+    client: 'pg',
+    connection: {
+      connectionString: process.env.DATABASE_URL,
+      ssl: { rejectUnauthorized: false },
     },
-    seeds: {
-      directory: './server/database/seeds',
-      extension: 'js',
+    migrations: {
+      tableName: 'knex_migrations',
     },
   },
 }
