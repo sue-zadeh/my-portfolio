@@ -32,7 +32,7 @@ function Body() {
         <p className="p4">
           HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs,
           Debugging, Microsoft Cloud, Azure Fundamentals, AWS, ISTQB, P5,
-          Phaser3, SQL, Squlit3, API, Github, Git, somnia, Postman, Netlify,
+          Phaser3, SQL, Squlit3, API, Github, Git, somnia, Postman, railway,
           Heroku, Adobe Dream weaver, Adobe Photoshop, visual studio. The
           capacity for structural and design thinking.
         </p>
@@ -86,7 +86,7 @@ function Body() {
             href="https://drive.google.com/file/d/1xacYbqRSj6Hub8sVRO54BjqwkTILIlBD/view?usp=sharing"
             target="_blank"
           >
-            <ImDownload2 size={28} color="darkBlue" />
+            <ImDownload2 size={28} color="white" />
           </a>
         </p>
 
@@ -98,7 +98,7 @@ function Body() {
             target="blank1"
             href="https://www.linkedin.com/in/sue-raisianzadeh/"
           >
-            <ImLinkedin size={35} />
+            <ImLinkedin size={35} color="white" />
           </a>
           {/* <a className="social2" href="https://twitter.com"><ImTwitter /></a>
     <a className="social2" href="https://instagram.com/"><ImInstagram /></a>
@@ -108,7 +108,7 @@ function Body() {
             target="blank"
             href="https://github.com/sue-raisianzadeh?tab=repositories"
           >
-            <AiOutlineGithub size={35} />
+            <AiOutlineGithub size={35} color="white" />
           </a>
         </div>
       </div>

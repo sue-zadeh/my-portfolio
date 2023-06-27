@@ -159,7 +159,7 @@ height: 30vh;
   color: black;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px grey;
+  box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
 }
 
@@ -168,13 +168,13 @@ height: 30vh;
   font-size: 1.02em;
 }
 .Nav1:active {
-  background-color: rgb(146, 183, 204);
-  box-shadow: 0 5px #666;
+  background-color: rgb(150, 184, 203);
+  box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
 
 .Nav2 {
-  background-color: rgb(236, 180, 57);
+  background-color: rgb(237, 205, 137);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,17 +188,17 @@ height: 30vh;
   color: black;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px grey;
+  box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
 
 }
 .Nav2:hover {
-  background-color: rgb(249, 196, 82);
+  background-color: rgb(246, 228, 190);
   font-size: 1.02em;
 }
 .Nav2:active {
-  background-color: rgb(245, 242, 99);
-  box-shadow: 0 5px #666;
+  background-color: rgb(197, 197, 172);
+  box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
 .Nav3 {
@@ -219,7 +219,7 @@ height: 30vh;
   color: black;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px grey;
+  box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
 
 }
@@ -229,7 +229,7 @@ height: 30vh;
 }
 .Nav3:active {
   background-color: rgb(141, 141, 197);
-  box-shadow: 0 5px #666;
+  box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
 .Nav4 {
@@ -247,17 +247,17 @@ height: 30vh;
   color: black;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px grey;
+  box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
 
 }
 .Nav4:hover {
-  background-color: rgb(136, 219, 156);
+  background-color: rgb(153, 224, 170);
   font-size: 1.02em;
 }
 .Nav4:active {
-  background-color: rgb(121, 246, 169);
-  box-shadow: 0 5px #666;
+  background-color: rgb(150, 240, 185);
+  box-shadow: 0 5px #c9c9c9;
 
   transform: translateY(7px);
 }
@@ -280,17 +280,17 @@ height: 30vh;
   color: black;
      border: none;
   border-radius: 15px;
-  box-shadow: 0 9px grey;
+  box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
 
 }
 .Nav5:hover {
-  background-color: rgb(115, 115, 179);
+  background-color: rgb(173, 173, 222);
   font-size: 1.02em;
 }
 .Nav5:active {
-  background-color: rgb(141, 141, 197);
-  box-shadow: 0 5px #666;
+  background-color: rgb(166, 166, 208);
+  box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
 /* Body */
@@ -315,16 +315,19 @@ height: 30vh;
   align-content: center;
   grid-gap: 1.2em;
   margin: auto;
+  font-family:' Arial, Helvetica, sans-serif';
+  font-size: 16px;
   padding: 0px;
-  color:rgb(18, 21, 21)
+  color:white;
 }
 
 .grid1 {
   /* culomn 1 */
+  border:dashed #e0c397; 
   display: grid;
   grid-template-rows: repeat(8, auto);
   align-content: center;
-  background-color: #fcedc5;
+  /* background-color: #fcedc5; */
   border-radius: 35px;
   box-shadow: 15% 12% 15% #999;
   margin: 20px 5px;
@@ -341,8 +344,10 @@ height: 30vh;
 .grid2 {
   /*culomn 2 */
   display: grid;
+  border:dashed #e0c397; 
+  color:white;
   grid-template-rows: repeat(40px 40px 20px);
-  background-color: #f8eece;
+  /* background-color: #f8eece; */
   border-radius: 45px;
   box-shadow: 15% 12% 15% #999;
   text-align: justify;
@@ -352,8 +357,10 @@ height: 30vh;
 .grid3 {
   /*culomn 3 */
   display: grid;
+  border:dashed #e0c397; 
+  color:white;
   grid-template-rows: repeat(15, auto);
-  background-color: #fcf2d7;
+  /* background-color: #fcf2d7; */
   padding: 20px 50px 5px 20px;
   margin: 20px 3px;
   border-radius: 45px;
@@ -741,6 +748,8 @@ body {
 }
 .h2-form {
   margin-top: 20px;
+  font-size: 2.75em;
+
 }
 
 form {
@@ -749,33 +758,35 @@ form {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 4em;
+  padding: 7em;
   border-radius: 15px;
   width: 70vw;
-  margin: auto 10em;
+  margin: auto;
 }
 
 
 form label {
   display: block;
+  font-size: 1.3em;
   margin-bottom: 10px;
   justify-self: center;
   justify-content: center;
-
   height: 50px; /* Decreased height to bring the labels closer to the input boxes */
-  line-height: 90px; /* Added line-height property for vertical alignment */
+  line-height: 90px; 
 }
 
 
 form input {
-  width: 60%;
+  width: 50%;
   height: 40px;
+  font-size: 1.2em;
 }
 
 form textarea {
-  width: 60%;
+  width: 50%;
   height: 7em;
   padding: 8px;
+  font-size: 1.2em;
   margin-bottom: 20px;
   border: none;
   border-radius: 3px;
@@ -789,9 +800,11 @@ form button {
   background-color: #1d4159;
   letter-spacing: 3px;
   height: 4em;
-  width: 60%;
+  width: 50%;
   align-self: center;
-  font-size: 1.1em;
+  /* font-family:'Times New Roman', Times, serif; */
+  font-size: 1.4em;
+  font-weight: bold;
   color: #ffffff;
   padding: 10px 20px;
   border: none;
@@ -810,6 +823,7 @@ form button {
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
+  font-size: 1.45em;
   color:white;
   text-align: center;
   box-shadow: 2px 2px #57595a;

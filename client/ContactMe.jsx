@@ -78,13 +78,6 @@ function ContactMe() {
       </div>
 
       <div className="container">
-        <div className="soon">
-          <h3>
-            <u>
-              <i>coming soon</i>
-            </u>
-          </h3>
-        </div>
         <form onSubmit={handleSubmit}>
           <h2 className="h2-form">Please fill out the form</h2>
           <label htmlFor="name">Name:</label>
@@ -121,7 +114,11 @@ function ContactMe() {
 
         {showPopup && (
           <div className="popup">
-            <p>Thank you for contacting me!</p>
+            <p>
+              Thank you for contacting me!
+              <br />
+              <br /> I will get back to you as soon as possible.
+            </p>
           </div>
         )}
       </div>
