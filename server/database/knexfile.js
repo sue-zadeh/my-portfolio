@@ -1,17 +1,19 @@
+const path = require('path')
+const dotenv = require('dotenv')
+
+dotenv.config({ path: path.join(__dirname, '../../.env') })
 module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './server/database/dev.sqlite3',
+      filename: path.join(__dirname, 'dev.sqlite3'),
     },
     useNullAsDefault: true,
     migrations: {
-      directory: './server/database/migrations',
-      extension: 'js',
+      directory: path.join(__dirname, 'migrations'),
     },
     seeds: {
-      directory: './server/database/seeds',
-      extension: 'js',
+      directory: path.join(__dirname, 'seeds'),
     },
   },
 
