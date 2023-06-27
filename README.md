@@ -4,3 +4,5 @@ This is my portfolio that I built it from scratch with reactjs, Javascript and c
 You can view the deployed version of my portfolio on Netlify:
 
      https://sueportfolio.netlify.app/
+
+     sue-portofolio.up.railway.app
