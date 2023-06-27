@@ -55,7 +55,14 @@ function ContactMe() {
 
       try {
         const newUser = { name, email, message }
-        await axios.post('/api/add-user', newUser)
+
+        await fetch('/api/add-user', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(newUser),
+        })
       } catch (error) {
         console.error(error)
       }
