@@ -14,7 +14,7 @@ body {
   font-weight: bold;
   margin-top: 3em;
   margin-bottom: 0em;
-  padding: 2.5em
+  padding: 2.15em
 }
 
 .Banner {
@@ -43,7 +43,7 @@ height: 30vh;
    .sentence   
    {
     width: auto;
-    padding-top:2em;
+    padding-top:1.75em;
     
   }
   .nav1,.nav2, .nav3, .nav4 {
@@ -517,7 +517,7 @@ h4 {
 .h-me2 {
   position:absolute;
   letter-spacing: 6px;
-  top: 19%;
+  top: 21%;
   left: 42%;
   transform: translate(-50%, 33%);
   margin: 0px 0px 0px 80px;
@@ -529,10 +529,10 @@ h4 {
 }
 .p-me2 {
   position: absolute;
-  top: 50%;
-  left: 14%;
+  top: 53%;
+  left: 22%;
   bottom: 10%;
-  transform: translate(-10%, -67%);
+  transform: translate(-16%, -67%);
   margin-bottom: 30px;
   padding-bottom: 3em;
   text-indent: 20px;
