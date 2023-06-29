@@ -1,10 +1,13 @@
-/* Banner */
-
 body {
   background-color: rgb(28, 35, 50);
   /* background-color: #45676d; */
   margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+/* Banner */
+
 
 .sentence {
   display: grid;
@@ -580,7 +583,7 @@ h4 {
 
 .projects {
   display: grid;
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows:auto;
   background-color: rgb(28, 35, 50);
   /* background-color: rgb(157, 217, 245); */
   width: 100%;
@@ -613,10 +616,11 @@ h4 {
   margin-top: 4%;
 }
 
-/* @media screen and (max-width: 600px){
-  .p-projects {
-    width: 70%;
-} */
+@media screen and (max-width: 600px){
+  .h2-projects {
+      letter-spacing: 7px;
+  }
+}
 
 .h2-projects {
   margin: 5px;
@@ -631,23 +635,8 @@ h4 {
   text-shadow: 2px 3px 3px #fad9ad;
 }
 
-/* .p-projects {
-display: grid;
-padding: 22px 55px;
-  width: 60%;
-  height: 42%;
-  background-color: rgb(211, 245, 247);
-  justify-content: center;
-  border-radius: 45px;
-  box-shadow: 15% 12% 15% #999;
-  text-align: justify;
-  line-height: 35px;
-  justify-self: center;
-  box-shadow: 1px 2px 5px 5px #999;
-  padding: 20px;
-  margin: 20px 3px;
-} */
- .p-projects {
+
+.p-projects {
   display: grid;
   margin: 20px 30px; 
   padding: 22px 55px;
@@ -714,7 +703,7 @@ padding: 22px 55px;
 } 
 .div-squish {
   display: grid;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows:none;
 }
 
 .game-images {
@@ -731,6 +720,10 @@ body {
   background-color: black;
   color: #fff;
   font-family: Arial, sans-serif;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -741,10 +734,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-  align-items: center;
+  
 }
 
 
@@ -762,14 +752,13 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   justify-self: center;
   align-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 7em;
+  padding-top: 7em;
   border-radius: 15px;
-  width: 70vw;
+  width: 50vw;
   margin: auto;
 }
 
@@ -788,13 +777,13 @@ form label {
 
 
 form input {
-  width: 50%;
+  width: 50vw;
   height: 40px;
   font-size: 1.2em;
 }
 
 form textarea {
-  width: 50%;
+  width: 50vw;
   height: 7em;
   padding: 8px;
   font-size: 1.2em;
@@ -811,7 +800,7 @@ form button {
   background-color: #1d4159;
   letter-spacing: 3px;
   height: 4em;
-  width: 50%;
+  width: 50vw;
   align-self: center;
   /* font-family:'Times New Roman', Times, serif; */
   font-size: 1.4em;
