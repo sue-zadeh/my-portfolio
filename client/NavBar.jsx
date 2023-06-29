@@ -36,7 +36,7 @@ const NavBar = () => {
                   to="/"
                   style={{ marginRight: '5px' }}
                 >
-                  <TiHome size={27} />
+                  <TiHome size={27} style={{ marginRight: '5px' }} />
                   Home
                 </NavLink>
               </li>
@@ -49,7 +49,7 @@ const NavBar = () => {
                   target="_blank"
                   role="button"
                 >
-                  <ImDownload2 size={27} /> My CV
+                  <ImDownload2 size={27} style={{ marginRight: '5px' }} /> My CV
                 </a>
               </li>
               <li className="NavBarli">
@@ -60,7 +60,7 @@ const NavBar = () => {
                   style={{ marginRight: '5px' }}
                   role="button"
                 >
-                  <MdSchool size={27} />
+                  <MdSchool size={27} style={{ paddingRight: '5px' }} />
                   About Me
                 </NavLink>
               </li>
@@ -72,7 +72,7 @@ const NavBar = () => {
                   style={{ marginRight: '5px' }}
                   role="button"
                 >
-                  <CgStack size={27} />
+                  <CgStack size={27} style={{ marginRight: '5px' }} />
                   Projects
                 </NavLink>
               </li>

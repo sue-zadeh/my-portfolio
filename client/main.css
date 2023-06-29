@@ -147,8 +147,8 @@ height: 30vh;
 
 
 
-.Nav1 {
-  background-color: rgb(139, 194, 225);
+.Nav1, .Nav3, .Nav4, .Nav5{
+  background-color: rgb(65, 53, 85);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,19 +162,19 @@ height: 30vh;
   justify-content: center;
   justify-self: center;
   padding: 2%;
-  color: black;
+  color: rgb(247, 244, 244);
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
 
 }
-.Nav1:hover {
-  background-color: rgb(202, 202, 237);
+.Nav1:hover, .Nav3:hover, .Nav4:hover, .Nav5:hover {
+  background-color: rgb(117, 78, 133);
   font-size: 1.02em;
 }
-.Nav1:active {
-  background-color: rgb(171, 213, 237);
+.Nav1:active, .Nav3:active, .Nav4:active, .Nav5:active {
+  background-color: rgb(197, 148, 218);
   box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
@@ -184,13 +184,13 @@ height: 30vh;
   justify-content: center;
   align-items: center;
   height: 45px;
-  width:13vw;
+  width:10vw;
   font-weight: bold;
   text-align: center;
   align-items: center;
   justify-content: center;
   padding: 2%;
-  color: black;
+  color: rgb(10, 9, 9);
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px rgb(167, 163, 163);
@@ -202,104 +202,11 @@ height: 30vh;
   font-size: 1.02em;
 }
 .Nav2:active {
-  background-color: rgb(197, 197, 172);
-  box-shadow: 0 5px #c9c9c9;
-  transform: translateY(7px);
-}
-.Nav3 {
-  background-color: rgb(139, 194, 225);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45px;
-  width:13vw;
-  font-weight: bold;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  justify-content: center;
-  justify-self: center;
-  padding: 2%;
-  color: black;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(167, 163, 163);
-  text-decoration: none;
-
-}
-.Nav3:hover {
-  background-color: rgb(202, 202, 237);
-  font-size: 1.02em;
-}
-.Nav3:active {
-  background-color: rgb(171, 213, 237);
-  box-shadow: 0 5px #c9c9c9;
-  transform: translateY(7px);
-}
-.Nav4 {
-  background-color: rgb(139, 194, 225);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45px;
-  width:13vw;
-  font-weight: bold;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  justify-content: center;
-  justify-self: center;
-  padding: 2%;
-  color: black;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(167, 163, 163);
-  text-decoration: none;
-
-}
-.Nav4:hover {
-  background-color: rgb(202, 202, 237);
-  font-size: 1.02em;
-}
-.Nav4:active {
-  background-color: rgb(171, 213, 237);
+  background-color: rgb(234, 182, 237);
   box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
 
-.Nav5 {
-  background-color: rgb(139, 194, 225);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45px;
-  width:13vw;
-  font-weight: bold;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  justify-content: center;
-  justify-self: center;
-  padding: 2%;
-  color: black;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(167, 163, 163);
-  text-decoration: none;
-
-}
-.Nav5:hover {
-  background-color: rgb(202, 202, 237);
-  font-size: 1.02em;
-}
-.Nav5:active {
-  background-color: rgb(171, 213, 237);
-  box-shadow: 0 5px #c9c9c9;
-  transform: translateY(7px);
-}
 /* Body */
 
 .Body {
