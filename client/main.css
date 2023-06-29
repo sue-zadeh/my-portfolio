@@ -749,6 +749,17 @@ body {
 
 }
 
+@media screen and (max-width: 600px){
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    margin: auto imortant;
+  }
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -760,6 +771,8 @@ form {
   border-radius: 15px;
   width: 50vw;
   margin: auto;
+  padding-left: 0%;
+  padding-right: 0%;;
 }
 
 
