@@ -742,6 +742,8 @@ body {
   flex-direction: column;
   background-color: black;
   justify-content: center;
+  justify-items: center;
+  align-content: center;
   align-items: center;
 }
 
@@ -753,6 +755,7 @@ body {
 .h2-form {
   margin-top: 20px;
   font-size: 2.75em;
+  text-align: center;
 
 }
 
@@ -760,6 +763,8 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-self: center;
+  align-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 7em;
@@ -773,8 +778,10 @@ form label {
   display: block;
   font-size: 1.3em;
   margin-bottom: 10px;
+  justify-content: center;
   justify-self: center;
   justify-content: center;
+  align-items: center;
   height: 50px; /* Decreased height to bring the labels closer to the input boxes */
   line-height: 90px; 
 }
@@ -816,6 +823,7 @@ form button {
   cursor: pointer;
   justify-self: center;
   justify-content: center;
+  align-items: center;
 } 
 form button:hover {
 background-color: #5184a7;
