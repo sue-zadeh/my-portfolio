@@ -536,7 +536,7 @@ h4 {
   color: rgb(249, 252, 216);
   letter-spacing: 16px;
   font-size: 3em;
-  font-family: 'Arial', 'Montserrat', sans-serif;
+.  font-family: 'Arial', 'Montserrat', sans-serif;
   font-weight: bolder;
   text-align: center;
   text-shadow: 2px 3px 3px #fad9ad;
@@ -697,13 +697,13 @@ form label {
 
 
 form input {
-  width: 50vw;
+  width: 33vw;
   height: 40px;
   font-size: 1.2em;
 }
 
 form textarea {
-  width: 50vw;
+  width: 33vw;
   height: 7em;
   padding: 8px;
   font-size: 1.2em;
@@ -720,7 +720,7 @@ form button {
   background-color: #1d4159;
   letter-spacing: 3px;
   height: 4em;
-  width: 50vw;
+  width: 33vw;
   align-self: center;
   /* font-family:'Times New Roman', Times, serif; */
   font-size: 1.4em;
