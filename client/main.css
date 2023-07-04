@@ -124,7 +124,7 @@ height: 30vh;
     text-align: center;
     align-items: center;
     padding: 5px;
-    gap: 0.2em;
+    grid-gap: 0.6em;
   }
   
   a:link {
@@ -147,38 +147,36 @@ height: 30vh;
 
 
 
-.Nav1, .Nav3, .Nav4, .Nav5{
-  background-color: rgb(65, 53, 85);
+.Nav1, .Nav3, .Nav5{
+  background-color: rgb(152, 115, 168);
+  /* background-color: rgb(186, 139, 207); */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 45px;
-  width:13vw;
+  width:10vw;
   font-weight: bold;
   text-align: center;
   align-items: center;
-  align-content: center;
-  align-self: center;
   justify-content: center;
-  justify-self: center;
   padding: 2%;
-  color: rgb(247, 244, 244);
+  color: rgb(10, 9, 9);
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px rgb(167, 163, 163);
   text-decoration: none;
 
 }
-.Nav1:hover, .Nav3:hover, .Nav4:hover, .Nav5:hover {
-  background-color: rgb(117, 78, 133);
+.Nav1:hover, .Nav3:hover, .Nav5:hover {
+  background-color: rgb(170, 146, 210);
   font-size: 1.02em;
 }
-.Nav1:active, .Nav3:active, .Nav4:active, .Nav5:active {
-  background-color: rgb(197, 148, 218);
+.Nav1:active, .Nav3:active, .Nav5:active {
+  background-color: rgb(128, 102, 169);
   box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
-.Nav2 {
+.Nav2, .Nav4 {
   background-color: rgb(243, 214, 150);
   display: flex;
   justify-content: center;
@@ -197,12 +195,12 @@ height: 30vh;
   text-decoration: none;
 
 }
-.Nav2:hover {
+.Nav2:hover , .Nav4:hover {
   background-color: rgb(249, 234, 200);
   font-size: 1.02em;
 }
-.Nav2:active {
-  background-color: rgb(234, 182, 237);
+.Nav2:active , .Nav4:active {
+  background-color: rgb(230, 220, 198);
   box-shadow: 0 5px #c9c9c9;
   transform: translateY(7px);
 }
@@ -418,10 +416,12 @@ h4 {
 .navme-position {
   position:absolute;
   margin-top: 6em;
+  /* margin-left: 1em; */
   align-items: center;
+  grid-gap: 1em;
   align-content: center;
   justify-content: center;
-  transform: translate(19%, -48%);
+  transform: translate(30%, -48%);
 } 
 
 .h-me2 {
@@ -482,9 +482,10 @@ h4 {
    display: flex;
    align-items: center;
   position:absolute;
+  grid-gap: 0.6em;
   margin-top: 4em;
   justify-content: center;
-  transform: translate(6%, -48%);
+  transform: translate(18%, -48%);
 
 }
 }
@@ -518,11 +519,9 @@ h4 {
   box-shadow: 8px 13px 12px 8px #999;
 } */
 .navpro {
-  display:flex;
-  /* position: fixed; */
-  align-items: center; 
-  justify-content: center;
-  margin-top: 4%;
+  margin-top: 3em;
+
+  /* margin-top: 4%; */
 }
 
 @media screen and (max-width: 600px){
