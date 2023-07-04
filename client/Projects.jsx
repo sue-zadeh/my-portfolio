@@ -57,7 +57,7 @@ function Projects() {
         {/* </div>
         </div> */}
 
-        <div className="div-squish">
+        {/* <div className="div-squish">
           <p className="p-projects">
             The website provides list of movies based on genres, using React.js,
             Typescript and API . It was a good practice to learn more about API
@@ -72,7 +72,7 @@ function Projects() {
             </a>
             <img className="picsquish" src={Devflix} alt="Flim" />
           </p>
-        </div>
+        </div> */}
 
         <div className="div-squish">
           <p className="p-projects">
