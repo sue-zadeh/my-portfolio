@@ -146,36 +146,6 @@ function Projects() {
           </p>
         </div>
 
-        {/* <div className="div-squish">
-          <p className="p-projects">
-            <div className="game-images">
-              <img className="picsquish" src={Clown} alt="Clown" />
-              <img className="picsquish" src={Mole} alt="Mole" />
-              <img className="picsquish" src={Unicorn} alt="Unicorn" />
-            </div>
-            <div className="game-images">
-              <img className="picsquish" src={Toe} alt="Toe" />
-              <img className="picsquish" src={Calc} alt="Calc" />
-            </div>
-            - there are 3 repositories that contain 5 games using Javascript.
-            and there is a Calculator, using Javascript too.
-            <br />
-            
-            <br />
-            <a href="https://github.com/sue-raisianzadeh/javascript-carnival">
-              view Carnival-games (Inflate the unicorn, Dress the clown, Wack a
-              mole) here <br />
-            </a>
-            <a href="https://github.com/sue-raisianzadeh/tic-tac-toe">
-              view Tic-Tac-Toe here
-            </a>
-            <br />
-            <a href="https://github.com/sue-raisianzadeh/calculator">
-              view Calculator here
-            </a>
-          </p>
-        </div> */}
-
         <div className="div-squish">
           <p className="p-projects">
             this website 2 years ago based on my self-studying and online
