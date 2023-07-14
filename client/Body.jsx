@@ -47,7 +47,8 @@ function Body() {
           gaining valuable experience in this dynamic field.
           <b>
             Since graduating from Dev Academy, I have been building my coding
-            knowledge by learning AWS and Azure Fundamentals.{' '}
+            knowledge, and learning AWS and Azure Fundamentals.I will take my
+            Azure exam in a few weeks
           </b>
         </p>
 
