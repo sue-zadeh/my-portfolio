@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^1.4.0",
     "buid": "^0.3.1",
+    "build": "^0.1.4",
     "dotenv": "^16.3.1",
     "exos": "^0.0.10",
     "express": "^4.18.2",
