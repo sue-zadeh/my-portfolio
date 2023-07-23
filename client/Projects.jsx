@@ -148,10 +148,10 @@ function Projects() {
 
         <div className="div-squish">
           <p className="p-projects">
-            this website 2 years ago based on my self-studying and online
-            courses. It is about an Iranian music band (folk music), created
-            using HTML5 and CSS3. I want to transition this website from HTML to
-            ReactJS, and add back-end functionality to the site.
+            I built this website 2 years ago based on my self-studying and
+            online courses. It is about an Iranian music band (folk music),
+            created using HTML5 and CSS3. I want to transition this website from
+            HTML to ReactJS, and add back-end functionality to the site.
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/music-band"
