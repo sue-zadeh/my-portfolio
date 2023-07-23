@@ -30,7 +30,7 @@ function Body() {
         {/* <p className="p4">Full Stack Web Developer.</p> */}
         <h4>Tech Skills:</h4>
         <p className="p4">
-          HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs,
+          HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs, php,
           Debugging, Microsoft Cloud, Azure Fundamentals, AWS, ISTQB, P5,
           Phaser3, SQL, Squlit3, API, Github, Git, somnia, Postman, railway,
           Heroku, Adobe Dream weaver, Adobe Photoshop, visual studio. The
