@@ -118,7 +118,7 @@ function Projects() {
           <p className="p-projects">
             This is the TIc-Tac-Toe game, using Javascript and CSS3. I built
             this to have more practice on javascript. I plan to add autoplay as
-            a second playe
+            a second player
             <br />
             <a
               className="aa"
