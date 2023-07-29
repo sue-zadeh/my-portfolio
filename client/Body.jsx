@@ -83,7 +83,7 @@ function Body() {
         <p className="pp4">
           Need a printable version of my CV? Download it here &nbsp;
           <a
-            href="https://drive.google.com/file/d/1BXGPYKHINTE6tXkmmdHAojnx2kvChFPU/view?usp=sharing"
+            href="https://drive.google.com/file/d/17-Q4UZy5bQx5rL0KB1rfy1mSRq7NJI_9/view?usp=sharing"
             target="_blank"
           >
             <ImDownload2 size={28} color="white" />
