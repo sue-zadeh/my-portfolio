@@ -5,8 +5,8 @@ import Devstagram from './Assets/Devstagram.png'
 import Nodeal from './Assets/nodeal.png'
 import Eat from './Assets/deveat.png'
 import Minesweeper from './Assets/minesweeper.png'
+import Toe from './Assets/tic-tac-toe.png'
 // import Calc from './Assets/mycalc.png'
-// import Toe from './Assets/tic-tac-toe.png'
 // import Unicorn from './Assets/inflate.png'
 // import Clown from './Assets/clown.png'
 // import Mole from './Assets/Mole.png'
@@ -93,6 +93,39 @@ function Projects() {
         </div>
         {/* </div> */}
 
+        <div className="div-squish">
+          <p className="p-projects">
+            This is the Minesweeper game, using Javascript and CSS3. I built
+            this to have more practice on javascript
+            <br />
+            <a
+              className="aa"
+              href="https://github.com/sue-raisianzadeh/minesweeper"
+              target="blank"
+            >
+              view my project here
+            </a>
+            <img className="picsquish" src={Minesweeper} alt="Minesweeper" />
+          </p>
+        </div>
+
+        <div className="div-squish">
+          <p className="p-projects">
+            This is the TIc-Tac-Toe game, using Javascript and CSS3. I built
+            this to have more practice on javascript. I plan to add autoplay as
+            a second playe
+            <br />
+            <a
+              className="aa"
+              href="https://github.com/sue-raisianzadeh/tic-tac-toe"
+              target="blank"
+            >
+              view my project here
+            </a>
+            <img className="picsquish" src={Toe} alt="Toe" />
+          </p>
+        </div>
+
         {/* <div className="rows"> */}
         <div className="div-squish">
           <p className="p-projects">
@@ -127,22 +160,6 @@ function Projects() {
               view my project here
             </a>
             <img className="picsquish" src={Eat} alt="Eat" />
-          </p>
-        </div>
-
-        <div className="div-squish">
-          <p className="p-projects">
-            This is the Minesweeper game, using Javascript and CSS3. I built
-            this to have more practice on javascript
-            <br />
-            <a
-              className="aa"
-              href="https://github.com/sue-raisianzadeh/minesweeper"
-              target="blank"
-            >
-              view my project here
-            </a>
-            <img className="picsquish" src={Minesweeper} alt="Minesweeper" />
           </p>
         </div>
 
