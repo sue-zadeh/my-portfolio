@@ -79,8 +79,12 @@ function Projects() {
             This website can retrieve information, showed it in another page and
             add data on the JSON too using React.js, Typescript and Redux.js. I
             would like to improve this project by making it a chatroom with
-            media. I worked on sign in page and git. I am working on this and
-            saveed changes in the chatroom-App repository
+            media. I worked on sign in page and git.
+            <br />
+            <b>
+              I am working on this and have saved the changes to the
+              chatroom-app repository{' '}
+            </b>
             <br />
             <a
               className="aa"
