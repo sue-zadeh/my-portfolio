@@ -81,10 +81,19 @@ function Projects() {
             would like to improve this project by making it a chatroom with
             media. I worked on sign in page and git.
             <br />
+            <br />
             <b>
               I am working on this and have saved the changes to the
-              chatroom-app repository{' '}
+              chatroom-app repository (On going)
             </b>
+            <a
+              className="aa"
+              href="https://github.com/sue-raisianzadeh/chatroom-App"
+              target="blank"
+            >
+              {' '}
+              view my project here
+            </a>
             <br />
             <a
               className="aa"
