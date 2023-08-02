@@ -595,6 +595,7 @@ h4 {
   box-sizing: border-box;
   /* z-index: 1; make sure the text layer is above the image */
 } 
+
 .div-squish {
   display: grid;
   grid-template-rows:none;
