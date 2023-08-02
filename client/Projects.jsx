@@ -29,11 +29,12 @@ function Projects() {
 
         <div className="div-squish">
           <p className="p-projects">
-            This website was a one-day group project that retrieves information,
-            displays it on another page, and allows users to add data to the
-            JSON using React.js, Typescript, and Redux.js. I would like to
-            improve this project by turning it into a chatroom with media. I
-            worked on the software sign-in page and served as the git leader
+            This website ( DevStagram ) was a one-day group project that
+            retrieves information, displays it on another page, and allows users
+            to add data to the JSON using React.js, Typescript, and Redux.js. I
+            would like to improve this project by turning it into a chatroom
+            with media. I worked on the software sign-in page and served as the
+            git leader
             <br />
             <a
               className="aa"
