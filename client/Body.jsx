@@ -30,11 +30,11 @@ function Body() {
         {/* <p className="p4">Full Stack Web Developer.</p> */}
         <h4>Tech Skills:</h4>
         <p className="p4">
-          HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs, php,
-          Debugging, Microsoft Cloud, Azure Fundamentals, AWS, ISTQB, P5,
-          Phaser3, SQL, Squlit3, API, Github, Git, somnia, Postman, railway,
-          Heroku, Adobe Dream weaver, Adobe Photoshop, visual studio. The
-          capacity for structural and design thinking.
+          HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs, Redux,
+          php, Debugging, Microsoft Cloud, Azure Fundamentals and AI, AWS,
+          ISTQB, P5, Phaser3, SQL, Squlit3, API, firebase, Github, Git, somnia,
+          Postman, railway, Heroku, Adobe Dream weaver, Adobe Photoshop, visual
+          studio. The capacity for structural and design thinking.
         </p>
       </div>
       <div className="grid2">
