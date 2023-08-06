@@ -26,77 +26,74 @@ function Projects() {
       </div>
       <div className="projects1">
         <h2 className="h2-projects">Projects</h2>
-
         <div className="div-squish">
           <p className="p-projects">
-            This website ( DevStagram ) was a one-day group project that
-            retrieves information, displays it on another page, and allows users
-            to add data to the JSON using React.js, Typescript, and Redux.js. I
-            would like to improve this project by turning it into a chatroom
-            with media. I worked on the software sign-in page and served as the
-            git leader
+            <b>
+              This website ( DevStagram ) was a one-day group project that
+              retrieves information, displays it on another page, and allows
+              users to add data to the JSON using React.js, Typescript, and
+              Redux.js. I would like to improve this project by turning it into
+              a chatroom with media. I worked on the software sign-in page and
+              served as the git leader.
+            </b>
             <br />
+            <b>
+              I am working on this project and have saved the changes to the
+              chatroom-app repository. I used Firebase and Realtime Database for
+              the backend
+              <br /> <b> ( On going )</b>
+            </b>
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/DevStagram"
               target="blank"
             >
-              view my project here
+              built view my project here
             </a>
-            <br />
-            <b>
-              I am working on this project and have saved the changes to the
-              chatroom-app repository. I used Firebase and Realtime Database for
-              the backend <b> ( On going )</b>
-            </b>
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/chatroom-App"
               target="blank"
             >
-              {' '}
               view my project here
             </a>
-            <br />
-            <div className="chat">
-              <img className="picsquish" src={Devstagram} alt="Devstagram" />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <img className="picsquish" src={Chat} alt="Chat" />
-            </div>
+            <img className="picsquish" src={Chat} alt="Chat" />
+            <img className="picsquish" src={Devstagram} alt="Devstagram" />
+            {/* <br /> */}
           </p>
         </div>
-        {/* <div
-          className="pro1"
+        {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+
+        {/* className="pro1"
           onMouseEnter={() => setShowText(true)}
-          onMouseLeave={() => setShowText(false)}
-  > */}
+          onMouseLeave={() => setShowText(false)} */}
+
         {/* <div className="rows"> */}
         <div className="div-squish">
           <p className="p-projects">
-            It was a final group project, which lasted 1 week, and is a game
-            Using p5 library, Reactjs, Typescript, Redux.js and jest. we thought
-            about using phaser3 instead of p5, but finally we decided to use p5.
-            But that was good as I learnt phaser3 too. I worked on some part of
-            frontend, backend, git and wrote tests for some pages.
-            <br />
+            <b>
+              It was a final group project, which lasted 1 week, and is a game
+              Using p5 library, Reactjs, Typescript, Redux.js and jest. we
+              thought about using phaser3 instead of p5, but finally we decided
+              to use p5. But that was good as I learnt phaser3 too. I worked on
+              some part of frontend, backend, git and wrote tests for some
+              pages.
+            </b>
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/Squishy-Squish"
               target="blank"
             >
-              view my project here
+              built view my project here
             </a>
             <img className="picsquish" src={Squish} alt="Jumpy" />
-            <br />
-            {/* {showText && ( */}
-            {/* // <div className="text-layer"> */}
-            {/* show the text layer when showText is true */}
           </p>
         </div>
-
+        {/* {showText && ( */}
+        {/* // <div className="text-layer"> */}
+        {/* show the text layer when showText is true */}
         {/* </div>
         </div> */}
-
         {/* <div className="div-squish">
           <p className="p-projects">
             The website provides list of movies based on genres, using React.js,
@@ -113,9 +110,7 @@ function Projects() {
             <img className="picsquish" src={Devflix} alt="Flim" />
           </p>
         </div> */}
-
         {/* </div> */}
-
         <div className="div-squish">
           <p className="p-projects">
             This is the Minesweeper game, using Javascript and CSS3. I built
@@ -131,7 +126,6 @@ function Projects() {
             <img className="picsquish" src={Minesweeper} alt="Minesweeper" />
           </p>
         </div>
-
         <div className="div-squish">
           <p className="p-projects">
             This is the TIc-Tac-Toe game, using Javascript and CSS3. I built
@@ -148,7 +142,6 @@ function Projects() {
             <img className="picsquish" src={Toe} alt="Toe" />
           </p>
         </div>
-
         {/* <div className="rows"> */}
         <div className="div-squish">
           <p className="p-projects">
@@ -166,7 +159,6 @@ function Projects() {
             <img className="picsquish" src={Nodeal} alt="Nodeal" />
           </p>
         </div>
-
         <div className="div-squish">
           <p className="p-projects">
             This website was a one-day group project, and it offers information
@@ -184,16 +176,15 @@ function Projects() {
             <img className="picsquish" src={Eat} alt="Eat" />
           </p>
         </div>
-
         <div className="div-squish">
           <p className="p-projects">
             <b>
               I built this website in February 2021 based on my self-studying
-              and online courses.{' '}
+              and online courses. It is about an Iranian music band (folk
+              music), created using HTML5 and CSS3. I want to transition this
+              website from HTML to ReactJS, and add back-end functionality to
+              the site.
             </b>
-            It is about an Iranian music band (folk music), created using HTML5
-            and CSS3. I want to transition this website from HTML to ReactJS,
-            and add back-end functionality to the site.
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/music-band"
