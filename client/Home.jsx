@@ -9,8 +9,8 @@ import Body from './Body'
 function Home() {
   return (
     <div className="App">
-      <Banner />
       <NavBar />
+      <Banner />
       <Body />
     </div>
   )
