@@ -31,16 +31,18 @@ function Projects() {
             <b>
               This website ( DevStagram ) was a one-day group project that
               retrieves information, displays it on another page, and allows
-              users to add data to the JSON using React.js, Typescript, and
-              Redux.js. I would like to improve this project by turning it into
-              a chatroom with media. I worked on the software sign-in page and
-              served as the git leader.
+              users to add data to the JSON using React.js, Redux.js and
+              Typescript. I would like to improve this project by turning it
+              into a chatroom with media. I worked on the software sign-in page
+              and served as the git leader.
             </b>
             <br />
             <b>
-              I am working on this project and have saved the changes to the
-              chatroom-app repository. I used Firebase and Realtime Database for
-              the backend
+              Currently, I am in the process of improving this project by
+              transforming it into a chatroom with media capabilities. The
+              changes have been saved in the chatroom-app repository. <br />
+              I used Firebase and Realtime Database to build the necessary
+              functionalities.
               <br /> <b> ( On going )</b>
             </b>
             <a
@@ -48,7 +50,7 @@ function Projects() {
               href="https://github.com/sue-raisianzadeh/DevStagram"
               target="blank"
             >
-              built view my project here
+              view my project here
             </a>
             <a
               className="aa"
@@ -73,7 +75,7 @@ function Projects() {
           <p className="p-projects">
             <b>
               It was a final group project, which lasted 1 week, and is a game
-              Using p5 library, Reactjs, Typescript, Redux.js and jest. we
+              Using p5 library, Reactjs, Redux.js, jestT and ypescript . we
               thought about using phaser3 instead of p5, but finally we decided
               to use p5. But that was good as I learnt phaser3 too. I worked on
               some part of frontend, backend, git and wrote tests for some
@@ -146,8 +148,8 @@ function Projects() {
         <div className="div-squish">
           <p className="p-projects">
             This website was a one-day group project. It is a game created using
-            React.js, Typescript, and Redux.js. In the group, my role was to
-            work as the frontend lead.
+            React.js, Redux.js, Typescript. In the group, my role was to work as
+            the frontend lead.
             <br />
             <a
               className="aa"
@@ -162,9 +164,9 @@ function Projects() {
         <div className="div-squish">
           <p className="p-projects">
             This website was a one-day group project, and it offers information
-            about Indian, Italian, Asian, and Vegan restaurants, using
-            Javascript, server-side handling, and CSS3. I would like to improve
-            this project by adding a 'Search' function.
+            about Indian, Italian, Asian, and Vegan restaurants, using CSS3
+            Javascript, server-side handling. I would like to improve this
+            project by adding a 'Search' function.
             <br />
             <a
               className="aa"
@@ -190,7 +192,7 @@ function Projects() {
               href="https://github.com/sue-raisianzadeh/music-band"
               target="blank"
             >
-              built view my project here
+              view my project here
             </a>
             <img className="picsquish" src={Music} alt="Music" />
           </p>
