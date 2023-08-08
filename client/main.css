@@ -243,14 +243,14 @@ height: 30vh;
   text-justify: distribute;
   /* text-align-last: left; */
   word-spacing: -1.5px;
-  font-size: 16px;
+  font-size: 18px;
   padding: 0px;
   color:white;
 }
 
 .grid1 {
   /* culomn 1 */
-  border:dashed 2.5px #e0c397; 
+  /* border:dashed 2.5px #e0c397;  */
   display: grid;
   grid-template-rows: repeat(8, auto);
   align-content: center;
@@ -276,7 +276,7 @@ height: 30vh;
 .grid2 {
   /*culomn 2 */
   display: grid;
-  border:dashed 2.5px #e0c397; 
+  /* border:dashed 2.5px #e0c397;  */
   color:white;
   grid-template-rows: repeat(40px 40px 20px);
   /* background-color: #f8eece; */
@@ -292,7 +292,7 @@ height: 30vh;
 .grid3 {
   /*culomn 3 */
   display: grid;
-  border:dashed 2.5px #e0c397; 
+  /* border:dashed 2.5px #e0c397;  */
   color:white;
   grid-template-rows: repeat(15, auto);
   /* background-color: #fcf2d7; */
@@ -353,6 +353,8 @@ h4 {
   /* line-height: 30px; */
  }
  h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size:1em ;
 
  }
@@ -383,15 +385,16 @@ h4 {
 }
 .pp4 {
   padding: 0px 0px;
-  margin: 5px 0px;
+  margin: 2px 0px;
   line-height: 30px;
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
+  font-size: 23px;
+  font-weight: bold;
   text-align: justify;
 }
 .hh4 {
-  padding: 18px 0px 0px 0px;
+  padding: 1em 0px 0px 0px;
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   text-align: center;

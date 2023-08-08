@@ -38,18 +38,16 @@ function Body() {
         </p>
       </div>
       <div className="grid2">
-        <h1 className="hh2">
-          <BsQuestionSquare size={35} /> What do I do?
-        </h1>
-        <p className="p1">
-          As a web developer and tech enthusiast, I have a deep passion for web
-          development. I am committed to continuously improving my skills and
-          gaining valuable experience in this dynamic field.
-          <b>
-            Since graduating from Dev Academy, I have been building my coding
-            knowledge, and learning AWS and Azure Fundamentals.I will take my
-            Azure exam in a few weeks
-          </b>
+        <h1 className="hh5">Download</h1>
+        <p className="pp4">
+          Need a printable version of my CV?
+          <a
+            href="https://drive.google.com/file/d/17R7Z3qglfvFgV5sx51QYVAzmzSltkMBi/view?usp=sharing"
+            target="_blank"
+          >
+            <u>Download it here</u>&nbsp;
+            <ImDownload2 size={28} color="white" />
+          </a>
         </p>
 
         <h1>
@@ -70,24 +68,26 @@ function Body() {
 
       <div className="grid3">
         <h1 className="hh2">
+          <BsQuestionSquare size={35} /> What do I do?
+        </h1>
+        <p className="p1">
+          As a web developer and tech enthusiast, I have a deep passion for web
+          development. I am committed to continuously improving my skills and
+          gaining valuable experience in this dynamic field.
+          <b>
+            Since graduating from Dev Academy, I have been building my coding
+            knowledge, and learning AWS and Azure Fundamentals.I will take my
+            Azure exam in a few weeks
+          </b>
+        </p>
+        <h1 className="hh2">
           <RiThumbUpFill size={35} /> How do I do it?
         </h1>
         <p className="pp1">
           I use agile methods to increase project efficiency and promote
           collaborative teamwork. With strong communication skills, I am
-          constantly looking for areas for improvement. I prioritize open
+          constantly looking for areas for improvement, and prioritize open
           communication and using technology to positively impact society.
-        </p>
-
-        <h1 className="hh5">Download</h1>
-        <p className="pp4">
-          Need a printable version of my CV? Download it here &nbsp;
-          <a
-            href="https://drive.google.com/file/d/17R7Z3qglfvFgV5sx51QYVAzmzSltkMBi/view?usp=sharing"
-            target="_blank"
-          >
-            <ImDownload2 size={28} color="white" />
-          </a>
         </p>
 
         <div className="Social social-container">
