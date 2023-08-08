@@ -40,7 +40,7 @@ const NavBar = () => {
                   Home
                 </NavLink>
               </li>
-              <li className="NavBarli">
+              {/* <li className="NavBarli">
                 <a
                   className="Nav2"
                   // activeClassName="is-active"
@@ -51,7 +51,7 @@ const NavBar = () => {
                 >
                   <ImDownload2 size={27} style={{ marginRight: '5px' }} /> My CV
                 </a>
-              </li>
+              </li> */}
               <li className="NavBarli">
                 <NavLink
                   className="Nav3"
