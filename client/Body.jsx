@@ -50,7 +50,6 @@ function Body() {
             <ImDownload2 size={28} color="white" />
           </a>
         </p>
-
         <h1>
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>

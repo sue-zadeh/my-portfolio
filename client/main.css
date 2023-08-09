@@ -220,8 +220,8 @@ height: 30vh;
   align-content: center;
   grid-gap: 1.2em;
   margin: auto;
-  font-size: 18px;
-  font-family:' Arial, Helvetica, sans-serif';
+  /* font-size: 18px;
+  font-family:' Arial, Helvetica, sans-serif'; */
   text-align:justify;
   text-justify: distribute;
   /* text-align-last: left; */
@@ -235,7 +235,7 @@ height: 30vh;
   /* border:dashed 2.5px #e0c397;  */
   display: grid;
   grid-template-rows: repeat(8, auto);
-  font-size: 18px;
+  font-size: 18.5px;
   font-family:' Arial, Helvetica, sans-serif';
   align-content: center;
   /* background-color: #fcedc5; */
@@ -260,10 +260,6 @@ height: 30vh;
 
 }
 
-.download2 {
-  color: #a9d3ef;
-  font-size: 22px;
-}
 .grid2 {
   /*culomn 2 */
   display: grid;
@@ -282,7 +278,7 @@ height: 30vh;
   padding: 20px;
   margin: 20px 3px;
   line-height: 1.78em;
-
+  
 }
 .grid3 {
   /*culomn 3 */
@@ -298,6 +294,8 @@ height: 30vh;
   text-justify: distribute;
   /* text-align-last: left; */
   word-spacing: -1.5px;  box-shadow: 2px #737779;
+  font-size: 18px;
+  font-family:' Arial, Helvetica, sans-serif';
   align-items: center;
   justify-content: center;
   line-height: 1.78em;
@@ -343,16 +341,15 @@ h4 {
   font-size: 2em;
   padding: 0px 5px 0px 5px;
   margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-
+  font-family: Arial, Helvetica, sans-serif;
+  
   text-align: center;
   /* line-height: 30px; */
- }
- h4 {
+}
+h4 {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size:1em ;
-
  }
 .hh1 {
   margin-top: 20px;
@@ -366,9 +363,17 @@ h4 {
   font-family: cursive;
   font-size: 1em;
   text-align: center;
-    line-height: 1em;
-
+  line-height: 1em;
 }
+.download2 {
+  color: #a9d3ef;
+  font-size: 19.5px;
+  text-decoration: none;
+}
+.download2:hocer {
+  text-decoration: underline;
+}
+
 .p3 {
   padding: 10px 0px;
   font-weight: bold;
@@ -385,7 +390,7 @@ h4 {
   line-height: 30px;
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
   text-align: justify;
 }
