@@ -370,8 +370,8 @@ h4 {
   font-size: 19.5px;
   text-decoration: none;
 }
-.download2:hocer {
-  text-decoration: underline;
+.download2:hover {
+  font-style:italic ;
 }
 
 .p3 {
