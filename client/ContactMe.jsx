@@ -73,9 +73,9 @@ function ContactMe() {
 
   return (
     <div>
-      <div className="devNavcontact">
+      {/* <div className="devNavcontact">
         <NavBar />
-      </div>
+      </div> */}
 
       <div className="container">
         <form onSubmit={handleSubmit}>

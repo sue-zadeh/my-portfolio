@@ -21,9 +21,9 @@ function Projects() {
 
   return (
     <div className="projects">
-      <div className="navpro">
+      {/* <div className="navpro">
         <NavBar />
-      </div>
+      </div> */}
       <div className="projects1">
         <h2 className="h2-projects">Projects</h2>
         <div className="div-squish">

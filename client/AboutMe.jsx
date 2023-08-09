@@ -7,10 +7,11 @@ function AboutMe() {
   return (
     <div className="AboutMe">
       <img className="img" src={developer1} alt="Computer" />
-      <div className="navme-position">
-        <NavBar />
-      </div>
-      <div className="div-me2">
+      <div className="content">
+        {/* <div className="navme-position"> */}
+        {/* <NavBar /> */}
+        {/* </div>
+      <div className="div-me2"> */}
         <h1 className="h-me2">
           <MdDeveloperBoard
             size={45}
@@ -20,11 +21,13 @@ function AboutMe() {
           About Me
         </h1>
         <p className="p-me2">
-          I was a teacher in my country when I discovered my passion for
-          technology. I needed to learn computer skills to become a registrar at
-          my school, and I found it fascinating. I learned MCSE and MCSA and
-          even built two websites for a real estate and agricultural company and
-          sat up two Computer workshops in a high school.
+          I have a BA in theology and philosophy, and was a logic teacher in my
+          country when I discovered my passion for technology. when I discovered
+          my passion for technology. I needed to learn computer skills to become
+          a registrar at my school, and I found it fascinating. I learned MCSE
+          and MCSA and even built two websites for a real estate and
+          agricultural company and sat up two Computer workshops in a high
+          school.
           <br />
           After moving to New Zealand, I decided to enroll in Dev Academy to
           expand my knowledge further. It was an intensive course, but I loved

@@ -9,7 +9,7 @@ import Body from './Body'
 function Home() {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
       <Banner />
       <Body />
     </div>

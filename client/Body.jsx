@@ -42,10 +42,11 @@ function Body() {
         <p className="pp4">
           Need a printable version of my CV?
           <a
+            className="download2"
             href="https://drive.google.com/file/d/17R7Z3qglfvFgV5sx51QYVAzmzSltkMBi/view?usp=sharing"
             target="_blank"
           >
-            <u>Download it here</u>&nbsp;
+            <u>Download it here </u>
             <ImDownload2 size={28} color="white" />
           </a>
         </p>
@@ -54,15 +55,16 @@ function Body() {
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p className="p1">
-          I am a committed, adaptive and a fast learner with a strong passion
-          for continuous learning and self-improvement.
+          As a full stack software developer and tech enthusiast with
           <b>
-            A New Zealand Certificate in Applied Software Development (Level 6)
-            from
+            {' '}
+            a formal L6 software development education from Dev Academy Aotearoa
           </b>
-          Dev Academy. I thrive on challenges, have a positive outlook and am
-          excited at the prospect of joining your team to contribute, grow and
-          make a positive impact.
+          , I am deeply passionate about quality and constantly strive to
+          improve my skills.I am a committed, adaptive and a fast learner with a
+          strong passion for continuous learning and self-improvement. I thrive
+          on challenges, and am excited at the prospect of joining your team to
+          contribute, grow and pursuing my passion.
         </p>
       </div>
 

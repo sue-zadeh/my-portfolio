@@ -48,27 +48,11 @@ height: 30vh;
     padding-top:1.75em;
     
   }
-  .nav1,.nav2, .nav3, .nav4 {
-      padding: 10px;
-      margin: 5px;
-    }
-
     .grid1, .grid2, .grid3 {
       padding: 250px 60px 10px 25px;
        
     }
   } 
-
-
-/* .pic {
-  display: flex;
-  justify-content: left;
-  margin: 0; 
-  color: rgb(190, 159, 221);
-  border: 5px solid #c0e3e8;
-  border-radius: 90em;
-  width: 8em;
-} */
 
 .web {
   font-family: Arial, Helvetica, sans-serif;
@@ -94,34 +78,61 @@ height: 30vh;
 
 /* NavBar */
 
+
 .NavBar {
-  /* position: fixed; */
-  /* border:dashed 3px #e0c397;  */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   align-content: center;
   margin-top: 3em;
-  gap: 1.10%;
+  /* gap: 1.10%; */
   list-style: none;
   cursor: pointer;
   text-decoration: none;
   font-family:sans-serif, Arial, Helvetica;
   text-align: center;
   font-size: 1.25em;
+  /* border:dashed 3px #e0c397;  */
   
 }
-
+.Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
+  /* background-color: rgb(152, 115, 168); */
+  /* background-color: rgb(186, 139, 207); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width:12vw;
+  font-weight: bold;
+  text-align: center;
+  /* padding: 2%; */
+  color: rgb(239, 236, 236);
+  border: none;
+  /* border:dashed 1.5px #e0c397;  */
+  border-radius: 15px;
+  text-decoration: none;
+  
+}
+.Nav1:hover, .Nav2:hover, .Nav3:hover, .Nav4:hover , .Nav5:hover{
+  background-color: rgb(170, 146, 210);
+  box-shadow: 0 7px rgb(112, 112, 112);
+  font-size: 1.02em;
+}
+.Nav1:active, .Nav2:active, .Nav3:active, .Nav4:active, .Nav5:active {
+  background-color: rgb(138, 111, 181);
+  box-shadow: 0 4px rgb(141, 141, 141);
+  transform: translateY(7px);
+}
 @media screen and (max-width: 600px){
   .NavBar {
-            font-size: 0.7em;
+            font-size: 0.9em;
             padding:0px;
             text-align: center;
             align-items: center;
-            gap: 1.5em;
+            justify-content: center;
+            gap: 0.05em;
   } 
-  
   
     .Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
   background-color: rgb(152, 115, 168);
@@ -129,7 +140,7 @@ height: 30vh;
   justify-content: center;
   align-items: center;
   height: 45px;
-  width:12vw;
+  width:21vw;
   font-weight: bold;
   text-align: center;
   /* padding: 2%; */
@@ -159,34 +170,6 @@ height: 30vh;
   }
 
 
-.Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
-  /* background-color: rgb(152, 115, 168); */
-  /* background-color: rgb(186, 139, 207); */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45px;
-  width:9vw;
-  font-weight: bold;
-  text-align: center;
-  /* padding: 2%; */
-  color: rgb(239, 236, 236);
-  border: none;
-  /* border:dashed 1.5px #e0c397;  */
-  border-radius: 15px;
-  text-decoration: none;
-  
-}
-.Nav1:hover, .Nav2:hover, .Nav3:hover, .Nav4:hover , .Nav5:hover{
-  background-color: rgb(170, 146, 210);
-  box-shadow: 0 7px rgb(112, 112, 112);
-  font-size: 1.02em;
-}
-.Nav1:active, .Nav2:active, .Nav3:active, .Nav4:active, .Nav5:active {
-  background-color: rgb(138, 111, 181);
-  box-shadow: 0 4px rgb(141, 141, 141);
-  transform: translateY(7px);
-}
 /* .Nav2, .Nav4 {
   background-color: rgb(243, 214, 150);
   display: flex;
@@ -225,7 +208,7 @@ height: 30vh;
   justify-content: center;
   width: 95vw;
   /* background-color: #c3caca; */
-  border-radius: 25px;
+  /* border-radius: 25px; */
   color:black
   
   
@@ -266,6 +249,8 @@ height: 30vh;
   text-justify: distribute;
   /* text-align-last: left; */
   word-spacing: -1.5px;
+  line-height: 1.78em;
+
 } 
 
 .personal {
@@ -273,6 +258,11 @@ height: 30vh;
   flex-direction: column;
   padding-top: 0px;
 
+}
+
+.download2 {
+  color: #a9d3ef;
+  font-size: 22px;
 }
 .grid2 {
   /*culomn 2 */
@@ -291,6 +281,8 @@ height: 30vh;
   word-spacing:-0.75px;
   padding: 20px;
   margin: 20px 3px;
+  line-height: 1.78em;
+
 }
 .grid3 {
   /*culomn 3 */
@@ -308,6 +300,7 @@ height: 30vh;
   word-spacing: -1.5px;  box-shadow: 2px #737779;
   align-items: center;
   justify-content: center;
+  line-height: 1.78em;
   
 }
 
@@ -317,8 +310,8 @@ height: 30vh;
   line-height: 30px;
   padding: 0px;
   margin: 0px 18px;
-  line-height: 1.55em;
-  font-size: 1.25em;
+  line-height: 1.68em;
+  font-size: 1.01em;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight:300;
@@ -427,33 +420,36 @@ h4 {
 /* AboutMe    */
 
 .AboutMe {
-  display: grid;
-  background-image: image(Computer);
-  background-color: rgba(151, 150, 150, 0.2);
+  /* background-color: rgba(151, 150, 150, 0.2); */
   margin: 20px;
   padding: 10px;
-  justify-content: center;
-  justify-self: center;
-
+  overflow: hidden; /* Hide any content that overflows */
 }
+
 .img {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  background: no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  z-index: -1; /* Place the image behind other content */
 }
 
-.navme-position {
+/* .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100vh; /* Adjust this value to create space for the content */
+  /* padding: 20px; Add padding for content */
+  /* background-color: rgba(255, 255, 255, 0.9); Add a semi-transparent background for readability */
+/* }  */
+/* .navme-position {
   position:absolute;
   margin-top: 3em;
   transform: translate(64%, -48%);
   gap: 1.10%;
 
- } 
+ }  */
 
 .h-me2 {
   position:absolute;
@@ -501,7 +497,7 @@ h4 {
   letter-spacing: 6px;
   top: 15%;
   left: 39%;
-  transform: translate(-66%, 31%);
+  transform: translate(-70%, 56%);
   font-size: 2.5em;
   color:white;
   }
@@ -517,14 +513,14 @@ h4 {
   transform: translate(-18%, 69%);
 }
 
-.navme-position {
+/* .navme-position {
   position:absolute;
   grid-gap: 0.6em;
   margin-top: 1em;
   transform: translate(30%, -48%);
   width: 10vm;
   gap: 1.10%;
-}
+} */
 }
 /* Projects */
 
@@ -549,9 +545,7 @@ h4 {
   .h2-projects {
       letter-spacing: 0.10em;
   }
-  .p-projects {
-
-  }
+  
 }
 
 .h2-projects {
