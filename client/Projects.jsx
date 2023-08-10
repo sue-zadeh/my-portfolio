@@ -56,9 +56,9 @@ function Projects() {
               saved in the 'chatroom-app' repository.
               <b>
                 I am using Firebase and Realtime Database to implement the
-                necessary functionalities.
-              </b>{' '}
-              <br /> <b> ( On going )</b>
+                necessary functionalities.{' '}
+              </b>
+              <b> ( On going )</b>
               <a
                 className="aa"
                 href="https://github.com/sue-raisianzadeh/chatroom-App"
