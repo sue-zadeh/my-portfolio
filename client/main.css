@@ -293,7 +293,8 @@ height: 30vh;
   text-align:justify;
   text-justify: distribute;
   /* text-align-last: left; */
-  word-spacing: -1.5px;  box-shadow: 2px #737779;
+  word-spacing: -1.5px; 
+  box-shadow: 2px #737779;
   font-size: 17px;
   font-family:' Arial, Helvetica, sans-serif';
   align-items: center;
@@ -305,16 +306,17 @@ height: 30vh;
 .p4 {
   display: flex;
   align-items: center;
-  line-height: 30px;
   padding: 0px;
   margin: 0px 18px;
-  line-height: 1.68em;
+  line-height: 1.60em;
   font-size: 1.01em;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight:300;
   text-align: center;
   text-align: justify;
+  word-spacing: -6.5px
+  ;
 }
 
 .pp1 {
