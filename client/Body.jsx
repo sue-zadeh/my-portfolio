@@ -26,15 +26,15 @@ function Body() {
           <p className="p3">Email:</p>
           <p className="p2">Raisianz@gmail.com</p>
         </div>
-        <h1 className="hh4">About</h1>
+        {/* <h1 className="hh4">About</h1> */}
         {/* <p className="p4">Full Stack Web Developer.</p> */}
         <h4>Tech Skills:</h4>
         <p className="p4">
           HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs, Redux,
           php, Debugging, SQL, Squlit3, API, firebase, Github, Git, Azure
           Fundamentals and AI, AWS, ISTQB, P5, Phaser3, somnia, Postman,
-          railway, Heroku, Adobe Dream weaver, Adobe Photoshop, visual studio.
-          The capacity for structural and design thinking.
+          railway, Heroku, Adobe Photoshop, visual studio. The capacity for
+          structural and design thinking.
         </p>
       </div>
       <div className="grid2">
@@ -46,11 +46,15 @@ function Body() {
             href="https://drive.google.com/file/d/17R7Z3qglfvFgV5sx51QYVAzmzSltkMBi/view?usp=sharing"
             target="_blank"
           >
-            <u>Download it here </u>
-            <ImDownload2 size={28} color="white" />
+            Download it here
+            <ImDownload2
+              size={28}
+              color="white"
+              style={{ marginLeft: '10px', marginRight: '10px' }}
+            />
           </a>
         </p>
-        <h1>
+        <h1 className="hire">
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p className="p1">
@@ -72,23 +76,21 @@ function Body() {
           <BsQuestionSquare size={35} /> What do I do?
         </h1>
         <p className="p1">
-          As a web developer and tech enthusiast, I have a deep passion for web
-          development. I am committed to continuously improving my skills and
-          gaining valuable experience in this dynamic field.
-          <b>
-            Since graduating from Dev Academy, I have been building my coding
-            knowledge, and learning AWS and Azure Fundamentals.I will take my
-            Azure exam in a few weeks
-          </b>
+          I have a deep passion for web development, and committed to
+          continuously improving my skills and gaining valuable experience in
+          this dynamic field. I have a strong interest in cloud solutions and
+          have acquired knowledge in <b>AWS and Azure Fundamentals and AI</b>. I
+          am currently preparing to take the Azure exam in a few weeks.
         </p>
         <h1 className="hh2">
           <RiThumbUpFill size={35} /> How do I do it?
         </h1>
         <p className="pp1">
-          I use agile methods to increase project efficiency and promote
-          collaborative teamwork. With strong communication skills, I am
-          constantly looking for areas for improvement, and prioritize open
-          communication and using technology to positively impact society.
+          I utilize agile methods to enhance project efficiency and foster
+          collaborative teamwork. With strong communication skills, I
+          proactively seek opportunities for improvement, prioritize open
+          communication, and leverage technology to facilitate growth while
+          pursuing my passion for technology
         </p>
 
         <div className="Social social-container">
