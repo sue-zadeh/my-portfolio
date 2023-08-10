@@ -459,7 +459,7 @@ h4 {
   text-indent: 20px;
   font-family: Arial, sans-serif, 'Montserrat';
   font-weight:400;
-  font-size: 21px;
+  font-size: 23px;
   text-align:justify;
   text-justify: distribute;
   /* text-align-last: left; */
@@ -506,18 +506,18 @@ h4 {
   justify-content: center;
   justify-items: center;
   justify-self: center;
-
-}
   
+}
+
 @media screen and (max-width: 600px){
   .h2-projects {
-      letter-spacing: 0.10em;
+    letter-spacing: 0.10em;
   }
   
 }
 
 .h2-projects {
-  margin: 0.1em;
+  /* margin: 0.1em; */
   letter-spacing: 0.25em;
   padding-top: 2em;
   padding-bottom: 0.5em;
@@ -531,32 +531,16 @@ h4 {
 
 .div-squish {
   display: grid;
-  width: 20%;
-  height: 12%;
   justify-items: center;
   align-content: center;
-  border: 2px dashed;
-  border-radius: 15%;
-  word-spacing:-0.5px;
-  box-shadow: 1px 2px 5px 5px #5e6264;
-  margin: 5px 5px 10px !important;
-  padding: 0px;
-}
-
-.wrap-projects {
-  display: flex;
-  grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) );
-  flex-direction: row;
-  /* word-spacing:-0.5px; */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  gap: 20px; /* Adjust the gap between projects */
-  margin: 20px 25px;
+  margin: 10px auto;
+  padding: auto;
 }
 .p-projects {
   display: grid;
-  /* grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) ); */
-  word-spacing:-0.5px;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  width: 40%;
+  height: 78%;
   font-family: 'Arial', 'Montserrat', sans-serif;
   color: white;
   font-size: 19px;
@@ -566,9 +550,12 @@ h4 {
   word-spacing:-3px;
   line-height: 35px;
   border-radius: 30px;
+  border: 2px dashed;
   justify-content: center;
-  justify-self: center;
+  margin: 20px 25px; 
   padding: 1.5em 2.70em;
+  justify-self: center;
+  box-shadow: 1px 2px 5px 5px #5e6264;
 } 
 .aa{
   color: #eedfcc;
@@ -578,6 +565,7 @@ h4 {
   font-weight: bold;
   font-size: 1em;
   text-align: right;
+  padding-right: 25px;
 }
 .aa:hover {
   align-items: end;
@@ -590,31 +578,31 @@ h4 {
 .picsquish {
   /* display: flex; */
   align-items: center;
-  text-align: right;
   width:278px;
   height: 280px;
   border-radius: 20px;
   box-shadow: 10px #999;
-  margin-top: 0px;
+  margin-top: opx;
+  /* margin-left: 20px; */
   box-shadow: 6px 6px 6px 6px #57595a;
 }
 
- .text-layer {
+ /* .text-layer {
   width: 40%;
   height: 10%;
   position: absolute;
   top: 50%;
   left: 20%;
   background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   font-size: 0.5rem;
   padding: 0.5rem;
-  box-sizing: border-box;
+  box-sizing: border-box; */
   /* z-index: 1; make sure the text layer is above the image */
-} 
+/* }  */ */
 
 
 .game-images {
