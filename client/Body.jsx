@@ -32,8 +32,8 @@ function Body() {
         <p className="p4">
           HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs, Redux,
           php, Debugging, SQL, Squlit3, API, firebase, Github, Git, Azure , AWS,
-          Jest, ISTQB, P5, Phaser3, somnia, Postman, railway, Heroku, visual
-          studio. The capacity for structural and design thinking.
+          Jest, ISTQB, somnia, Postman, railway, Heroku, visual studio. The
+          capacity for structural and design thinking.
         </p>
       </div>
       <div className="grid2">
@@ -57,13 +57,12 @@ function Body() {
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p className="p1">
-          I'm a full-stack software developer and tech enthusiast, holding{' '}
+          I'm a full-stack developer and tech enthusiast, with a{' '}
           <b>
-            a formal L6 Applied Doftware development from Dev Academy Aotearoa.
+            formal L6 Applied Doftware development from Dev Academy Aotearoa
           </b>
-          I'm a dedicated, adaptive and fast learner, passionate about
-          continuous growth. Thriving on challenges, I'm eager to join your
-          team, contribute, and pursue my passion.
+          . I'm a dedicated, fast learner, eager to contribute and pursue my
+          passion in a challenging environment.
         </p>
       </div>
 
@@ -81,11 +80,10 @@ function Body() {
           <RiThumbUpFill size={35} /> How do I do it?
         </h1>
         <p className="pp1">
-          I utilize agile methods to enhance project efficiency and foster
-          collaborative teamwork. With strong communication skills, I
-          proactively seek opportunities for improvement, prioritize open
-          communication, and leverage technology to facilitate growth while
-          pursuing my passion for technology
+          I use agile methods for efficient projects and collaborative teamwork.
+          With strong communication skills, I seek improvement, prioritize open
+          communication, and leverage technology for growth while pursuing my
+          tech passion.
         </p>
 
         <div className="Social social-container">

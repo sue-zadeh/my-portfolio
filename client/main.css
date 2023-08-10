@@ -180,9 +180,8 @@ height: 30vh;
   /* background-color: #c3caca; */
   /* border-radius: 25px; */
   color:black
-  
-  
 }
+
 .grid-wrapper{
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
@@ -198,6 +197,19 @@ height: 30vh;
   word-spacing: -1.5px;
   padding: 0px;
   color:white;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fade-in 2s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 1;
+    transform: translateY(-80px); /* Slide up slightly */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .grid1 {
@@ -227,7 +239,6 @@ height: 30vh;
   display: flex;
   flex-direction: column;
   padding-top: 0px;
-
 }
 
 .grid2 {
@@ -384,7 +395,6 @@ h4 {
   text-align: center;
 }
 
-
 .social-container {
   display: flex;
   flex-direction: row;
@@ -403,14 +413,27 @@ h4 {
   margin: 20px;
   padding: 10px;
   overflow: hidden; /* Hide any content that overflows */
+  animation: slide-in 5s ease-out;
+  opacity: 3; /* Initially hidden, will gradually become visible */
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%); /* Start from the left side of the viewport */
+    opacity: 0; /* Initially hidden */
+  }
+  to {
+    transform: translateX(0); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
 }
 
 .img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; /* 100% of viewport width */
-  height: 100vh; /* 100% of viewport height */
+  width: 100vw; 
+  height: 100vh; 
   z-index: -1; /* Place the image behind other content */
 }
 

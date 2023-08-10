@@ -8,10 +8,6 @@ function AboutMe() {
     <div className="AboutMe">
       <img className="img" src={developer1} alt="Computer" />
       <div className="content">
-        {/* <div className="navme-position"> */}
-        {/* <NavBar /> */}
-        {/* </div>
-      <div className="div-me2"> */}
         <h1 className="h-me2">
           <MdDeveloperBoard
             size={45}
@@ -21,17 +17,16 @@ function AboutMe() {
           About Me
         </h1>
         <p className="p-me2">
-          I have a BA in theology and philosophy, and was a logic teacher in my
-          country when I discovered my passion for technology. when I discovered
-          my passion for technology. I needed to learn computer skills to become
-          a registrar at my school, and I found it fascinating. I learned MCSE
-          and MCSA and even built two websites for a real estate and
-          agricultural company and sat up two Computer workshops in a high
-          school.
+          I was a teacher in my country when I discovered my passion for
+          technology. I needed to learn computer skills to become a registrar at
+          a school, and I found it fascinating. I learned more and built two
+          websites for a real estate and an agricultural company, sat up two
+          Computer workshops in a high school and became a computer workshop
+          teacher and supervisor for 6 years
           <br />
-          After moving to New Zealand, I decided to enroll in Dev Academy to
-          expand my knowledge further. It was an intensive course, but I loved
-          every moment of it. I constantly learned new technologies through
+          After moving to New Zealand, I enroll in Dev Academy to expand my
+          knowledge further. It was an intensive course, but I loved every
+          moment of it. I constantly learned new technologies through
           individual, pair and group projects. In addition to technical skills,
           I also gained valuable human skills, including teamwork, active
           listening, conflict resolution, giving and receiving feedback,
