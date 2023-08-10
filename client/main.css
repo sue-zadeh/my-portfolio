@@ -197,8 +197,8 @@ height: 30vh;
   word-spacing: -1.5px;
   padding: 0px;
   color:white;
-  opacity: 0; /* Set initial opacity to 0 */
-  animation: fade-in 2s ease-in-out forwards; /* Apply fade-in animation */
+  opacity: 0; 
+  animation: fade-in 2s ease-in-out forwards; 
 }
 
 @keyframes fade-in {
@@ -288,13 +288,13 @@ height: 30vh;
   padding: 0px;
   margin: 0px 18px;
   line-height: 1.60em;
-  font-size: 1.01em;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight:300;
   text-align: center;
   text-align: justify;
-  word-spacing: -6.15px
+  word-spacing: -5px
   ;
 }
 
@@ -302,9 +302,10 @@ height: 30vh;
   padding: 0px 5px;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.05em;
+  font-size: 1.01em;
   line-height: 31px;
   text-align: justify;
+  word-spacing: -1.15px;
 }
 .p2 {
   padding: 0px;
@@ -327,14 +328,7 @@ height: 30vh;
   margin-bottom: 15px;
   margin-top: 15px;
 }
-.pp1 {
-  margin-top: 0px;
-  padding-top: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.06em;
-  text-align: justify;
-  line-height: 30px;
-}
+
 h1,
 h2,
 h4 {
@@ -412,19 +406,19 @@ h4 {
   /* background-color: rgba(151, 150, 150, 0.2); */
   margin: 20px;
   padding: 10px;
-  overflow: hidden; /* Hide any content that overflows */
-  animation: slide-in 5s ease-out;
-  opacity: 3; /* Initially hidden, will gradually become visible */
+  overflow: hidden; 
+  animation: slide-in 1s ease-out;
+  opacity: 1; 
 }
 
 @keyframes slide-in {
   from {
-    transform: translateX(-100%); /* Start from the left side of the viewport */
-    opacity: 0; /* Initially hidden */
+    transform: translateX(-40%); 
+    opacity: 0; 
   }
   to {
-    transform: translateX(0); /* Move to the original position */
-    opacity: 1; /* Fully visible */
+    transform: translateX(0); 
+    opacity: 1; 
   }
 }
 

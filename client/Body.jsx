@@ -32,8 +32,7 @@ function Body() {
         <p className="p4">
           HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs, Redux,
           php, Debugging, SQL, Squlit3, API, firebase, Github, Git, Azure , AWS,
-          Jest, ISTQB, somnia, Postman, railway, Heroku, visual studio. The
-          capacity for structural and design thinking.
+          Jest, ISTQB, somnia, Postman, railway, Heroku, visual studio
         </p>
       </div>
       <div className="grid2">
@@ -79,7 +78,7 @@ function Body() {
         <h1 className="hh2">
           <RiThumbUpFill size={35} /> How do I do it?
         </h1>
-        <p className="pp1">
+        <p className="p1">
           I use agile methods for efficient projects and collaborative teamwork.
           With strong communication skills, I seek improvement, prioritize open
           communication, and leverage technology for growth while pursuing my
