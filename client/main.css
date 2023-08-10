@@ -321,7 +321,7 @@ height: 30vh;
   margin-top: 0px;
   padding-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.15em;
+  font-size: 1.06em;
   text-align: justify;
   line-height: 30px;
 }
@@ -329,7 +329,7 @@ height: 30vh;
   padding: 0px 5px;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.15em;
+  font-size: 1.05em;
   line-height: 31px;
   text-align: justify;
 }
@@ -417,10 +417,6 @@ h4 {
   text-align: center;
 }
 
-.download{
-  background-color: #10011d;
-  padding-top: 10px;
-}
 
 .social-container {
   display: flex;
