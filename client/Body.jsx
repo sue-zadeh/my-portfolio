@@ -31,10 +31,9 @@ function Body() {
         <h4>Tech Skills:</h4>
         <p className="p4">
           HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs, Redux,
-          php, Debugging, SQL, Squlit3, API, firebase, Github, Git, Azure
-          Fundamentals and AI, AWS, ISTQB, P5, Phaser3, somnia, Postman,
-          railway, Heroku, Adobe Photoshop, visual studio. The capacity for
-          structural and design thinking.
+          php, Debugging, SQL, Squlit3, API, firebase, Github, Git, Azure , AWS,
+          Jest, ISTQB, P5, Phaser3, somnia, Postman, railway, Heroku, visual
+          studio. The capacity for structural and design thinking.
         </p>
       </div>
       <div className="grid2">

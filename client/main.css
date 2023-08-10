@@ -169,36 +169,6 @@ height: 30vh;
   }
   }
 
-
-/* .Nav2, .Nav4 {
-  background-color: rgb(243, 214, 150);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45px;
-  width:13.2vw;
-  font-weight: bold;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 2%;
-  color: rgb(10, 9, 9);
-  border: none;
-  border-radius: 15px;
-  text-decoration: none;
-  
-} */
-/* .Nav2:hover , .Nav4:hover {
-  background-color: rgb(249, 234, 200);
-  box-shadow: 0 7px rgb(167, 163, 163);
-  font-size: 1.02em;
-}
-.Nav2:active , .Nav4:active {
-  background-color: rgb(230, 220, 198);
-  box-shadow: 0 4px #c9c9c9;
-  transform: translateY(7px);
-} */
-
 /* Body */
 
 .Body {
@@ -283,10 +253,8 @@ height: 30vh;
 .grid3 {
   /*culomn 3 */
   display: grid;
-  /* border:dashed 2.5px #e0c397;  */
   color:white;
   grid-template-rows: repeat(15, auto);
-  /* background-color: #fcf2d7; */
   padding: 20px 50px 5px 20px;
   margin: 20px 3px;
   border-radius: 45px;
@@ -315,18 +283,10 @@ height: 30vh;
   font-weight:300;
   text-align: center;
   text-align: justify;
-  word-spacing: -6.5px
+  word-spacing: -6.15px
   ;
 }
 
-.pp1 {
-  margin-top: 0px;
-  padding-top: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.06em;
-  text-align: justify;
-  line-height: 30px;
-}
 .p1 {
   padding: 0px 5px;
   margin: 0px;
@@ -335,8 +295,35 @@ height: 30vh;
   line-height: 31px;
   text-align: justify;
 }
-
-
+.p2 {
+  padding: 0px;
+  margin: 0px;
+  font-family: cursive;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1em;
+}
+.p3 {
+  padding: 10px 0px;
+  font-weight: bold;
+  margin: 5px 0px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1em;
+}
+.hh2{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.pp1 {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.06em;
+  text-align: justify;
+  line-height: 30px;
+}
 h1,
 h2,
 h4 {
@@ -355,18 +342,6 @@ h4 {
  }
 .hh1 {
   margin-top: 20px;
-}
-.hh2{
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-.p2 {
-  padding: 0px;
-  margin: 0px;
-  font-family: cursive;
-  font-size: 1em;
-  text-align: center;
-  line-height: 1em;
 }
 .hire {
   padding: 20px 0px;
@@ -401,16 +376,6 @@ h4 {
   color: #f5fcdc;
 }
 
-.p3 {
-  padding: 10px 0px;
-  font-weight: bold;
-  margin: 5px 0px;
-  font-family: "Nunito", sans-serif;
-  font-size: 1em;
-  text-align: center;
-  line-height: 1em;
-
-}
 
 .hh4 {
   padding: 1em 0px 0px 0px;
@@ -448,22 +413,6 @@ h4 {
   height: 100vh; /* 100% of viewport height */
   z-index: -1; /* Place the image behind other content */
 }
-
-/* .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100vh; /* Adjust this value to create space for the content */
-  /* padding: 20px; Add padding for content */
-  /* background-color: rgba(255, 255, 255, 0.9); Add a semi-transparent background for readability */
-/* }  */
-/* .navme-position {
-  position:absolute;
-  margin-top: 3em;
-  transform: translate(64%, -48%);
-  gap: 1.10%;
-
- }  */
 
 .h-me2 {
   position:absolute;
@@ -527,14 +476,6 @@ h4 {
   transform: translate(-18%, 69%);
 }
 
-/* .navme-position {
-  position:absolute;
-  grid-gap: 0.6em;
-  margin-top: 1em;
-  transform: translate(30%, -48%);
-  width: 10vm;
-  gap: 1.10%;
-} */
 }
 /* Projects */
 
@@ -547,14 +488,7 @@ h4 {
   justify-self: center;
 
 }
-
   
-/* .navpro {
-  margin-top: 6em;
-  gap: 1.10%;
-
-} */
-
 @media screen and (max-width: 600px){
   .h2-projects {
       letter-spacing: 0.10em;
