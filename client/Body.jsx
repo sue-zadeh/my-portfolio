@@ -76,11 +76,10 @@ function Body() {
           <BsQuestionSquare size={35} /> What do I do?
         </h1>
         <p className="p1">
-          I have a deep passion for web development, and committed to
-          continuously improving my skills and gaining valuable experience in
-          this dynamic field. I have a strong interest in cloud solutions and
-          have acquired knowledge in <b>AWS and Azure Fundamentals and AI</b>. I
-          am currently preparing to take the Azure exam in a few weeks.
+          I'm deeply passionate about web development and constantly enhancing
+          my skills. I'm particularly drawn to cloud solutions, having learned{' '}
+          <b>AWS, Azure Fundamentals, and AI</b>. I'm gearing up to take the
+          Microsoft Azure exam soon.
         </p>
         <h1 className="hh2">
           <RiThumbUpFill size={35} /> How do I do it?
