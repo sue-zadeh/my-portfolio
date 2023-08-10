@@ -557,6 +557,11 @@ h4 {
   justify-self: center;
   box-shadow: 1px 2px 5px 5px #5e6264;
 } 
+.push-word {
+  padding-right: 3em;
+  color: rgb(240, 240, 165);
+  font-size: 19px;
+}
 .aa{
   color: #eedfcc;
   /* text-shadow: 1px #999; */
@@ -565,7 +570,7 @@ h4 {
   font-weight: bold;
   font-size: 1em;
   text-align: right;
-  padding-right: 25px;
+  padding-right: 2em;
 }
 .aa:hover {
   align-items: end;

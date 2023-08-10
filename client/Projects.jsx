@@ -21,30 +21,56 @@ function Projects() {
 
   return (
     <div className="projects">
-      <div className="navpro">
-        <NavBar />
-      </div>
       <div className="projects1">
         <h2 className="h2-projects">Projects</h2>
+
         <div className="div-squish">
           <p className="p-projects">
             <b>
-              This website ( DevStagram ) was a one-day group project that
-              retrieves information, displays it on another page, and allows
-              users to add data to the JSON using React.js, Redux.js and
-              Typescript. I would like to improve this project by turning it
-              into a chatroom with media. I worked on the software sign-in page
-              and served as the git leader.
-            </b>
-            <br />
-            <b>
-              Currently, I am in the process of improving this project by
-              transforming it into a chatroom with media capabilities. The
-              changes have been saved in the chatroom-app repository. <br />
+              Currently, I am working on improving the 'DevStagram' project by
+              building a chatroom with media capabilities. The changes have been
+              saved in the 'chatroom-app' repository.
+              <br />
               I used Firebase and Realtime Database to build the necessary
               functionalities.
-              <br /> <b> ( On going )</b>
+              <br />{' '}
+              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+              {/* <span className="push-word">
+                <b> ( On going )</b>
+              </span> */}
             </b>
+            <a
+              className="aa"
+              href="https://github.com/sue-raisianzadeh/chatroom-App"
+              target="blank"
+            >
+              view my project here <br />
+              <br />
+              <br />
+              <span
+                style={{
+                  paddingRight: '3em',
+                  color: 'rgb(240, 240, 165)',
+                  fontSize: '19px',
+                  textDecoration: 'none',
+                }}
+              >
+                <b>( On going )</b>
+              </span>
+            </a>
+            <img className="picsquish" src={Chat} alt="Chat" />
+          </p>
+        </div>
+        <div className="div-squish">
+          <p className="p-projects">
+            This website ( DevStagram ) was a one-day group project that
+            retrieves information, displays it on another page, and allows users
+            to add data to the JSON using React.js, Redux.js and Typescript. I
+            would like to improve this project by turning it into a chatroom
+            with media. I worked on the software sign-in page and served as the
+            git leader.
+            <br />
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/DevStagram"
@@ -52,19 +78,10 @@ function Projects() {
             >
               view my project here
             </a>
-            <a
-              className="aa"
-              href="https://github.com/sue-raisianzadeh/chatroom-App"
-              target="blank"
-            >
-              view my project here
-            </a>
-            <img className="picsquish" src={Chat} alt="Chat" />
             <img className="picsquish" src={Devstagram} alt="Devstagram" />
             {/* <br /> */}
           </p>
         </div>
-        {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
 
         {/* className="pro1"
           onMouseEnter={() => setShowText(true)}
@@ -197,7 +214,6 @@ function Projects() {
             <img className="picsquish" src={Music} alt="Music" />
           </p>
         </div>
-        {/* </div> */}
       </div>
     </div>
   )
