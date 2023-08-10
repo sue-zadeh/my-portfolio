@@ -58,16 +58,13 @@ function Body() {
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p className="p1">
-          As a full stack software developer and tech enthusiast with
+          I'm a full-stack software developer and tech enthusiast, holding{' '}
           <b>
-            {' '}
-            a formal L6 software development education from Dev Academy Aotearoa
+            a formal L6 Applied Doftware development from Dev Academy Aotearoa
           </b>
-          , I am deeply passionate about quality and constantly strive to
-          improve my skills.I am a committed, adaptive and a fast learner with a
-          strong passion for continuous learning and self-improvement. I thrive
-          on challenges, and am excited at the prospect of joining your team to
-          contribute, grow and pursuing my passion.
+          I'm a dedicated, adaptive and fast learner, passionate about
+          continuous growth. Thriving on challenges, I'm eager to join your
+          team, contribute, and pursue my passion.
         </p>
       </div>
 
@@ -77,7 +74,7 @@ function Body() {
         </h1>
         <p className="p1">
           I'm deeply passionate about web development and constantly enhancing
-          my skills. I'm particularly drawn to cloud solutions, having learned{' '}
+          my skills. I'm particularly drawn to cloud solutions, having learned
           <b>AWS, Azure Fundamentals, and AI</b>. I'm gearing up to take the
           Microsoft Azure exam soon.
         </p>
