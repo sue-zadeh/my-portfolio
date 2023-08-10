@@ -58,7 +58,7 @@ function Body() {
         <p className="p1">
           I'm a full-stack developer and tech enthusiast, with a{' '}
           <b>
-            formal L6 Applied Doftware development from Dev Academy Aotearoa
+            formal L6 Applied Software Development from Dev Academy Aotearoa
           </b>
           . I'm a dedicated, fast learner, eager to contribute and pursue my
           passion in a challenging environment.
