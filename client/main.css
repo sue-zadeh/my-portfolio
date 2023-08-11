@@ -468,7 +468,6 @@ h4 {
   color:white;
   line-height: 2.25em;
 }
-
 .div-me2 {
   margin-bottom: 1em;
   padding-bottom: 2em;
@@ -547,7 +546,7 @@ h4 {
   text-align:justify;
   text-justify: distribute;
   /* text-align-last: left; */
-  word-spacing:-3px;
+  word-spacing:-2.5px;
   line-height: 35px;
   border-radius: 30px;
   border: 2px dashed;
@@ -558,9 +557,9 @@ h4 {
   box-shadow: 1px 2px 5px 5px #5e6264;
 } 
 .push-word {
-  padding-right: 3em;
-  color: rgb(240, 240, 165);
-  font-size: 19px;
+  padding-left: 9rem;
+  color: rgb(238, 238, 206);
+  font-size: 20px;
 }
 .aa{
   color: #eedfcc;
@@ -570,7 +569,7 @@ h4 {
   font-weight: bold;
   font-size: 1em;
   text-align: right;
-  padding-right: 2em;
+  padding-right: 25px;
 }
 .aa:hover {
   align-items: end;

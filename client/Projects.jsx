@@ -27,15 +27,15 @@ function Projects() {
         <div className="div-squish">
           <p className="p-projects">
             <b>
-              Currently, I am working on improving the 'DevStagram' project by
-              building a chatroom with media capabilities. The changes have been
-              saved in the 'chatroom-app' repository.
+              Chatroom With Media: Currently, I am working on improving the
+              'DevStagram' project by building a chatroom with media
+              capabilities. The changes have been saved in the 'chatroom-app'
+              repository.
               <br />
               I used Firebase and Realtime Database to build the necessary
               functionalities.
               <br />{' '}
-              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
               {/* <span className="push-word">
                 <b> ( On going )</b>
               </span> */}
@@ -52,7 +52,7 @@ function Projects() {
                 style={{
                   paddingRight: '3em',
                   color: 'rgb(240, 240, 165)',
-                  fontSize: '19px',
+                  fontSize: '20px',
                   textDecoration: 'none',
                 }}
               >
