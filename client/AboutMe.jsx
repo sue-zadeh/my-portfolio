@@ -25,7 +25,7 @@ function AboutMe() {
           workshop teacher and supervisor for six years.
           <br />
           After moving to New Zealand, I enrolled in Dev Academy to further
-          expand my knowledge. It was an intensive course, and I loved every
+          expand my knowledge. It was an intensive course, but I loved every
           moment of it. I constantly learned new technologies through
           individual, pair, and group projects. In addition to technical skills,
           I also gained valuable human skills, including teamwork, active
