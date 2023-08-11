@@ -508,6 +508,8 @@ h4 {
   left: 25%;
   bottom: 20%;
   text-align:justify;
+  justify-content: center;
+  align-items: center;
   text-justify: distribute;
   /* text-align-last: left; */
   word-spacing:-0.5px;
