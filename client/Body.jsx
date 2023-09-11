@@ -41,7 +41,7 @@ function Body() {
           Need a printable version of my CV?
           <a
             className="download2"
-            href="https://drive.google.com/file/d/17R7Z3qglfvFgV5sx51QYVAzmzSltkMBi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1c4TbteaqGYy6EwL4evx1peZAcMJxo4-f/view?usp=drive_link"
             target="_blank"
           >
             Download it here

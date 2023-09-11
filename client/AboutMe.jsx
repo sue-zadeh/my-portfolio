@@ -1,12 +1,11 @@
 import React from 'react'
-import NavBar from './NavBar'
-import developer1 from './Assets/developer1.jpg'
+import Developer1 from './Assets/developer1.jpg'
 import { MdDeveloperBoard } from 'react-icons/md'
 
 function AboutMe() {
   return (
     <div className="AboutMe">
-      <img className="img" src={developer1} alt="Computer" />
+      <img className="img" src={Developer1} alt="Computer" />
       <div className="content">
         <h1 className="h-me2">
           <MdDeveloperBoard
