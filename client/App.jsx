@@ -4,22 +4,12 @@ import Home from './Home'
 import Projects from './Projects'
 import AboutMe from './AboutMe'
 import ContactMe from './ContactMe'
-import NavBar from './NavBar' // Import the NavBar component
+import NavBar from './NavBar'
 
 function App() {
   return (
-    //   </Routes>
-    // <Router>
-    //   <div>
-    //     <Home />
-    //     <AboutMe />
-    //     <Projects />
-    //     <ContactMe />
-    //   </div>
-    // </Router>
-
     <Router>
-      <NavBar /> {/* Keep the NavBar component here */}
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/AboutMe" element={<AboutMe />} />
