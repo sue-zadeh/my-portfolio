@@ -23,8 +23,7 @@ function Projects() {
     <div className="projects">
       <div className="projects1">
         <h2 className="h2-projects">Projects</h2>
-
-{/*         <div className="div-squish">
+        {/*         <div className="div-squish">
           <p className="p-projects">
             <b>
               Chatroom With Media: Currently, I am working on improving the
@@ -36,10 +35,10 @@ function Projects() {
               functionalities.
               <br />{' '}
               {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
-              {/* <span className="push-word">
+        {/* <span className="push-word">
                 <b> ( On going )</b>
               </span> */}
-            </b>
+        {/* </b>
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/chatroom-App"
@@ -82,11 +81,9 @@ function Projects() {
             {/* <br /> */}
           </p>
         </div>
-
         {/* className="pro1"
           onMouseEnter={() => setShowText(true)}
           onMouseLeave={() => setShowText(false)} */}
-
         {/* <div className="rows"> */}
         <div className="div-squish">
           <p className="p-projects">
@@ -199,11 +196,11 @@ function Projects() {
           <p className="p-projects">
             <b>
               I built this website in February 2021 based on my self-studying
-              and online courses. It is about an Iranian music band (folk
-              music), created using HTML5 and CSS3. I want to transition this
-              website from HTML to ReactJS, and add back-end functionality to
-              the site.
-            </b>
+              and online courses.
+            </b>{' '}
+            It is about an Iranian music band (folk music), created using HTML5
+            and CSS3. I want to transition this website from HTML to ReactJS,
+            and add back-end functionality to the site.
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/music-band"
