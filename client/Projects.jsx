@@ -23,7 +23,7 @@ function Projects() {
     <div className="projects">
       <div className="projects1">
         <h2 className="h2-projects">Projects</h2>
-        <div className="div-squish">
+        {/* <div className="div-squish">
           <p className="p-projects">
             <b>
               Chatroom With Media: Currently, I am working on improving the
@@ -35,8 +35,8 @@ function Projects() {
               functionalities.
               <br />{' '}
               {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{' '} */}
-              <span className="push-word">{/* <b> ( On going )</b> */}</span>
-            </b>
+        {/* <span className="push-word">{/* <b> ( On going )</b> </span> */}
+        {/* </b>
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/chatroom-App"
@@ -58,7 +58,7 @@ function Projects() {
             </a>
             <img className="picsquish" src={Chat} alt="Chat" />
           </p>
-        </div>
+        </div> */}
         <div className="div-squish">
           <p className="p-projects">
             This website ( DevStagram ) was a one-day group project that
