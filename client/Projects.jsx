@@ -23,7 +23,7 @@ function Projects() {
     <div className="projects">
       <div className="projects1">
         <h2 className="h2-projects">Projects</h2>
-        {/*         <div className="div-squish">
+        <div className="div-squish">
           <p className="p-projects">
             <b>
               Chatroom With Media: Currently, I am working on improving the
@@ -34,11 +34,9 @@ function Projects() {
               I used Firebase and Realtime Database to build the necessary
               functionalities.
               <br />{' '}
-              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
-        {/* <span className="push-word">
-                <b> ( On going )</b>
-              </span> */}
-        {/* </b>
+              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{' '} */}
+              <span className="push-word">{/* <b> ( On going )</b> */}</span>
+            </b>
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/chatroom-App"
@@ -60,7 +58,7 @@ function Projects() {
             </a>
             <img className="picsquish" src={Chat} alt="Chat" />
           </p>
-        </div> */}
+        </div>
         <div className="div-squish">
           <p className="p-projects">
             This website ( DevStagram ) was a one-day group project that
@@ -198,12 +196,25 @@ function Projects() {
             online courses. It is about an Iranian music band (folk music),
             created using HTML5 and CSS3. I want to transition this website from
             HTML to ReactJS, and add back-end functionality to the site.
+            <br />
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/music-band"
               target="blank"
             >
-              view my project here
+              view my project here <br />
+              <br />
+              <br />
+              <span
+                style={{
+                  paddingRight: '3em',
+                  color: 'rgb(240, 240, 165)',
+                  fontSize: '23px',
+                  textDecoration: 'none',
+                }}
+              >
+                <b>( 2020 )</b>
+              </span>
             </a>
             <img className="picsquish" src={Music} alt="Music" />
           </p>
