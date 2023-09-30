@@ -33,7 +33,7 @@ body {
 
   /* background-color: #b3caca; */
 }
-@media only screen and (max-width: 600px){
+@media  screen and (max-width: 400px){
   .Banner {
 padding: 2px;
 height: 32vh;

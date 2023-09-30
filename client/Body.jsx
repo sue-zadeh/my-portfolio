@@ -19,8 +19,8 @@ function Body() {
       <div className="grid1">
         <div className="personal">
           <h1 className="hh2">Personal Info</h1>
-          <p className="p3"> Name:</p>
-          <p className="p2">Sue Raisianzadeh</p>
+          {/* <p className="p3"> Name:</p>
+          <p className="p2">Sue Raisianzadeh</p> */}
           <p className="p3">Phone:</p>
           <p className="p2">0212049836</p>
           <p className="p3">Email:</p>
@@ -75,7 +75,7 @@ function Body() {
           <b>AWS, Azure Fundamentals, and AI</b>. I'm gearing up to take the
           Microsoft Azure exam soon.
         </p>
-        <h1 className="hh2">
+        {/* <h1 className="hh2"> 
           <RiThumbUpFill size={35} /> How do I do it?
         </h1>
         <p className="p1">
@@ -83,7 +83,7 @@ function Body() {
           With strong communication skills, I seek improvement, prioritize open
           communication, and leverage technology for growth while pursuing my
           tech passion.
-        </p>
+        </p>  */}
 
         <div className="Social social-container">
           {/* <h2 className="social2">Social</h2> */}
