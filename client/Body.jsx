@@ -72,10 +72,11 @@ function Body() {
             supervisory experience in computer workshops in Iran, and a formal
             L6 Applied Software Development from Dev Academy Aotearoa.
           </b>{' '}
-          I'm particularly drawn to cloud solutions, having learned
-          <b>AWS, Azure Fundamentals, and AI</b>. I'm gearing up to take the
-          Microsoft Azure exam soon. . I'm a dedicated, fast learner, eager to
-          contribute and pursue my passion in a challenging environment.
+          I have learned &nbsp;
+          <b>AWS, Azure Fundamentals, and AI, After graduating</b>. I'm gearing
+          up to take the Microsoft Azure exam soon. <br /> I'm a dedicated, fast
+          learner, eager to contribute and pursue my passion in a challenging
+          environment.
         </p>
         {/* <h1 className="hh2">
           <BsQuestionSquare size={35} /> What do I do?

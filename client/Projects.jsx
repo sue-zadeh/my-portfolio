@@ -23,26 +23,27 @@ function Projects() {
     <div className="projects">
       <div className="projects1">
         <h2 className="h2-projects">Projects</h2>
-        {/* <div className="div-squish">
+        <div className="div-squish">
           <p className="p-projects">
             <b>
-              Chatroom With Media: Currently, I am working on improving the
-              'DevStagram' project by building a chatroom with media
-              capabilities. The changes have been saved in the 'chatroom-app'
-              repository.
+              Chatroom With Media: Currently, I am working on building a
+              chatroom with media capabilities. The changes have been saved in
+              the 'chatroom-app' repository.
               <br />
               I used Firebase and Realtime Database to build the necessary
               functionalities.
               <br />{' '}
               {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{' '} */}
-        {/* <span className="push-word">{/* <b> ( On going )</b> </span> */}
-        {/* </b>
+              <span className="push-word"> </span>
+            </b>
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/chatroom-App"
+              href="https://github.com/sue-raisianzadeh/chatroom"
               target="blank"
             >
-              view my project here <br />
+              view my project here
+              <br /> (My Personal Project)
+              <br />
               <br />
               <br />
               <span
@@ -58,7 +59,8 @@ function Projects() {
             </a>
             <img className="picsquish" src={Chat} alt="Chat" />
           </p>
-        </div> */}
+        </div>{' '}
+        */}
         <div className="div-squish">
           <p className="p-projects">
             This website ( DevStagram ) was a one-day group project that
