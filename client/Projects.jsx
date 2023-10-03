@@ -42,7 +42,16 @@ function Projects() {
               target="blank"
             >
               view my project here
-              <br /> (My new Personal Project)
+              <br />
+              <span
+                style={{
+                  color: 'rgb(210, 220, 215)',
+                  fontSize: '0.85em',
+                  textDecoration: 'none',
+                }}
+              >
+                <b>(My new Personal Project)</b>
+              </span>
               <br />
               <br />
               <br />
@@ -60,7 +69,6 @@ function Projects() {
             <img className="picsquish" src={Chat} alt="Chat" />
           </p>
         </div>{' '}
-        */}
         <div className="div-squish">
           <p className="p-projects">
             This website ( DevStagram ) was a one-day group project that
