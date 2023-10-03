@@ -74,9 +74,11 @@ function Body() {
           </b>{' '}
           I have learned &nbsp;
           <b>AWS, Azure Fundamentals, and AI, After graduating</b>. I'm gearing
-          up to take the Microsoft Azure exam soon. <br /> I'm a dedicated, fast
-          learner, eager to contribute and pursue my passion in a challenging
-          environment.
+          up to take the Microsoft Azure exam soon. <br />{' '}
+          <b>
+            I'm a dedicated, fast learner, eager to contribute and pursue my
+            passion in a challenging environment.
+          </b>
         </p>
         {/* <h1 className="hh2">
           <BsQuestionSquare size={35} /> What do I do?
