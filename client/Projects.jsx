@@ -26,12 +26,9 @@ function Projects() {
         <div className="div-squish">
           <p className="p-projects">
             <b>
-              Chatroom With Media: Currently, I am working on building a
-              chatroom with media capabilities. The changes have been saved in
-              the 'chatroom-app' repository.
-              <br />
-              I used Firebase and Realtime Database to build the necessary
-              functionalities.
+              Currently, I am developing a chatroom with media capabilities
+              using React.js and SCSS for the front-end, and Firebase with
+              Realtime Database to implement the necessary functionalities.
               <br />{' '}
               {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{' '} */}
               <span className="push-word"> </span>
