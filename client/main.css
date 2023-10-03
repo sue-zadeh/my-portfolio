@@ -30,9 +30,8 @@ body {
   padding-bottom:0px;
   width: 95vm;
   height: 25vh;
-
-  /* background-color: #b3caca; */
 }
+
 @media  screen and (max-width: 400px){
   .Banner {
 padding: 2px;
@@ -77,8 +76,6 @@ height: 32vh;
 }
 
 /* NavBar */
-
-
 .NavBar {
   display: flex;
   flex-direction: row;
@@ -124,6 +121,53 @@ height: 32vh;
   box-shadow: 0 4px rgb(141, 141, 141);
   transform: translateY(7px);
 }
+
+/* Tablet, mid-small view */
+  @media  screen and (max-width: 1000px) {
+ .NavBar {
+            font-size: 0.9em;
+            padding:0px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 0.05em;
+  } 
+  
+    .Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
+  background-color: rgb(152, 115, 168);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width:21vw;
+  font-weight: bold;
+  text-align: center;
+  /* padding: 2%; */
+  color: rgb(239, 236, 236);
+  border: none;
+  border:dashed 2px #e0c397; 
+  border-radius: 15px;
+  text-decoration: none;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: #8181ac;
+    
+  }
+  .grid-wrapper{
+    grid-gap: 0.5em
+  }
+  .body{
+    grid-gap: 0.5em,
+  }
+
+  .grid1, .grid2, .grid3 {
+    padding: 250px 60px 10px 25px;
+     
+  }
+  }
+
 @media screen and (max-width: 600px){
   .NavBar {
             font-size: 0.9em;
@@ -302,8 +346,8 @@ height: 32vh;
   padding: 0px 5px;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.01em;
-  line-height: 31px;
+  font-size: 1.04em;
+  line-height: 32px;
   text-align: justify;
   word-spacing: -1.15px;
 }
@@ -475,14 +519,14 @@ h4 {
   /* overflow: hidden; */
   white-space:normal;
   /* border-right: 2px solid; */
-  width: 0;
-  animation: typing 1s steps(50, end) forwards, blinking 1s infinite;
+  /* width: 0; */
+  /* animation: typing 1s steps(50, end) forwards, blinking 1s infinite; */
 }
   
-   @keyframes typing {
+   /* @keyframes typing {
   from { width: 0 }
   to { width: 70% }
-} 
+}  */
 
  /* @keyframes blinking {
   0% {border-color: transparent}

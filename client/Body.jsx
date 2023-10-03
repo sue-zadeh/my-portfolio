@@ -38,7 +38,7 @@ function Body() {
       <div className="grid2">
         <h1 className="hh5">Download</h1>
         <p className="pp4">
-          Need a printable version of my CV?
+          Need a printable version of my CV ?
           <br />
           <a
             className="download2"
