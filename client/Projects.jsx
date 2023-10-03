@@ -42,7 +42,7 @@ function Projects() {
               target="blank"
             >
               view my project here
-              <br /> (My Personal Project)
+              <br /> (My new Personal Project)
               <br />
               <br />
               <br />
