@@ -373,8 +373,12 @@ h4 {
 }
 .download2 {
   color: #e1efa9;
-  font-size: 20px;
+  font-size: 1.2em;
   text-decoration: none;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  padding-left: 2em;
   /* margin-left: 10px;
   margin-right: 10px;   */
 }
@@ -473,19 +477,19 @@ h4 {
   white-space:normal;
   /* border-right: 2px solid; */
   width: 0;
-  animation: typing 4s steps(50, end) forwards, blinking 3s infinite;
+  animation: typing 1s steps(50, end) forwards, blinking 1s infinite;
 }
   
-@keyframes typing {
+   @keyframes typing {
   from { width: 0 }
   to { width: 70% }
-}
+} 
 
-@keyframes blinking {
+ /* @keyframes blinking {
   0% {border-color: transparent}
   50% {border-color: black}
   100% {border-color: transparent}
-}
+}  */
 
 .div-me2 {
   margin-bottom: 1em;

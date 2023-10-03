@@ -39,6 +39,7 @@ function Body() {
         <h1 className="hh5">Download</h1>
         <p className="pp4">
           Need a printable version of my CV?
+          <br />
           <a
             className="download2"
             href="https://drive.google.com/file/d/1FSN7MKxwscyFw1uKp2RzfJUfR-ubQ8iy/view?usp=sharing"
@@ -48,25 +49,35 @@ function Body() {
             <ImDownload2
               size={28}
               color="white"
-              style={{ marginLeft: '10px', marginRight: '10px' }}
+              style={{
+                marginLeft: '10px',
+                marginRight: '10px',
+                alignItems: 'center',
+                justifySelf: 'center',
+                textAlign: 'center',
+              }}
             />
           </a>
-        </p>
-        <h1 className="hire">
-          <RiFlashlightLine size={45} /> Why hire me?
-        </h1>
-        <p className="p1">
-          I'm a full-stack developer and tech enthusiast, with a{' '}
-          <b>
-            formal L6 Applied Software Development from Dev Academy Aotearoa
-          </b>
-          . I'm a dedicated, fast learner, eager to contribute and pursue my
-          passion in a challenging environment.
         </p>
       </div>
 
       <div className="grid3">
-        <h1 className="hh2">
+        <h1 className="hire">
+          <RiFlashlightLine size={45} /> Why hire me?
+        </h1>
+        <p className="p1">
+          I'm a full-stack developer{' '}
+          <b>
+            with a strong passion for coding, six years of teaching and
+            supervisory experience in computer workshops in Iran, and a formal
+            L6 Applied Software Development from Dev Academy Aotearoa.
+          </b>{' '}
+          I'm particularly drawn to cloud solutions, having learned
+          <b>AWS, Azure Fundamentals, and AI</b>. I'm gearing up to take the
+          Microsoft Azure exam soon. . I'm a dedicated, fast learner, eager to
+          contribute and pursue my passion in a challenging environment.
+        </p>
+        {/* <h1 className="hh2">
           <BsQuestionSquare size={35} /> What do I do?
         </h1>
         <p className="p1">
@@ -74,7 +85,7 @@ function Body() {
           my skills. I'm particularly drawn to cloud solutions, having learned
           <b>AWS, Azure Fundamentals, and AI</b>. I'm gearing up to take the
           Microsoft Azure exam soon.
-        </p>
+        </p> */}
         {/* <h1 className="hh2"> 
           <RiThumbUpFill size={35} /> How do I do it?
         </h1>
