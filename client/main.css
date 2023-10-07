@@ -598,15 +598,16 @@ h4 {
 
 .div-squish {
   display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
   justify-items: center;
   align-content: center;
-  margin: 10px auto;
-  padding: auto;
+  margin: 10px;
+  padding: 5px;
 }
 .p-projects {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-  width: 40%;
+  width: 65%;
   height: 78%;
   font-family: 'Arial', 'Montserrat', sans-serif;
   color: white;
@@ -625,7 +626,7 @@ h4 {
   box-shadow: 1px 2px 5px 5px #5e6264;
 } 
 .push-word {
-  padding-left: 9rem;
+  padding-left: 8rem;
   color: rgb(238, 238, 206);
   font-size: 20px;
 }

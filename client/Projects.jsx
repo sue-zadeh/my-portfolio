@@ -26,35 +26,26 @@ function Projects() {
         <div className="div-squish">
           <p className="p-projects">
             <b>
-              Currently, I am developing a chatroom with media capabilities
-              using React.js and SCSS for the front-end, and Firebase with
-              Realtime Database to implement the necessary functionalities.
+              Chatroom With Media: Currently, I am working on improving the
+              'DevStagram' project by building a chatroom with media
+              capabilities. The changes have been saved in the 'chatroom-app'
+              repository.
+              <br />
+              I used Firebase and Realtime Database to build the necessary
+              functionalities.
               <br />{' '}
-              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{' '} */}
-              <span className="push-word"> </span>
+              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
+              <span className="push-word">{/* <b> ( On going )</b> */}</span>
             </b>
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/chatroom"
+              href="https://github.com/sue-raisianzadeh/chatroom-App"
               target="blank"
             >
-              view my project here
-              <br />
+              view my project here <br />
               <span
                 style={{
-                  color: 'rgb(210, 220, 215)',
-                  fontSize: '0.85em',
-                  textDecoration: 'none',
-                }}
-              >
-                <b>(My new Personal Project)</b>
-              </span>
-              <br />
-              <br />
-              <br />
-              <span
-                style={{
-                  paddingRight: '3em',
+                  paddingRight: '1.5em',
                   color: 'rgb(240, 240, 165)',
                   fontSize: '20px',
                   textDecoration: 'none',
@@ -65,8 +56,9 @@ function Projects() {
             </a>
             <img className="picsquish" src={Chat} alt="Chat" />
           </p>
-        </div>{' '}
-        <div className="div-squish">
+          {/* </div>
+  
+        <div className="div-squish"> */}
           <p className="p-projects">
             This website ( DevStagram ) was a one-day group project that
             retrieves information, displays it on another page, and allows users
@@ -85,12 +77,12 @@ function Projects() {
             <img className="picsquish" src={Devstagram} alt="Devstagram" />
             {/* <br /> */}
           </p>
-        </div>
-        {/* className="pro1"
+          {/* </div> */}
+          {/* className="pro1"
           onMouseEnter={() => setShowText(true)}
           onMouseLeave={() => setShowText(false)} */}
-        {/* <div className="rows"> */}
-        <div className="div-squish">
+          {/* <div className="rows"> */}
+          {/* <div className="div-squish"> */}
           <p className="p-projects">
             <b>
               It was a final group project, which lasted 1 week, and is a game
@@ -109,13 +101,13 @@ function Projects() {
             </a>
             <img className="picsquish" src={Squish} alt="Jumpy" />
           </p>
-        </div>
-        {/* {showText && ( */}
-        {/* // <div className="text-layer"> */}
-        {/* show the text layer when showText is true */}
-        {/* </div>
+          {/* </div> */}
+          {/* {showText && ( */}
+          {/* // <div className="text-layer"> */}
+          {/* show the text layer when showText is true */}
+          {/* </div>
         </div> */}
-        {/* <div className="div-squish">
+          {/* <div className="div-squish">
           <p className="p-projects">
             The website provides list of movies based on genres, using React.js,
             Typescript and API . It was a good practice to learn more about API
@@ -131,8 +123,8 @@ function Projects() {
             <img className="picsquish" src={Devflix} alt="Flim" />
           </p>
         </div> */}
-        {/* </div> */}
-        <div className="div-squish">
+          {/* </div> */}
+          {/* <div className="div-squish"> */}
           <p className="p-projects">
             This is the Minesweeper game, using Javascript and CSS3. I built
             this to have more practice on javascript
@@ -162,9 +154,9 @@ function Projects() {
             </a>
             <img className="picsquish" src={Toe} alt="Toe" />
           </p>
-        </div>
-        {/* <div className="rows"> */}
-        <div className="div-squish">
+          {/* </div> */}
+          {/* <div className="rows"> */}
+          {/* <div className="div-squish"> */}
           <p className="p-projects">
             This website was a one-day group project. It is a game created using
             React.js,Redux.js, Typescript. In the group, my role was to work as
@@ -179,8 +171,8 @@ function Projects() {
             </a>
             <img className="picsquish" src={Nodeal} alt="Nodeal" />
           </p>
-        </div>
-        <div className="div-squish">
+          {/* </div>
+        <div className="div-squish"> */}
           <p className="p-projects">
             This website was a one-day group project, and it offers information
             about Indian, Italian, Asian, and Vegan restaurants, using CSS3
@@ -196,31 +188,31 @@ function Projects() {
             </a>
             <img className="picsquish" src={Eat} alt="Eat" />
           </p>
-        </div>
-        <div className="div-squish">
+          {/* </div>
+        <div className="div-squish"> */}
           <p className="p-projects">
-            I built this website in February 2020 based on my self-studying and
-            online courses. It is about an Iranian music band (folk music),
-            created using HTML5 and CSS3. I want to transition this website from
-            HTML to ReactJS, and add back-end functionality to the site.
-            <br />
+            <b>
+              I built this website in February 2021 based on my self-studying
+              and online courses. It is about an Iranian music band (folk
+              music), created using HTML5 and CSS3. I want to transition this
+              website from HTML to ReactJS, and add back-end functionality to
+              the site.
+            </b>
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/music-band"
               target="blank"
             >
               view my project here <br />
-              <br />
-              <br />
               <span
                 style={{
-                  paddingRight: '3em',
+                  paddingRight: '1.5em',
                   color: 'rgb(240, 240, 165)',
-                  fontSize: '23px',
+                  fontSize: '20px',
                   textDecoration: 'none',
                 }}
               >
-                <b>( 2020 )</b>
+                <b>( 2021 )</b>
               </span>
             </a>
             <img className="picsquish" src={Music} alt="Music" />
