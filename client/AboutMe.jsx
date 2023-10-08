@@ -16,33 +16,24 @@ function AboutMe() {
           About Me
         </h1>
         <p className="p-me2">
-          I was a teacher in my country when I discovered my passion for
-          technology. I needed to learn computer skills to become a school
-          registrar, and I found it fascinating. I learned more and built two
-          websites for a real estate company and an agricultural company, sat up
-          two computer workshops in a high school, and became a computer
-          workshop teacher and supervisor for six years.
-          <br />
-          After moving to New Zealand, I enrolled in Dev Academy to further
-          expand my knowledge. It was an intensive course, but I loved every
-          moment of it. I constantly learned new technologies through
-          individual, pair, and group projects. In addition to technical skills,
-          I also gained valuable human skills, including teamwork, active
-          listening, conflict resolution, giving and receiving feedback,
-          collaboration, and problem-solving.
-          <br />
-          <b>w</b>hat I loved most was discovering more about myself and
-          realizing how fast I can learn, how hard I work, and how dedicated I
-          am to what I believe in. I also realized that I am skilled in
-          structural thinking and design, which helps me approach problems with
-          creativity and strategic planning.
-          <br />
-          I am an energetic person always eager to learn and improve my skills.
-          I believe that my technical and human skills, coupled with my passion
-          for continuous improvement, will enable my success. I am seeking an
-          opportunity in technology to further enhance my skills and pursue my
-          passion.
-          <br /> <br /> <br />
+          I was a teacher in my home country when I discovered my passion for
+          technology. This led me to learn computer skills, and I quickly became
+          fascinated. I built 2 websites for real estate and agricultural
+          companies and sat up 2 computer workshops in a high school, where I
+          served as a teacher and supervisor for 6 years. After relocating to
+          New Zealand, I joined Dev Academy to expand my knowledge further. I
+          thrived in the intensive course, constantly learning new technologies
+          through various projects. Besides technical skills, I also developed
+          valuable interpersonal skills such as teamwork, active listening,
+          conflict resolution, feedback, collaboration, and problem-solving.
+          What I love most is discovering my ability to learn quickly, work
+          hard, and stay dedicated to my beliefs. I've also realized my
+          proficiency in structural thinking and design, allowing me to approach
+          problems creatively and strategically. I'm an energetic learner,
+          always eager to improve. With my technical and interpersonal skills
+          and a strong passion for continuous growth, I'm seeking opportunities
+          in technology to further enhance my abilities and pursue my passion.
+          <br /> <br />
         </p>
       </div>
     </div>
