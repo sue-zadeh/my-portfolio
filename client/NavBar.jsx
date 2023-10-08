@@ -1,7 +1,6 @@
 import React from 'react'
 // import { Route } from "react-router-dom";
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
 import { MdSchool } from 'react-icons/md'
 import { TiHome } from 'react-icons/ti'
 import { ImDownload2 } from 'react-icons/im'
