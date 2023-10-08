@@ -10,6 +10,11 @@ function App() {
   return (
     <Router>
       <NavBar />
+      {/* <Home />
+      <AboutMe />
+      <Projects />
+      <ContactMe />  */}
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/AboutMe" element={<AboutMe />} />

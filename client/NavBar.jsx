@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Route } from "react-router-dom";
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { MdSchool } from 'react-icons/md'
 import { TiHome } from 'react-icons/ti'
@@ -9,90 +9,46 @@ import { CgStack } from 'react-icons/cg'
 import { FaComment } from 'react-icons/fa'
 
 const NavBar = () => {
-  const [isOpen, setOpen] = useState(false)
   return (
-    <nav role="navigation" aria-label="main navigation">
-      <div className="nav">
-        <a
-          role="navigation"
-          className={` ${isOpen && 'is-active'}`}
-          aria-label="menu"
-          aria-expanded="false"
-          onClick={() => setOpen(!isOpen)}
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+    <div className="nav">
+      <div className="allnav">
+        <ul className="NavBar">
+          <li className="NavBarli">
+            <Link className="Nav1" to="/" style={{ marginRight: '5px' }}>
+              <TiHome size={27} style={{ marginRight: '5px' }} />
+              Home
+            </Link>
+          </li>
 
-        <div className="allnav">
-          <div className={`nav ${isOpen && 'is-active'}`}>
-            <ul className="NavBar">
-              <li className="NavBarli">
-                <NavLink
-                  className="Nav1"
-                  // activeClassName="is-active"
-                  to="/"
-                  style={{ marginRight: '5px' }}
-                >
-                  <TiHome size={27} style={{ marginRight: '5px' }} />
-                  Home
-                </NavLink>
-              </li>
-              {/* <li className="NavBarli">
-                <a
-                  className="Nav2"
-                  // activeClassName="is-active"
-                  href="https://drive.google.com/file/d/17R7Z3qglfvFgV5sx51QYVAzmzSltkMBi/view?usp=sharing"
-                  style={{ marginRight: '5px' }}
-                  target="_blank"
-                  role="button"
-                >
-                  <ImDownload2 size={27} style={{ marginRight: '5px' }} /> My CV
-                </a>
-              </li> */}
-              <li className="NavBarli">
-                <NavLink
-                  className="Nav3"
-                  // activeClassName="is-active"
-                  to="/AboutMe"
-                  style={{ marginRight: '5px' }}
-                  role="button"
-                >
-                  <MdSchool size={27} style={{ paddingRight: '5px' }} />
-                  About Me
-                </NavLink>
-              </li>
-              <li className="NavBarli">
-                <NavLink
-                  className="Nav4"
-                  // activeClassName="is-active"
-                  to="/Projects"
-                  style={{ marginRight: '5px' }}
-                  role="button"
-                >
-                  <CgStack size={27} style={{ marginRight: '5px' }} />
-                  Projects
-                </NavLink>
-              </li>
-              <li className="NavBarli">
-                <NavLink
-                  className="Nav5"
-                  // activeClassName="is-active"
-                  to="/ContactMe"
-                  style={{ marginRight: '5px' }}
-                  role="button"
-                >
-                  <FaComment size={27} style={{ marginRight: '5px' }} />
-                  Contact Me
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        </div>
+          <li className="NavBarli">
+            <Link className="Nav3" to="/AboutMe" style={{ marginRight: '5px' }}>
+              <MdSchool size={27} style={{ paddingRight: '5px' }} />
+              About Me
+            </Link>
+          </li>
+          <li className="NavBarli">
+            <Link
+              className="Nav4"
+              to="/Projects"
+              style={{ marginRight: '5px' }}
+            >
+              <CgStack size={27} style={{ marginRight: '5px' }} />
+              Projects
+            </Link>
+          </li>
+          <li className="NavBarli">
+            <Link
+              className="Nav5"
+              to="/ContactMe"
+              style={{ marginRight: '5px' }}
+            >
+              <FaComment size={27} style={{ marginRight: '5px' }} />
+              Contact Me
+            </Link>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
   )
 }
 
