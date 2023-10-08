@@ -19,7 +19,7 @@ function AboutMe() {
           I was a teacher in my country when I discovered my passion for
           technology. I needed to learn computer skills to become a school
           registrar, and I found it fascinating. I learned more and built two
-          websites for a real estate company and an agricultural company, set up
+          websites for a real estate company and an agricultural company, sat up
           two computer workshops in a high school, and became a computer
           workshop teacher and supervisor for six years.
           <br />
