@@ -1,3 +1,5 @@
+//this page is just for parac ticing
+
 function calc(arr, x, y, z) {
   if (x) {
     // Calculate subarrays for x
