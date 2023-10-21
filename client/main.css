@@ -134,11 +134,12 @@ height: 32vh;
   } 
   
     .Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
-  background-color: rgb(147, 211, 222);
+  background-color: rgb(36, 63, 45);
   display: flex;
+  /* color: black; */
   justify-content: center;
   align-items: center;
-  height: 45px;
+  height: 48px;
   width:21vw;
   font-weight: bold;
   text-align: center;
@@ -152,7 +153,7 @@ height: 32vh;
   
   a:link {
     text-decoration: none;
-    color: #8181ac;
+    color: #a6d49d;
     
   }
   .grid-wrapper{
