@@ -66,15 +66,19 @@ function Body() {
           <RiFlashlightLine size={45} /> Why hire me?
         </h1>
         <p className="p1">
-          I'm a full-stack developer I'm a full-stack developer with six years
-          of teaching and supervisory experience in computer workshops, an L6
-          Applied Software Development certification from Dev Academy Aotearoa,
-          and a growing expertise in&nbsp;{' '}
-          <b> AWS, Azure Fundamentals, and AI. </b>I'm also preparing for the
-          Microsoft Azure exam.{' '}
+          As a full-stack developer with&nbsp;{' '}
           <b>
-            I'm a dedicated, fast learner, eager to contribute and pursue my
-            passion in a challenging environment.
+            {' '}
+            Microsoft's Azure Fundamentals certification, six years of
+            experience
+          </b>{' '}
+          &nbsp;teaching and supervising in computer workshops, an L6 Applied
+          Software Development certification from Dev Academy Aotearoa, and
+          growing expertise in AWS, Azure Fundamentals, and AI, I'm deeply
+          passionate about technology and coding.
+          <b>
+            &nbsp; I'm a dedicated, fast learner, eager to contribute and pursue
+            my passion in a challenging environment.
           </b>
         </p>
         {/* <h1 className="hh2">
