@@ -72,7 +72,7 @@ function Body() {
             Microsoft's Azure Fundamentals certification, six years of
             experience
           </b>{' '}
-          &nbsp;teaching and supervising in computer workshops, an L6 Applied
+          &nbsp;teaching and supervising in computer workshops, and L6 Applied
           Software Development certification from Dev Academy Aotearoa, and
           growing expertise in AWS, Azure Fundamentals, and AI, I'm deeply
           passionate about technology and coding.
