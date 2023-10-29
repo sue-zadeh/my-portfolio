@@ -123,7 +123,54 @@ height: 32vh;
 }
 
 /* Tablet, mid-small view */
-  @media  screen and (max-width: 1400px) {
+@media  screen and (max-width: 1300px) {
+  .NavBar {
+             font-size: 0.9em;
+             padding:0px;
+             text-align: center;
+             align-items: center;
+             justify-content: center;
+             gap: 0.05em;
+   } 
+   
+     .Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
+   background-color: rgb(72, 83, 134);
+   display: flex;
+   /* color: black; */
+   justify-content: center;
+   align-items: center;
+   height: 48px;
+   width:21vw;
+   font-weight: bold;
+   text-align: center;
+   /* padding: 2%; */
+   color: rgb(239, 236, 236);
+   border: none;
+   border:dashed 2px #e0c397; 
+   border-radius: 15px;
+   text-decoration: none;
+   }
+   
+   a:link {
+     text-decoration: none;
+     color: #b4e6aa;
+     
+   }
+   .grid-wrapper{
+     grid-gap: 0.5em
+   }
+   .body{
+     grid-gap: 0.5em,
+   }
+ 
+   .grid1, .grid2, .grid3 {
+     padding: 250px 60px 10px 25px;
+      
+   }
+   }
+
+/* Tablet, mid-small view */
+  @media  screen and (max-width: 1000px) {
  .NavBar {
             font-size: 0.9em;
             padding:0px;
