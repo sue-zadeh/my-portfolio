@@ -102,3 +102,37 @@ numbers.forEach(function (number) {
 })
 
 console.log(doubledNumbers)
+
+/////////
+
+function inventor() {
+  const collection = []
+
+  return {
+    add: function (name) {
+      collection.push(name)
+    },
+    remove: function (name) {
+      const index = collection.indexOf(name)
+      if (index !== -1) {
+        collection.splice(index, 1)
+      }
+    },
+    getList: function () {
+      return collection
+    },
+  }
+}
+
+// Usage example:
+const inventorManager = inventor()
+
+inventorManager.add('Thomas Edison')
+inventorManager.add('Nikola Tesla')
+inventorManager.add('Marie Curie')
+
+console.log(inventorManager.getList()) // Outputs: ["Thomas Edison", "Nikola Tesla", "Marie Curie"]
+
+inventorManager.remove('Nikola Tesla')
+
+console.log(inventorManager.getList()) // Outputs: ["Thomas Edison", "Marie Curie"]
