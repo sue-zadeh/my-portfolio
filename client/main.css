@@ -625,8 +625,8 @@ h4 {
   border: 2px dashed;
   box-shadow: 1px 2px 5px 5px #5e6264;
 padding :1rem 0rem 1rem 0rem;
-margin: 2em;
-border-radius: 18%;
+margin: 4rem;
+border-radius: 8%;
 animation: slideout 2s ease-in; /* Define animation */
 
 }
@@ -655,7 +655,7 @@ animation: slideout 2s ease-in; /* Define animation */
 .h2-projects2 {
   /* margin: 0.1em; */
   letter-spacing: 0.25em;
-  padding: 0.5rem 0rem 0.5rem 0rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
   color: rgb(249, 252, 216);
   font-size: 2.75em;
   font-family: 'Arial', 'Montserrat', sans-serif;
