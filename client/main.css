@@ -552,7 +552,7 @@ h4 {
   margin-bottom: 30px;
   padding-bottom: 3em;
   text-indent: 20px;
-  font-family: Arial, sans-serif, 'Montserrat';
+  font-family: 'cario', Arial, sans-serif, 'Montserrat';
   font-weight:400;
   font-size: 23px;
   text-align:justify;
@@ -612,7 +612,7 @@ h4 {
 }
 /* Projects */
 
-.projects {
+.projects  {
   display: grid;
   grid-template-rows:auto;
   background-color: rgb(7, 9, 13);
@@ -621,9 +621,18 @@ h4 {
   justify-self: center;
   
 }
+.projects2{
+  border: 2px dashed;
+  box-shadow: 1px 2px 5px 5px #5e6264;
+padding :1rem 0rem 1rem 0rem;
+margin: 2em;
+border-radius: 18%;
+animation: slideout 2s ease-in; /* Define animation */
+
+}
 
 @media screen and (max-width: 600px){
-  .h2-projects {
+  .h2-projects, .h2-projects2 {
     letter-spacing: 0.10em;
   }
   
@@ -633,9 +642,22 @@ h4 {
   /* margin: 0.1em; */
   letter-spacing: 0.25em;
   padding-top: 2em;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
   color: rgb(249, 252, 216);
-  font-size: 3em;
+  font-size: 3.5em;
+  font-family: 'cario','Arial', 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 2px 3px 3px #fad9ad;
+  animation: slideout 2s ease-in; /* Define animation */
+
+}
+.h2-projects2 {
+  /* margin: 0.1em; */
+  letter-spacing: 0.25em;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  color: rgb(249, 252, 216);
+  font-size: 2.75em;
   font-family: 'Arial', 'Montserrat', sans-serif;
   font-weight: bolder;
   text-align: center;
