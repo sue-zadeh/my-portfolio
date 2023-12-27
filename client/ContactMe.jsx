@@ -1,8 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import axios from 'axios'
 import NavBar from './NavBar'
 
 function ContactMe() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000, // You can also fine-tune other options
+    })
+  }, [])
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -78,8 +85,10 @@ function ContactMe() {
       </div> */}
 
       <div className="container">
-        <form onSubmit={handleSubmit}>
-          <h2 className="h2-form">Please fill out the form</h2>
+        <form data-aos="fade-down-left" onSubmit={handleSubmit}>
+          <h2 data-aos="fade-down-right" className="h2-form">
+            Please fill out the form
+          </h2>
           <label htmlFor="name">Name:</label>
           <input
             type="text"
