@@ -13,6 +13,7 @@
     "knex": "knex --knexfile ./server/database/knexfile.js"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "axios": "^1.4.0",
     "buid": "^0.3.1",
     "build": "^0.1.4",
