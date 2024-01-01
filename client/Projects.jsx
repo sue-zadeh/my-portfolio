@@ -10,6 +10,7 @@ import Minesweeper from './Assets/minesweeper.png'
 import Toe from './Assets/tic-tac-toe.png'
 import Music from './Assets/music.png'
 import Sportflix from './Assets/Sportflix.png'
+import Smartpanel from './Assets/smart panel.png'
 // import Calc from './Assets/mycalc.png'
 // import Unicorn from './Assets/inflate.png'
 // import Clown from './Assets/clown.png'
@@ -38,9 +39,38 @@ function Projects() {
         </h2>
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
+            Developed for Smart Panel Homes Ltd, this website showcases my
+            volunteer work in web development. Built with ReactJS, CSS, and
+            Bootstrap, it features CSS scroll animations for enhanced user
+            engagement. The site includes a user form, linking entries to a
+            database for efficient client communication. Currently hosted on
+            Railway for feedback, it's set for an upcoming internet launch. View
+            it here:{' '}
+            <a
+              className="aa"
+              href="https://smart-panel-production.up.railway.app/"
+              target="blank"
+            >
+              Smart Panel Homes Ltd
+            </a>
+            <a
+              className="aa"
+              href="https://github.com/sue-raisianzadeh/smart-panel"
+              target="blank"
+            >
+              view my project here
+            </a>
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={Smartpanel}
+              alt="Sportflix"
+            />
+          </p>
+          <p data-aos="fade-down-right" className="p-projects">
             This is An API project I've created. It's a bit like Netflix, but
-            for sports. People can look up different sports, read about them,
-            and use a sidebar to move around, which I think is pretty cool. This
+            for sports. users can look up different sports, read about them, and
+            use a sidebar to move around, which I think is pretty cool. This
             project taught me a lot, especially about using APIs from scratch.
             <br />
             <a

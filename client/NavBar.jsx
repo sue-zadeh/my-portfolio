@@ -10,7 +10,11 @@ const NavBar = () => {
       <div className="allnav">
         <ul className="NavBar">
           <li className="NavBarli">
-            <a className="Nav1" href="#home" style={{ marginRight: '5px' }}>
+            <a
+              className="Nav1 `Nav1 ${isActive('#home')}`"
+              href="#home"
+              style={{ marginRight: '5px' }}
+            >
               <TiHome size={27} style={{ marginRight: '5px' }} />
               Home
             </a>
