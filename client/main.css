@@ -607,8 +607,8 @@ h4 {
   
 }
 .projects2{
-  border: 2px dashed;
-  box-shadow: 1px 2px 5px 5px #5e6264;
+  border: 2px dashed darkred;
+  box-shadow: 1px 2px 5px 5px #6d5f5f;
 padding :1rem 0rem 1rem 0rem;
 font-family: 'cario','Arial', 'Montserrat', sans-serif;
 margin: 4rem;
@@ -675,12 +675,12 @@ animation: slideout 2s ease-in; /* Define animation */
   /* word-spacing:-4.5px; */
   line-height: 35px;
   border-radius: 20px;
-  border: 2px dashed;
+  border: 2px dashed rgb(77, 57, 57);
   justify-content: center;
   margin: 20px 25px; 
   padding: 1.5em 2.70em;
   justify-self: center;
-  box-shadow: 1px 2px 5px 5px #5e6264;
+  box-shadow: 1px 2px 5px 5px #340c02;
   animation: slideout 2s ease-in; /* Define animation */
 
 } 
