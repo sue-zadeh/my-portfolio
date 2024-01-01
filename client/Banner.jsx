@@ -61,9 +61,19 @@ function Banner() {
   }, [sentences.length])
 
   return (
-    <div className="Banner">
+    <div
+      className="Banner"
+      style={{
+        backgroundColor: 'black',
+        paddingTop: '7rem',
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingBottom: '1rem',
+        width: '100%',
+      }}
+    >
       {/* <img className="pic" src={Sue4} alt="Sue4" /> */}
-      <div className="sentence">
+      <div data-aos="fade-down-right" className="sentence">
         <p className="web">
           {sentences[sentenceIndex].text}
           {sentences[sentenceIndex].icon}

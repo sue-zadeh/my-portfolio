@@ -1,12 +1,16 @@
-import React from 'react'
-import Developer1 from './Assets/developer1.jpg'
+import React, { useEffect } from 'react'
 import { MdDeveloperBoard } from 'react-icons/md'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function AboutMe() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 })
+  }, [])
+
   return (
-    <div className="AboutMe">
-      <img className="img" src={Developer1} alt="Computer" />
-      <div className="content">
+    <div data-aos="fade-up" className="AboutMe">
+      <div className="content-about">
         <h1 className="h-me2">
           <MdDeveloperBoard
             size={45}

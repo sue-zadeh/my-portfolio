@@ -21,26 +21,28 @@ import Sportflix from './Assets/Sportflix.png'
 function Projects() {
   useEffect(() => {
     AOS.init({
-      duration: 2000, // You can also fine-tune other options
+      duration: 900, // You can also fine-tune other options
     })
   }, [])
 
   // const [showText, setShowText] = useState(false)
 
   return (
-    <div className="projects">
-      <h2 className="h2-projects">Projects</h2>
+    <div data-aos="fade-up" className="projects">
+      <h2 data-aos="fade-down-right" className="h2-projects">
+        Projects
+      </h2>
       <div className="projects2">
-        <h2 data-aos="fade-down-right" className="h2-projects2">
-          Solo Projects
+        <h2 data-aos="fade-down-left" className="h2-projects2">
+          Solo Projects:
         </h2>
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
-            This is An API project I've been working on. It's a bit like
-            Netflix, but for sports. People can look up different sports, read
-            about them, and use a sidebar to move around, which I think is
-            pretty cool. This project taught me a lot, especially about using
-            APIs from scratch. <br />
+            This is An API project I've created. It's a bit like Netflix, but
+            for sports. People can look up different sports, read about them,
+            and use a sidebar to move around, which I think is pretty cool. This
+            project taught me a lot, especially about using APIs from scratch.
+            <br />
             <a
               className="aa"
               href="https://github.com/sue-raisianzadeh/my-sportlist"
@@ -93,7 +95,8 @@ function Projects() {
               alt="Chat"
             />
           </p>
-
+        </div>
+        <div className="div-squish">
           <p data-aos="fade-up-right" className="p-projects">
             This is the Minesweeper game, using Javascript and CSS3. I built
             this to have more practice on javascript
@@ -167,11 +170,11 @@ function Projects() {
       </div>
       <div className="projects2">
         <h2 data-aos="fade-down-right" className="h2-projects2">
-          group Projects
+          group Projects:
         </h2>
 
         <div className="div-squish">
-          <p className="p-projects">
+          <p data-aos="fade-down-right" className="p-projects">
             This website ( DevStagram ) was a one-day group project that
             retrieves information, displays it on another page, and allows users
             to add data to the JSON using React.js, Redux.js and Typescript. I
@@ -200,7 +203,7 @@ function Projects() {
           onMouseLeave={() => setShowText(false)} */}
           {/* <div className="rows"> */}
           {/* <div className="div-squish"> */}
-          <p className="p-projects">
+          <p data-aos="fade-down-left" className="p-projects">
             <b>
               It was a final group project, which lasted 1 week, and is a game
               Using p5 library, Reactjs, Redux.js, jestT and ypescript . we
@@ -233,7 +236,7 @@ function Projects() {
           {/* </div> */}
           {/* <div className="rows"> */}
           {/* <div className="div-squish"> */}
-          <p className="p-projects">
+          <p data-aos="fade-down-right" className="p-projects">
             This website was a one-day group project. It is a game created using
             React.js,Redux.js, Typescript. In the group, my role was to work as
             the frontend lead.
@@ -254,7 +257,7 @@ function Projects() {
           </p>
           {/* </div>
         <div className="div-squish"> */}
-          <p className="p-projects">
+          <p data-aos="fade-down-right" className="p-projects">
             This website was a one-day group project, and it offers information
             about Indian, Italian, Asian, and Vegan restaurants, using CSS3
             Javascript, server-side handling. I would like to improve this

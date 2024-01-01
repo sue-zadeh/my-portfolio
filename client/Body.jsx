@@ -14,9 +14,13 @@ import { ImLinkedin } from 'react-icons/im'
 
 function Body() {
   return (
-    <div className="Body grid-wrapper">
+    <div
+      // data-aos="fade-up"
+      className="Body grid-wrapper"
+      style={{ backgroundColor: 'black' }}
+    >
       {/* <div className=""> */}
-      <div className="grid1">
+      <div data-aos="fade-down-right" className="grid1">
         <div className="personal">
           <h1 className="hh2">Personal Info</h1>
           {/* <p className="p3"> Name:</p>
@@ -30,12 +34,13 @@ function Body() {
         {/* <p className="p4">Full Stack Web Developer.</p> */}
         <h4>Tech Skills:</h4>
         <p className="p4">
-          HTML5, CSS3, Tailwind, SCSS, Javascript, Typescript, Reactjs, Redux,
-          php, Debugging, SQL, Squlit3, API, firebase, Github, Git, Azure , AWS,
-          Jest, ISTQB, somnia, Postman, railway, Heroku, visual studio
+          Reactjs, Javascript, Typescript, , Redux.js, HTML5, CSS3, Bootstrap,
+          Tailwind, SCSS, php, Debugging, SQL, Squlit3, API, firebase, Github,
+          Git, Azure , AWS, Jest, ISTQB, somnia, Postman, railway, Heroku,
+          visual studio
         </p>
       </div>
-      <div className="grid2">
+      <div data-aos="fade-down-right" className="grid2">
         <h1 className="hh5">Download</h1>
         <p className="pp4">
           Need a printable version of my CV ?
@@ -47,7 +52,7 @@ function Body() {
           >
             Download it here
             <ImDownload2
-              size={28}
+              size={32}
               color="white"
               style={{
                 marginLeft: '10px',
@@ -59,11 +64,27 @@ function Body() {
             />
           </a>
         </p>
+        <div className="Social social-container">
+          <a
+            className="social2"
+            target="blank1"
+            href="https://www.linkedin.com/in/sue-raisianzadeh/"
+          >
+            <ImLinkedin size={35} color="white" />
+          </a>
+          <a
+            className="social2"
+            target="blank"
+            href="https://github.com/sue-raisianzadeh?tab=repositories"
+          >
+            <AiOutlineGithub size={45} color="white" />
+          </a>
+        </div>
       </div>
 
-      <div className="grid3">
+      <div data-aos="fade-down-right" className="grid3">
         <h1 className="hire">
-          <RiFlashlightLine size={45} /> Why hire me?
+          <RiFlashlightLine size={55} /> Why hire me?
         </h1>
         <p className="p1">
           {/* I'm &nbsp;<b>deeply passionate </b>&nbsp;about technology and coding, */}
@@ -85,44 +106,22 @@ function Body() {
         </p>
         {/* <h1 className="hh2">
           <BsQuestionSquare size={35} /> What do I do?
-        </h1>
-        <p className="p1">
+         </h1>
+         <p className="p1">
           I'm deeply passionate about web development and constantly enhancing
           my skills. I'm particularly drawn to cloud solutions, having learned
           <b>AWS, Azure Fundamentals, and AI</b>. I'm gearing up to take the
           Microsoft Azure exam soon.
-        </p> */}
+         </p> */}
         {/* <h1 className="hh2"> 
           <RiThumbUpFill size={35} /> How do I do it?
-        </h1>
-        <p className="p1">
+         </h1>
+         <p className="p1">
           I use agile methods for efficient projects and collaborative teamwork.
           With strong communication skills, I seek improvement, prioritize open
           communication, and leverage technology for growth while pursuing my
           tech passion.
-        </p>  */}
-
-        <div className="Social social-container">
-          {/* <h2 className="social2">Social</h2> */}
-          {/* <a className="social2"  href="https://www.facebook.com/sedighe.raisianzade"><ImFacebook2 /></a> */}
-          <a
-            className="social2"
-            target="blank1"
-            href="https://www.linkedin.com/in/sue-raisianzadeh/"
-          >
-            <ImLinkedin size={35} color="white" />
-          </a>
-          {/* <a className="social2" href="https://twitter.com"><ImTwitter /></a>
-    <a className="social2" href="https://instagram.com/"><ImInstagram /></a>
-    <a className="social2" href="https://Youtube.com"><ImYoutube /></a> */}
-          <a
-            className="social2"
-            target="blank"
-            href="https://github.com/sue-raisianzadeh?tab=repositories"
-          >
-            <AiOutlineGithub size={35} color="white" />
-          </a>
-        </div>
+          </p>  */}
       </div>
       {/* </div> */}
     </div>
