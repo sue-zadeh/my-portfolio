@@ -540,7 +540,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 14rem;
+  padding-top: 12rem;
   font-family: 'Cairo', 'Montserrat', 'Arial', Helvetica, sans-serif;
   background-image: url(./Assets/developer1.jpg); /* Adjusted for demonstration */
   background-size: cover;
@@ -574,23 +574,22 @@ h4 {
 
 @media screen and (max-width: 600px){
   .AboutMe {
-    padding-top: 4rem; /* Reduced padding top for smaller screens */
+    padding-top: 4rem;
   }
 
   .content-about {
-    width: 90%; /* Increased width to utilize more screen space */
-    padding: 1rem; /* Reduced padding for smaller screens */
+    width: 90%; 
+    padding: 1rem; 
   }
 
   .h-me2 {
-    font-size: 2em; /* Smaller font size for headers */
+    font-size: 2em; 
   }
 
   .p-me2 {
-    font-size: 18px; /* Smaller font size for paragraph text */
-  }
+    font-size: 18px; 
 }
-
+}
 
 /* projects */
 
@@ -613,7 +612,7 @@ padding :1rem 0rem 1rem 0rem;
 font-family: 'cario','Arial', 'Montserrat', sans-serif;
 margin: 4rem;
 border-radius: 2%;
-animation: slideout 2s ease-in; /* Define animation */
+animation: slideout 2s ease-in; 
 
 }
 
@@ -625,7 +624,6 @@ animation: slideout 2s ease-in; /* Define animation */
 }
 
 .h2-projects {
-  /* margin: 0.1em; */
   letter-spacing: 0.45em;
   padding-top: 3em;
   padding-bottom: 1em;
@@ -636,7 +634,7 @@ animation: slideout 2s ease-in; /* Define animation */
   font-weight: 500;
   text-align: center;
   text-shadow: 2px 3px 3px #fad9ad;
-  animation: slideout 2s ease-in; /* Define animation */
+  animation: slideout 2s ease-in; 
 
 }
 .h2-projects2 {
