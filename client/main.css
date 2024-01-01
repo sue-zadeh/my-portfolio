@@ -93,10 +93,12 @@ body, html {
             } 
             
             .Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
-              background-color: rgb(72, 83, 134);
+              background-color: rgb(136, 66, 66);
               display: flex;
               /* color: black; */
               justify-content: center;
+              margin-top: 20px;
+              margin-bottom: 1opx;
               align-items: center;
               height: 48px;
               width:21vw;
@@ -112,7 +114,7 @@ body, html {
             
             a:link {
               text-decoration: none;
-              color: #b4e6aa;
+              color: #5f3044;
               
             }
             .grid-wrapper{
@@ -142,7 +144,7 @@ body, html {
           } 
           
           .Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
-  background-color: rgb(36, 63, 45);
+  background-color: rgb(187, 85, 1);
   display: flex;
   /* color: black; */
   justify-content: center;
@@ -190,7 +192,7 @@ a:link {
           } 
           
           .Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
-            background-color: rgb(152, 115, 168);
+            background-color: rgb(88, 3, 23);
             display: flex;
             justify-content: center;
             letter-spacing: 0px;
@@ -208,7 +210,7 @@ a:link {
           }
           a:link {
             text-decoration: none;
-    color: #8181ac;
+    color: #5d2828;
   }
   .grid-wrapper{
     grid-gap: 0.5em
