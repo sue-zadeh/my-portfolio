@@ -10,7 +10,7 @@ import Minesweeper from './Assets/minesweeper.png'
 import Toe from './Assets/tic-tac-toe.png'
 import Music from './Assets/music.png'
 import Sportflix from './Assets/Sportflix.png'
-import Smartpanel from './Assets/smart panel.png'
+import Smartpanel from './Assets/smartpanel.png'
 // import Calc from './Assets/mycalc.png'
 // import Unicorn from './Assets/inflate.png'
 // import Clown from './Assets/clown.png'
@@ -90,10 +90,9 @@ function Projects() {
 
           <p data-aos="fade-down-right" className="p-projects">
             <b>
-              Chatroom With Media: Currently, I am working on improving the
-              'DevStagram' project by building a chatroom with media
-              capabilities. The changes have been saved in the 'chatroom-app'
-              repository.
+              Chatroom With Media. I am working on building a chatroom with
+              media capabilities. The changes have been saved in the
+              'chatroom-app' repository.
               <br />
               I used Firebase and Realtime Database to build the necessary
               functionalities.
@@ -159,7 +158,7 @@ function Projects() {
             </a>
             <img
               data-aos="fade-up-right"
-              className="picsquish"
+              className="picsquish-toe"
               src={Toe}
               alt="Toe"
             />

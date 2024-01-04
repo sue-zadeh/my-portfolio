@@ -221,6 +221,9 @@ a:link {
     padding: 250px 60px 10px 25px;
     
   }
+  .form button {
+    margin-bottom: 2rem;
+  }
 }
 
 /* Banner */
@@ -521,11 +524,11 @@ h4 {
   justify-content: center;
   padding-top: 12rem;
   font-family: 'Cairo', 'Montserrat', 'Arial', Helvetica, sans-serif;
-  background-image: url(./Assets/developer1.jpg); /* Adjusted for demonstration */
+  background-image: url(./Assets/developer1.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: auto; /* Changed from 100vh to auto for better mobile view */
+  height: auto; 
   width: 100%;
   overflow: hidden;
   border-bottom: 3px solid darkred;
@@ -533,16 +536,17 @@ h4 {
 
 .content-about {
   width: 80%;
-  max-width: 88rem; /* Maximum width for larger screens */
+  max-width: 88rem; 
   text-align: center;
   padding: 0 3rem;
-  margin-bottom: 3rem; /* Added space at the bottom */
+  margin-bottom: 3rem; 
 }
 
 .h-me2 {
   font-size: 3em;
   color: white;
-  margin-bottom: 1rem; /* Added space below the header */
+  margin-bottom: 1rem; 
+  /* letter-spacing: 5px; */
 }
 
 .p-me2 {
@@ -688,9 +692,21 @@ animation: slideout 2s ease-in;
   /* display: flex; */
   align-items: center;
   width:278px;
-  height: 280px;
+  height: auto;
   border-radius: 20px;
-  box-shadow: 10px #999;
+  /* box-shadow: 2px #474646; */
+  margin-top: opx;
+  /* margin-left: 20px; */
+  box-shadow: 6px 6px 6px 6px #57595a;
+}
+
+.picsquish-toe {
+  /* display: flex; */
+  align-items: center;
+  width:278px;
+  height: 220px;
+  border-radius: 20px;
+  /* box-shadow: 2px #474646; */
   margin-top: opx;
   /* margin-left: 20px; */
   box-shadow: 6px 6px 6px 6px #57595a;
@@ -719,7 +735,7 @@ animation: slideout 2s ease-in;
   flex-direction: row;
   gap: 35px;
   margin-top: 10px;
-  box-shadow: 1px 2px 5px 5px #999;
+  box-shadow: 1px 2px 2px 2px #2b2b2b;
 }
 
 /* ContactMe */
