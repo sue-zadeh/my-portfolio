@@ -139,7 +139,7 @@ function Projects() {
             </a>
             <img
               data-aos="fade-up-right"
-              className="picsquish"
+              className="picsquish-toe"
               src={Minesweeper}
               alt="Minesweeper"
             />
@@ -190,7 +190,7 @@ function Projects() {
             </a>
             <img
               data-aos="fade-up-right"
-              className="picsquish"
+              className="picsquish-toe"
               src={Music}
               alt="Music"
             />

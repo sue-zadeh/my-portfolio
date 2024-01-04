@@ -590,7 +590,7 @@ h4 {
 }
 .projects2{
   border: 2px dashed darkred;
-  box-shadow: 1px 2px 5px 5px #6d5f5f;
+  box-shadow: 1px 2px 2px 2px #6d5f5f;
 padding :1rem 0rem 1rem 0rem;
 font-family: 'cario','Arial', 'Montserrat', sans-serif;
 margin: 4rem;
@@ -629,7 +629,7 @@ animation: slideout 2s ease-in;
   font-family: 'cario','Arial', 'Montserrat', sans-serif;
   font-weight: 500;
   text-align: left;
-  text-shadow: 2px 3px 3px #fad9ad;
+  text-shadow: 2px 3px 2px #fad9ad;
 }
 
 .div-squish {
@@ -639,7 +639,7 @@ animation: slideout 2s ease-in;
   align-content: center;
   margin: 10px;
   padding: 5px;
-  animation: slideout 2s ease-in; /* Define animation */
+  animation: slideout 2s ease-in; 
 
 }
 .p-projects {
@@ -652,8 +652,6 @@ animation: slideout 2s ease-in;
   font-size: 19px;
   text-align:left;
   text-justify: distribute;
-  /* text-align-last: left; */
-  /* word-spacing:-4.5px; */
   line-height: 35px;
   border-radius: 20px;
   border: 2px dashed rgb(77, 57, 57);
@@ -672,7 +670,6 @@ animation: slideout 2s ease-in;
 }
 .aa{
   color: #eedfcc;
-  /* text-shadow: 1px #999; */
   align-items: right;
   text-decoration: underline;
   font-weight: bold;
@@ -689,58 +686,32 @@ animation: slideout 2s ease-in;
 }
 
 .picsquish {
-  /* display: flex; */
   align-items: center;
   width:278px;
   height: auto;
   border-radius: 20px;
-  /* box-shadow: 2px #474646; */
   margin-top: opx;
-  /* margin-left: 20px; */
-  box-shadow: 6px 6px 6px 6px #57595a;
+  box-shadow: 4px 3px 3px 3px #57595a;
 }
 
 .picsquish-toe {
-  /* display: flex; */
   align-items: center;
   width:278px;
-  height: 220px;
+  height: 190px;
   border-radius: 20px;
-  /* box-shadow: 2px #474646; */
   margin-top: opx;
-  /* margin-left: 20px; */
-  box-shadow: 6px 6px 6px 6px #57595a;
+  box-shadow: 4px 3px 3px 3px #3c3d3d;
 }
-
- /* .text-layer {
-  width: 40%;
-  height: 10%;
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 0.5rem;
-  padding: 0.5rem;
-  box-sizing: border-box; */
-  /* z-index: 1; make sure the text layer is above the image */
-/* }  */ */
-
 
 .game-images {
   display: flex;
   flex-direction: row;
   gap: 35px;
   margin-top: 10px;
-  box-shadow: 1px 2px 2px 2px #2b2b2b;
+  box-shadow: 2px 2px 2px 2px #2b2b2b;
 }
 
 /* ContactMe */
-
-
 
 .container {
   display: flex;
@@ -748,10 +719,6 @@ animation: slideout 2s ease-in;
   background-color: black;
 }
 
-/* .devNavcontact {
-  margin-top: 6em;
-
-} */
 .h2-form {
   margin-top: 20px;
   padding-bottom: 2rem !important;
