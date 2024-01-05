@@ -632,7 +632,6 @@ animation: slideout 2s ease-in;
   justify-self: center;
   box-shadow: 1px 2px 5px 5px #340c02;
   animation: slideout 2s ease-in; 
-
 } 
 .push-word {
   padding-left: 8rem;
@@ -736,7 +735,7 @@ form label {
   justify-self: center;
   justify-content: center;
   align-items: center;
-  height: 50px; /* Decreased height to bring the labels closer to the input boxes */
+  height: 50px; 
   line-height: 90px; 
 }
 
@@ -808,7 +807,7 @@ form button:active {
   color:white;
   text-align: center;
   box-shadow: 2px 2px #868889;
-  z-index: 9999; /* Higher z-index value to bring it to the top */
+  z-index: 9999; 
 }
 
 .popup p {
