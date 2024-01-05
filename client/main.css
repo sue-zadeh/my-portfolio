@@ -313,11 +313,7 @@ height: 32vh;
   margin: auto;
   padding: 0px;
   padding-bottom: 3rem;
-  /* opacity: 1;  */
-  /* text-justify: distribute; */
-  /* text-align-last: left; */
-  /* word-spacing: -1.5px; */
-  /* animation: slideIn 2s ease-in;  */
+  
 }
 
 
@@ -336,10 +332,7 @@ height: 32vh;
   padding-top: 0px;
   line-height: 1.78em;
   margin: 20px 5px;
-  /* box-shadow: 2px #737779; */
-  /* text-justify: distribute; */
-  /* word-spacing: -1.5px; */
-
+ 
 } 
 
 .personal {
@@ -360,12 +353,7 @@ height: 32vh;
   padding: 20px;
   margin: 58px 8px 0px 8px;
   line-height: 1.79em;
-  /* border-radius: 45px; */
-  /* text-justify: distribute; */
-  /* text-align-last: left; */
-  /* word-spacing:-0.75px; */
-  
-}
+ }
 
 .p4 {
   display: flex;
@@ -379,9 +367,7 @@ height: 32vh;
   font-weight:300;
   text-align: center;
   text-align: left;
-  /* word-spacing: -5px */
-  ;
-}
+ }
 
 .p1 {
   padding: 0rem 1rem 0.5rem 2rem;
@@ -389,9 +375,7 @@ height: 32vh;
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
   font-size: 1.04em;
   line-height: 35px;
-  /* text-align: justify; */
-  /* word-spacing: -4.5px; */
-}
+  }
 .p2 {
   padding: 0px;
   margin: 0px;
@@ -429,8 +413,7 @@ h4 {
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
   text-align: center;
   letter-spacing: 5px;
-  /* line-height: 30px; */
-}
+ }
 h4 {
   padding-top: 2em;
   padding-bottom: 10px;
