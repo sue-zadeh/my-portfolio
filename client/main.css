@@ -470,6 +470,8 @@ h4 {
   .download2 {
     color:rgb(246, 7, 7);
     font-size: 1.2em;
+    letter-spacing: 3px;
+    line-height: 35px;
     text-decoration: none;
     text-align: center;
     align-items: center;

@@ -53,7 +53,7 @@ function Body() {
             Download it here
             <ImDownload2
               size={32}
-              color="white"
+              color="rgb(246, 7, 7)"
               style={{
                 marginLeft: '10px',
                 marginRight: '10px',
