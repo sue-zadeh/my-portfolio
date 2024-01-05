@@ -5,6 +5,7 @@ import { RiFlashlightLine } from 'react-icons/ri'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { ImDownload2 } from 'react-icons/im'
 import { AiOutlineGithub } from 'react-icons/ai'
+
 import { ImLinkedin } from 'react-icons/im'
 // import { ImFacebook2 } from 'react-icons/im'
 // import { ImTwitter } from 'react-icons/im'
@@ -13,15 +14,20 @@ import { ImLinkedin } from 'react-icons/im'
 
 function Body() {
   return (
-    <div className="Body grid-wrapper" style={{ backgroundColor: 'black' }}>
-      {/* <div className=""> */}
+    <div
+      // data-aos="fade-up"
+      className="Body grid-wrapper"
+      style={{ backgroundColor: 'black' }}
+    >
       <div data-aos="fade-down-right" className="grid1">
         <div className="personal">
           <h1 className="hh2">Personal Info</h1>
-         
-          
-        
-       
+          <p className="p3">Phone:</p>
+          <p className="p2">0212049836</p>
+          <p className="p3">Email:</p>
+          <p className="p2">Raisianz@gmail.com</p>
+        </div>
+
         <h4>Tech Skills:</h4>
         <p className="p4">
           Reactjs, Javascript, Typescript, , Redux.js, HTML5, CSS3, Bootstrap,
