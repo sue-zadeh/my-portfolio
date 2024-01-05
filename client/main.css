@@ -50,7 +50,6 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: black; */
   height: 45px;
   width:12vw;
   font-weight: bold;
