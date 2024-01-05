@@ -47,7 +47,7 @@ function Body() {
           <br />
           <a
             className="download2"
-            href="https://drive.google.com/file/d/1FSN7MKxwscyFw1uKp2RzfJUfR-ubQ8iy/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NLUzrBJ5nHKWU2HYHit_hhzOhLe7-bOD/view?usp=sharing"
             target="_blank"
           >
             Download it here
