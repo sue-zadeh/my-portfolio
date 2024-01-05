@@ -593,7 +593,6 @@ animation: slideout 2s ease-in;
 
 }
 .h2-projects2 {
-  /* margin: 0.1em; */
   letter-spacing: 0.25em;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   color: rgb(249, 252, 216);
@@ -632,7 +631,7 @@ animation: slideout 2s ease-in;
   padding: 1.5em 2.70em;
   justify-self: center;
   box-shadow: 1px 2px 5px 5px #340c02;
-  animation: slideout 2s ease-in; /* Define animation */
+  animation: slideout 2s ease-in; 
 
 } 
 .push-word {
