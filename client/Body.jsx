@@ -25,7 +25,7 @@ function Body() {
           <p className="p3">Phone:</p>
           <p className="p2">0212049836</p>
           <p className="p3">Email:</p>
-          <p className="p2">Raisianz@gmail.com</p>
+          <p className="p2">suezadeh.a@gmail.com</p>
         </div>
 
         <h4>Tech Skills:</h4>
@@ -64,14 +64,14 @@ function Body() {
           <a
             className="social2"
             target="blank1"
-            href="https://www.linkedin.com/in/sue-raisianzadeh/"
+            href="https://www.linkedin.com/in/sue-zadeh/"
           >
             <ImLinkedin size={35} color="white" />
           </a>
           <a
             className="social2"
             target="blank"
-            href="https://github.com/sue-raisianzadeh?tab=repositories"
+            href="https://github.com/sue-zadeh"
           >
             <AiOutlineGithub size={45} color="white" />
           </a>
