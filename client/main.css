@@ -15,6 +15,7 @@ body, html {
   left: 0;
   right: 0; 
   background-color: rgb(57, 3, 3);
+  /* border-bottom: 0.25px solid darkred !important; */
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -478,14 +479,14 @@ h4 {
     justify-self: center;
     padding-left: 2em;
     font-style: italic;
-    position: relative; /* Added position relative */
-    display: inline-block; /* Added display inline-block */
+    position: relative; 
+    display: inline-block; 
   }
   
   .download2::before {
     content: '';
     position: absolute;
-    bottom: -5px; /* Adjusted bottom position */
+    bottom: -5px; 
     left: 0;
     width: 0;
     height: 2px;
