@@ -22,7 +22,7 @@ import Smartpanel from './Assets/smartpanel.png'
 function Projects() {
   useEffect(() => {
     AOS.init({
-      duration: 900, // You can also fine-tune other options
+      duration: 900,
     })
   }, [])
 
@@ -48,14 +48,14 @@ function Projects() {
             it here:{' '}
             <a
               className="aa"
-              href="https://smart-panel-production.up.railway.app/"
+              href="https://smartpanelhomesltd.up.railway.app/"
               target="blank"
             >
               Smart Panel Homes Ltd
             </a>
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/smart-panel"
+              href="https://github.com/sue-zadeh/smart-panel"
               target="blank"
             >
               view my project here
@@ -75,7 +75,7 @@ function Projects() {
             <br />
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/my-sportlist"
+              href="https://github.com/sue-zadeh/my-sportlist"
               target="blank"
             >
               view my project here
@@ -102,7 +102,7 @@ function Projects() {
             </b>
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/chatroom-App"
+              href="https://github.com/sue-zadeh/chatroom"
               target="blank"
             >
               view my project here <br />
@@ -132,7 +132,7 @@ function Projects() {
             <br />
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/minesweeper"
+              href="https://github.com/sue-zadeh/minesweeper"
               target="blank"
             >
               view my project here
@@ -151,7 +151,7 @@ function Projects() {
             <br />
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/tic-tac-toe"
+              href="https://github.com/sue-zadeh/tic-tac-toe"
               target="blank"
             >
               view my project here
@@ -173,7 +173,7 @@ function Projects() {
             </b>
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/music-band"
+              href="https://github.com/sue-zadeh/music-band"
               target="blank"
             >
               view my project here <br />
@@ -213,7 +213,7 @@ function Projects() {
             <br />
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/DevStagram"
+              href="https://github.com/sue-zadeh/DevStagram"
               target="blank"
             >
               view my project here
@@ -243,7 +243,7 @@ function Projects() {
             </b>
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/Squishy-Squish"
+              href="https://github.com/sue-zadeh/Squishy-Squish"
               target="blank"
             >
               view my project here
@@ -272,7 +272,7 @@ function Projects() {
             <br />
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/no-deal-or-deal"
+              href="https://github.com/sue-zadeh/no-deal-or-deal"
               target="blank"
             >
               view my project here
@@ -294,7 +294,7 @@ function Projects() {
             <br />
             <a
               className="aa"
-              href="https://github.com/sue-raisianzadeh/dev-eats"
+              href="https://github.com/sue-zadeh/dev-eats"
               target="blank"
             >
               view my project here
