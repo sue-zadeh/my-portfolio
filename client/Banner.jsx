@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { FaLaptopCode, FaGraduationCap, FaLightbulb } from 'react-icons/fa'
+import { HiOutlineHand } from 'react-icons/hi'
 // import { HiOutlineHandWave } from 'react-icons/hi'
 // import { AiFillInfoCircle } from 'react-icons/ai'
-import { HiOutlineHand } from 'react-icons/hi'
 // import { RiUserFill } from 'react-icons/ri'
 // import { AiOutlineCode } from 'react-icons/ai'
 
