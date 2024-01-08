@@ -5,7 +5,6 @@ import { FaLaptopCode, FaGraduationCap, FaLightbulb } from 'react-icons/fa'
 import { HiOutlineHand } from 'react-icons/hi'
 // import { RiUserFill } from 'react-icons/ri'
 // import { AiOutlineCode } from 'react-icons/ai'
-// import Sue4 from './Assets/Sue4.jpg'
 
 function Banner() {
   const [sentenceIndex, setSentenceIndex] = useState(0)

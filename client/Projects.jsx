@@ -15,9 +15,6 @@ import Smartpanel from './Assets/smartpanel.png'
 // import Unicorn from './Assets/inflate.png'
 // import Clown from './Assets/clown.png'
 // import Mole from './Assets/Mole.png'
-// import NavBar from './NavBar'
-// import Devflix from './Assets/devflix.png'
-// import Portfolio from './Assets/portfolio.png'
 
 function Projects() {
   useEffect(() => {
@@ -25,8 +22,6 @@ function Projects() {
       duration: 900,
     })
   }, [])
-
-  // const [showText, setShowText] = useState(false)
 
   return (
     <div data-aos="fade-up" className="projects">
@@ -96,9 +91,8 @@ function Projects() {
               <br />
               I used Firebase and Realtime Database to build the necessary
               functionalities.
-              <br />{' '}
-              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
-              <span className="push-word">{/* <b> ( On going )</b> */}</span>
+              <br /> {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
+              <span className="push-word"></span>
             </b>
             <a
               className="aa"
