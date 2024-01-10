@@ -38,9 +38,8 @@ body, html {
   top: 0;
   left: 0;
   right: 0;
-  height: 4px; /* height of the top line */
-  background-color: #000; /* black line */
-  z-index: -1;
+  height: 4px; 
+  background-color: #000; 
 }
 
 .Nav1, .Nav2, .Nav3, .Nav4, .Nav5{
@@ -86,19 +85,19 @@ body, html {
               background-color: rgb(136, 66, 66);
               display: flex;
               justify-content: center;
-              margin-top: 20px;
-              margin-bottom: 1opx;
               align-items: center;
               height: 48px;
               width:21vw;
               font-weight: bold;
               text-align: center;
-              /* padding: 2%; */
               color: rgb(239, 236, 236);
               border: none;
               border:dashed 2px #e0c397; 
               border-radius: 15px;
               text-decoration: none;
+              margin-top: 20px;
+              margin-bottom: 1opx;
+              /* padding: 2%; */
             }
             
             a:link {
