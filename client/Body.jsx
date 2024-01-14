@@ -100,26 +100,7 @@ function Body() {
             my passion in a challenging environment.
           </b>
         </p>
-        {/* <h1 className="hh2">
-          <BsQuestionSquare size={35} /> What do I do?
-         </h1>
-         <p className="p1">
-          I'm deeply passionate about web development and constantly enhancing
-          my skills. I'm particularly drawn to cloud solutions, having learned
-          <b>AWS, Azure Fundamentals, and AI</b>. I'm gearing up to take the
-          Microsoft Azure exam soon.
-         </p> */}
-        {/* <h1 className="hh2"> 
-          <RiThumbUpFill size={35} /> How do I do it?
-         </h1>
-         <p className="p1">
-          I use agile methods for efficient projects and collaborative teamwork.
-          With strong communication skills, I seek improvement, prioritize open
-          communication, and leverage technology for growth while pursuing my
-          tech passion.
-          </p>  */}
       </div>
-      {/* </div> */}
     </div>
   )
 }

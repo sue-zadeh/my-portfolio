@@ -438,8 +438,6 @@ h4 {
     text-decoration: none;
     text-align: center;
     align-items: center;
-    justify-self: center;
-    padding-left: 2em;
     font-style: italic;
     position: relative; 
     display: inline-block; 
@@ -462,23 +460,18 @@ h4 {
   
   .download2:hover::before {
     width: 100%;
-  }
-  
-.hh4 {
-  padding: 1em 0px 0px 0px;
-  font-weight: bold;
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-}
-
+  } 
+ 
 .social-container {
   display: flex;
   flex-direction: row;
-  justify-self: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   gap: 1.5em;
   margin-top: 4em;
   font-size: 1.5em;
+  padding-right: 3rem;
 }
 
 /* /* AboutMe */
