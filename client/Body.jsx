@@ -83,7 +83,6 @@ function Body() {
           <RiFlashlightLine size={55} /> Why hire me?
         </h1>
         <p className="p1">
-          {/* I'm &nbsp;<b>deeply passionate </b>&nbsp;about technology and coding, */}
           As a full-stack developer with&nbsp;{' '}
           <b>
             {' '}
