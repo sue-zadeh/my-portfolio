@@ -86,8 +86,7 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>
               Chatroom With Media. I am working on building a chatroom with
-              media capabilities. The changes have been saved in the
-              'chatroom-app' repository.
+              media capabilities.
               <br />
               I used Firebase and Realtime Database to build the necessary
               functionalities.
