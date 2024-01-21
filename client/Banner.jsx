@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaLaptopCode, FaGraduationCap, FaLightbulb } from 'react-icons/fa'
-import { HiOutlineHand } from 'react-icons/hi'
+import { HiOutlineHand, HiCloud } from 'react-icons/hi'
 
 function Banner() {
   const [sentenceIndex, setSentenceIndex] = useState(0)
@@ -22,6 +22,16 @@ function Banner() {
           size={63}
           color="beige"
           style={{ paddingRight: '14px', paddingLeft: '14px' }}
+        />
+      ),
+    },
+    {
+      text: 'Microsoft Azure Certified',
+      icon: (
+        <HiCloud
+          size={70}
+          color="#cd7700"
+          style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
       ),
     },
