@@ -41,7 +41,11 @@ function Body() {
         <p className="pp4">
           Need a printable version of my CV ?
           <br />
-          <a className="download2" href="" target="_blank">
+          <a
+            className="download2"
+            href="https://drive.google.com/file/d/1OQrb6QOBKsIRTOKNjP1_OVjHgFAcyCW-/view?usp=sharing"
+            target="_blank"
+          >
             Download it here
             <ImDownload2
               size={32}
