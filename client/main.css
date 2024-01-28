@@ -504,7 +504,8 @@ h4 {
   font-size: 3em;
   color: white;
   margin-bottom: 1rem; 
-  /* letter-spacing: 5px; */
+   letter-spacing: 10px;
+   align-items: center;
 }
 
 .p-me2 {
