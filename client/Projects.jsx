@@ -34,6 +34,7 @@ function Projects() {
         </h2>
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
+            <b>smart-panel:</b>
             Developed for Smart Panel Homes Ltd, this website showcases my
             volunteer work in web development. Built with ReactJS, CSS, and
             Bootstrap, it features CSS scroll animations for enhanced user
@@ -63,6 +64,7 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-right" className="p-projects">
+            <b>my-sportlist:</b>
             This is An API project I've created. It's a bit like Netflix, but
             for sports. users can look up different sports, read about them, and
             use a sidebar to move around, which I think is pretty cool. This
@@ -84,15 +86,14 @@ function Projects() {
           </p>
 
           <p data-aos="fade-down-right" className="p-projects">
-            <b>
-              Chatroom With Media. I am working on building a chatroom with
-              media capabilities.
-              <br />
-              I used Firebase and Realtime Database to build the necessary
-              functionalities.
-              <br /> {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
-              <span className="push-word"></span>
-            </b>
+            <b>chatroom:</b>
+            Chatroom With Media. I am working on building a chatroom with media
+            capabilities.
+            <br />
+            I used Firebase and Realtime Database to build the necessary
+            functionalities.
+            <br /> {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
+            <span className="push-word"></span>
             <a
               className="aa"
               href="https://github.com/sue-zadeh/chatroom"
@@ -120,6 +121,7 @@ function Projects() {
         </div>
         <div className="div-squish">
           <p data-aos="fade-up-right" className="p-projects">
+            <b>minesweeper:</b>
             This is the Minesweeper game, using Javascript and CSS3. I built
             this to have more practice on javascript
             <br />
@@ -138,6 +140,7 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-left" className="p-projects">
+            <b>tic-tac-toe:</b>
             This is the TIc-Tac-Toe game, using Javascript and CSS3. I built
             this to have more practice on javascript. I plan to add autoplay as
             a second player
@@ -157,12 +160,11 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-left" className="p-projects">
-            <b>
-              I built this website in February 2021 based on my self-studying
-              and online courses. It is about an Iranian music band (folk
-              music), using HTML5 and CSS3. I want to transition this website
-              from HTML to ReactJS, and add back-end functionality to the site.
-            </b>
+            <b>music-band:</b>I built this website in February 2021 based on my
+            self-studying and online courses. It is about an Iranian music band
+            (folk music), using HTML5 and CSS3. I want to transition this
+            website from HTML to ReactJS, and add back-end functionality to the
+            site.
             <a
               className="aa"
               href="https://github.com/sue-zadeh/music-band"
@@ -196,6 +198,7 @@ function Projects() {
 
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
+            <b>DevStagram:</b>
             This website ( DevStagram ) was a one-day group project that
             retrieves information, displays it on another page, and allows users
             to add data to the JSON using React.js, Redux.js and Typescript. I
@@ -225,14 +228,12 @@ function Projects() {
           {/* <div className="rows"> */}
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-left" className="p-projects">
-            <b>
-              It was a final group project, which lasted 1 week, and is a game
-              Using p5 library, Reactjs, Redux.js, jestT and ypescript . we
-              thought about using phaser3 instead of p5, but finally we decided
-              to use p5. But that was good as I learnt phaser3 too. I worked on
-              some part of frontend, backend, git and wrote tests for some
-              pages.
-            </b>
+            <b>Squishy-Squish:</b>
+            It was a final group project, which lasted 1 week, and is a game
+            Using p5 library, Reactjs, Redux.js, jestT and ypescript . we
+            thought about using phaser3 instead of p5, but finally we decided to
+            use p5. But that was good as I learnt phaser3 too. I worked on some
+            part of frontend, backend, git and wrote tests for some pages.
             <a
               className="aa"
               href="https://github.com/sue-zadeh/Squishy-Squish"
@@ -258,6 +259,7 @@ function Projects() {
           {/* <div className="rows"> */}
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
+            <b>no-deal-or-deal:</b>
             This website was a one-day group project. It is a game created using
             React.js,Redux.js, Typescript. In the group, my role was to work as
             the frontend lead.
@@ -279,6 +281,7 @@ function Projects() {
           {/* </div>
         <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
+            <b>dev-eats:</b>
             This website was a one-day group project, and it offers information
             about Indian, Italian, Asian, and Vegan restaurants, using CSS3
             Javascript, server-side handling. I would like to improve this
