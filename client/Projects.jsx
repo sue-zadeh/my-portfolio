@@ -92,7 +92,7 @@ function Projects() {
             <br />
             I used Firebase and Realtime Database to build the necessary
             functionalities.
-            <br /> {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
+            <br /> {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
             <span className="push-word"></span>
             <a
               className="aa"
@@ -219,7 +219,7 @@ function Projects() {
               src={Devstagram}
               alt="Devstagram"
             />
-            {/* <br /> */}
+           
           </p>
           {/* </div> */}
           {/* className="pro1"
