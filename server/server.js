@@ -5,6 +5,8 @@ const server = express()
 const port = process.env.PORT || 3000
 const nodemailer = require('nodemailer')
 require('dotenv').config()
+const knex = require('./database/knexfile');
+
 
 // Nodemailer configuration
 const transporter = nodemailer.createTransport({
@@ -27,6 +29,20 @@ if (process.env.NODE_ENV === 'production') {
 
 server.post('/api/add-user', (req, res) => {
   const { name, email, message } = req.body
+
+  try {
+    // Insert form data into the contactForm table
+    await knex('contactForm').insert({
+      name, 
+      email,
+      message
+    });
+    res.sendStatus(200);
+  } catch (error) {
+    console.error('Error inserting data into database:', error);
+    res.sendStatus(500);
+  }
+});
 
   // Send email to the user
   const userMailOptions = {
