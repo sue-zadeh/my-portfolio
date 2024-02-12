@@ -1,14 +1,17 @@
 const express = require('express');
 const { join } = require('path');
 const server = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 // Correctly require the knex configuration
 const knexConfig = require('./database/knexfile');
+
 const environment = process.env.NODE_ENV || 'development';
-const knex = require('knex')(require('./knexfile')[process.env.NODE_ENV]);
+const config = knexConfig[environment];
+const knex = require('knex')(config);
+
 module.exports = knex;
 
 // Nodemailer configuration
