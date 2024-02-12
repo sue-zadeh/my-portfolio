@@ -30,20 +30,7 @@ if (process.env.NODE_ENV === 'production') {
 server.post('/api/add-user', (req, res) => {
   const { name, email, message } = req.body
 
-  try {
-    // Insert form data into the contactForm table
-    await knex('contactForm').insert({
-      name, 
-      email,
-      message
-    });
-    res.sendStatus(200);
-  } catch (error) {
-    console.error('Error inserting data into database:', error);
-    res.sendStatus(500);
-  }
-});
-
+  
   // Send email to the user
   const userMailOptions = {
     from: process.env.EMAIL_USER,
