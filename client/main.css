@@ -572,9 +572,8 @@ animation: slideout 2s ease-in;
   color: rgb(249, 252, 216);
   font-family:  'Montserrat', sans-serif;
   font-size: 3.5em;
-  /* font-family: "Nunito", sans-serif; */
-  /* font-family: 'cario','Arial', 'Montserrat', sans-serif; */
-  font-weight: 550;
+  /* font-family: 'cario', "Nunito", 'Montserrat', sans-serif; */
+    font-weight: 550;
   text-align: center;
   align-items: center;
   text-shadow: 2px 3px 3px #fad9ad;
