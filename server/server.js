@@ -8,7 +8,8 @@ require('dotenv').config();
 // Correctly require the knex configuration
 const knexConfig = require('./database/knexfile');
 const environment = process.env.NODE_ENV || 'development';
-const knex = require('knex')(knexConfig[environment]);
+const knex = require('knex')(require('./knexfile')[process.env.NODE_ENV]);
+module.exports = knex;
 
 // Nodemailer configuration
 const transporter = nodemailer.createTransport({
