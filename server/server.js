@@ -1,12 +1,14 @@
-const express = require('express')
-const routes = require('./routes')
-const { join } = require('path')
-const server = express()
-const port = process.env.PORT || 3000
-const nodemailer = require('nodemailer')
-require('dotenv').config()
-const knex = require('./database/knexfile');
+const express = require('express');
+const { join } = require('path');
+const server = express();
+const port = process.env.PORT || 3000;
+const nodemailer = require('nodemailer');
+require('dotenv').config();
 
+// Correctly require the knex configuration
+const knexConfig = require('./database/knexfile');
+const environment = process.env.NODE_ENV || 'development';
+const knex = require('knex')(knexConfig[environment]);
 
 // Nodemailer configuration
 const transporter = nodemailer.createTransport({
@@ -15,59 +17,43 @@ const transporter = nodemailer.createTransport({
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASSWORD,
   },
-})
+});
 
-server.use(express.json())
-server.use(express.static(join(__dirname, '..', 'dist')))
-server.use('/api', routes)
+server.use(express.json());
+server.use(express.static(join(__dirname, '..', 'dist')));
 
 if (process.env.NODE_ENV === 'production') {
   server.get('*', (req, res) => {
-    res.sendFile(join(__dirname, '..', 'dist', 'index.html'))
-  })
+    res.sendFile(join(__dirname, '..', 'dist', 'index.html'));
+  });
 }
 
-server.post('/api/add-user', (req, res) => {
-  const { name, email, message } = req.body
+// Make sure this route is async because we are using await inside
+server.post('/api/add-user', async (req, res) => {
+  const { name, email, message } = req.body;
 
-  
-  // Send email to the user
-  const userMailOptions = {
-    from: process.env.EMAIL_USER,
-    to: email,
-    subject: 'New message from contact form of my portfolio-Sue',
-    text: `Dear ${name},\n\nThank you for contacting me.
-     I will contact you as soon as possible.
-     \n\nYour Message is: ${message}\n\nBest regards,\nSue`,
+  try {
+    // Insert form data into the contactForm table
+    await knex('contactForm').insert({
+      name,
+      email,
+      message
+    });
+
+    // Log the successful insertion
+    console.log('Form submission saved:', { name, email, message });
+
+    // Send a success response back to the client
+    res.status(200).json({ message: 'Form submission saved.' });
+  } catch (error) {
+    // Log the error
+    console.error('Error inserting data into database:', error);
+
+    // Send an error response back to the client
+    res.status(500).json({ error: 'Error saving form submission.' });
   }
-
-  transporter.sendMail(userMailOptions, (error, info) => {
-    if (error) {
-      console.error('Error sending email to user:', error)
-    } else {
-      console.log('Email sent to user:', info.response)
-    }
-  })
-
-  // Send email to yourself with form data
-  const yourMailOptions = {
-    from: process.env.EMAIL_USER,
-    to: 'sarina.rozz@gmail.com',
-    subject: 'New contact form submission from my portfolio',
-    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
-  }
-
-  transporter.sendMail(yourMailOptions, (error, info) => {
-    if (error) {
-      console.error('Error sending email to yourself:', error)
-    } else {
-      console.log('Email sent to yourself:', info.response)
-    }
-  })
-
-  res.sendStatus(200)
-})
+});
 
 server.listen(port, () => {
-  console.log('Listening on port', port)
-})
+  console.log(`Listening on port ${port}`);
+});
