@@ -1,7 +1,7 @@
 const express = require('express');
 const { join } = require('path');
 const server = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
