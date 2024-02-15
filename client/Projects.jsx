@@ -234,6 +234,14 @@ function Projects() {
             thought about using phaser3 instead of p5, but finally we decided to
             use p5. But that was good as I learnt phaser3 too. I worked on some
             part of frontend, backend, git and wrote tests for some pages.
+            
+            <a
+              className="aa"
+              href="https://helpfulself.xyz/"
+              target="blank"
+            >
+              Squishy-Squish
+            </a>
             <a
               className="aa"
               href="https://github.com/sue-zadeh/Squishy-Squish"
