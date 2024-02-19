@@ -68,7 +68,8 @@ function Projects() {
             This is An API project I've created. It's a bit like Netflix, but
             for sports. users can look up different sports, read about them, and
             use a sidebar to move around, which I think is pretty cool. This
-            project taught me a lot, especially about using APIs from scratch.
+            project was a good practice for backend, especially about using APIs
+            from scratch.
             <br />
             <a
               className="aa"
@@ -219,7 +220,6 @@ function Projects() {
               src={Devstagram}
               alt="Devstagram"
             />
-           
           </p>
           {/* </div> */}
           {/* className="pro1"
@@ -234,12 +234,7 @@ function Projects() {
             thought about using phaser3 instead of p5, but finally we decided to
             use p5. But that was good as I learnt phaser3 too. I worked on some
             part of frontend, backend, git and wrote tests for some pages.
-            
-            <a
-              className="aa"
-              href="https://helpfulself.xyz/"
-              target="blank"
-            >
+            <a className="aa" href="https://helpfulself.xyz/" target="blank">
               Squishy-Squish
             </a>
             <a
