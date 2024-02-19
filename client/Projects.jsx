@@ -294,10 +294,9 @@ function Projects() {
         <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
             <b>dev-eats:</b>
-            This website was a one-day group project, and it offers information
-            about Indian, Italian, Asian, and Vegan restaurants, using CSS3
-            Javascript, server-side handling. I would like to improve this
-            project by adding a 'Search' function.
+            This one-day group project website showcases Indian, Italian, Asian,
+            and Vegan restaurants using CSS3 and JavaScript with server-side
+            handling. I plan to enhance it by adding a 'Search' function.
             <br />
             <a
               className="aa"
