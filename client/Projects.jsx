@@ -65,11 +65,10 @@ function Projects() {
           </p>
           <p data-aos="fade-down-right" className="p-projects">
             <b>my-sportlist:</b>
-            This is An backend and API project I've created. It's a bit like
-            Netflix, but for sports. users can look up different sports, read
-            about them, and use a sidebar to move around, which I think is
-            pretty cool. This project was a good practice for backend,
-            especially about using APIs from scratch.
+            This project was a good practice for backend, especially about using
+            APIs from scratch. It's a bit like Netflix, but for sports. users
+            can look up different sports, read about them, and use a sidebar to
+            move around, which I think is pretty cool.
             <br />
             <a
               className="aa"
