@@ -158,11 +158,10 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-left" className="p-projects">
-            <b>music-band:</b>I built this website in February 2021 based on my
-            self-studying and online courses. It is about an Iranian music band
-            (folk music), using HTML5 and CSS3. I want to transition this
-            website from HTML to ReactJS, and add back-end functionality to the
-            site.
+            <b>music-band:</b>Created in February 2021 from self-study and
+            online courses, this website features an Iranian folk music band
+            using HTML5 and CSS3. I've incorporated backend functionality with
+            JavaScript and aim to upgrade the site to ReactJS.
             <a
               className="aa"
               href="https://sue-zadeh.github.io/music-band/"
