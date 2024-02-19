@@ -242,7 +242,7 @@ function Projects() {
           <p data-aos="fade-down-left" className="p-projects">
             <b>Squishy-Squish:</b>
             It was a final group project, which lasted 1 week, and is a game
-            Using p5 library, Reactjs, Redux.js, jestT and ypescript . we
+            Using p5 library, Reactjs, Redux.js, jest and Typescript . we
             thought about using phaser3 instead of p5, but finally we decided to
             use p5. But that was good as I learnt phaser3 too. I worked on some
             part of frontend, backend, git and wrote tests for some pages.
