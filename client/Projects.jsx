@@ -65,11 +65,11 @@ function Projects() {
           </p>
           <p data-aos="fade-down-right" className="p-projects">
             <b>my-sportlist:</b>
-            This is An API project I've created. It's a bit like Netflix, but
-            for sports. users can look up different sports, read about them, and
-            use a sidebar to move around, which I think is pretty cool. This
-            project was a good practice for backend, especially about using APIs
-            from scratch.
+            This is An backend and API project I've created. It's a bit like
+            Netflix, but for sports. users can look up different sports, read
+            about them, and use a sidebar to move around, which I think is
+            pretty cool. This project was a good practice for backend,
+            especially about using APIs from scratch.
             <br />
             <a
               className="aa"
@@ -166,6 +166,21 @@ function Projects() {
             (folk music), using HTML5 and CSS3. I want to transition this
             website from HTML to ReactJS, and add back-end functionality to the
             site.
+            <a
+              className="aa"
+              href="https://sue-zadeh.github.io/music-band/"
+              target="blank"
+            >
+              Music Band <br />
+              <span
+                style={{
+                  paddingRight: '1.5em',
+                  color: 'rgb(240, 240, 165)',
+                  fontSize: '20px',
+                  textDecoration: 'none',
+                }}
+              ></span>
+            </a>
             <a
               className="aa"
               href="https://github.com/sue-zadeh/music-band"
