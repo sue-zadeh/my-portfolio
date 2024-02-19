@@ -279,6 +279,9 @@ height: 32vh;
     padding: 0% 5% 5% 0%;
     margin: 0% 0% 0% 0%;
   }
+  .p1{
+    padding: 0rem 1.5rem 0.5rem 1.5rem;
+  }
 }
 
 /* Body */
@@ -299,10 +302,10 @@ height: 32vh;
   justify-items: center;
   align-content: center;
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
-  text-align:left;
+  text-align:center;
   color:white;
   font-weight: 350;
-  gap: 1.2em;
+  gap: 1em;
   margin: auto;
   padding: 0px;
   padding-bottom: 3rem;
@@ -341,7 +344,7 @@ height: 32vh;
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
   box-shadow: 2px #737779;
   text-align:left;
-  padding: 20px;
+  padding: 20px 5px;
   margin: 58px 8px 0px 8px;
   line-height: 1.79em;
  }
@@ -361,7 +364,7 @@ height: 32vh;
  }
 
 .p1 {
-  padding: 0rem 1rem 0.5rem 2rem;
+  padding: 0rem 1.5rem 0.5rem 0rem;
   margin: 0px;
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
   font-size: 1.04em;
@@ -386,7 +389,8 @@ height: 32vh;
 }
 
 .hire {
-  padding: 20px 0px;
+  padding: 20px 50px 20px 0px;
+  text-align: center;
 }
 
 .hh2{
@@ -399,7 +403,7 @@ h1,
 h2,
 h4 {
   font-size: 1.90em;
-  padding: 0px 5px 0px 5px;
+  padding: 0px;
   margin: 0px;
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
   text-align: center;

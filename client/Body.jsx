@@ -80,24 +80,14 @@ function Body() {
 
       <div data-aos="fade-down-right" className="grid3">
         <h1 className="hire">
-          <RiFlashlightLine size={55} /> Why hire me?
+          <RiFlashlightLine size={55} />
+          Why hire me?
         </h1>
         <p className="p1">
-          As a full-stack developer with&nbsp;{' '}
-          <b>
-            {' '}
-            Microsoft's Azure Fundamentals certification, six years of
-            experience teaching and supervising in computer workshops, L6
-            Applied Software Development certification from Dev Academy
-            Aotearoa,
-          </b>{' '}
-          &nbsp; and growing expertise in{' '}
-          <b> &nbsp;AWS, Azure AI Fundamentals,</b> &nbsp; I'm{' '}
-          <b> &nbsp;deeply passionate</b> &nbsp; about technology and coding.
-          <b>
-            &nbsp; I'm a dedicated, fast learner, eager to contribute and pursue
-            my passion in a challenging environment.
-          </b>
+          With Azure Fundamentals and Level 6 Applied Software Development
+          certifications, I'm driven to constantly upgrade my tech skills. I
+          have a keen eye for detail and excel under tight deadlines, making me
+          a reliable full-stack developer committed to quality in every project.
         </p>
       </div>
     </div>
