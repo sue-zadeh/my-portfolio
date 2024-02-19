@@ -35,13 +35,11 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>smart-panel:</b>
-            Developed for Smart Panel Homes Ltd, this website showcases my
-            volunteer work in web development. Built with ReactJS, CSS, and
-            Bootstrap, it features CSS scroll animations for enhanced user
-            engagement. The site includes a user form, linking entries to a
-            database for efficient client communication. Currently hosted on
-            Railway for feedback, it's set for an upcoming internet launch. View
-            it here:{' '}
+            This website, made for Smart Panel Homes Ltd, highlights my
+            volunteer web development. It uses ReactJS, CSS, and Bootstrap with
+            cool scroll animations. It has a form that connects to a database
+            for easy client chats. It's on Railway for feedback and will soon be
+            online. Check it out here:
             <a
               className="aa"
               href="https://smartpanelhomesltd.up.railway.app/"
