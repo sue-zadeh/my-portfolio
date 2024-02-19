@@ -212,12 +212,10 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>DevStagram:</b>
-            This website ( DevStagram ) was a one-day group project that
-            retrieves information, displays it on another page, and allows users
-            to add data to the JSON using React.js, Redux.js and Typescript. I
-            would like to improve this project by turning it into a chatroom
-            with media. I worked on the software sign-in page and served as the
-            git leader.
+            DevStagram, a one-day group project, pulls and displays data,
+            letting users add to the JSON with React.js, Redux.js, and
+            TypeScript. I evolve it into a chatroom with media. I developed the
+            sign-in page and led the git management.
             <br />
             <a
               className="aa"
@@ -241,11 +239,10 @@ function Projects() {
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-left" className="p-projects">
             <b>Squishy-Squish:</b>
-            It was a final group project, which lasted 1 week, and is a game
-            Using p5 library, Reactjs, Redux.js, jest and Typescript . we
-            thought about using phaser3 instead of p5, but finally we decided to
-            use p5. But that was good as I learnt phaser3 too. I worked on some
-            part of frontend, backend, git and wrote tests for some pages.
+            This was a 1-week final group project, a game using the p5 library,
+            Reactjs, Redux.js, Jest, and TypeScript. We considered Phaser3 but
+            chose p5, yet I still learned Phaser3. I contributed to the
+            frontend, backend, managed git, and wrote tests for pages.
             <a className="aa" href="https://helpfulself.xyz/" target="blank">
               Squishy-Squish
             </a>
