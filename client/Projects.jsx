@@ -42,7 +42,7 @@ function Projects() {
             online. Check it out here:
             <a
               className="aa"
-              href="https://smartpanelhomesltd.up.railway.app/"
+              href="https://www.smartpanelhomes.co.nz/"
               target="blank"
             >
               Smart Panel Homes Ltd
