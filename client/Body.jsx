@@ -30,10 +30,10 @@ function Body() {
 
         <h4>Tech Skills:</h4>
         <p className="p4">
-          Reactjs, Javascript, Typescript, , Redux.js, HTML5, CSS3, Bootstrap,
-          Tailwind, SCSS, php, Debugging, SQL, Squlit3, API, firebase, Github,
-          Git, Azure , AWS, Jest, ISTQB, somnia, Postman, railway, Heroku,
-          visual studio
+          Reactjs, Javascript, Typescript, Python , Redux.js, HTML5, CSS3,
+          Bootstrap, Tailwind, SCSS, php, Debugging, SQL, Squlit3, API,
+          firebase, Github, Git, Azure , AWS, Jest, ISTQB, somnia, Postman,
+          railway, Heroku, visual studio
         </p>
       </div>
       <div data-aos="fade-down-right" className="grid2">
