@@ -36,11 +36,11 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>smart-panel:</b>
             This website, which I developed as a volunteer for Smart Panel Homes
-            Ltd, showcases my work. It's built with ReactJS, CSS, and Bootstrap,
-            featuring engaging scroll animations. Additionally, it includes a
-            form that connects to a database, facilitating easy communication
-            with clients. The website is now live on the internet. Check it out
-            here:
+            Ltd, showcases my work. It's built with ReactJS, CSS, Bootstrap,
+            Sqlite, php,and MySQL featuring engaging scroll animations.
+            Additionally, it includes a form that connects to a database,
+            facilitating easy communication with clients. The website is now
+            live on the internet. Check it out here:
             <a
               className="aa"
               href="https://www.smartpanelhomes.co.nz/"
@@ -54,6 +54,13 @@ function Projects() {
               target="blank"
             >
               view my project here
+            </a>
+            <a
+              className="aa"
+              href="https://github.com/sue-zadeh/smart-php-panel"
+              target="blank"
+            >
+              view my project here(using php for backend)
             </a>
             <img
               data-aos="fade-down-right"
