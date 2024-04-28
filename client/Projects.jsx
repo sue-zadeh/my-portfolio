@@ -110,7 +110,7 @@ function Projects() {
                 style={{
                   paddingRight: '1.5em',
                   color: 'rgb(240, 240, 165)',
-                  fontSize: '20px',
+                  fontSize: '17px',
                   textDecoration: 'none',
                 }}
               >

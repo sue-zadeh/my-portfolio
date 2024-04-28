@@ -264,11 +264,9 @@ height: 32vh;
    {
     width: auto;
     padding-top:1.75em;
-    
-  }
+   }
     .grid1, .grid2, .grid3 {
       padding: 250px 60px 10px 25px;
-       
     }
   } 
 
@@ -292,8 +290,7 @@ height: 32vh;
   justify-content: center;
   width: 100%;
   border-bottom: 3px solid darkred !important;
-  
-}
+ }
 
 .grid-wrapper{
   display: grid;
@@ -628,11 +625,11 @@ animation: slideout 2s ease-in;
 }
 .aa{
   color: #eedfcc;
-  align-items: right;
+  align-items: center;
   text-decoration: underline;
   font-weight: bold;
-  font-size: 1em;
-  text-align: right;
+  font-size: 0.85em;
+  text-align: center;
   padding-right: 25px;
 }
 .aa:hover {
