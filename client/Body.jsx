@@ -30,9 +30,9 @@ function Body() {
 
         <h4>Tech Skills:</h4>
         <p className="p4">
-          Reactjs, Javascript, Typescript, Python , Redux.js, HTML5, CSS3,
-          Bootstrap, Tailwind, SCSS, php, Debugging, MySQL, SQLite, API,
-          firebase, Github, Git, Azure , AWS, Jest, ISTQB, somnia, Postman,
+          Reactjs, Javascript, Typescript, Python , Ginga, Flask, Redux.js,
+          HTML5, CSS3, Bootstrap, Tailwind, SCSS, php, Debugging, MySQL, SQLite,
+          API, firebase, Github, Git, Azure , AWS, Jest, ISTQB, somnia, Postman,
           railway, Heroku, visual studio
         </p>
       </div>
