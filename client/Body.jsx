@@ -84,10 +84,14 @@ function Body() {
           Why hire me?
         </h1>
         <p className="p1">
-          With Azure Fundamentals and Level 6 Applied Software Development
-          certifications, I'm driven to constantly upgrade my tech skills. I
-          have a keen eye for detail and excel under tight deadlines, making me
-          a reliable full-stack developer committed to quality in every project.
+          I am a full stack software developer with 1+ year of commercial
+          experience and certifications in Microsoft Azure and Dev Academy Boot
+          Camp, with badges in AWS and Salesforce. With six years of teaching
+          and supervisory experience, I am passionate about coding, continuous
+          learning, and problem-solving. I thrive in fast-paced environments and
+          enjoy team collaboration. My adaptability and positive attitude drive
+          me to make a meaningful impact. Currently, I am studying online and
+          working on various projects on UpWork to further enhance my skills.
         </p>
       </div>
     </div>
