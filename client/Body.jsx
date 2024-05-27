@@ -84,14 +84,17 @@ function Body() {
           Why hire me?
         </h1>
         <p className="p1">
-          I am a full stack software developer with 1+ year of commercial
-          experience and certifications in Microsoft Azure and Dev Academy Boot
-          Camp, with badges in AWS and Salesforce. With six years of teaching
-          and supervisory experience, I am passionate about coding, continuous
-          learning, and problem-solving. I thrive in fast-paced environments and
-          enjoy team collaboration. My adaptability and positive attitude drive
-          me to make a meaningful impact. Currently, I am studying online and
-          working on various projects on UpWork to further enhance my skills.
+          I am a full stack software developer with
+          <b>
+            1+ year of commercial experience and certifications in Microsoft
+            Azure and Dev Academy Boot Camp, with badges in AWS and Salesforce.
+          </b>{' '}
+          With six years of teaching and supervisory experience, I am passionate
+          about coding, continuous learning, and problem-solving. I thrive in
+          fast-paced environments and enjoy team collaboration. My adaptability
+          and positive attitude drive me to make a meaningful impact. Currently,
+          I am studying online and working on various projects on UpWork to
+          further enhance my skills.
         </p>
       </div>
     </div>
