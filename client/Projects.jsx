@@ -73,7 +73,7 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>Selwyn Campground(scg):</b>
             Developed for a Lincoln University exam, this project features a web
-            application using <b> Python, Flask, Jinja, and MySQL</b> for Selwyn
+            application usingPython, Flask, Jinja, and MySQL for Selwyn
             Campground. It helps office staff manage customer and booking data
             efficiently, with functionalities for adding, editing, and managing
             records.
