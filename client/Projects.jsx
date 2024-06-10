@@ -121,7 +121,7 @@ function Projects() {
             />
           </p>
 
-          <p data-aos="fade-down-right" className="p-projects">
+          <p data-aos="fade-down-left" className="p-projects">
             <b>chatroom:</b>
             Chatroom With Media. I worked on building a chatroom with media
             capabilities.
