@@ -93,7 +93,7 @@ function Projects() {
               view my project live on pythonanywhere
             </a>
             <img
-              data-aos="fade-down-right"
+              data-aos="fade-down-left"
               className="picsquish"
               src={Scg}
               alt="Sportflix"
