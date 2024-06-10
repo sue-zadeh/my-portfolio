@@ -11,6 +11,7 @@ import Toe from './Assets/tic-tac-toe.png'
 import Music from './Assets/music.png'
 import Sportflix from './Assets/Sportflix.png'
 import Smartpanel from './Assets/smartpanel.png'
+import Scg from './Assets/selwyn.png'
 // import Calc from './Assets/mycalc.png'
 // import Unicorn from './Assets/inflate.png'
 // import Clown from './Assets/clown.png'
@@ -70,6 +71,35 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-right" className="p-projects">
+            <b>Selwyn Campground(scg):</b>
+            Developed for a Lincoln University exam, this project features a web
+            application using <b> Python, Flask, Jinja, and MySQL</b> for Selwyn
+            Campground. It helps office staff manage customer and booking data
+            efficiently, with functionalities for adding, editing, and managing
+            records.
+            <br />
+            <a
+              className="aa"
+              href="https://github.com/sue-zadeh/scg"
+              target="blank"
+            >
+              view my project here
+            </a>
+            <a
+              className="aa"
+              href="https://suezadeh.pythonanywhere.com/"
+              target="blank"
+            >
+              view my project live on pythonanywhere
+            </a>
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={Scg}
+              alt="Sportflix"
+            />
+          </p>
+          <p data-aos="fade-down-right" className="p-projects">
             <b>my-sportlist:</b>
             This project was a good practice for backend, especially about using
             APIs from scratch. It's a bit like Netflix, but for sports. users
@@ -93,7 +123,7 @@ function Projects() {
 
           <p data-aos="fade-down-right" className="p-projects">
             <b>chatroom:</b>
-            Chatroom With Media. I am working on building a chatroom with media
+            Chatroom With Media. I worked on building a chatroom with media
             capabilities.
             <br />
             I used Firebase and Realtime Database to build the necessary
@@ -106,7 +136,7 @@ function Projects() {
               target="blank"
             >
               view my project here <br />
-              <span
+              {/* <span
                 style={{
                   paddingRight: '1.5em',
                   color: 'rgb(240, 240, 165)',
@@ -115,7 +145,7 @@ function Projects() {
                 }}
               >
                 <b>( On going )</b>
-              </span>
+              </span> */}
             </a>
             <img
               data-aos="fade-up-left"
@@ -148,8 +178,7 @@ function Projects() {
           <p data-aos="fade-down-left" className="p-projects">
             <b>tic-tac-toe:</b>
             This is the TIc-Tac-Toe game, using Javascript and CSS3. I built
-            this to have more practice on javascript. I plan to add autoplay as
-            a second player
+            this to have more practice on javascript.
             <br />
             <a
               className="aa"
@@ -167,9 +196,9 @@ function Projects() {
           </p>
           <p data-aos="fade-down-left" className="p-projects">
             <b>music-band:</b>Created in February 2021 from self-study and
-            online courses, this website features an Iranian folk music band
+            online courses, this website features an Iranian folk music band,
             using HTML5 and CSS3. I've incorporated backend functionality with
-            JavaScript and aim to upgrade the site to ReactJS.
+            JavaScript.
             <a
               className="aa"
               href="https://sue-zadeh.github.io/music-band/"
@@ -248,8 +277,8 @@ function Projects() {
             <b>Squishy-Squish:</b>
             This was a 1-week final group project, a game using the p5 library,
             Reactjs, Redux.js, Jest, and TypeScript. We considered Phaser3 but
-            chose p5, yet I still learned Phaser3. I contributed to the
-            frontend, backend, managed git, and wrote tests for pages.
+            chose p5. I contributed to the frontend, backend, managed git, and
+            wrote tests for pages.
             <a className="aa" href="https://helpfulself.xyz/" target="blank">
               Squishy-Squish
             </a>
@@ -303,7 +332,7 @@ function Projects() {
             <b>dev-eats:</b>
             This one-day group project website showcases Indian, Italian, Asian,
             and Vegan restaurants using CSS3 and JavaScript with server-side
-            handling. I plan to enhance it by adding a 'Search' function.
+            handling.
             <br />
             <a
               className="aa"
