@@ -36,12 +36,12 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>smart-panel:</b>
-            This website, which I developed as a volunteer for Smart Panel Homes
-            Ltd, showcases my work. It's built with ReactJS, CSS, Bootstrap,
-            Sqlite, php,and MySQL featuring engaging scroll animations.
-            Additionally, it includes a form that connects to a database,
-            facilitating easy communication with clients. The website is now
-            live on the internet. Check it out here:
+            Language/Technologies: ReactJS, CSS, Bootstrap, SQLite, PHP, MySQL
+            <br />
+            Description: Developed as a volunteer project, this website for
+            Smart Panel Homes Ltd showcases engaging scroll animations and
+            includes a dynamic form that connects to a database for seamless
+            client interactions. Check it out here:
             <a
               className="aa"
               href="https://www.smartpanelhomes.co.nz/"
@@ -54,7 +54,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/smart-panel"
               target="blank"
             >
-              view my project here
+              view my project with Nodjs here
             </a>
             <a
               className="aa"
@@ -72,11 +72,10 @@ function Projects() {
           </p>
           <p data-aos="fade-down-right" className="p-projects">
             <b>Selwyn Campground(scg):</b>
-            Developed for a Lincoln University exam, this project features a web
-            application usingPython, Flask, Jinja, and MySQL for Selwyn
-            Campground. It helps office staff manage customer and booking data
-            efficiently, with functionalities for adding, editing, and managing
-            records.
+            Language/Technologies: Python, Bootstrap, Flask, Jinja, MySQL <br />
+            Description: A web application for Selwyn Campground to assist
+            office staff in managing customer and booking data efficiently, with
+            features for adding, editing, and managing records.
             <br />
             <a
               className="aa"
@@ -101,10 +100,10 @@ function Projects() {
           </p>
           <p data-aos="fade-down-right" className="p-projects">
             <b>my-sportlist:</b>
-            This project was a good practice for backend, especially about using
-            APIs from scratch. It's a bit like Netflix, but for sports. users
-            can look up different sports, read about them, and use a sidebar to
-            move around, which I think is pretty cool.
+            Language/Technologies: reactjs, css3, Various APIs <br />
+            Description: Similar to Netflix but for sports, this project allows
+            users to explore different sports, read detailed information, and
+            navigate using a sidebar—great for backend API practice.
             <br />
             <a
               className="aa"
@@ -123,11 +122,10 @@ function Projects() {
 
           <p data-aos="fade-down-left" className="p-projects">
             <b>chatroom:</b>
-            Chatroom With Media. I worked on building a chatroom with media
-            capabilities.
-            <br />
-            I used Firebase and Realtime Database to build the necessary
-            functionalities.
+            Language/Technologies: reactjs, Firebase, Realtime Database
+            <br /> Description: This project focuses on creating a chatroom with
+            enhanced media sharing capabilities, utilizing Firebase and Realtime
+            Database for live interactions.
             <br /> {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
             <span className="push-word"></span>
             <a
@@ -158,8 +156,10 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-up-right" className="p-projects">
             <b>minesweeper:</b>
-            This is the Minesweeper game, using Javascript and CSS3. I built
-            this to have more practice on javascript
+            Language/Technologies:Javascript and CSS3
+            <br />
+            Description: This is the Minesweeper game. I built this to have more
+            practice on javascript
             <br />
             <a
               className="aa"
@@ -177,8 +177,9 @@ function Projects() {
           </p>
           <p data-aos="fade-down-left" className="p-projects">
             <b>tic-tac-toe:</b>
-            This is the TIc-Tac-Toe game, using Javascript and CSS3. I built
-            this to have more practice on javascript.
+            Language/Technologies: <br />
+            Description: This is the TIc-Tac-Toe game. I built this to have more
+            practice on javascript.
             <br />
             <a
               className="aa"
@@ -195,10 +196,11 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-left" className="p-projects">
-            <b>music-band:</b>Created in February 2021 from self-study and
-            online courses, this website features an Iranian folk music band,
-            using HTML5 and CSS3. I've incorporated backend functionality with
-            JavaScript.
+            <b>music-band:</b>Language/Technologies:
+            <br />
+            Description: Created in February 2021 from self-study and online
+            courses, this website features an Iranian folk music band. I've
+            incorporated backend functionality with JavaScript.
             <a
               className="aa"
               href="https://sue-zadeh.github.io/music-band/"
