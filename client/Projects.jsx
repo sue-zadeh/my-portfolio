@@ -36,7 +36,9 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>smart-panel:</b>
-            Language/Technologies: ReactJS, CSS, Bootstrap, SQLite, PHP, MySQL
+            <b>
+              Language/Technologies: ReactJS, CSS, Bootstrap, SQLite, PHP, MySQL
+            </b>
             <br />
             Description: Developed as a volunteer project, this website for
             Smart Panel Homes Ltd showcases engaging scroll animations and
@@ -72,7 +74,10 @@ function Projects() {
           </p>
           <p data-aos="fade-down-right" className="p-projects">
             <b>Selwyn Campground(scg):</b>
-            Language/Technologies: Python, Bootstrap, Flask, Jinja, MySQL <br />
+            <b>
+              Language/Technologies: Python, Bootstrap, Flask, Jinja, MySQL{' '}
+            </b>
+            <br />
             Description: A web application for Selwyn Campground to assist
             office staff in managing customer and booking data efficiently, with
             features for adding, editing, and managing records.
@@ -100,7 +105,8 @@ function Projects() {
           </p>
           <p data-aos="fade-down-right" className="p-projects">
             <b>my-sportlist:</b>
-            Language/Technologies: reactjs, css3, Various APIs <br />
+            <b>Language/Technologies: reactjs, css3, Various APIs </b>
+            <br />
             Description: Similar to Netflix but for sports, this project allows
             users to explore different sports, read detailed information, and
             navigate using a sidebar—great for backend API practice.
