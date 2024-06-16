@@ -43,7 +43,7 @@ function Projects() {
             Description: Developed as a volunteer project, this website for
             Smart Panel Homes Ltd showcases engaging scroll animations and
             includes a dynamic form that connects to a database for seamless
-            client interactions. Check it out here:
+            client interactions.
             <a
               className="aa"
               href="https://www.smartpanelhomes.co.nz/"
@@ -128,7 +128,7 @@ function Projects() {
 
           <p data-aos="fade-down-left" className="p-projects">
             <b>chatroom:</b>
-            Language/Technologies: reactjs, Firebase, Realtime Database
+            <b> Language/Technologies: reactjs, Firebase, Realtime Database</b>
             <br /> Description: This project focuses on creating a chatroom with
             enhanced media sharing capabilities, utilizing Firebase and Realtime
             Database for live interactions.
@@ -162,7 +162,7 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-up-right" className="p-projects">
             <b>minesweeper:</b>
-            Language/Technologies:Javascript and CSS3
+            <b>Language/Technologies:Javascript and CSS3</b>
             <br />
             Description: This is the Minesweeper game. I built this to have more
             practice on javascript
