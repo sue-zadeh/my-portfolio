@@ -183,7 +183,7 @@ function Projects() {
           </p>
           <p data-aos="fade-down-left" className="p-projects">
             <b>tic-tac-toe:</b>
-            Language/Technologies: Javascript and CSS3
+            <b> Language/Technologies: Javascript and CSS3</b>
             <br />
             Description: This is the TIc-Tac-Toe game. I built this to have more
             practice on javascript .
@@ -203,7 +203,10 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-left" className="p-projects">
-            <b>music-band:</b>Language/Technologies: HTML5, CSS3, JavaScript
+            <b>
+              music-band:
+              <br /> Language/Technologies: HTML5, CSS3, JavaScript
+            </b>
             <br />
             Description: Created in February 2021 from self-study and online
             courses, this website features an Iranian folk music band. backend
@@ -257,7 +260,8 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>DevStagram:</b>
-            Language/Technologies: reactjs,Redux.js,TypeScript, css <br />
+            <b>Language/Technologies: reactjs,Redux.js,TypeScript, css </b>
+            <br />
             Description: DevStagram, a one-day group project, pulls and displays
             data, letting users add to the JSON. I evolve it into a chatroom
             with media. I developed the sign-in page and led the git management.
@@ -284,10 +288,13 @@ function Projects() {
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-left" className="p-projects">
             <b>Squishy-Squish:</b>
-            Language/Technologies: p5, Javascript,Redux.js, Jest, and
-            TypeScript, CSS3 <br /> Description: This was a 1-week final group
-            project, and a game. I contributed to the frontend, backend, managed
-            git, and wrote tests for pages.
+            <b>
+              Language/Technologies: p5, Javascript,Redux.js, Jest, and
+              TypeScript, CSS3{' '}
+            </b>
+            <br /> Description: This was a 1-week final group project, and a
+            game. I contributed to the frontend, backend, managed git, and wrote
+            tests for pages.
             <a className="aa" href="https://helpfulself.xyz/" target="blank">
               Squishy-Squish
             </a>
@@ -317,7 +324,8 @@ function Projects() {
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
             <b>no-deal-or-deal:</b>
-            Language/Technologies: React.js, Redux.js, TypeScript, CSS3 <br />
+            <b> Language/Technologies: React.js, Redux.js, TypeScript, CSS3 </b>
+            <br />
             Description: This website was a one-day group project. It is a game
             created. In the group, my role was to work as the frontend lead.
             <br />
@@ -339,8 +347,11 @@ function Projects() {
         <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
             <b>dev-eats:</b>
-            Language/Technologies: CSS3 and JavaScript with server-side
-            handling. <br />
+            <b>
+              Language/Technologies: JavaScript with server-side handling and
+              CSS3.
+            </b>
+            <br />
             Description: This one-day group project website showcases Indian,
             Italian, Asian, and Vegan restaurants.
             <br />
