@@ -39,11 +39,9 @@ function Projects() {
             <b>
               Language/Technologies: ReactJS, CSS, Bootstrap, SQLite, PHP, MySQL
             </b>
-            <br />
-            Description: Developed as a volunteer project, this website for
-            Smart Panel Homes Ltd showcases engaging scroll animations and
-            includes a dynamic form that connects to a database for seamless
-            client interactions.
+            Description: This volunteer project website for Smart Panel Homes
+            Ltd features engaging scroll animations and a dynamic form linked to
+            a database for smooth client interactions.
             <a
               className="aa"
               href="https://www.smartpanelhomes.co.nz/"
@@ -77,11 +75,9 @@ function Projects() {
             <b>
               Language/Technologies: Python, Bootstrap, Flask, Jinja, MySQL{' '}
             </b>
-            <br />
             Description: A web application for Selwyn Campground to assist
             office staff in managing customer and booking data efficiently, with
             features for adding, editing, and managing records.
-            <br />
             <a
               className="aa"
               href="https://github.com/sue-zadeh/scg"
@@ -106,11 +102,9 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>my-sportlist:</b>
             <b>Language/Technologies: reactjs, css3, Various APIs </b>
-            <br />
             Description: Similar to Netflix but for sports, this project allows
             users to explore different sports, read detailed information, and
             navigate using a sidebar—great for backend API practice.
-            <br />
             <a
               className="aa"
               href="https://github.com/sue-zadeh/my-sportlist"
@@ -129,10 +123,10 @@ function Projects() {
           <p data-aos="fade-down-left" className="p-projects">
             <b>chatroom:</b>
             <b> Language/Technologies: reactjs, Firebase, Realtime Database</b>
-            <br /> Description: This project focuses on creating a chatroom with
+            Description: This project focuses on creating a chatroom with
             enhanced media sharing capabilities, utilizing Firebase and Realtime
             Database for live interactions.
-            <br /> {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
+            {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
             <span className="push-word"></span>
             <a
               className="aa"
@@ -163,10 +157,8 @@ function Projects() {
           <p data-aos="fade-up-right" className="p-projects">
             <b>minesweeper:</b>
             <b>Language/Technologies:Javascript and CSS3</b>
-            <br />
             Description: This is the Minesweeper game. I built this to have more
             practice on javascript
-            <br />
             <a
               className="aa"
               href="https://github.com/sue-zadeh/minesweeper"
@@ -184,10 +176,8 @@ function Projects() {
           <p data-aos="fade-down-left" className="p-projects">
             <b>tic-tac-toe:</b>
             <b> Language/Technologies: Javascript and CSS3</b>
-            <br />
             Description: This is the TIc-Tac-Toe game. I built this to have more
             practice on javascript .
-            <br />
             <a
               className="aa"
               href="https://github.com/sue-zadeh/tic-tac-toe"
@@ -203,11 +193,7 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-left" className="p-projects">
-            <b>
-              music-band:
-              <br /> Language/Technologies: HTML5, CSS3, JavaScript
-            </b>
-            <br />
+            <b>music-band: Language/Technologies: HTML5, CSS3, JavaScript</b>
             Description: Created in February 2021 from self-study and online
             courses, this website features an Iranian folk music band. backend
             functionality is with JavaScript.
@@ -261,11 +247,9 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>DevStagram:</b>
             <b>Language/Technologies: reactjs,Redux.js,TypeScript, css </b>
-            <br />
             Description: DevStagram, a one-day group project, pulls and displays
             data, letting users add to the JSON. I evolve it into a chatroom
             with media. I developed the sign-in page and led the git management.
-            <br />
             <a
               className="aa"
               href="https://github.com/sue-zadeh/DevStagram"
@@ -292,9 +276,9 @@ function Projects() {
               Language/Technologies: p5, Javascript,Redux.js, Jest, and
               TypeScript, CSS3{' '}
             </b>
-            <br /> Description: This was a 1-week final group project, and a
-            game. I contributed to the frontend, backend, managed git, and wrote
-            tests for pages.
+            Description: This was a 1-week final group project, and a game. I
+            contributed to the frontend, backend, managed git, and wrote tests
+            for pages.
             <a className="aa" href="https://helpfulself.xyz/" target="blank">
               Squishy-Squish
             </a>
@@ -325,10 +309,8 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>no-deal-or-deal:</b>
             <b> Language/Technologies: React.js, Redux.js, TypeScript, CSS3 </b>
-            <br />
             Description: This website was a one-day group project. It is a game
             created. In the group, my role was to work as the frontend lead.
-            <br />
             <a
               className="aa"
               href="https://github.com/sue-zadeh/no-deal-or-deal"
@@ -351,10 +333,8 @@ function Projects() {
               Language/Technologies: JavaScript with server-side handling and
               CSS3.
             </b>
-            <br />
             Description: This one-day group project website showcases Indian,
             Italian, Asian, and Vegan restaurants.
-            <br />
             <a
               className="aa"
               href="https://github.com/sue-zadeh/dev-eats"
