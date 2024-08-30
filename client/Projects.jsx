@@ -368,6 +368,8 @@ function Projects() {
             >
               view my project here
             </a>
+            <br />
+            <br />
             <img
               data-aos="fade-up-right"
               className="picsquish"
