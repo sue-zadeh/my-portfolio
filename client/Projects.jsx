@@ -85,13 +85,13 @@ function Projects() {
             >
               view my project here
             </a>
-            <a
+            {/* <a
               className="aa"
               href="https://suezadeh.pythonanywhere.com/"
               target="blank"
             >
-              view my project live on pythonanywhere
-            </a>
+              
+            </a> */}
             <img
               data-aos="fade-down-left"
               className="picsquish"
@@ -390,6 +390,12 @@ function Projects() {
             vote for the best walkway in New Zealand. I was responsible for
             developing all pages related to user registration, login, voting,
             displaying results, and ensuring the pages were styled responsively.
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={Votingcenter}
+              alt="Devstagram"
+            />
             <a
               className="aa"
               href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
@@ -402,14 +408,8 @@ function Projects() {
               href="https://gamma.pythonanywhere.com/"
               target="blank"
             >
-              you can view it on pythonAnywhere website
+              view my project live on pythonanywhere
             </a>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={Votingcenter}
-              alt="Devstagram"
-            />
           </p>
         </div>
       </div>
