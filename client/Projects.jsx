@@ -12,7 +12,7 @@ import Music from './Assets/music.png'
 import Sportflix from './Assets/Sportflix.png'
 import Smartpanel from './Assets/smartpanel.png'
 import Scg from './Assets/selwyn.png'
-// import Calc from './Assets/mycalc.png'
+import Treetalk from './Assets/TreeTalk.png'
 // import Unicorn from './Assets/inflate.png'
 // import Clown from './Assets/clown.png'
 // import Mole from './Assets/Mole.png'
@@ -153,7 +153,33 @@ function Projects() {
             />
           </p>
         </div>
+
         <div className="div-squish">
+          <p data-aos="fade-up-right" className="p-projects">
+            <b>TreeTalk:</b>
+            <b>
+              Language/Technologies:Python, Flask, Jinja,Javascript, Bootstrap
+              and CSS3
+            </b>
+            Tree Talk is a community platform where neighbors can discuss and
+            share insights about tree-related topics in their neighborhood.
+            Users can post messages, reply to others, and engage in
+            conversations.
+            <a
+              className="aa"
+              href="https://github.com/sue-zadeh/tree-talk"
+              target="blank"
+            >
+              view my project here
+            </a>
+            <img
+              data-aos="fade-up-right"
+              className="picsquish-toe"
+              src={Treetalk}
+              alt="TreeTalk"
+            />
+          </p>
+
           <p data-aos="fade-up-right" className="p-projects">
             <b>minesweeper:</b>
             <b>Language/Technologies:Javascript and CSS3</b>
