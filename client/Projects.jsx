@@ -383,7 +383,22 @@ function Projects() {
             <b>voting-center:</b>
             <b>
               Language/Technologies: Python, Flask,Jinja, javaScript,Bootstrap
-              and css{' '}
+              and css <br />
+              <a
+                className="aa"
+                href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
+                target="blank"
+              >
+                view my project here
+              </a>
+              <br />
+              <a
+                className="aa"
+                href="https://gamma.pythonanywhere.com/"
+                target="blank"
+              >
+                view my project live on pythonanywhere
+              </a>
             </b>
             Description: This project was part of a group assignment for a
             Master's course in Applied Computing. The website allows users to
@@ -396,20 +411,6 @@ function Projects() {
               src={Votingcenter}
               alt="Devstagram"
             />
-            <a
-              className="aa"
-              href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
-              target="blank"
-            >
-              view my project here
-            </a>
-            <a
-              className="aa"
-              href="https://gamma.pythonanywhere.com/"
-              target="blank"
-            >
-              view my project live on pythonanywhere
-            </a>
           </p>
         </div>
       </div>
