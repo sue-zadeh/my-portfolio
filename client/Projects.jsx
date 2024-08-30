@@ -13,7 +13,7 @@ import Sportflix from './Assets/Sportflix.png'
 import Smartpanel from './Assets/smartpanel.png'
 import Scg from './Assets/selwyn.png'
 import Treetalk from './Assets/TreeTalk.png'
-// import Unicorn from './Assets/inflate.png'
+import Votingcenter from './Assets/voting-center.png'
 // import Clown from './Assets/clown.png'
 // import Mole from './Assets/Mole.png'
 
@@ -161,10 +161,10 @@ function Projects() {
               Language/Technologies:Python, Flask, Jinja,Javascript, Bootstrap
               and CSS3
             </b>
-            Tree Talk is a community platform where neighbors can discuss and
-            share insights about tree-related topics in their neighborhood.
-            Users can post messages, reply to others, and engage in
-            conversations.
+            Description: Tree Talk is a community platform where neighbors can
+            discuss and share insights about tree-related topics in their
+            neighborhood. Users can post messages, reply to others, and engage
+            in conversations.
             <a
               className="aa"
               href="https://github.com/sue-zadeh/tree-talk"
@@ -377,6 +377,40 @@ function Projects() {
           </p>
           {/* </div>
         <div className="div-squish"> */}
+        </div>
+        <div className="div-squish">
+          <p data-aos="fade-down-right" className="p-projects">
+            <b>voting-center:</b>
+            <b>
+              Language/Technologies: Python, Flask,Jinja, javaScript,Bootstrap
+              and css{' '}
+            </b>
+            Description: This project was part of a group assignment for a
+            Master's course in Applied Computing. The website allows users to
+            vote for the best walkway in New Zealand. I was responsible for
+            developing all pages related to user registration, login, voting,
+            displaying results, and ensuring the pages were styled responsively.
+            <a
+              className="aa"
+              href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
+              target="blank"
+            >
+              view my project here
+            </a>
+            <a
+              className="aa"
+              href="https://gamma.pythonanywhere.com/"
+              target="blank"
+            >
+              you can view it on pythonAnywhere website
+            </a>
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={Votingcenter}
+              alt="Devstagram"
+            />
+          </p>
         </div>
       </div>
     </div>

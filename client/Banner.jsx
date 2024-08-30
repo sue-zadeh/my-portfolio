@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import { FaLaptopCode, FaGraduationCap, FaLightbulb } from 'react-icons/fa'
+import {
+  FaLaptopCode,
+  FaGraduationCap,
+  FaLightbulb,
+  FaBook,
+} from 'react-icons/fa' // Import FaBook for a study-related icon
 import { HiOutlineHand, HiCloud } from 'react-icons/hi'
 
 function Banner() {
@@ -46,6 +51,16 @@ function Banner() {
       ),
     },
     {
+      text: 'Master’s in Applied Computing Student',
+      icon: (
+        <FaBook
+          size={60}
+          color="#cd7700"
+          style={{ paddingRight: '12px', paddingLeft: '12px' }}
+        />
+      ),
+    },
+    {
       text: 'Tech enthusiast',
       icon: (
         <FaLightbulb
@@ -77,7 +92,6 @@ function Banner() {
         width: '100%',
       }}
     >
-      {/* <img className="pic" src={Sue4} alt="Sue4" /> */}
       <div data-aos="fade-down-right" className="sentence">
         <p className="web">
           {sentences[sentenceIndex].text}
