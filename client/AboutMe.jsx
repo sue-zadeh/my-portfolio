@@ -21,7 +21,7 @@ function AboutMe() {
         </h1>
         <p className="p-me2">
           I am a motivated Software Engineer with Azure certification and more
-          than a year of development experience, supported by six years managing
+          than 3 years' development experience, supported by six years managing
           computer workshops. My skills are continuously sharpened through
           rigorous training at Dev Academy, including courses in Azure AI
           Fundamentals, AWS, and ongoing studies in Salesforce, C# and .NET. I
