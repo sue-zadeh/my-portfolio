@@ -90,7 +90,7 @@ function Projects() {
               view my project here
             </a>
             <img
-              data-aos="fade-down-left"
+              data-aos="fade-down-right"
               className="picsquish"
               src={Pokemon}
               alt="Pokemon"
