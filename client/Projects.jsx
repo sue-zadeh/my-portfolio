@@ -14,13 +14,14 @@ import Smartpanel from './Assets/smartpanel.png'
 import Scg from './Assets/selwyn.png'
 import Treetalk from './Assets/TreeTalk.png'
 import Votingcenter from './Assets/voting-center.png'
+import Pokemon from './Assets/advancedsearch.png'
 // import Clown from './Assets/clown.png'
 // import Mole from './Assets/Mole.png'
 
 function Projects() {
   useEffect(() => {
     AOS.init({
-      duration: 900,
+      duration: 900
     })
   }, [])
 
@@ -68,6 +69,31 @@ function Projects() {
               className="picsquish"
               src={Smartpanel}
               alt="Sportflix"
+            />
+          </p>
+          <p data-aos="fade-down-right" className="p-projects">
+            <b>Pokedex:</b>
+            <b>
+              Language/Technologies: React.js (Vite), TypeScript, Bootstrap,
+              Flask, REST API
+            </b>
+            Description: An interactive Pokémon Pokédex web application that
+            allows users to explore, filter, and search through Pokémon details,
+            with advanced search options and sorting functionality for
+            attributes like type, height, and weight. The project demonstrates
+            modern UI/UX principles and clean, maintainable coding practices.
+            <a
+              className="aa"
+              href="https://github.com/sue-zadeh/pokedex"
+              target="blank"
+            >
+              view my project here
+            </a>
+            <img
+              data-aos="fade-down-left"
+              className="picsquish"
+              src={Pokemon}
+              alt="Pokemon"
             />
           </p>
           <p data-aos="fade-down-right" className="p-projects">
@@ -234,7 +260,7 @@ function Projects() {
                   paddingRight: '1.5em',
                   color: 'rgb(240, 240, 165)',
                   fontSize: '20px',
-                  textDecoration: 'none',
+                  textDecoration: 'none'
                 }}
               ></span>
             </a>
@@ -249,7 +275,7 @@ function Projects() {
                   paddingRight: '1.5em',
                   color: 'rgb(240, 240, 165)',
                   fontSize: '18px',
-                  textDecoration: 'none',
+                  textDecoration: 'none'
                 }}
               >
                 <b>( 2021 )</b>
