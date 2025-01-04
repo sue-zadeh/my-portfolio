@@ -84,13 +84,14 @@ function Body() {
           Why hire me?
         </h1>
         <p className="p1">
-          I am a full stack software developer with 1+ year of commercial
-          experience and certifications in Microsoft Azure, Dev Academy Boot
-          Camp, AWS, and Salesforce. With six years of teaching and supervisory
-          experience, I am passionate about coding, continuous learning, and
-          problem-solving. I excel in fast-paced environments and enjoy team
-          collaboration. Currently, I am studying online and working on UpWork
-          projects to further enhance my skills.
+          I am a results-driven Full Stack Developer with a proven ability to
+          deliver impactful software solutions. With certifications in Microsoft
+          Azure, AWS, and Salesforce, and 5+ years of combined frontend and
+          backend experience, I excel in creating scalable applications and
+          optimizing workflows. I thrive in Agile environments, solving complex
+          challenges and contributing to dynamic teams. My focus on continuous
+          learning and real-world projects ensures I bring innovation and value
+          to every opportunity.
         </p>
       </div>
     </div>
