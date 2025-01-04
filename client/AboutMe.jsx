@@ -20,20 +20,24 @@ function AboutMe() {
           About Me
         </h1>
         <p className="p-me2">
-          I am a motivated Software Engineer with Azure certification and more
-          than 3 years' development experience, supported by six years managing
-          computer workshops. My skills are continuously sharpened through
-          rigorous training at Dev Academy, including courses in Azure AI
-          Fundamentals, AWS, and ongoing studies in Salesforce, C# and .NET. I
-          am known for my ability to quickly master new technologies and excel
-          in dynamic, fast-paced settings. I am deeply committed to personal and
-          professional growth, consistently seeking opportunities to enhance my
-          programming and problem-solving abilities. My keen attention to detail
-          and strong time management skills enable me to excel in software
-          engineering, where I thrive under pressure and am always ready to
-          tackle new challenges. I aim to leverage my comprehensive technical
-          skills to drive innovation and efficiency in the tech industry. ive
-          spirit to make a meaningful impact in the tech industry.
+          I am a motivated Software Development Graduate [Microsoft Azure &
+          Azure AI certified] with over 5 years of frontend and 4 years of
+          backend experience. Currently, I am in the final semester of a
+          Master’s in Applied Computing, focusing on React, TypeScript, Node.js,
+          Express.js, and MySQL. I lead the development of an admin dashboard
+          (FieldBase) for CVNZ, designed to organize activities, send
+          notifications, and archive projects, which has improved operational
+          efficiency by 70%. My technical expertise has been sharpened through
+          rigorous training at the Dev Academy coding boot camp, AWS
+          certifications, and hands-on industry projects. Known for my ability
+          to troubleshoot technical challenges, optimize workflows, and deliver
+          impactful, client-focused software solutions, I thrive in Agile,
+          collaborative teams. With a proven track record of building scalable
+          solutions and enhancing user engagement, I am committed to leveraging
+          my skills to create innovative software that drives efficiency and
+          growth. My attention to detail, problem-solving ability, and eagerness
+          to embrace challenges allow me to excel in dynamic, fast-paced
+          environments.
           <br /> <br />
         </p>
       </div>
