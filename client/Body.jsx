@@ -84,14 +84,13 @@ function Body() {
           Why hire me?
         </h1>
         <p className="p1">
-          I am a results-driven Full Stack Developer with a proven ability to
-          deliver impactful software solutions. With certifications in Microsoft
-          Azure, AWS, and Salesforce, and 5+ years of combined frontend and
-          backend experience, I excel in creating scalable applications and
-          optimizing workflows. I thrive in Agile environments, solving complex
-          challenges and contributing to dynamic teams. My focus on continuous
-          learning and real-world projects ensures I bring innovation and value
-          to every opportunity.
+          I am a results-driven Full Stack Developer (Microsoft Azure & Azure AI
+          certified) i studied AWS and Salesforce too, and have 5+ years of
+          frontend and backend experience. I build scalable applications,
+          optimize workflows, and solve complex challenges in Agile
+          environments. With hands-on experience from real-world projects, I
+          bring innovation, efficiency, and a problem-solving mindset to every
+          opportunity.
         </p>
       </div>
     </div>

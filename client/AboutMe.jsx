@@ -22,7 +22,7 @@ function AboutMe() {
         <p className="p-me2">
           I am a Full-Stack Software Developer (Microsoft Azure & Azure AI
           certified) with 5+ years of frontend and 4+ years of backend
-          experience. I recently earned my Master’s in Applied Computing from
+          experience. I have a Master’s in Applied Computing from
           Lincoln University and have worked on real-world projects that solve
           complex problems efficiently. My latest solo project, FieldSafe, was
           built for CVNZ and hosted on AWS to help conservation groups manage
