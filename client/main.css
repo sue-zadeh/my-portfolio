@@ -569,20 +569,19 @@ animation: slideout 2s ease-in;
   color: rgb(249, 252, 216);
   font-family:  'Montserrat', sans-serif;
   font-size: 3.5em;
-  /* font-family: 'cario', "Nunito", 'Montserrat', sans-serif; */
-    font-weight: 580;
+  font-weight: 580;
   text-align: center;
   align-items: center;
-  /* text-shadow: 0px #fad9ad; */
   animation: slideout 2s ease-in; 
+  /* text-shadow: 0px #fad9ad; */
 }
 .h2-projects2 {
   letter-spacing: 0.25em;
   padding: 1.5rem;
   color: rgb(249, 252, 216);
   font-size: 2.5em;
-  font-family: "Nunito", 'cario','Arial', 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'cario',  "Nunito", 'Arial', 'Montserrat', sans-serif;
+  font-weight: 510;
   text-align: left;
   text-shadow: 2px 1px 2px #fad9ad;
 }
