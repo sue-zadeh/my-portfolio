@@ -15,13 +15,17 @@ import Scg from './Assets/selwyn.png'
 import Treetalk from './Assets/TreeTalk.png'
 import Votingcenter from './Assets/voting-center.png'
 import Pokemon from './Assets/advancedsearch.png'
+import Fieldsafe from './Assets/fieldsafe.png'
+import Riskactivity from './Assets/riskactivity.png'
+import Groupadmin from './Assets/groupadmins.png'
+import Objectivesactivity from './Assets/objectivesactivity.png'
 // import Clown from './Assets/clown.png'
 // import Mole from './Assets/Mole.png'
 
 function Projects() {
   useEffect(() => {
     AOS.init({
-      duration: 900
+      duration: 900,
     })
   }, [])
 
@@ -30,6 +34,69 @@ function Projects() {
       <h2 data-aos="fade-down-right" className="h2-projects">
         Projects
       </h2>
+
+      <div className="projects2">
+        <h2 data-aos="fade-down-left" className="h2-projects2">
+          Recent Solo Project:
+        </h2>
+        <div className="div-squish">
+          <p data-aos="fade-down-right" className="p-projects">
+            <b>FieldSafe (CVNZ company):</b>
+            <b>
+              Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, REst
+              API, MySQL
+            </b>
+            Description: This project aimed to build a digital solution called
+            FieldSafe to help conservation groups manage their daily tasks—such
+            as assigning staff, overseeing activities, and logging risks—all in
+            one user-friendly platform while ensuring compliance with health and
+            safety regulations.
+            <a
+              className="aa"
+              href="http://fieldsafe.ap-southeast-2.elasticbeanstalk.com/"
+              target="blank"
+            >
+              Click here to view the FieldSafe app online
+            </a>
+            <br />
+            <a
+              className="aa"
+              href="https://github.com/sue-zadeh/fieldsafe.git"
+              target="blank"
+            >
+              Check out my project on GitHub
+            </a>
+            <br /> <br /> <br />
+          </p>
+          <div className="projects2">
+            <img
+              data-aos="fade-down-right"
+              className="picsquish-toe"
+              src={Fieldsafe}
+              alt="FieldSafe"
+            />
+            <img
+              data-aos="fade-down-right"
+              className="picsquish-toe"
+              src={Riskactivity}
+              alt="FieldSafe"
+            />{' '}
+            <img
+              data-aos="fade-down-right"
+              className="picsquish-toe"
+              src={Objectivesactivity}
+              alt="FieldSafe"
+            />
+            <img
+              data-aos="fade-down-right"
+              className="picsquish-toe"
+              src={Groupadmin}
+              alt="FieldSafe"
+            />
+          </div>
+        </div>
+      </div>
+
       <div className="projects2">
         <h2 data-aos="fade-down-left" className="h2-projects2">
           Solo Projects:
@@ -38,11 +105,16 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>smart-panel:</b>
             <b>
-              Language/Technologies: ReactJS, CSS, Bootstrap, SQLite, PHP, MySQL
+              Language/Technologies: DevOps, AWS (RDS, Elastic Beanstalk, Route
+              53), ReactJS, CSS, Bootstrap, MySQL
             </b>
-            Description: This volunteer project website for Smart Panel Homes
-            Ltd features engaging scroll animations and a dynamic form linked to
-            a database for smooth client interactions.
+            Description: This project involved building and hosting FieldSafe, a
+            digital platform for conservation groups to manage staff, track
+            activities, log risks, create projects, report incidents, and send
+            emails to the necessary recipients—all in one user-friendly system
+            while ensuring compliance with health and safety regulations. The
+            app was hosted on AWS, utilizing RDS for the database, Elastic
+            Beanstalk for deployment, and Route 53 for domain management.
             <a
               className="aa"
               href="https://www.smartpanelhomes.co.nz/"
@@ -260,7 +332,7 @@ function Projects() {
                   paddingRight: '1.5em',
                   color: 'rgb(240, 240, 165)',
                   fontSize: '20px',
-                  textDecoration: 'none'
+                  textDecoration: 'none',
                 }}
               ></span>
             </a>
@@ -275,7 +347,7 @@ function Projects() {
                   paddingRight: '1.5em',
                   color: 'rgb(240, 240, 165)',
                   fontSize: '18px',
-                  textDecoration: 'none'
+                  textDecoration: 'none',
                 }}
               >
                 <b>( 2021 )</b>
