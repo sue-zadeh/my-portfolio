@@ -20,24 +20,22 @@ function AboutMe() {
           About Me
         </h1>
         <p className="p-me2">
-          I am a motivated Software Development Graduate [Microsoft Azure &
-          Azure AI certified] with over 5 years of frontend and 4 years of
-          backend experience. Currently, I am in the final semester of a
-          Master’s in Applied Computing, focusing on React, TypeScript, Node.js,
-          Express.js, and MySQL. I lead the development of an admin dashboard
-          (FieldBase) for CVNZ, designed to organize activities, send
-          notifications, and archive projects, which has improved operational
-          efficiency by 70%. My technical expertise has been sharpened through
-          rigorous training at the Dev Academy coding boot camp, AWS
-          certifications, and hands-on industry projects. Known for my ability
-          to troubleshoot technical challenges, optimize workflows, and deliver
-          impactful, client-focused software solutions, I thrive in Agile,
-          collaborative teams. With a proven track record of building scalable
-          solutions and enhancing user engagement, I am committed to leveraging
-          my skills to create innovative software that drives efficiency and
-          growth. My attention to detail, problem-solving ability, and eagerness
-          to embrace challenges allow me to excel in dynamic, fast-paced
-          environments.
+          I am a full stack Software Developer (Microsoft Azure & Azure AI
+          certified) with 5+ years of frontend and 4+ years of backend
+          experience. I recently earned my Master’s in Applied Computing from
+          Lincoln University. My latest solo project, FieldSafe, hosted on AWS, was built for
+          CVNZ to help conservation groups manage staff, oversee activities, log
+          risks, and ensure compliance—all in a user-friendly platform. This
+          project was developed using React Vite, TypeScript, REST API, Node.js,
+          Express.js, and MySQL. I also led the development of FieldBase, an
+          admin dashboard for CVNZ, designed to organize activities, send
+          notifications, and archive projects, improving operational efficiency
+          by more than 80%. With a strong foundation in full-stack development, hands-on
+          experience from Dev Academy, AWS certifications, and real-world
+          projects, I excel at solving technical challenges, optimizing
+          workflows, and building impactful software. I thrive in Agile,
+          collaborative environments and am passionate about creating scalable,
+          user-focused solutions that drive efficiency and innovation.
           <br /> <br />
         </p>
       </div>
