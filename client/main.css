@@ -563,17 +563,17 @@ animation: slideout 2s ease-in;
 }
 
 .h2-projects {
-  letter-spacing: 0.45em;
+  letter-spacing: 0.5em;
   padding-top: 2.6em;
   padding-bottom: 0.50em;
   color: rgb(249, 252, 216);
-  font-family:  'Montserrat', sans-serif;
+  font-family: 'cario', 'Montserrat', sans-serif;
   font-size: 3.5em;
-  font-weight: 580;
+  font-weight: 590;
   text-align: center;
   align-items: center;
   animation: slideout 2s ease-in; 
-  /* text-shadow: 0px #fad9ad; */
+  text-shadow: 2px #fad9ad;
 }
 .h2-projects2 {
   letter-spacing: 0.25em;
