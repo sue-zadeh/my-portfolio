@@ -20,22 +20,24 @@ function AboutMe() {
           About Me
         </h1>
         <p className="p-me2">
-          I am a full stack Software Developer (Microsoft Azure & Azure AI
+          I am a Full-Stack Software Developer (Microsoft Azure & Azure AI
           certified) with 5+ years of frontend and 4+ years of backend
           experience. I recently earned my Master’s in Applied Computing from
-          Lincoln University. My latest solo project, FieldSafe, hosted on AWS, was built for
-          CVNZ to help conservation groups manage staff, oversee activities, log
-          risks, and ensure compliance—all in a user-friendly platform. This
-          project was developed using React Vite, TypeScript, REST API, Node.js,
-          Express.js, and MySQL. I also led the development of FieldBase, an
-          admin dashboard for CVNZ, designed to organize activities, send
-          notifications, and archive projects, improving operational efficiency
-          by more than 80%. With a strong foundation in full-stack development, hands-on
-          experience from Dev Academy, AWS certifications, and real-world
-          projects, I excel at solving technical challenges, optimizing
-          workflows, and building impactful software. I thrive in Agile,
-          collaborative environments and am passionate about creating scalable,
-          user-focused solutions that drive efficiency and innovation.
+          Lincoln University and have worked on real-world projects that solve
+          complex problems efficiently. My latest solo project, FieldSafe, was
+          built for CVNZ and hosted on AWS to help conservation groups manage
+          staff, track activities, log risks, and ensure compliance—all in a
+          user-friendly platform. I developed it using React Vite, TypeScript,
+          REST API, Node.js, Express.js, and MySQL. I also led the development
+          of FieldBase, an admin dashboard that streamlines project
+          organization, sends automated notifications, and archives
+          activities—boosting operational efficiency by over 80%. With a strong
+          foundation in full-stack development, hands-on experience from Dev
+          Academy, AWS certifications, and a track record of delivering
+          high-impact solutions, I thrive in Agile, fast-paced teams. I’m
+          passionate about solving technical challenges, optimizing workflows,
+          and building scalable, user-focused applications that drive
+          innovation.
           <br /> <br />
         </p>
       </div>
