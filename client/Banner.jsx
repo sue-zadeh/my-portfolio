@@ -31,6 +31,16 @@ function Banner() {
       ),
     },
     {
+      text: 'Master’s in Applied Computing Student',
+      icon: (
+        <FaBook
+          size={60}
+          color="#cd7700"
+          style={{ paddingRight: '12px', paddingLeft: '12px' }}
+        />
+      ),
+    },
+    {
       text: 'Microsoft Azure Certified',
       icon: (
         <HiCloud
@@ -50,16 +60,7 @@ function Banner() {
         />
       ),
     },
-    {
-      text: 'Master’s in Applied Computing Student',
-      icon: (
-        <FaBook
-          size={60}
-          color="#cd7700"
-          style={{ paddingRight: '12px', paddingLeft: '12px' }}
-        />
-      ),
-    },
+
     {
       text: 'Tech enthusiast',
       icon: (
