@@ -85,12 +85,14 @@ function Body() {
         </h1>
         <p className="p1">
           I am a results-driven Full Stack Developer (Microsoft Azure & Azure AI
-          certified) i studied AWS and Salesforce too, and have 5+ years of
-          frontend and backend experience. I build scalable applications,
-          optimize workflows, and solve complex challenges in Agile
-          environments. With hands-on experience from real-world projects, I
-          bring innovation, efficiency, and a problem-solving mindset to every
-          opportunity.
+          certified) with expertise in React, Node.js, Python, and cloud
+          automation. With 5+ years of experience, I design and deploy scalable
+          applications, optimize workflows, and solve complex technical
+          challenges. I have built high-impact projects like FieldSafe (a SaaS
+          platform improving efficiency by 80%) and Smart Panel Homes (a
+          React-based website increasing engagement by 80%). Experienced in AWS,
+          Salesforce, and CI/CD, I thrive in Agile teams, delivering innovative,
+          efficient, and problem-solving solutions.
         </p>
       </div>
     </div>
