@@ -31,7 +31,7 @@ function Banner() {
       ),
     },
     {
-      text: 'Master’s in Applied Computing Student',
+      text: 'Master’s in Applied Computing',
       icon: (
         <FaBook
           size={60}
