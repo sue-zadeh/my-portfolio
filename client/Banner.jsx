@@ -33,7 +33,7 @@ function Banner() {
     {
       text: 'Master’s in Applied Computing',
       icon: (
-        <FaBook
+        <FaGraduationCap
           size={60}
           color="#cd7700"
           style={{ paddingRight: '12px', paddingLeft: '12px' }}
