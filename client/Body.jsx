@@ -89,7 +89,7 @@ function Body() {
           automation. With 5+ years of experience, I design and deploy scalable
           applications, optimize workflows, and solve complex technical
           challenges. I have built high-impact projects like FieldSafe (a SaaS
-          platform improving efficiency by 80%) and Smart Panel Homes (a
+          platform improving efficiency by 90%) and Smart Panel Homes (a
           React-based website increasing engagement by 80%). Experienced in AWS,
           Salesforce, and CI/CD, I thrive in Agile teams, delivering innovative,
           efficient, and problem-solving solutions.
