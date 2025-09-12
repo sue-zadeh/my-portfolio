@@ -335,10 +335,10 @@ height: 32vh;
   grid-template-rows: repeat(15, auto);
   font-size: 18px;
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
-  box-shadow: 2px #737779;
+  /* box-shadow: 2px #737779; */
   text-align:left;
-  padding: 20px 5px;
-  margin: 58px 8px 0px 8px;
+  padding: 20px 3px;
+  margin: 10px 6px 0px 6px;
   line-height: 1.79em;
  }
 

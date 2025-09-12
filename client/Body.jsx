@@ -104,6 +104,7 @@ function Body() {
             target="_blank"
             rel="noopener noreferrer"
             style={{
+              fontWeight: 'bold',
               fontSize: '1em',
               textDecoration: 'none',
               color: 'rgb(246, 7, 7)',
@@ -125,6 +126,7 @@ function Body() {
             target="_blank"
             rel="noopener noreferrer"
             style={{
+              fontWeight: 'bold',
               fontSize: '1em',
               textDecoration: 'none',
               color: 'rgb(246, 7, 7)',
