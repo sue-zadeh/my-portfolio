@@ -84,15 +84,16 @@ function Body() {
           Why hire me?
         </h1>
         <p className="p1">
-          I am a results-driven Full Stack Developer (Microsoft Azure & Azure AI
-          certified) with expertise in React, Node.js, Python, and cloud
-          automation. With 5+ years of experience, I design and deploy scalable
-          applications, optimize workflows, and solve complex technical
-          challenges. I have built high-impact projects like FieldSafe (a SaaS
-          platform improving efficiency by 90%) and Smart Panel Homes (a
-          React-based website increasing engagement by 80%). Experienced in AWS,
-          Salesforce, and CI/CD, I thrive in Agile teams, delivering innovative,
-          efficient, and problem-solving solutions.
+          I am a results-driven Full Stack Developer [Microsoft Azure & Azure AI
+          certified, and ISTQB® Certified Tester (iSQI, Aug 2025)] with
+          expertise in React, Node.js, Python, and cloud automation. With 5+
+          years of experience, I design and deploy scalable applications,
+          optimize workflows, and solve complex technical challenges. I have
+          built high-impact projects like FieldSafe (a SaaS platform improving
+          efficiency by 90%) and Smart Panel Homes (a React-based website
+          increasing engagement by 80%). Experienced in AWS, Salesforce, and
+          CI/CD, I thrive in Agile teams, delivering innovative, efficient, and
+          problem-solving solutions.
         </p>
       </div>
     </div>

@@ -4,6 +4,7 @@ import {
   FaGraduationCap,
   FaLightbulb,
   FaBook,
+  FaCertificate,
 } from 'react-icons/fa' // Import FaBook for a study-related icon
 import { HiOutlineHand, HiCloud } from 'react-icons/hi'
 
@@ -37,6 +38,16 @@ function Banner() {
           size={60}
           color="#cd7700"
           style={{ paddingRight: '12px', paddingLeft: '12px' }}
+        />
+      ),
+    },
+    {
+      text: 'ISTQB® Certified Tester (iSQI, Aug 2025)',
+      icon: (
+        <FaCertificate
+          size={70}
+          color="#cd7700"
+          style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
       ),
     },
