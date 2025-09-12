@@ -30,10 +30,10 @@ function Body() {
 
         <h4>Tech Skills:</h4>
         <p className="p4">
-          DevOps, Reactjs, Javascript, Typescript, Python ,Flask, Jinja ,
-          Redux.js, HTML5, CSS3, Bootstrap, Tailwind, SCSS, php, Apache,
-          Debugging, MySQL, SQLite, API, firebase, Github, Git, Azure , AWS,
-          Jest, ISTQB, somnia, Postman, railway, Heroku, visual studio
+          DevOps, React.js, JavaScript, TypeScript, Python, Flask, Jinja,
+          Redux.js, HTML5, CSS3, Bootstrap, Tailwind, SCSS, PHP, Apache, MySQL,
+          SQLite, Firebase, GitHub, Git, Azure, AWS, Jest, ISTQB, Postman,
+          Railway, Heroku, Visual Studio Code, Agile, Scrum, Kanban
         </p>
       </div>
       <div data-aos="fade-down-right" className="grid2">
@@ -84,16 +84,24 @@ function Body() {
           Why hire me?
         </h1>
         <p className="p1">
-          I am a results-driven Full Stack Developer [Microsoft Azure & Azure AI
-          certified, and ISTQB® Certified Tester (iSQI, Aug 2025)] with
-          expertise in React, Node.js, Python, and cloud automation. With 5+
-          years of experience, I design and deploy scalable applications,
-          optimize workflows, and solve complex technical challenges. I have
-          built high-impact projects like FieldSafe (a SaaS platform improving
-          efficiency by 90%) and Smart Panel Homes (a React-based website
-          increasing engagement by 80%). Experienced in AWS, Salesforce, and
-          CI/CD, I thrive in Agile teams, delivering innovative, efficient, and
-          problem-solving solutions.
+          🎓 Certified Full Stack Developer – Microsoft Azure, Azure AI, and
+          ISTQB® Certified Tester (iSQI, Aug 2025)
+          <br />
+          🧠 Experienced with React, Node.js, Python, cloud automation, and
+          scalable app design
+          <br />
+          🚀 Built FieldSafe (for CVNZ) – a SaaS platform that improved
+          efficiency by 90% and replaced outdated paper processes used by
+          Auckland Council. http://fieldsafe.org.nz/
+          <br />
+          🛒 Developed Smart Panel Homes – a React-based site that increased
+          customer engagement by 80%. https://www.smartpanelhomes.co.nz/ <br />
+          🔁 Skilled in CI/CD pipelines (GitHub Actions), AWS, Azure,
+          Playwright, Jest, and SQL databases
+          <br />
+          🤝 Thrive in Agile teams, with strong communication (Jira, Slack),
+          fast learning, and collaborative problem-solving mindset
+          <br />
         </p>
       </div>
     </div>

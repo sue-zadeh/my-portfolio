@@ -348,7 +348,7 @@ height: 32vh;
   padding: 0px;
   margin: 0px 18px;
   line-height: 1.98em;
-  font-size: 1em;
+  font-size: 1.15em;
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
   font-style: italic;
   font-weight:300;
@@ -357,11 +357,11 @@ height: 32vh;
  }
 
 .p1 {
-  padding: 0rem 1.5rem 0.5rem 0rem;
+  padding: 0rem 1.75rem 0.5rem 0rem;
   margin: 0px;
   font-family: 'Cairo', 'Montserrat', 'Arial, Helvetica, sans-serif';
   font-size: 1.04em;
-  line-height: 35px;
+  line-height: 37px;
   }
 .p2 {
   padding: 0px;
