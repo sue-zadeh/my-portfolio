@@ -92,11 +92,12 @@ function Body() {
           <br />
           🚀 Built FieldSafe (for CVNZ) – a SaaS platform that improved
           efficiency by 90% and replaced outdated paper processes used by
-          Auckland Council. http://fieldsafe.org.nz/
+          Auckland Council. 🔗 [fieldsafe.org.nz](http://fieldsafe.org.nz)
           <br />
           🛒 Developed Smart Panel Homes – a React-based site that increased
-          customer engagement by 80%. https://www.smartpanelhomes.co.nz/ <br />
-          🔁 Skilled in CI/CD pipelines (GitHub Actions), AWS, Azure,
+          customer engagement by 80% 🔗
+          [smartpanelhomes.co.nz](https://www.smartpanelhomes.co.nz)
+          <br /> 🔁 Skilled in CI/CD pipelines (GitHub Actions), AWS, Azure,
           Playwright, Jest, and SQL databases
           <br />
           🤝 Thrive in Agile teams, with strong communication (Jira, Slack),
