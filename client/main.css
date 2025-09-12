@@ -435,7 +435,7 @@ h4 {
     text-decoration: none;
     text-align: center;
     align-items: center;
-    font-style: italic;
+    /* font-style: italic; */
     position: relative; 
     display: inline-block; 
   }

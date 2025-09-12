@@ -5,7 +5,7 @@ import { RiFlashlightLine } from 'react-icons/ri'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { ImDownload2 } from 'react-icons/im'
 import { AiOutlineGithub } from 'react-icons/ai'
-
+import ISQI from './Assets/ISTQB-ISQI.png'
 import { ImLinkedin } from 'react-icons/im'
 // import { ImFacebook2 } from 'react-icons/im'
 // import { ImTwitter } from 'react-icons/im'
@@ -86,17 +86,57 @@ function Body() {
         <p className="p1">
           🎓 Certified Full Stack Developer – Microsoft Azure, Azure AI, and
           ISTQB® Certified Tester (iSQI, Aug 2025)
+          <img
+            src={ISQI}
+            alt="ISTQB Certified Tester"
+            style={{ height: '40px', marginLeft: '10px' }}
+          />
           <br />
           🧠 Experienced with React, Node.js, Python, cloud automation, and
           scalable app design
           <br />
           🚀 Built FieldSafe (for CVNZ) – a SaaS platform that improved
           efficiency by 90% and replaced outdated paper processes used by
-          Auckland Council. 🔗 [fieldsafe.org.nz](http://fieldsafe.org.nz)
+          Auckland Council. 🔗{' '}
+          <a
+            className="download2"
+            href="http://fieldsafe.org.nz"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontSize: '1em',
+              textDecoration: 'none',
+              color: 'rgb(246, 7, 7)',
+              marginLeft: '10px',
+              marginRight: '10px',
+              alignItems: 'center',
+              justifySelf: 'center',
+              textAlign: 'center',
+            }}
+          >
+            http://fieldsafe.org.nz
+          </a>
           <br />
           🛒 Developed Smart Panel Homes – a React-based site that increased
-          customer engagement by 80% 🔗
-          [smartpanelhomes.co.nz](https://www.smartpanelhomes.co.nz)
+          customer engagement by 80% 🔗{' '}
+          <a
+            className="download2"
+            href="https://smartpanelhomes.co.nz"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontSize: '1em',
+              textDecoration: 'none',
+              color: 'rgb(246, 7, 7)',
+              marginLeft: '10px',
+              marginRight: '10px',
+              alignItems: 'center',
+              justifySelf: 'center',
+              textAlign: 'center',
+            }}
+          >
+            https://smartpanelhomes.co.nz
+          </a>
           <br /> 🔁 Skilled in CI/CD pipelines (GitHub Actions), AWS, Azure,
           Playwright, Jest, and SQL databases
           <br />
