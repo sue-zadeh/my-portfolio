@@ -95,7 +95,7 @@ function Body() {
           🧠 Experienced with React, Node.js, Python, cloud automation, and
           scalable app design
           <br />
-          🚀 Built FieldSafe (for CVNZ) – a SaaS platform that improved
+          🚀 Built FieldSafe (for CVNZ company) – a SaaS platform that improved
           efficiency by 90% and replaced outdated paper processes used by
           Auckland Council. 🔗{' '}
           <a
@@ -118,8 +118,8 @@ function Body() {
             http://fieldsafe.org.nz
           </a>
           <br />
-          🛒 Developed Smart Panel Homes – a React-based site that increased
-          customer engagement by 80% 🔗{' '}
+          🛒 Developed Smart Panel Homes (for Smart Panel Homes Ltd)– a
+          React-based site that increased customer engagement by 80% 🔗{' '}
           <a
             className="download2"
             href="https://smartpanelhomes.co.nz"
