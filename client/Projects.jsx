@@ -497,7 +497,7 @@ function Projects() {
               <br />
               <a
                 className="aa"
-                href="https://gamma.pythonanywhere.com/"
+                href="https://github.com/sue-zadeh/let-create-voting-site"
                 target="blank"
               >
                 view my project live on pythonanywhere
@@ -508,6 +508,7 @@ function Projects() {
             vote for the best walkway in New Zealand. I was responsible for
             developing all pages related to user registration, login, voting,
             displaying results, and ensuring the pages were styled responsively.
+            <br />
             <img
               data-aos="fade-down-right"
               className="picsquish"
