@@ -51,9 +51,12 @@ function Projects() {
             as assigning staff, overseeing activities, and logging risks—all in
             one user-friendly platform while ensuring compliance with health and
             safety regulations.
+            <br />
+            Currently enhancing FieldSafe with PWA features for offline access
+            using service workers, manifest integration, and IndexedDB
             <a
               className="aa"
-              href="http://fieldsafe.ap-southeast-2.elasticbeanstalk.com/"
+              href="https://github.com/sue-zadeh/offline-fieldsafe"
               target="blank"
             >
               Click here to view the FieldSafe app online
