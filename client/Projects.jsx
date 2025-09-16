@@ -497,10 +497,10 @@ function Projects() {
               <br />
               <a
                 className="aa"
-                href="https://github.com/sue-zadeh/let-create-voting-site"
+                href="https://github.com/sue-zadeh/voting-best-track-NZ"
                 target="blank"
               >
-                view my project live on pythonanywhere
+                view my project on the Github
               </a>
             </b>
             Description: This project was part of a group assignment for a
@@ -509,12 +509,23 @@ function Projects() {
             developing all pages related to user registration, login, voting,
             displaying results, and ensuring the pages were styled responsively.
             <br />
+            we <b>improve it</b> and Built a customization tool letting users
+            set background and font styling for their own voting site,
+            simulating CMS-style personalization.
+            <br />
             <img
               data-aos="fade-down-right"
               className="picsquish"
               src={Votingcenter}
               alt="Devstagram"
-            />
+            />{' '}
+            <a
+              className="aa"
+              href="https://github.com/sue-zadeh/let-create-voting-site"
+              target="blank"
+            >
+              view my project on the Github
+            </a>
           </p>
         </div>
       </div>
