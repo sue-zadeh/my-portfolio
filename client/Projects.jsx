@@ -43,8 +43,8 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>FieldSafe (CVNZ company):</b>
             <b>
-              Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, REst
-              API, MySQL
+              Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, API
+              Integration, MySQL
             </b>
             Description: This project aimed to build a digital solution called
             FieldSafe to help conservation groups manage their daily tasks—such
@@ -56,15 +56,15 @@ function Projects() {
             using service workers, manifest integration, and IndexedDB
             <a
               className="aa"
-              href="https://github.com/sue-zadeh/offline-fieldsafe"
+              href="https://fieldsafe.org.nz/"
               target="blank"
-            >
+              >
               Click here to view the FieldSafe app online
             </a>
             <br />
             <a
+              href="https://github.com/sue-zadeh/offline-fieldsafe"
               className="aa"
-              href="https://github.com/sue-zadeh/fieldsafe.git"
               target="blank"
             >
               Check out my project on GitHub
@@ -506,9 +506,9 @@ function Projects() {
             Description: This project was part of a group assignment for a
             Master's course in Applied Computing. The website allows users to
             vote for the best walkway in New Zealand. I was responsible for
-            developing all pages related to user registration, login, voting,
+            developing all pages(front-end and back-end) related to user registration, login, voting,
             displaying results, and ensuring the pages were styled responsively.
-            <br />
+            <br /><br />
             we <b>improve it</b> and Built a customization tool letting users
             set background and font styling for their own voting site,
             simulating CMS-style personalization.
