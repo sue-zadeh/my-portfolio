@@ -509,6 +509,7 @@ h4 {
   font-size: 23px;
   color: white;
   line-height: 2.25em;
+  text-align: left;
 }
 
 @media screen and (max-width: 600px){
