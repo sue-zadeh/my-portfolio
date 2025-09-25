@@ -54,11 +54,7 @@ function Projects() {
             <br />
             Currently enhancing FieldSafe with PWA features for offline access
             using service workers, manifest integration, and IndexedDB
-            <a
-              className="aa"
-              href="https://fieldsafe.org.nz/"
-              target="blank"
-              >
+            <a className="aa" href="https://fieldsafe.org.nz/" target="blank">
               Click here to view the FieldSafe app online
             </a>
             <br />
@@ -485,8 +481,8 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>voting-center:</b>
             <b>
-              Language/Technologies: Python, Flask,Jinja, javaScript,Bootstrap
-              and css <br />
+              Language/Technologies: Python, Flask, Jinja, javaScript, MySQL,
+              Bootstrap and css <br />
               <a
                 className="aa"
                 href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
@@ -506,10 +502,12 @@ function Projects() {
             Description: This project was part of a group assignment for a
             Master's course in Applied Computing. The website allows users to
             vote for the best walkway in New Zealand. I was responsible for
-            developing all pages(front-end and back-end) related to user registration, login, voting,
-            displaying results, and ensuring the pages were styled responsively.
-            <br /><br />
-            we <b>improve it</b> and Built a customization tool letting users
+            developing all pages(front-end and back-end) related to user
+            registration, login, voting, displaying results, and ensuring the
+            pages were styled responsively.
+            <br />
+            <br />
+            we improve it and Built a customization tool letting users
             set background and font styling for their own voting site,
             simulating CMS-style personalization.
             <br />
