@@ -112,7 +112,7 @@ export default function AboutMe() {
         </h1>
 
         {/* Centered intro */}
-        <p style={S.intro}>
+        <p style={S.intro} data-aos="fade-down-right">
           I’m a full-stack developer who builds production apps end-to-end and bakes in testing from day one.
           I hold a Master’s in Applied Computing, Microsoft Azure Fundamentals & Azure AI, and ISTQB® CTFL 4.0(iSQI).
           I’ve shipped two live projects for real companies and work comfortably across React/Vite (TS),
@@ -120,31 +120,31 @@ export default function AboutMe() {
         </p>
 
         {/* Left-aligned content card */}
-        <div style={S.card}>
+        <div style={S.card}  data-aos="fade-down-right">
           {/* Projects section */}
           <h3 style={S.sectionHead}><MdWork /> Created two live projects for real companies</h3>
-          <ul style={S.list}>
+          <ul style={S.list} data-aos="fade-down-right">
             <IconItem icon={FaServer}>
               <b>FieldSafe (CVNZ)</b> — React/Vite + TS, Node.js, MySQL on AWS (EB/RDS/Route53/HTTPS).
               Automated workflows, reporting, and role-based access; cut manual handling by ~90%.
             </IconItem>
-            <IconItem icon={FaReact}>
+            <IconItem icon={FaReact} data-aos="fade-down-left">
               <b>Smart Panel Homes</b> — Built the site, lifted engagement ~80%. Quickly switched backend to
               <b> PHP</b> (hosting didn’t support Node) to enable forms & email with zero extra cost.
             </IconItem>
           </ul>
 
           {/* Footprint section with chips */}
-          <h3 style={S.sectionHead}><TbChecklist /> My project footprint</h3>
+          <h3 style={S.sectionHead} data-aos="fade-up"><TbChecklist /> My project footprint</h3>
           <div style={S.chipsRow}>
-            <div style={S.chip}><FaReact size={16} /> <b>React:</b> 11 solo + 4 group</div>
-            <div style={S.chip}><FaPython size={16} /> <b>Python:</b> 4 solo + 2 group</div>
-            <div style={S.chip}><IoRibbonOutline size={16} /> <b>Voting Center:</b> biggest Python app (user-owned sites + custom CSS)</div>
+            <div style={S.chip} data-aos="fade-down-right"><FaReact size={16} /> <b>React:</b> 11 solo + 4 group</div>
+            <div style={S.chip} data-aos="fade-down-left"><FaPython size={16} /> <b>Python:</b> 4 solo + 2 group</div>
+            <div style={S.chip} data-aos="fade-down-right"><IoRibbonOutline size={16} /> <b>Voting Center:</b> biggest Python app (user-owned sites + custom CSS)</div>
           </div>
 
           {/* Day-to-day */}
-          <h3 style={S.sectionHead}><TbBolt /> What I do day-to-day</h3>
-          <ul style={S.list}>
+          <h3 style={S.sectionHead} data-aos="fade-down-right"><TbBolt /> What I do day-to-day</h3>
+          <ul style={S.list} data-aos="fade-down-left">
             <IconItem icon={MdOutlineStorage}>
               Design clean data models (20+ MySQL tables), write API-first backends.
             </IconItem>
