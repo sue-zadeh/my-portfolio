@@ -113,10 +113,13 @@ export default function AboutMe() {
 
         {/* Centered intro */}
         <p style={S.intro} data-aos="fade-down-right">
-          I’m a full-stack developer who builds production apps end-to-end and bakes in testing from day one.
-          I hold a Master’s in Applied Computing, Microsoft Azure Fundamentals & Azure AI, and ISTQB® CTFL 4.0(iSQI).
-          I’ve shipped two live projects for real companies and work comfortably across React/Vite (TS),
-          Node/Express, MySQL, and AWS with CI/CD.
+         I was a registrar at a high school when I discovered my passion for tech. I took computer courses
+          and soon became a teacher and supervisor of a computer workshop.<br /> 
+          After moving to New Zealand in 2014, I kept following that passion. I completed a four-month bootcamp at Dev Academy (~800 hours of coding) 
+         and loved every minute. In 2024 I began my Master’s in Applied Computing and graduated in 2025.<br />
+
+Today I’m a full-stack developer who ships production apps end to end and bakes in testing from day one.
+ I hold a Master’s in Applied Computing, Microsoft Azure Fundamentals & Azure AI, and ISTQB® CTFL 4.0 (iSQI). I’ve delivered two live projects for real companies and work comfortably with React/Vite (JS/TS), Node/Express, Python, MySQL, and AWS with CI/CD/DevOps, building fast, responsive web apps.
         </p>
 
         {/* Left-aligned content card */}
