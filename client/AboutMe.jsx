@@ -119,7 +119,18 @@ export default function AboutMe() {
          and loved every minute. In 2024 I began my Master’s in Applied Computing and graduated in 2025.<br />
 
 Today I’m a full-stack developer who ships production apps end to end and bakes in testing from day one.
- I hold a Master’s in Applied Computing, Microsoft Azure Fundamentals & Azure AI, and ISTQB® CTFL 4.0 (iSQI). I’ve delivered two live projects for real companies and work comfortably with React/Vite (JS/TS), Node/Express, Python, MySQL, and AWS with CI/CD/DevOps, building fast, responsive web apps.
+ I hold a Master’s in Applied Computing, Microsoft Azure Fundamentals & Azure AI, ISTQB® CTFL 4.0 (iSQI), and ICAgile (ICP).
+ <br />
+ In 2023 and 2024 I’ve delivered two live projects for real companies and work comfortably with React/Vite (JS/TS),
+  Node/Express, Python, MySQL, and AWS with CI/CD/DevOps, building fast, responsive web apps.
+  <br />
+  These days I'm working as a freelance developer, building web apps for businesses while seeking a full-time role where I can contribute as a full-stack developer. Current projects include: 
+:<br />
+  •	Building (in progress) two client websites: Lodge-Matariki476 (Flask, PostgreSQL, Docker, Bootstrap, AOS, CI/CD; Azure deployment planned) and Shower Power (React/TS, Node/Express, PostgreSQL, Docker, GSAP/AOS).<br />
+•	Focused on lead capture (quote/contact forms), responsive UI, and clean APIs.
+
+
+
         </p>
 
         {/* Left-aligned content card */}

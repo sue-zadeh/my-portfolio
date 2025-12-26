@@ -52,6 +52,16 @@ function Banner() {
       ),
     },
     {
+      text: 'ICAgile Certified Professional (ICP, Nov 2025)',
+      icon: (
+        <FaCertificate
+          size={70}
+          color="#cd7700"
+          style={{ paddingRight: '10px', paddingLeft: '10px' }}
+        />
+      ),
+    },
+    {
       text: 'Microsoft Azure Certified',
       icon: (
         <HiCloud
