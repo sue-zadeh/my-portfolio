@@ -140,8 +140,8 @@ Today I’m a full-stack developer who ships production apps end to end and bake
           {/* Footprint section with chips */}
           <h3 style={S.sectionHead} data-aos="fade-up"><TbChecklist /> My project footprint</h3>
           <div style={S.chipsRow}>
-            <div style={S.chip} data-aos="fade-down-right"><FaReact size={16} /> <b>React:</b> 11 solo + 4 group</div>
-            <div style={S.chip} data-aos="fade-down-left"><FaPython size={16} /> <b>Python:</b> 4 solo + 2 group</div>
+            <div style={S.chip} data-aos="fade-down-right"><FaReact size={16} /> <b>React:</b> 12 solo + 4 group</div>
+            <div style={S.chip} data-aos="fade-down-left"><FaPython size={16} /> <b>Python:</b> 5 solo + 2 group</div>
             <div style={S.chip} data-aos="fade-down-right"><IoRibbonOutline size={16} /> <b>Voting Center:</b> biggest Python app (user-owned sites + custom CSS)</div>
           </div>
 
