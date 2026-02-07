@@ -170,7 +170,7 @@ export default function AboutMe() {
           <h3 style={S.sectionHead}><TbChecklist /> Current remote work</h3>
           <ul style={S.list}>
             <IconItem icon={TbChecklist}>
-              <b>Alignerr</b> + <b>Labelbox</b> — AI correction / quality review work: checking correctness, following strict guidelines,
+              <b>Alignerr</b> + <b>CrowdGen</b> <br /> AI correction / quality review work: checking correctness, following strict guidelines,
               and delivering structured feedback.
             </IconItem>
           </ul>
