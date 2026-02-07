@@ -8,11 +8,14 @@ import { FaReact, FaPython, FaServer, FaCloud } from "react-icons/fa";
 import { TbChecklist, TbBolt } from "react-icons/tb";
 
 const S = {
-  pageWrap: {
-    padding: "32px 16px 48px",
-    color: "#fff",
-    position: "relative",
-  },
+ pageWrap: {
+  paddingTop: "12rem",        // ✅ match your navbar height (adjust if needed)
+  paddingLeft: "16px",
+  paddingRight: "16px",
+  paddingBottom: "48px",
+  color: "#fff",
+  position: "relative",
+},
   container: {
     maxWidth: 980,
     margin: "0 auto",
@@ -119,15 +122,17 @@ const IconItem = ({ icon: Icon, children, aos = "fade-up" }) => (
 );
 
 export default function AboutMe() {
-  useEffect(() => {
-    AOS.init({ duration: 800 });
-  }, []);
-
+ useEffect(() => {
+    AOS.init({
+      duration: 900,
+    })
+  }, [])
   return (
     <div style={S.pageWrap} className="AboutMe" data-aos="fade-up">
       <div style={S.container} className="content-about">
         <h1 style={S.title} className="h-me2" data-aos="fade-down-right">
-          <MdDeveloperBoard size={42} color="#fff" /> About Me
+          {/* <MdDeveloperBoard size={42} color="#fff" />  */}
+          About Me
         </h1>
 
         {/* ✅ Intro with smaller spacing */}

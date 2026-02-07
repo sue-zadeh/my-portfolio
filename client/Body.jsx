@@ -8,7 +8,7 @@ import ISQI from './Assets/ISTQB-ISQI.png'
 
 function Body() {
   return (
-    <div className="Body grid-wrapper" style={{ backgroundColor: 'black' }}>
+    <div className="Body grid-wrapper" style={{ backgroundColor: 'black', paddingTop: '3rem'}}>
       <div data-aos="fade-down-right" className="grid1">
         <div className="personal">
           <h1 className="hh2">Personal Info</h1>
@@ -77,7 +77,7 @@ function Body() {
       {/* ✅ Updated, shorter, stronger */}
       <div data-aos="fade-down-right" className="grid3">
         <h1 className="hire">
-          <RiFlashlightLine size={55} />
+          {/* <RiFlashlightLine size={55} /> */}
           Why hire me?
         </h1>
 

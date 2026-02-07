@@ -107,7 +107,7 @@ function Banner() {
       className="Banner"
       style={{
         backgroundColor: 'black',
-        paddingTop: '7rem',
+        paddingTop: '6rem',
         justifyContent: 'center',
         alignItems: 'center',
         paddingBottom: '1.5rem',
