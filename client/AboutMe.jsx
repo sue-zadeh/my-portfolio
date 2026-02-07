@@ -117,7 +117,7 @@ export default function AboutMe() {
 
         {/* ✅ Short story + positioning (no repeating badges/certs) */}
         <p style={S.intro} data-aos="fade-down-right">
-          I’m Sue — a full-stack developer based in Auckland. I build modern web apps end-to-end: clean UI, strong APIs,
+          I’m Sue,  a full-stack developer based in Auckland. I build modern web apps end-to-end: clean UI, strong APIs,
           solid database design, and reliable deployments.
           <br /><br />
           I started my career in education (teacher + computer workshop supervisor), then moved into software.
@@ -127,35 +127,53 @@ export default function AboutMe() {
         <div style={S.card} data-aos="fade-up">
           {/* ✅ Strong proof (projects) */}
           <h3 style={S.sectionHead}><MdWork /> Proof of work (selected)</h3>
-          <ul style={S.list}>
-            <IconItem icon={FaServer}>
-              <b>Shower Power</b> — full-stack production website (React, Node/Express, PostgreSQL, Docker, Azure App Service, CI/CD).
-              <br />
-              <a style={S.link} href="https://www.showerpower.co.nz/" target="_blank" rel="noreferrer">
-                https://www.showerpower.co.nz/
-              </a>
-              <br />
-              Lead capture (contact + quote forms) with email notifications, responsive UI, and performance-focused layout.
-            </IconItem>
+         <ul style={S.list}>
+  <IconItem icon={FaServer}>
+    <b>Shower Power</b> — full-stack production website (React, Node/Express, PostgreSQL, Docker, Azure App Service, CI/CD).
+    <br />
+    <a style={S.link} href="https://www.showerpower.co.nz/" target="_blank" rel="noreferrer">
+      https://www.showerpower.co.nz/
+    </a>
+    <br />
+    Lead capture (contact + quote forms) with email notifications, responsive UI, and performance-focused layout.
+  </IconItem>
 
-            <IconItem icon={FaPython}>
-              <b>Lodge-Matariki476</b> — live on Railway for stakeholder review (Azure deployment next).
-              <br />
-              Full-stack build with clean admin/member flows and production-ready structure.
-            </IconItem>
+  <IconItem icon={FaPython}>
+    <b>Lodge-Matariki476</b> — live on Railway for stakeholder review (Azure deployment next).
+    <br />
+    <a
+      style={S.link}
+      href="https://lodge-matariki476-python-production.up.railway.app/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      https://lodge-matariki476-python-production.up.railway.app/
+    </a>
+    <br />
+    Full-stack build with clean admin/member flows and production-ready structure.
+  </IconItem>
 
-            <IconItem icon={FaCloud}>
-              <b>FieldSafe (CVNZ)</b> — admin dashboard on AWS (React/TS, Node, MySQL; EB/RDS/Route53/HTTPS).
-              <br />
-              Built to streamline operations with role-based access and reporting workflows.
-            </IconItem>
+  <IconItem icon={FaCloud}>
+    <b>FieldSafe (CVNZ)</b> — admin dashboard on AWS (React/TS, Node, MySQL; EB/RDS/Route53/HTTPS).
+    <br />
+    <a style={S.link} href="http://fieldsafe.org.nz/" target="_blank" rel="noreferrer">
+      http://fieldsafe.org.nz/
+    </a>
+    <br />
+    Built to streamline operations with role-based access and reporting workflows.
+  </IconItem>
 
-            <IconItem icon={FaReact}>
-              <b>Smart Panel Homes</b> — business website focused on engagement + lead capture.
-              <br />
-              Delivered a modern UI and adjusted backend to fit hosting constraints while keeping costs low.
-            </IconItem>
-          </ul>
+  <IconItem icon={FaReact}>
+    <b>Smart Panel Homes</b> — business website focused on engagement + lead capture.
+    <br />
+    <a style={S.link} href="https://smartpanelhomes.co.nz/" target="_blank" rel="noreferrer">
+      https://smartpanelhomes.co.nz/
+    </a>
+    <br />
+    Delivered a modern UI and adjusted backend to fit hosting constraints while keeping costs low.
+  </IconItem>
+</ul>
+
 
           {/* ✅ What you do (simple, non-repetitive) */}
           <h3 style={S.sectionHead}><TbBolt /> What I’m strong at</h3>
