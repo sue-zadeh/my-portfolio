@@ -1,24 +1,14 @@
 import React from 'react'
 
-import { RiThumbUpFill } from 'react-icons/ri'
 import { RiFlashlightLine } from 'react-icons/ri'
-import { BsQuestionSquare } from 'react-icons/bs'
 import { ImDownload2 } from 'react-icons/im'
 import { AiOutlineGithub } from 'react-icons/ai'
-import ISQI from './Assets/ISTQB-ISQI.png'
 import { ImLinkedin } from 'react-icons/im'
-// import { ImFacebook2 } from 'react-icons/im'
-// import { ImTwitter } from 'react-icons/im'
-// import { ImYoutube } from 'react-icons/im'
-// import { ImInstagram } from 'react-icons/im'
+import ISQI from './Assets/ISTQB-ISQI.png'
 
 function Body() {
   return (
-    <div
-      // data-aos="fade-up"
-      className="Body grid-wrapper"
-      style={{ backgroundColor: 'black' }}
-    >
+    <div className="Body grid-wrapper" style={{ backgroundColor: 'black' }}>
       <div data-aos="fade-down-right" className="grid1">
         <div className="personal">
           <h1 className="hh2">Personal Info</h1>
@@ -36,6 +26,7 @@ function Body() {
           Railway, Heroku, Visual Studio Code, Agile, Scrum, Kanban
         </p>
       </div>
+
       <div data-aos="fade-down-right" className="grid2">
         <h1 className="hh5">Download</h1>
         <p className="pp4">
@@ -45,6 +36,7 @@ function Body() {
             className="download2"
             href="https://drive.google.com/file/d/1OQrb6QOBKsIRTOKNjP1_OVjHgFAcyCW-/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             Download it here
             <ImDownload2
@@ -60,17 +52,21 @@ function Body() {
             />
           </a>
         </p>
+
         <div className="Social social-container">
           <a
             className="social2"
-            target="blank1"
+            target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/sue-zadeh/"
           >
             <ImLinkedin size={35} color="white" />
           </a>
+
           <a
             className="social2"
-            target="blank"
+            target="_blank"
+            rel="noreferrer"
             href="https://github.com/sue-zadeh"
           >
             <AiOutlineGithub size={45} color="white" />
@@ -78,76 +74,34 @@ function Body() {
         </div>
       </div>
 
+      {/* ✅ Updated, shorter, stronger */}
       <div data-aos="fade-down-right" className="grid3">
         <h1 className="hire">
           <RiFlashlightLine size={55} />
           Why hire me?
         </h1>
+
         <p className="p1">
-          🎓 Certified Full Stack Developer – Microsoft Azure, Azure AI, and
-          ISTQB® Certified Tester (iSQI, Aug 2025)
-          <img
-            src={ISQI}
-            alt="ISTQB Certified Tester"
-            style={{ height: '40px', marginLeft: '10px' }}
-          />
+          <b>I ship real production apps.</b> I build end-to-end (UI + API + database + deployment) and I care about clean UX.
           <br />
-          🧠 Experienced with React, Node.js, Python, cloud automation, and
-          scalable app design
+          <b>Recent live work:</b> Shower Power — React/Node/Express/PostgreSQL on Azure with Docker + GitHub Actions (CI/CD).
           <br />
-          🚀 Built FieldSafe (for CVNZ company) – a SaaS platform that improved
-          efficiency by 90% and replaced outdated paper processes used by
-          Auckland Council. 🔗{' '}
-          <a
-            className="download2"
-            href="http://fieldsafe.org.nz"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              fontWeight: 'bold',
-              fontSize: '1em',
-              textDecoration: 'none',
-              color: 'rgb(246, 7, 7)',
-              marginLeft: '10px',
-              marginRight: '10px',
-              alignItems: 'center',
-              justifySelf: 'center',
-              textAlign: 'center',
-            }}
-          >
-            http://fieldsafe.org.nz
-          </a>
+          <b>Quality mindset:</b> testing, edge cases, readable code, and reliable releases.
           <br />
-          🛒 Developed Smart Panel Homes (for Smart Panel Homes Ltd)– a
-          React-based site that increased customer engagement by 80% 🔗{' '}
-          <a
-            className="download2"
-            href="https://smartpanelhomes.co.nz"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              fontWeight: 'bold',
-              fontSize: '1em',
-              textDecoration: 'none',
-              color: 'rgb(246, 7, 7)',
-              marginLeft: '10px',
-              marginRight: '10px',
-              alignItems: 'center',
-              justifySelf: 'center',
-              textAlign: 'center',
-            }}
-          >
-            https://smartpanelhomes.co.nz
-          </a>
-          <br /> 🔁 Skilled in CI/CD pipelines (GitHub Actions), AWS, Azure,
-          Playwright, Jest, and SQL databases
+          <b>Remote AI evaluation:</b> currently working with <b>Alignerr</b> and <b>Labelbox</b> on AI correction and quality review tasks.
           <br />
-          🤝 Thrive in Agile teams, with strong communication (Jira, Slack),
-          fast learning, and collaborative problem-solving mindset
-          <br />
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
+            <img
+              src={ISQI}
+              alt="ISTQB Certified Tester"
+              style={{ height: '34px' }}
+            />
+            <span><b>ISTQB® CTFL</b> + Azure certified.</span>
+          </span>
         </p>
       </div>
     </div>
   )
 }
+
 export default Body
