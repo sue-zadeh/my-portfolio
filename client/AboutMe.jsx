@@ -120,7 +120,7 @@ const IconItem = ({ icon: Icon, children, aos = "fade-up" }) => (
 
 export default function AboutMe() {
   useEffect(() => {
-    AOS.init({ duration: 800, once: true, offset: 80 });
+    AOS.init({ duration: 800 });
   }, []);
 
   return (
