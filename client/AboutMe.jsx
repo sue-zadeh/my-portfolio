@@ -26,13 +26,25 @@ const S = {
     letterSpacing: "0.06em",
     margin: "8px 0 18px",
   },
-  intro: {
-    textAlign: "left",
-    lineHeight: 1.9,
+
+  // ✅ Intro wrapper + paragraphs (controls spacing cleanly)
+  introWrap: {
     maxWidth: 880,
-    margin: "0 auto 22px",
+    margin: "0 auto 18px",
+    textAlign: "left",
+  },
+  introP1: {
+    margin: "0 0 10px 0", // ✅ small gap
+    lineHeight: 1.9,
     fontSize: 18,
   },
+  introP2: {
+    margin: "0 0 6px 0",
+    lineHeight: 1.9,
+    fontSize: 18,
+    opacity: 0.98,
+  },
+
   card: {
     background: "rgba(0,0,0,0.45)",
     backdropFilter: "blur(2px)",
@@ -89,7 +101,7 @@ const S = {
     fontSize: 14.5,
   },
   footerPara: {
-    marginTop: 16,
+    marginTop: 14,
     lineHeight: 1.85,
     textAlign: "left",
     fontSize: 16.5,
@@ -97,106 +109,121 @@ const S = {
   },
 };
 
-const IconItem = ({ icon: Icon, children }) => (
-  <li style={S.item}>
-    <span style={S.iconCell}><Icon size={18} /></span>
+const IconItem = ({ icon: Icon, children, aos = "fade-up" }) => (
+  <li style={S.item} data-aos={aos}>
+    <span style={S.iconCell}>
+      <Icon size={18} />
+    </span>
     <span style={S.text}>{children}</span>
   </li>
 );
 
 export default function AboutMe() {
-  useEffect(() => { AOS.init({ duration: 800, once: true }); }, []);
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true, offset: 80 });
+  }, []);
 
   return (
-    <div data-aos="fade-up" style={S.pageWrap} className="AboutMe">
+    <div style={S.pageWrap} className="AboutMe" data-aos="fade-up">
       <div style={S.container} className="content-about">
-
-        <h1 style={S.title} className="h-me2">
+        <h1 style={S.title} className="h-me2" data-aos="fade-down-right">
           <MdDeveloperBoard size={42} color="#fff" /> About Me
         </h1>
 
-        {/* ✅ Short story + positioning (no repeating badges/certs) */}
-        <p style={S.intro} data-aos="fade-down-right">
-          I’m Sue,  a full-stack developer based in Auckland. I build modern web apps end-to-end: clean UI, strong APIs,
-          solid database design, and reliable deployments.
-          <br /><br />
-          I started my career in education (teacher + computer workshop supervisor), then moved into software.
-          Since then, I’ve focused on building real products for real businesses — not just demos.
-        </p>
+        {/* ✅ Intro with smaller spacing */}
+        <div style={S.introWrap}>
+          <p style={S.introP1} data-aos="fade-up">
+            I’m Sue, a full-stack developer based in Auckland. I build modern web apps end-to-end:
+            clean UI, strong APIs, solid database design, and reliable deployments.
+          </p>
+
+          <p style={S.introP2} data-aos="fade-up">
+            I started my career in education (teacher + computer workshop supervisor), then moved into software.
+            Since then, I’ve focused on building real products for real businesses — not just demos.
+          </p>
+        </div>
 
         <div style={S.card} data-aos="fade-up">
-          {/* ✅ Strong proof (projects) */}
-          <h3 style={S.sectionHead}><MdWork /> Proof of work (selected)</h3>
-         <ul style={S.list}>
-  <IconItem icon={FaServer}>
-    <b>Shower Power</b> — full-stack production website (React, Node/Express, PostgreSQL, Docker, Azure App Service, CI/CD).
-    <br />
-    <a style={S.link} href="https://www.showerpower.co.nz/" target="_blank" rel="noreferrer">
-      https://www.showerpower.co.nz/
-    </a>
-    <br />
-    Lead capture (contact + quote forms) with email notifications, responsive UI, and performance-focused layout.
-  </IconItem>
+          {/* Projects */}
+          <h3 style={S.sectionHead} data-aos="fade-right">
+            <MdWork /> Proof of work (selected)
+          </h3>
 
-  <IconItem icon={FaPython}>
-    <b>Lodge-Matariki476</b> — live on Railway for stakeholder review (Azure deployment next).
-    <br />
-    <a
-      style={S.link}
-      href="https://lodge-matariki476-python-production.up.railway.app/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      https://lodge-matariki476-python-production.up.railway.app/
-    </a>
-    <br />
-    Full-stack build with clean admin/member flows and production-ready structure.
-  </IconItem>
+          <ul style={S.list} data-aos="fade-up">
+            <IconItem icon={FaServer} aos="fade-down-right">
+              <b>Shower Power</b> — full-stack production website (React, Node/Express, PostgreSQL, Docker, Azure App Service, CI/CD).
+              <br />
+              <a style={S.link} href="https://www.showerpower.co.nz/" target="_blank" rel="noreferrer">
+                https://www.showerpower.co.nz/
+              </a>
+              <br />
+              Lead capture (contact + quote forms) with email notifications, responsive UI, and performance-focused layout.
+            </IconItem>
 
-  <IconItem icon={FaCloud}>
-    <b>FieldSafe (CVNZ)</b> — admin dashboard on AWS (React/TS, Node, MySQL; EB/RDS/Route53/HTTPS).
-    <br />
-    <a style={S.link} href="http://fieldsafe.org.nz/" target="_blank" rel="noreferrer">
-      http://fieldsafe.org.nz/
-    </a>
-    <br />
-    Built to streamline operations with role-based access and reporting workflows.
-  </IconItem>
+            <IconItem icon={FaPython} aos="fade-down-left">
+              <b>Lodge-Matariki476</b> — live on Railway for stakeholder review (Azure deployment next).
+              <br />
+              <a
+                style={S.link}
+                href="https://lodge-matariki476-python-production.up.railway.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://lodge-matariki476-python-production.up.railway.app/
+              </a>
+              <br />
+              Full-stack build with clean admin/member flows and production-ready structure.
+            </IconItem>
 
-  <IconItem icon={FaReact}>
-    <b>Smart Panel Homes</b> — business website focused on engagement + lead capture.
-    <br />
-    <a style={S.link} href="https://smartpanelhomes.co.nz/" target="_blank" rel="noreferrer">
-      https://smartpanelhomes.co.nz/
-    </a>
-    <br />
-    Delivered a modern UI and adjusted backend to fit hosting constraints while keeping costs low.
-  </IconItem>
-</ul>
+            <IconItem icon={FaCloud} aos="fade-down-right">
+              <b>FieldSafe (CVNZ)</b> — admin dashboard on AWS (React/TS, Node, MySQL; EB/RDS/Route53/HTTPS).
+              <br />
+              <a style={S.link} href="http://fieldsafe.org.nz/" target="_blank" rel="noreferrer">
+                http://fieldsafe.org.nz/
+              </a>
+              <br />
+              Built to streamline operations with role-based access and reporting workflows.
+            </IconItem>
 
-
-          {/* ✅ What you do (simple, non-repetitive) */}
-          <h3 style={S.sectionHead}><TbBolt /> What I’m strong at</h3>
-          <div style={S.chipsRow}>
-            <div style={S.chip}><FaReact size={16} /> <b>Frontend:</b> UX-first React UI, responsive design, animation when useful</div>
-            <div style={S.chip}><FaServer size={16} /> <b>Backend:</b> clean REST APIs, auth patterns, email workflows</div>
-            <div style={S.chip}><MdOutlineStorage size={16} /> <b>Data:</b> schema design, queries, admin dashboards</div>
-            <div style={S.chip}><TbChecklist size={16} /> <b>Quality:</b> testing mindset, edge cases, maintainable code</div>
-          </div>
-
-          {/* ✅ Remote AI work (short + credible) */}
-          <h3 style={S.sectionHead}><TbChecklist /> Current remote work</h3>
-          <ul style={S.list}>
-            <IconItem icon={TbChecklist}>
-              <b>Alignerr</b> + <b>CrowdGen</b> <br /> AI correction / quality review work: checking correctness, following strict guidelines,
-              and delivering structured feedback.
+            <IconItem icon={FaReact} aos="fade-down-left">
+              <b>Smart Panel Homes</b> — business website focused on engagement + lead capture.
+              <br />
+              <a style={S.link} href="https://smartpanelhomes.co.nz/" target="_blank" rel="noreferrer">
+                https://smartpanelhomes.co.nz/
+              </a>
+              <br />
+              Delivered a modern UI and adjusted backend to fit hosting constraints while keeping costs low.
             </IconItem>
           </ul>
 
-          {/* ✅ Closing */}
-          <p style={S.footerPara}>
-            I’m looking for a full-time role where I can contribute as a full-stack developer — building real features, improving reliability,
-            and shipping clean, user-friendly products.
+          {/* Strengths */}
+          <h3 style={S.sectionHead} data-aos="fade-right">
+            <TbBolt /> What I’m strong at
+          </h3>
+
+          <div style={S.chipsRow}>
+            <div style={S.chip} data-aos="fade-up"><FaReact size={16} /> <b>Frontend:</b> UX-first React UI, responsive design, animation when useful</div>
+            <div style={S.chip} data-aos="fade-up"><FaServer size={16} /> <b>Backend:</b> clean REST APIs, auth patterns, email workflows</div>
+            <div style={S.chip} data-aos="fade-up"><MdOutlineStorage size={16} /> <b>Data:</b> schema design, queries, admin dashboards</div>
+            <div style={S.chip} data-aos="fade-up"><TbChecklist size={16} /> <b>Quality:</b> testing mindset, edge cases, maintainable code</div>
+          </div>
+
+          {/* Remote AI work */}
+          <h3 style={S.sectionHead} data-aos="fade-right">
+            <TbChecklist /> Current remote work
+          </h3>
+
+          <ul style={S.list}>
+            <IconItem icon={TbChecklist} aos="fade-up">
+              <b>Alignerr</b> + <b>CrowdGen</b>
+              <br />
+              AI correction / quality review work: checking correctness, following strict guidelines, and delivering structured feedback.
+            </IconItem>
+          </ul>
+
+          <p style={S.footerPara} data-aos="fade-up">
+            I’m looking for a full-time role where I can contribute as a full-stack developer — building real features,
+            improving reliability, and shipping clean, user-friendly products.
           </p>
         </div>
       </div>
