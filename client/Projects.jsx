@@ -154,6 +154,7 @@ function Projects() {
               alt="FieldSafe"
             />
           </div>
+          
           <p data-aos="fade-down-right" className="p-projects">
             <b>smart-panel:</b>
             <b>
