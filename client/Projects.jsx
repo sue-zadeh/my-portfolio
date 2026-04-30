@@ -19,8 +19,10 @@ import Fieldsafe from './Assets/fieldsafe.png'
 import Riskactivity from './Assets/riskactivity.png'
 import Groupadmin from './Assets/groupadmins.png'
 import Objectivesactivity from './Assets/objectivesactivity.png'
-// import Clown from './Assets/clown.png'
-// import Mole from './Assets/Mole.png'
+import Lodge from './Assets/lodge1.png'
+import LodgeMember from './Assets/member-lodge.png'
+import LodgeFile from './Assets/files-lodge.png'
+import LodgeEvent from './Assets/event-lodge.png'
 
 function Projects() {
   useEffect(() => {
@@ -37,9 +39,65 @@ function Projects() {
 
       <div className="projects2">
         <h2 data-aos="fade-down-left" className="h2-projects2">
-          Recent Solo Project:
+          building website for the real companies:
         </h2>
         <div className="div-squish">
+          <p data-aos="fade-down-right" className="p-projects">
+            <b>Lodge-Matariki476:</b>
+            <b>
+              Language/Technologies: DevOps, Deployed on Azure App Service,
+              configured domains, enabled SSL(HTTPS), and managed production
+              settings (RDS, Elastic Beanstalk, Route 53) Python, Flask, Rest
+              API, CSS, CSS Animation, AOS, Bootstrap, PostgreSQL
+            </b>
+            A membership-focused web application with internal features,
+            administrative tools, and secure access. <br />A custom web platform
+            designed for member management, internal use, and structured
+            administrative control.
+            <a
+              className="aa"
+              href="https://lodgematariki476.co.nz/"
+              target="blank"
+            >
+              Lodge Matariki 476
+            </a>
+            <a
+              className="aa"
+              href="https://github.com/sue-zadeh/lodge-matarik476-python"
+              target="blank"
+            ></a>
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={Lodge}
+              alt="Sportflix"
+            />
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={Lodge}
+              alt="Sportflix"
+            />
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={LodgeFile}
+              alt="Sportflix"
+            />
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={LodgeMember}
+              alt="Sportflix"
+            />
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={LodgeEvent}
+              alt="Sportflix"
+            />
+          </p>
+
           <p data-aos="fade-down-right" className="p-projects">
             <b>FieldSafe (CVNZ company):</b>
             <b>
@@ -68,6 +126,9 @@ function Projects() {
             <br /> <br /> <br />
           </p>
           <div className="projects2">
+            <h2 data-aos="fade-down-left" className="h2-projects2">
+              FieldSafe
+            </h2>
             <img
               data-aos="fade-down-right"
               className="picsquish-toe"
@@ -93,14 +154,6 @@ function Projects() {
               alt="FieldSafe"
             />
           </div>
-        </div>
-      </div>
-
-      <div className="projects2">
-        <h2 data-aos="fade-down-left" className="h2-projects2">
-          Solo Projects:
-        </h2>
-        <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>smart-panel:</b>
             <b>
@@ -142,6 +195,14 @@ function Projects() {
               alt="Sportflix"
             />
           </p>
+        </div>
+      </div>
+
+      <div className="projects2">
+        <h2 data-aos="fade-down-left" className="h2-projects2">
+          Solo Projects:
+        </h2>
+        <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>Pokedex:</b>
             <b>
@@ -507,9 +568,9 @@ function Projects() {
             pages were styled responsively.
             <br />
             <br />
-            we improve it and Built a customization tool letting users
-            set background and font styling for their own voting site,
-            simulating CMS-style personalization.
+            we improve it and Built a customization tool letting users set
+            background and font styling for their own voting site, simulating
+            CMS-style personalization.
             <br />
             <img
               data-aos="fade-down-right"
