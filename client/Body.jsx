@@ -96,8 +96,10 @@ function Body() {
               alt="ISTQB Certified Tester"
               style={{ height: '34px' }}
             />
-            <span><b>ISTQB® CTFL</b> + Azure certified.</span>
+            <span><b>ISTQB® CTFL</b> + Azure certified & AI + ICAgile Certified Professional (ICP).</span>
           </span>
+          
+          	
         </p>
       </div>
     </div>
