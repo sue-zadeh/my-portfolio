@@ -633,7 +633,7 @@ animation: slideout 2s ease-in;
 .aa:hover {
   align-items: end;
   font-weight: bolder;
-  font-size: 1.02em;
+  font-size: 0.88em;
   color: #e0c397;
   text-decoration: underline;
 }

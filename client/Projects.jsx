@@ -25,6 +25,8 @@ import LodgeFile from './Assets/files-lodge.png'
 import LodgeEvent from './Assets/event-lodge.png'
 import Showerpower from './Assets/showerpower.png'
 import Healthcare from './Assets/healthcare.png'
+import SAMCTpublic from './Assets/home-public-SAMCT.png'
+
 function Projects() {
   useEffect(() => {
     AOS.init({
@@ -60,13 +62,15 @@ function Projects() {
               href="https://lodgematariki476.co.nz/"
               target="blank"
             >
-              Lodge Matariki 476
+              Lodge Matariki 476 on the Internet
             </a>
             <a
               className="aa"
               href="https://github.com/sue-zadeh/lodge-matarik476-python"
               target="blank"
-            ></a>
+            >
+              Check out this project on GitHub
+            </a>
           </p>
           <div className="projects2">
             <h2 data-aos="fade-down-left" className="h2-projects2  fs-3">
@@ -121,7 +125,7 @@ function Projects() {
               className="aa"
               target="blank"
             >
-              Check out my project on GitHub
+              Check out this project on GitHub
             </a>
             <br /> <br /> <br />
           </p>
@@ -163,33 +167,30 @@ function Projects() {
                 Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
                 CSS animation, AOS, Bootstrap
               </b>
-              Description: This project involved building and hosting FieldSafe,
-              a digital platform for conservation groups to manage staff, track
-              activities, log risks, create projects, report incidents, and send
-              emails to the necessary recipients—all in one user-friendly system
-              while ensuring compliance with health and safety regulations. The
-              app was hosted on AWS, utilizing RDS for the database, Elastic
-              Beanstalk for deployment, and Route 53 for domain management.
+              Description: A professional company website built to showcase
+              services, branding, and trust.
+              <br />A business presentation website with polished layout, clear
+              structure, and modern visual design.
               <a
                 className="aa"
                 href="https://www.smartpanelhomes.co.nz/"
                 target="blank"
               >
-                Smart Panel Homes Ltd
+                view this project on the Internet
               </a>
               <a
                 className="aa"
                 href="https://github.com/sue-zadeh/smart-panel"
                 target="blank"
               >
-                view my project with Nodjs here(GitHub)
+                Check out this project with Nodjs here(GitHub)
               </a>
               <a
                 className="aa"
                 href="https://github.com/sue-zadeh/smart-php-panel"
                 target="blank"
               >
-                view my project here(GitHub - using php for backend)
+                Check out this project with php here (GitHub)
               </a>
               <img
                 data-aos="fade-down-right"
@@ -218,12 +219,12 @@ function Projects() {
                 view this project on the Internet
               </a>
               <a
-              className="aa"
-              href="https://github.com/sue-zadeh/showerpower"
-              target="blank"
-            >
-            view this project on the Github  
-            </a>
+                className="aa"
+                href="https://github.com/sue-zadeh/showerpower"
+                target="blank"
+              >
+                Check out this project on GitHub
+              </a>
               <img
                 data-aos="fade-down-left"
                 className="picsquish"
@@ -252,18 +253,45 @@ function Projects() {
                 target="blank"
               >
               </a> */}
-               <a
-              className="aa"
-              href="https://github.com/sue-zadeh/SeniorCareAucklandLtd"
-              target="blank"
+              <a
+                className="aa"
+                href="https://github.com/sue-zadeh/SeniorCareAucklandLtd"
+                target="blank"
               >
-              view my project herer (GitHub) 
-              
-            </a> 
+                Check out this project on GitHub
+              </a>
               <img
                 data-aos="fade-down-left"
                 className="picsquish"
                 src={Healthcare}
+                alt="Sportflix"
+              />
+            </p>
+
+            <p data-aos="fade-down-right" className="p-projects">
+              <b>SAMCT :</b>
+              <b>
+                Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
+                CSS animation, AOS, Bootstrap
+              </b>
+              Description: A multi-role SaaS platform with public pages,
+              resident access, and admin dashboards for structured village
+              operations.
+              <br />
+              An in-progress village management platform combining public
+              information, resident-facing features, and administrative tools in
+              one scalable system.
+              <a
+                className="aa"
+                href="https://github.com/sue-zadeh/SAMCT"
+                target="blank"
+              >
+                Check out this project on GitHub
+              </a>
+              <img
+                data-aos="fade-down-right"
+                className="picsquish"
+                src={SAMCTpublic}
                 alt="Sportflix"
               />
             </p>
