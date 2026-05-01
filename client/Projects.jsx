@@ -23,7 +23,8 @@ import Lodge from './Assets/lodge1.png'
 import LodgeMember from './Assets/member-lodge.png'
 import LodgeFile from './Assets/files-lodge.png'
 import LodgeEvent from './Assets/event-lodge.png'
-
+import Showerpower from './Assets/showerpower.png'
+import Healthcare from './Assets/healthcare.png'
 function Projects() {
   useEffect(() => {
     AOS.init({
@@ -66,6 +67,11 @@ function Projects() {
               href="https://github.com/sue-zadeh/lodge-matarik476-python"
               target="blank"
             ></a>
+          </p>
+          <div className="projects2">
+            <h2 data-aos="fade-down-left" className="h2-projects2  fs-3">
+              Lodge Matarik 476
+            </h2>
             <img
               data-aos="fade-down-right"
               className="picsquish"
@@ -73,9 +79,9 @@ function Projects() {
               alt="Sportflix"
             />
             <img
-              data-aos="fade-down-right"
+              data-aos="fade-down-left"
               className="picsquish"
-              src={Lodge}
+              src={LodgeEvent}
               alt="Sportflix"
             />
             <img
@@ -85,18 +91,12 @@ function Projects() {
               alt="Sportflix"
             />
             <img
-              data-aos="fade-down-right"
+              data-aos="fade-down-left"
               className="picsquish"
               src={LodgeMember}
               alt="Sportflix"
             />
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={LodgeEvent}
-              alt="Sportflix"
-            />
-          </p>
+          </div>
 
           <p data-aos="fade-down-right" className="p-projects">
             <b>FieldSafe (CVNZ company):</b>
@@ -136,7 +136,7 @@ function Projects() {
               alt="FieldSafe"
             />
             <img
-              data-aos="fade-down-right"
+              data-aos="fade-down-left"
               className="picsquish-toe"
               src={Riskactivity}
               alt="FieldSafe"
@@ -148,57 +148,128 @@ function Projects() {
               alt="FieldSafe"
             />
             <img
-              data-aos="fade-down-right"
+              data-aos="fade-down-left"
               className="picsquish-toe"
               src={Groupadmin}
               alt="FieldSafe"
             />
           </div>
-          
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>smart-panel:</b>
-            <b>
-              Language/Technologies: DevOps, AWS (RDS, Elastic Beanstalk, Route
-              53), ReactJS, CSS, Bootstrap, MySQL
-            </b>
-            Description: This project involved building and hosting FieldSafe, a
-            digital platform for conservation groups to manage staff, track
-            activities, log risks, create projects, report incidents, and send
-            emails to the necessary recipients—all in one user-friendly system
-            while ensuring compliance with health and safety regulations. The
-            app was hosted on AWS, utilizing RDS for the database, Elastic
-            Beanstalk for deployment, and Route 53 for domain management.
-            <a
+        </div>
+        <div className="projects2">
+          <div className="div-squish">
+            <p data-aos="fade-down-right" className="p-projects">
+              <b>smart Panel Homes Ltd:</b>
+              <b>
+                Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
+                CSS animation, AOS, Bootstrap
+              </b>
+              Description: This project involved building and hosting FieldSafe,
+              a digital platform for conservation groups to manage staff, track
+              activities, log risks, create projects, report incidents, and send
+              emails to the necessary recipients—all in one user-friendly system
+              while ensuring compliance with health and safety regulations. The
+              app was hosted on AWS, utilizing RDS for the database, Elastic
+              Beanstalk for deployment, and Route 53 for domain management.
+              <a
+                className="aa"
+                href="https://www.smartpanelhomes.co.nz/"
+                target="blank"
+              >
+                Smart Panel Homes Ltd
+              </a>
+              <a
+                className="aa"
+                href="https://github.com/sue-zadeh/smart-panel"
+                target="blank"
+              >
+                view my project with Nodjs here(GitHub)
+              </a>
+              <a
+                className="aa"
+                href="https://github.com/sue-zadeh/smart-php-panel"
+                target="blank"
+              >
+                view my project here(GitHub - using php for backend)
+              </a>
+              <img
+                data-aos="fade-down-right"
+                className="picsquish"
+                src={Smartpanel}
+                alt="Sportflix"
+              />
+            </p>
+
+            <p data-aos="fade-down-right" className="p-projects">
+              <b>ShowerPower Ltd:</b>
+              <b>
+                Language/Technologies: ReactJS, Node.js, Express js, Azure(App
+                Service, configured domains, enabled SSL(HTTPS)) MySQL, CSS
+                animation, AOS, Bootstrap
+              </b>
+              A modern business website designed to present services clearly and
+              support customer inquiries.
+              <br />A service-focused website with strong visual presentation,
+              responsive layout, and lead-oriented design.
+              <a
+                className="aa"
+                href="https://www.showerpower.co.nz/"
+                target="blank"
+              >
+                view my project here
+              </a>
+              {/* <a
               className="aa"
-              href="https://www.smartpanelhomes.co.nz/"
+              href="https://github.com/sue-zadeh/showerpower"
               target="blank"
             >
-              Smart Panel Homes Ltd
-            </a>
-            <a
+              
+            </a> */}
+              <img
+                data-aos="fade-down-left"
+                className="picsquish"
+                src={Showerpower}
+                alt="Sportflix"
+              />
+            </p>
+
+            <p data-aos="fade-down-right" className="p-projects">
+              <b>Senior Healthcare Auckland Ltd (in progress):</b>
+              <b>
+                Language/Technologies: ReactJS, Node.js, Express js, will be
+                deployed on Azure(App Service, configured domains, enabled
+                SSL(HTTPS)) MySQL, CSS animation, AOS, Bootstrap
+              </b>
+              Senior Healthcare Auckland Ltd A service-focused website with
+              strong visual presentation, responsive layout, and lead-oriented
+              design.
+              <br />
+              An in-progress healthcare website built from wireframe to
+              production, designed to present services clearly and support both
+              staffing and client enquiries.
+              <a
+                className="aa"
+                href="https://www.showerpower.co.nz/"
+                target="blank"
+              >
+                view my project herer (GitHub) 
+              </a>
+              {/* <a
               className="aa"
-              href="https://github.com/sue-zadeh/smart-panel"
+              href="https://github.com/sue-zadeh/showerpower"
               target="blank"
             >
-              view my project with Nodjs here
-            </a>
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/smart-php-panel"
-              target="blank"
-            >
-              view my project here(using php for backend)
-            </a>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={Smartpanel}
-              alt="Sportflix"
-            />
-          </p>
+              
+            </a> */}
+              <img
+                data-aos="fade-down-left"
+                className="picsquish"
+                src={Healthcare}
+                alt="Sportflix"
+              />
+            </p>
+          </div>
         </div>
       </div>
-
       <div className="projects2">
         <h2 data-aos="fade-down-left" className="h2-projects2">
           Solo Projects:

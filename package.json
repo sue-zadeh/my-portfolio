@@ -15,6 +15,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^1.4.0",
+    "bootstrap": "^5.3.8",
     "buid": "^0.3.1",
     "build": "^0.1.4",
     "dotenv": "^16.3.1",
