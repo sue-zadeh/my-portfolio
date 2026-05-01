@@ -39,126 +39,127 @@ function Projects() {
       <h2 data-aos="fade-down-right" className="h2-projects">
         Projects
       </h2>
-          <div className="div-squish">
-
-      <div className="projects2">
-        <h2 data-aos="fade-down-left" className="h2-projects2">
-          building website for the real companies:
-        </h2>
-        <div className="div-squish">
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>Lodge-Matariki476:</b>
-            Language/Technologies: DevOps, Deployed on Azure App Service,
-            configured domains, enabled SSL(HTTPS), and managed production
-            settings (RDS, Elastic Beanstalk, Route 53) Python, Flask, Rest API,
-            CSS, CSS Animation, AOS, Bootstrap, PostgreSQL
-            <br />
-            Description: A membership-focused web application with internal
-            features, administrative tools, and secure access. <br />A custom
-            web platform designed for member management, internal use, and
-            structured administrative control.
-            <a
-              className="aa"
-              href="https://lodgematariki476.co.nz/"
-              target="blank"
-            >
-              Lodge Matariki 476 on the Internet
-            </a>
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/lodge-matarik476-python"
-              target="blank"
-            >
-              Check out this project on GitHub
-            </a>
-          </p>
-          <div className="projects2">
-            <h2 data-aos="fade-down-left" className="h2-projects2  fs-3">
-              Lodge Matarik 476
-            </h2>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={Lodge}
-              alt="Sportflix"
-            />
-            <img
-              data-aos="fade-down-left"
-              className="picsquish"
-              src={LodgeEvent}
-              alt="Sportflix"
-            />
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={LodgeFile}
-              alt="Sportflix"
-            />
-            <img
-              data-aos="fade-down-left"
-              className="picsquish"
-              src={LodgeMember}
-              alt="Sportflix"
-            />
-          </div>
-
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>FieldSafe (CVNZ company):</b>
-            Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, API
-            Integration, MySQL
-            <br />
-            Description: This project aimed to build a digital solution called
-            FieldSafe to help conservation groups manage their daily tasks—such
-            as assigning staff, overseeing activities, and logging risks—all in
-            one user-friendly platform while ensuring compliance with health and
-            safety regulations.
-            <br />
-            Currently enhancing FieldSafe with PWA features for offline access
-            using service workers, manifest integration, and IndexedDB
-            <a className="aa" href="https://fieldsafe.org.nz/" target="blank">
-              Click here to view the FieldSafe app online
-            </a>
-            <br />
-            <a
-              href="https://github.com/sue-zadeh/offline-fieldsafe"
-              className="aa"
-              target="blank"
-            >
-              Check out this project on GitHub
-            </a>
-            <br /> <br /> <br />
-          </p>
-          <div className="projects2">
-            <h2 data-aos="fade-down-left" className="h2-projects2">
-              FieldSafe
-            </h2>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish-toe"
-              src={Fieldsafe}
-              alt="FieldSafe"
-            />
-            <img
-              data-aos="fade-down-left"
-              className="picsquish-toe"
-              src={Riskactivity}
-              alt="FieldSafe"
-            />{' '}
-            <img
-              data-aos="fade-down-right"
-              className="picsquish-toe"
-              src={Objectivesactivity}
-              alt="FieldSafe"
-            />
-            <img
-              data-aos="fade-down-left"
-              className="picsquish-toe"
-              src={Groupadmin}
-              alt="FieldSafe"
-            />
-          </div>
-        </div>
+      <div className="div-squish">
         <div className="projects2">
+          <h2 data-aos="fade-down-left" className="h2-projects2">
+            building website for the real companies:
+          </h2>
+          <div className="projects2">
+            <p data-aos="fade-down-right" className="p-projects">
+              <b>Lodge-Matariki476:</b>
+              Language/Technologies: DevOps, Deployed on Azure App Service,
+              configured domains, enabled SSL(HTTPS), and managed production
+              settings (RDS, Elastic Beanstalk, Route 53) Python, Flask, Rest
+              API, CSS, CSS Animation, AOS, Bootstrap, PostgreSQL
+              <br />
+              Description: A membership-focused web application with internal
+              features, administrative tools, and secure access. <br />A custom
+              web platform designed for member management, internal use, and
+              structured administrative control.
+              <a
+                className="aa"
+                href="https://lodgematariki476.co.nz/"
+                target="blank"
+              >
+                Lodge Matariki 476 on the Internet
+              </a>
+              <a
+                className="aa"
+                href="https://github.com/sue-zadeh/lodge-matarik476-python"
+                target="blank"
+              >
+                Check out this project on GitHub
+              </a>
+            </p>
+            {/* <div className="projects2"> */}
+              <h2 data-aos="fade-down-left" className="h2-projects2  fs-3">
+                Lodge Matarik 476
+              </h2>
+              <img
+                data-aos="fade-down-right"
+                className="picsquish"
+                src={Lodge}
+                alt="Sportflix"
+              />
+              <img
+                data-aos="fade-down-left"
+                className="picsquish"
+                src={LodgeEvent}
+                alt="Sportflix"
+              />
+              <img
+                data-aos="fade-down-right"
+                className="picsquish"
+                src={LodgeFile}
+                alt="Sportflix"
+              />
+              <img
+                data-aos="fade-down-left"
+                className="picsquish"
+                src={LodgeMember}
+                alt="Sportflix"
+              />
+            {/* </div>{' '} */}
+          </div>
+
+          <div className="projects2">
+            <p data-aos="fade-down-right" className="p-projects">
+              <b>FieldSafe (CVNZ company):</b>
+              Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, API
+              Integration, MySQL
+              <br />
+              Description: This project aimed to build a digital solution called
+              FieldSafe to help conservation groups manage their daily
+              tasks—such as assigning staff, overseeing activities, and logging
+              risks—all in one user-friendly platform while ensuring compliance
+              with health and safety regulations.
+              <br />
+              Currently enhancing FieldSafe with PWA features for offline access
+              using service workers, manifest integration, and IndexedDB
+              <a className="aa" href="https://fieldsafe.org.nz/" target="blank">
+                Click here to view the FieldSafe app online
+              </a>
+              <br />
+              <a
+                href="https://github.com/sue-zadeh/offline-fieldsafe"
+                className="aa"
+                target="blank"
+              >
+                Check out this project on GitHub
+              </a>
+              <br /> <br /> <br />
+            </p>
+            {/* <div className="projects2"> */}
+              <h2 data-aos="fade-down-left" className="h2-projects2">
+                FieldSafe
+              </h2>
+              <img
+                data-aos="fade-down-right"
+                className="picsquish-toe"
+                src={Fieldsafe}
+                alt="FieldSafe"
+              />
+              <img
+                data-aos="fade-down-left"
+                className="picsquish-toe"
+                src={Riskactivity}
+                alt="FieldSafe"
+              />{' '}
+              <img
+                data-aos="fade-down-right"
+                className="picsquish-toe"
+                src={Objectivesactivity}
+                alt="FieldSafe"
+              />
+              <img
+                data-aos="fade-down-left"
+                className="picsquish-toe"
+                src={Groupadmin}
+                alt="FieldSafe"
+              />
+            {/* </div> */}
+          </div>
+          <div className="projects2">
             <p data-aos="fade-down-right" className="p-projects">
               <b>smart Panel Homes Ltd:</b>
               Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
@@ -630,7 +631,7 @@ function Projects() {
           <p data-aos="fade-down-right" className="p-projects">
             <b>voting-center:</b>
             Language/Technologies: Python, Flask, Jinja, javaScript, MySQL,
-            Bootstrap and css 
+            Bootstrap and css
             <a
               className="aa"
               href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
@@ -653,7 +654,6 @@ function Projects() {
             registration, login, voting, displaying results, and ensuring the
             pages were styled responsively.
             <br />
-            
             {/* <p data-aos="fade-down-right" className="p-projects  "> */}
             we improve it and Built a customization tool letting users set
             background and font styling for their own voting site, simulating
@@ -672,7 +672,7 @@ function Projects() {
             >
               Check out this project on Github
             </a>
-          {/* </p> */}
+            {/* </p> */}
           </p>
         </div>
       </div>
