@@ -215,15 +215,15 @@ function Projects() {
                 href="https://www.showerpower.co.nz/"
                 target="blank"
               >
-                view my project here
+                view this project on the Internet
               </a>
-              {/* <a
+              <a
               className="aa"
               href="https://github.com/sue-zadeh/showerpower"
               target="blank"
             >
-              
-            </a> */}
+            view this project on the Github  
+            </a>
               <img
                 data-aos="fade-down-left"
                 className="picsquish"
@@ -246,20 +246,20 @@ function Projects() {
               An in-progress healthcare website built from wireframe to
               production, designed to present services clearly and support both
               staffing and client enquiries.
-              <a
+              {/* <a
                 className="aa"
                 href="https://www.showerpower.co.nz/"
                 target="blank"
               >
-                view my project herer (GitHub) 
-              </a>
-              {/* <a
+              </a> */}
+               <a
               className="aa"
-              href="https://github.com/sue-zadeh/showerpower"
+              href="https://github.com/sue-zadeh/SeniorCareAucklandLtd"
               target="blank"
-            >
+              >
+              view my project herer (GitHub) 
               
-            </a> */}
+            </a> 
               <img
                 data-aos="fade-down-left"
                 className="picsquish"
