@@ -47,16 +47,15 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>Lodge-Matariki476:</b>
-            <b>
-              Language/Technologies: DevOps, Deployed on Azure App Service,
-              configured domains, enabled SSL(HTTPS), and managed production
-              settings (RDS, Elastic Beanstalk, Route 53) Python, Flask, Rest
-              API, CSS, CSS Animation, AOS, Bootstrap, PostgreSQL
-            </b>
-            A membership-focused web application with internal features,
-            administrative tools, and secure access. <br />A custom web platform
-            designed for member management, internal use, and structured
-            administrative control.
+            Language/Technologies: DevOps, Deployed on Azure App Service,
+            configured domains, enabled SSL(HTTPS), and managed production
+            settings (RDS, Elastic Beanstalk, Route 53) Python, Flask, Rest API,
+            CSS, CSS Animation, AOS, Bootstrap, PostgreSQL
+            <br />
+            Description: A membership-focused web application with internal
+            features, administrative tools, and secure access. <br />A custom
+            web platform designed for member management, internal use, and
+            structured administrative control.
             <a
               className="aa"
               href="https://lodgematariki476.co.nz/"
@@ -104,10 +103,9 @@ function Projects() {
 
           <p data-aos="fade-down-right" className="p-projects">
             <b>FieldSafe (CVNZ company):</b>
-            <b>
-              Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, API
-              Integration, MySQL
-            </b>
+            Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, API
+            Integration, MySQL
+            <br />
             Description: This project aimed to build a digital solution called
             FieldSafe to help conservation groups manage their daily tasks—such
             as assigning staff, overseeing activities, and logging risks—all in
@@ -163,10 +161,9 @@ function Projects() {
           <div className="div-squish">
             <p data-aos="fade-down-right" className="p-projects">
               <b>smart Panel Homes Ltd:</b>
-              <b>
-                Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
-                CSS animation, AOS, Bootstrap
-              </b>
+              Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
+              CSS animation, AOS, Bootstrap
+              <br />
               Description: A professional company website built to showcase
               services, branding, and trust.
               <br />A business presentation website with polished layout, clear
@@ -202,13 +199,11 @@ function Projects() {
 
             <p data-aos="fade-down-right" className="p-projects">
               <b>ShowerPower Ltd:</b>
-              <b>
-                Language/Technologies: ReactJS, Node.js, Express js, Azure(App
-                Service, configured domains, enabled SSL(HTTPS)) MySQL, CSS
-                animation, AOS, Bootstrap
-              </b>
-              A modern business website designed to present services clearly and
-              support customer inquiries.
+              Language/Technologies: ReactJS, Node.js, Express js, Azure(App
+              Service, configured domains, enabled SSL(HTTPS)) MySQL, CSS
+              animation, AOS, Bootstrap Description: A modern business website
+              designed to present services clearly and support customer
+              inquiries.
               <br />A service-focused website with strong visual presentation,
               responsive layout, and lead-oriented design.
               <a
@@ -235,14 +230,12 @@ function Projects() {
 
             <p data-aos="fade-down-right" className="p-projects">
               <b>Senior Healthcare Auckland Ltd (in progress):</b>
-              <b>
-                Language/Technologies: ReactJS, Node.js, Express js, will be
-                deployed on Azure(App Service, configured domains, enabled
-                SSL(HTTPS)) MySQL, CSS animation, AOS, Bootstrap
-              </b>
-              Senior Healthcare Auckland Ltd A service-focused website with
-              strong visual presentation, responsive layout, and lead-oriented
-              design.
+              Language/Technologies: ReactJS, Node.js, Express js, will be
+              deployed on Azure(App Service, configured domains, enabled
+              SSL(HTTPS)) MySQL, CSS animation, AOS, Bootstrap
+              <br />
+              Description:This web site is A service-focused website with strong
+              visual presentation, responsive layout, and lead-oriented design.
               <br />
               An in-progress healthcare website built from wireframe to
               production, designed to present services clearly and support both
@@ -270,13 +263,10 @@ function Projects() {
 
             <p data-aos="fade-down-right" className="p-projects">
               <b>SAMCT :</b>
-              <b>
-                Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
-                CSS animation, AOS, Bootstrap
-              </b>
-              Description: A multi-role SaaS platform with public pages,
-              resident access, and admin dashboards for structured village
-              operations.
+              Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
+              CSS animation, AOS, Bootstrap Description: A multi-role SaaS
+              platform with public pages, resident access, and admin dashboards
+              for structured village operations.
               <br />
               An in-progress village management platform combining public
               information, resident-facing features, and administrative tools in
@@ -305,15 +295,13 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>Pokedex:</b>
-            <b>
-              Language/Technologies: React.js (Vite), TypeScript, Bootstrap,
-              Flask, REST API
-            </b>
-            Description: An interactive Pokémon Pokédex web application that
-            allows users to explore, filter, and search through Pokémon details,
-            with advanced search options and sorting functionality for
-            attributes like type, height, and weight. The project demonstrates
-            modern UI/UX principles and clean, maintainable coding practices.
+            Language/Technologies: React.js (Vite), TypeScript, Bootstrap,
+            Flask, REST API Description: An interactive Pokémon Pokédex web
+            application that allows users to explore, filter, and search through
+            Pokémon details, with advanced search options and sorting
+            functionality for attributes like type, height, and weight. The
+            project demonstrates modern UI/UX principles and clean, maintainable
+            coding practices.
             <a
               className="aa"
               href="https://github.com/sue-zadeh/pokedex"
@@ -330,9 +318,7 @@ function Projects() {
           </p>
           <p data-aos="fade-down-right" className="p-projects">
             <b>Selwyn Campground(scg):</b>
-            <b>
-              Language/Technologies: Python, Bootstrap, Flask, Jinja, MySQL{' '}
-            </b>
+            Language/Technologies: Python, Bootstrap, Flask, Jinja, MySQL{' '}
             Description: A web application for Selwyn Campground to assist
             office staff in managing customer and booking data efficiently, with
             features for adding, editing, and managing records.
@@ -380,7 +366,7 @@ function Projects() {
 
           <p data-aos="fade-down-left" className="p-projects">
             <b>chatroom:</b>
-            <b> Language/Technologies: reactjs, Firebase, Realtime Database</b>
+            Language/Technologies: reactjs, Firebase, Realtime Database
             Description: This project focuses on creating a chatroom with
             enhanced media sharing capabilities, utilizing Firebase and Realtime
             Database for live interactions.
@@ -415,10 +401,9 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-up-right" className="p-projects">
             <b>TreeTalk:</b>
-            <b>
-              Language/Technologies:Python, Flask, Jinja,Javascript, Bootstrap
-              and CSS3
-            </b>
+            Language/Technologies:Python, Flask, Jinja,Javascript, Bootstrap and
+            CSS3
+            <br />
             Description: Tree Talk is a community platform where neighbors can
             discuss and share insights about tree-related topics in their
             neighborhood. Users can post messages, reply to others, and engage
@@ -440,7 +425,8 @@ function Projects() {
 
           <p data-aos="fade-up-right" className="p-projects">
             <b>minesweeper:</b>
-            <b>Language/Technologies:Javascript and CSS3</b>
+            Language/Technologies:Javascript and CSS3
+            <br />
             Description: This is the Minesweeper game. I built this to have more
             practice on javascript
             <a
@@ -459,7 +445,7 @@ function Projects() {
           </p>
           <p data-aos="fade-down-left" className="p-projects">
             <b>tic-tac-toe:</b>
-            <b> Language/Technologies: Javascript and CSS3</b>
+             Language/Technologies: Javascript and CSS3<br />
             Description: This is the TIc-Tac-Toe game. I built this to have more
             practice on javascript .
             <a
@@ -477,7 +463,8 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-left" className="p-projects">
-            <b>music-band: Language/Technologies: HTML5, CSS3, JavaScript</b>
+            <b>music-band:</b> 
+              Language/Technologies: HTML5, CSS3, JavaScript<br />
             Description: Created in February 2021 from self-study and online
             courses, this website features an Iranian folk music band. backend
             functionality is with JavaScript.
@@ -530,7 +517,7 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>DevStagram:</b>
-            <b>Language/Technologies: reactjs,Redux.js,TypeScript, css </b>
+            Language/Technologies: reactjs,Redux.js,TypeScript, css <br />
             Description: DevStagram, a one-day group project, pulls and displays
             data, letting users add to the JSON. I evolve it into a chatroom
             with media. I developed the sign-in page and led the git management.
@@ -539,7 +526,8 @@ function Projects() {
               href="https://github.com/sue-zadeh/DevStagram"
               target="blank"
             >
-              view my project here
+                              Check out this project on Github
+
             </a>
             <img
               data-aos="fade-down-right"
@@ -556,10 +544,10 @@ function Projects() {
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-left" className="p-projects">
             <b>Squishy-Squish:</b>
-            <b>
+            
               Language/Technologies: p5, Javascript,Redux.js, Jest, and
               TypeScript, CSS3{' '}
-            </b>
+            <br />
             Description: This was a 1-week final group project, and a game. I
             contributed to the frontend, backend, managed git, and wrote tests
             for pages.
@@ -571,7 +559,8 @@ function Projects() {
               href="https://github.com/sue-zadeh/Squishy-Squish"
               target="blank"
             >
-              view my project here
+                              Check out this project on Github
+
             </a>
             <img
               data-aos="fade-up-left"
@@ -592,7 +581,7 @@ function Projects() {
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
             <b>no-deal-or-deal:</b>
-            <b> Language/Technologies: React.js, Redux.js, TypeScript, CSS3 </b>
+             Language/Technologies: React.js, Redux.js, TypeScript, CSS3 <br />
             Description: This website was a one-day group project. It is a game
             created. In the group, my role was to work as the frontend lead.
             <a
@@ -600,7 +589,8 @@ function Projects() {
               href="https://github.com/sue-zadeh/no-deal-or-deal"
               target="blank"
             >
-              view my project here
+                              Check out this project on Github
+
             </a>
             <img
               data-aos="fade-up-right"
@@ -613,10 +603,10 @@ function Projects() {
         <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
             <b>dev-eats:</b>
-            <b>
+           
               Language/Technologies: JavaScript with server-side handling and
               CSS3.
-            </b>
+            <br />
             Description: This one-day group project website showcases Indian,
             Italian, Asian, and Vegan restaurants.
             <a
@@ -624,7 +614,8 @@ function Projects() {
               href="https://github.com/sue-zadeh/dev-eats"
               target="blank"
             >
-              view my project here
+                              Check out this project on Github
+
             </a>
             <br />
             <br />
@@ -641,7 +632,7 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>voting-center:</b>
-            <b>
+           
               Language/Technologies: Python, Flask, Jinja, javaScript, MySQL,
               Bootstrap and css <br />
               <a
@@ -649,7 +640,7 @@ function Projects() {
                 href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
                 target="blank"
               >
-                view my project here
+                Check out this project on Github
               </a>
               <br />
               <a
@@ -657,9 +648,10 @@ function Projects() {
                 href="https://github.com/sue-zadeh/voting-best-track-NZ"
                 target="blank"
               >
-                view my project on the Github
+                                Check out this project on Github
+
               </a>
-            </b>
+            
             Description: This project was part of a group assignment for a
             Master's course in Applied Computing. The website allows users to
             vote for the best walkway in New Zealand. I was responsible for
