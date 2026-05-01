@@ -47,10 +47,10 @@ function Projects() {
           <div className="projects2">
             <p data-aos="fade-down-right" className="p-projects">
               <b>Lodge-Matariki476:</b>
-              Language/Technologies: DevOps, Deployed on Azure App Service,
-              configured domains, enabled SSL(HTTPS), and managed production
-              settings (RDS, Elastic Beanstalk, Route 53) Python, Flask, Rest
-              API, CSS, CSS Animation, AOS, Bootstrap, PostgreSQL
+              Language/Technologies: Python, Flask, Rest API, CSS, CSS
+              Animation, AOS, Bootstrap, PostgreSQLDevOps, Deployed on Azure App
+              Service, configured domains, enabled SSL(HTTPS), and managed
+              production settings (RDS, Elastic Beanstalk, Route 53)
               <br />
               Description: A membership-focused web application with internal
               features, administrative tools, and secure access. <br />A custom
@@ -72,33 +72,33 @@ function Projects() {
               </a>
             </p>
             {/* <div className="projects2"> */}
-              <h2 data-aos="fade-down-left" className="h2-projects2  fs-3">
-                Lodge Matarik 476
-              </h2>
-              <img
-                data-aos="fade-down-right"
-                className="picsquish"
-                src={Lodge}
-                alt="Sportflix"
-              />
-              <img
-                data-aos="fade-down-left"
-                className="picsquish"
-                src={LodgeEvent}
-                alt="Sportflix"
-              />
-              <img
-                data-aos="fade-down-right"
-                className="picsquish"
-                src={LodgeFile}
-                alt="Sportflix"
-              />
-              <img
-                data-aos="fade-down-left"
-                className="picsquish"
-                src={LodgeMember}
-                alt="Sportflix"
-              />
+            <h2 data-aos="fade-down-left" className="h2-projects2  fs-3">
+              Lodge Matarik 476
+            </h2>
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={Lodge}
+              alt="Sportflix"
+            />
+            <img
+              data-aos="fade-down-left"
+              className="picsquish"
+              src={LodgeEvent}
+              alt="Sportflix"
+            />
+            <img
+              data-aos="fade-down-right"
+              className="picsquish"
+              src={LodgeFile}
+              alt="Sportflix"
+            />
+            <img
+              data-aos="fade-down-left"
+              className="picsquish"
+              src={LodgeMember}
+              alt="Sportflix"
+            />
             {/* </div>{' '} */}
           </div>
 
@@ -130,33 +130,33 @@ function Projects() {
               <br /> <br /> <br />
             </p>
             {/* <div className="projects2"> */}
-              <h2 data-aos="fade-down-left" className="h2-projects2">
-                FieldSafe
-              </h2>
-              <img
-                data-aos="fade-down-right"
-                className="picsquish-toe"
-                src={Fieldsafe}
-                alt="FieldSafe"
-              />
-              <img
-                data-aos="fade-down-left"
-                className="picsquish-toe"
-                src={Riskactivity}
-                alt="FieldSafe"
-              />{' '}
-              <img
-                data-aos="fade-down-right"
-                className="picsquish-toe"
-                src={Objectivesactivity}
-                alt="FieldSafe"
-              />
-              <img
-                data-aos="fade-down-left"
-                className="picsquish-toe"
-                src={Groupadmin}
-                alt="FieldSafe"
-              />
+            <h2 data-aos="fade-down-left" className="h2-projects2">
+              FieldSafe
+            </h2>
+            <img
+              data-aos="fade-down-right"
+              className="picsquish-toe"
+              src={Fieldsafe}
+              alt="FieldSafe"
+            />
+            <img
+              data-aos="fade-down-left"
+              className="picsquish-toe"
+              src={Riskactivity}
+              alt="FieldSafe"
+            />{' '}
+            <img
+              data-aos="fade-down-right"
+              className="picsquish-toe"
+              src={Objectivesactivity}
+              alt="FieldSafe"
+            />
+            <img
+              data-aos="fade-down-left"
+              className="picsquish-toe"
+              src={Groupadmin}
+              alt="FieldSafe"
+            />
             {/* </div> */}
           </div>
           <div className="projects2">
@@ -201,7 +201,7 @@ function Projects() {
             <p data-aos="fade-down-right" className="p-projects">
               <b>ShowerPower Ltd:</b>
               Language/Technologies: ReactJS, Node.js, Express js, Azure(App
-              Service, configured domains, enabled SSL(HTTPS)) MySQL, CSS
+              Service, configured domains, enabled SSL(HTTPS)) PostgreSQL, CSS
               animation, AOS, Bootstrap Description: A modern business website
               designed to present services clearly and support customer
               inquiries.
@@ -231,7 +231,7 @@ function Projects() {
 
             <p data-aos="fade-down-right" className="p-projects">
               <b>Senior Healthcare Auckland Ltd (in progress):</b>
-              Language/Technologies: ReactJS, Node.js, Express js, will be
+              Language/Technologies: Next.JS, C#, .Net, PostgreSQL, will be
               deployed on Azure(App Service, configured domains, enabled
               SSL(HTTPS)) MySQL, CSS animation, AOS, Bootstrap
               <br />
@@ -264,10 +264,10 @@ function Projects() {
 
             <p data-aos="fade-down-right" className="p-projects">
               <b>SAMCT :</b>
-              Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
-              CSS animation, AOS, Bootstrap Description: A multi-role SaaS
-              platform with public pages, resident access, and admin dashboards
-              for structured village operations.
+              Language/Technologies: ReactJS, C#, .Net, PostgreSQL, CSS
+              animation, AOS, Bootstrap Description: A multi-role SaaS platform
+              with public pages, resident access, and admin dashboards for
+              structured village operations.
               <br />
               An in-progress village management platform combining public
               information, resident-facing features, and administrative tools in
