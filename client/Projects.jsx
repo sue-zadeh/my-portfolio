@@ -39,6 +39,7 @@ function Projects() {
       <h2 data-aos="fade-down-right" className="h2-projects">
         Projects
       </h2>
+          <div className="div-squish">
 
       <div className="projects2">
         <h2 data-aos="fade-down-left" className="h2-projects2">
@@ -158,7 +159,6 @@ function Projects() {
           </div>
         </div>
         <div className="projects2">
-          <div className="div-squish">
             <p data-aos="fade-down-right" className="p-projects">
               <b>smart Panel Homes Ltd:</b>
               Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
@@ -307,7 +307,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/pokedex"
               target="blank"
             >
-              view my project here
+              Check out this project on Github
             </a>
             <img
               data-aos="fade-down-right"
@@ -327,7 +327,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/scg"
               target="blank"
             >
-              view my project here
+              Check out this project on Github
             </a>
             {/* <a
               className="aa"
@@ -354,7 +354,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/my-sportlist"
               target="blank"
             >
-              view my project here
+              Check out this project on Github
             </a>
             <img
               data-aos="fade-down-right"
@@ -377,7 +377,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/chatroom"
               target="blank"
             >
-              view my project here <br />
+              Check out this project on Github
               {/* <span
                 style={{
                   paddingRight: '1.5em',
@@ -413,7 +413,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/tree-talk"
               target="blank"
             >
-              view my project here
+              Check out this project on Github
             </a>
             <img
               data-aos="fade-up-right"
@@ -434,7 +434,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/minesweeper"
               target="blank"
             >
-              view my project here
+              Check out this project on Github
             </a>
             <img
               data-aos="fade-up-right"
@@ -445,7 +445,8 @@ function Projects() {
           </p>
           <p data-aos="fade-down-left" className="p-projects">
             <b>tic-tac-toe:</b>
-             Language/Technologies: Javascript and CSS3<br />
+            Language/Technologies: Javascript and CSS3
+            <br />
             Description: This is the TIc-Tac-Toe game. I built this to have more
             practice on javascript .
             <a
@@ -453,7 +454,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/tic-tac-toe"
               target="blank"
             >
-              view my project here
+              Check out this project on Github
             </a>
             <img
               data-aos="fade-up-right"
@@ -463,8 +464,9 @@ function Projects() {
             />
           </p>
           <p data-aos="fade-down-left" className="p-projects">
-            <b>music-band:</b> 
-              Language/Technologies: HTML5, CSS3, JavaScript<br />
+            <b>music-band:</b>
+            Language/Technologies: HTML5, CSS3, JavaScript
+            <br />
             Description: Created in February 2021 from self-study and online
             courses, this website features an Iranian folk music band. backend
             functionality is with JavaScript.
@@ -473,7 +475,8 @@ function Projects() {
               href="https://sue-zadeh.github.io/music-band/"
               target="blank"
             >
-              Music Band <br />
+              Check out this project on Github
+              <br />
               <span
                 style={{
                   paddingRight: '1.5em',
@@ -488,7 +491,8 @@ function Projects() {
               href="https://github.com/sue-zadeh/music-band"
               target="blank"
             >
-              view my project here <br />
+              Check out this project on Github
+              <br />
               <span
                 style={{
                   paddingRight: '1.5em',
@@ -526,8 +530,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/DevStagram"
               target="blank"
             >
-                              Check out this project on Github
-
+              Check out this project on Github
             </a>
             <img
               data-aos="fade-down-right"
@@ -544,10 +547,8 @@ function Projects() {
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-left" className="p-projects">
             <b>Squishy-Squish:</b>
-            
-              Language/Technologies: p5, Javascript,Redux.js, Jest, and
-              TypeScript, CSS3{' '}
-            <br />
+            Language/Technologies: p5, Javascript,Redux.js, Jest, and
+            TypeScript, CSS3 <br />
             Description: This was a 1-week final group project, and a game. I
             contributed to the frontend, backend, managed git, and wrote tests
             for pages.
@@ -559,8 +560,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/Squishy-Squish"
               target="blank"
             >
-                              Check out this project on Github
-
+              Check out this project on Github
             </a>
             <img
               data-aos="fade-up-left"
@@ -581,7 +581,7 @@ function Projects() {
           {/* <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
             <b>no-deal-or-deal:</b>
-             Language/Technologies: React.js, Redux.js, TypeScript, CSS3 <br />
+            Language/Technologies: React.js, Redux.js, TypeScript, CSS3 <br />
             Description: This website was a one-day group project. It is a game
             created. In the group, my role was to work as the frontend lead.
             <a
@@ -589,8 +589,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/no-deal-or-deal"
               target="blank"
             >
-                              Check out this project on Github
-
+              Check out this project on Github
             </a>
             <img
               data-aos="fade-up-right"
@@ -603,9 +602,8 @@ function Projects() {
         <div className="div-squish"> */}
           <p data-aos="fade-down-right" className="p-projects">
             <b>dev-eats:</b>
-           
-              Language/Technologies: JavaScript with server-side handling and
-              CSS3.
+            Language/Technologies: JavaScript with server-side handling and
+            CSS3.
             <br />
             Description: This one-day group project website showcases Indian,
             Italian, Asian, and Vegan restaurants.
@@ -614,8 +612,7 @@ function Projects() {
               href="https://github.com/sue-zadeh/dev-eats"
               target="blank"
             >
-                              Check out this project on Github
-
+              Check out this project on Github
             </a>
             <br />
             <br />
@@ -632,26 +629,23 @@ function Projects() {
         <div className="div-squish">
           <p data-aos="fade-down-right" className="p-projects">
             <b>voting-center:</b>
-           
-              Language/Technologies: Python, Flask, Jinja, javaScript, MySQL,
-              Bootstrap and css <br />
-              <a
-                className="aa"
-                href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
-                target="blank"
-              >
-                Check out this project on Github
-              </a>
-              <br />
-              <a
-                className="aa"
-                href="https://github.com/sue-zadeh/voting-best-track-NZ"
-                target="blank"
-              >
-                                Check out this project on Github
-
-              </a>
-            
+            Language/Technologies: Python, Flask, Jinja, javaScript, MySQL,
+            Bootstrap and css 
+            <a
+              className="aa"
+              href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
+              target="blank"
+            >
+              Check out this project on Github
+            </a>
+            <br />
+            <a
+              className="aa"
+              href="https://github.com/sue-zadeh/voting-best-track-NZ"
+              target="blank"
+            >
+              Check out this project on Github
+            </a>
             Description: This project was part of a group assignment for a
             Master's course in Applied Computing. The website allows users to
             vote for the best walkway in New Zealand. I was responsible for
@@ -659,7 +653,8 @@ function Projects() {
             registration, login, voting, displaying results, and ensuring the
             pages were styled responsively.
             <br />
-            <br />
+            
+            {/* <p data-aos="fade-down-right" className="p-projects  "> */}
             we improve it and Built a customization tool letting users set
             background and font styling for their own voting site, simulating
             CMS-style personalization.
@@ -675,8 +670,9 @@ function Projects() {
               href="https://github.com/sue-zadeh/let-create-voting-site"
               target="blank"
             >
-              view my project on the Github
+              Check out this project on Github
             </a>
+          {/* </p> */}
           </p>
         </div>
       </div>
