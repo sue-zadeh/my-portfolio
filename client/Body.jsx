@@ -21,7 +21,7 @@ function Body() {
         <h4>Tech Skills:</h4>
         <p className="p4">
           DevOps, React.js, JavaScript, TypeScript, Python, Flask, Jinja,
-          Redux.js, HTML5, CSS3, Bootstrap, Tailwind, SCSS, PHP, Apache, MySQL,
+          Redux.js, HTML5, Angular, Next.js, CSS3, Bootstrap, Tailwind, SCSS, PHP, Apache, MySQL,
           SQLite, Firebase, GitHub, Git, Azure, AWS, Jest, ISTQB, Postman,
           Railway, Heroku, Visual Studio Code, Agile, Scrum, Kanban
         </p>
