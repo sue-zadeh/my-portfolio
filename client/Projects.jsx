@@ -47,7 +47,7 @@ function Projects() {
           <div className="projects2">
             <p data-aos="fade-down-right" className="p-projects">
               <b>SAMCT :</b>
-              Language/Technologies: ReactJS, C#, .Net, PostgreSQL, CSS
+              Language/Technologies: ReactJS, C#, .Net, PostgreSQL, PlayWright, Postman, verified responsive behaviour using browser DevTools , CSS
               animation, AOS, Bootstrap Description: A multi-role SaaS platform
               with public pages, resident access, and admin dashboards for
               structured village operations.
@@ -72,7 +72,7 @@ function Projects() {
 
             <p data-aos="fade-down-right" className="p-projects">
               <b>Lodge-Matariki476:</b>
-              Language/Technologies: Python, Flask, Rest API, CSS, CSS
+              Language/Technologies: Python, Flask, Rest API, PlayWright, Postman, verified responsive behaviour using browser DevTools, CSS, CSS
               Animation, AOS, Bootstrap, PostgreSQLDevOps, Deployed on Azure App
               Service, configured domains, enabled SSL(HTTPS), and managed
               production settings (RDS, Elastic Beanstalk, Route 53)
@@ -131,7 +131,7 @@ function Projects() {
             <p data-aos="fade-down-right" className="p-projects">
               <b>FieldSafe (CVNZ company):</b>
               Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, API
-              Integration, MySQL
+              Integration, MySQL, PlayWright, Postman, verified responsive behaviour using browser DevTools 
               <br />
               Description: This project aimed to build a digital solution called
               FieldSafe to help conservation groups manage their daily
