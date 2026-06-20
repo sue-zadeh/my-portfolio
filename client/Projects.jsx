@@ -41,10 +41,35 @@ function Projects() {
       </h2>
       <div className="div-squish">
         <div className="projects2">
-          <h2 data-aos="fade-down-left" className="h2-projects2">
-            building website for the real companies:
+          <h2 data-aos="fade-down-left" className="h2-projects2 text-center">
+            building and Testing website for the real companies:
           </h2>
           <div className="projects2">
+            <p data-aos="fade-down-right" className="p-projects">
+              <b>SAMCT :</b>
+              Language/Technologies: ReactJS, C#, .Net, PostgreSQL, CSS
+              animation, AOS, Bootstrap Description: A multi-role SaaS platform
+              with public pages, resident access, and admin dashboards for
+              structured village operations.
+              <br />
+              An in-progress village management platform combining public
+              information, resident-facing features, and administrative tools in
+              one scalable system.
+              <a
+                className="aa"
+                href="https://github.com/sue-zadeh/SAMCT"
+                target="blank"
+              >
+                Check out this project on GitHub
+              </a>
+              <img
+                data-aos="fade-down-right"
+                className="picsquish"
+                src={SAMCTpublic}
+                alt="Sportflix"
+              />
+            </p>
+
             <p data-aos="fade-down-right" className="p-projects">
               <b>Lodge-Matariki476:</b>
               Language/Technologies: Python, Flask, Rest API, CSS, CSS
@@ -258,31 +283,6 @@ function Projects() {
                 data-aos="fade-down-left"
                 className="picsquish"
                 src={Healthcare}
-                alt="Sportflix"
-              />
-            </p>
-
-            <p data-aos="fade-down-right" className="p-projects">
-              <b>SAMCT :</b>
-              Language/Technologies: ReactJS, C#, .Net, PostgreSQL, CSS
-              animation, AOS, Bootstrap Description: A multi-role SaaS platform
-              with public pages, resident access, and admin dashboards for
-              structured village operations.
-              <br />
-              An in-progress village management platform combining public
-              information, resident-facing features, and administrative tools in
-              one scalable system.
-              <a
-                className="aa"
-                href="https://github.com/sue-zadeh/SAMCT"
-                target="blank"
-              >
-                Check out this project on GitHub
-              </a>
-              <img
-                data-aos="fade-down-right"
-                className="picsquish"
-                src={SAMCTpublic}
                 alt="Sportflix"
               />
             </p>
