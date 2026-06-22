@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+
 import Squish from './Assets/squish.png'
 import Devstagram from './Assets/Devstagram.png'
 import Nodeal from './Assets/nodeal.png'
@@ -16,667 +17,439 @@ import Treetalk from './Assets/TreeTalk.png'
 import Votingcenter from './Assets/voting-center.png'
 import Pokemon from './Assets/advancedsearch.png'
 import Fieldsafe from './Assets/fieldsafe.png'
-import Riskactivity from './Assets/riskactivity.png'
-import Groupadmin from './Assets/groupadmins.png'
-import Objectivesactivity from './Assets/objectivesactivity.png'
 import Lodge from './Assets/lodge1.png'
-import LodgeMember from './Assets/member-lodge.png'
-import LodgeFile from './Assets/files-lodge.png'
-import LodgeEvent from './Assets/event-lodge.png'
 import Showerpower from './Assets/showerpower.png'
 import Healthcare from './Assets/healthcare.png'
 import SAMCTpublic from './Assets/home-public-SAMCT.png'
 
 function Projects() {
+  const [selectedCategory, setSelectedCategory] = useState('All')
+
   useEffect(() => {
     AOS.init({
       duration: 900,
+      once: true,
     })
   }, [])
 
+  const categories = [
+    'All',
+    'Real Company Projects',
+    'Solo Projects',
+    'Group Projects',
+  ]
+
+  const projects = [
+    {
+      title: 'SAMCT Villages',
+      category: 'Real Company Projects',
+      image: SAMCTpublic,
+      status: 'In Progress',
+      shortDescription:
+        'A multi-role SaaS platform with public pages, resident access, village managers, and admin dashboards.',
+      hoverDescription:
+        'Built for real village operations with resident requests, admin control, role-based access, and responsive UI.',
+      tags: ['React', 'C# .NET', 'PostgreSQL', 'Bootstrap', 'Playwright'],
+      liveUrl: 'https://samct-production.up.railway.app/',
+      githubUrl: 'https://github.com/sue-zadeh/SAMCT',
+    },
+    {
+      title: 'Lodge-Matariki476',
+      category: 'Real Company Projects',
+      image: Lodge,
+      status: 'Live',
+      shortDescription:
+        'A membership-focused web app with admin tools, secure access, events, files, and member features.',
+      hoverDescription:
+        'Designed for member management, internal use, and structured admin control.',
+      tags: ['Python', 'Flask', 'PostgreSQL', 'Azure', 'Bootstrap'],
+      liveUrl: 'https://lodgematariki476.co.nz/',
+      githubUrl: 'https://github.com/sue-zadeh/lodge-matarik476-python',
+    },
+    {
+      title: 'FieldSafe',
+      category: 'Real Company Projects',
+      image: Fieldsafe,
+      status: 'Preview Only',
+      shortDescription:
+        'A full-stack operations dashboard for CVNZ, built for activity planning, staff tasks, and risk management.',
+      hoverDescription:
+        'A real client project focused on workflow control, safety compliance, offline access, and practical field operations.',
+      tags: ['React Vite', 'TypeScript', 'MySQL', 'PWA', 'IndexedDB'],
+      liveUrl: 'https://fieldsafe.org.nz/',
+      githubUrl: 'https://github.com/sue-zadeh/offline-fieldsafe',
+    },
+    {
+      title: 'Smart Panel Homes',
+      category: 'Real Company Projects',
+      image: Smartpanel,
+      status: 'Live',
+      shortDescription:
+        'A professional company website built to showcase services, branding, and trust.',
+      hoverDescription:
+        'A business presentation website with clear structure, polished UI, and responsive design.',
+      tags: ['React', 'Node.js', 'Express', 'MySQL', 'Bootstrap'],
+      liveUrl: 'https://www.smartpanelhomes.co.nz/',
+      githubUrl: 'https://github.com/sue-zadeh/smart-panel',
+    },
+    {
+      title: 'ShowerPower',
+      category: 'Real Company Projects',
+      image: Showerpower,
+      status: 'Live',
+      shortDescription:
+        'A modern business website designed to present services clearly and support customer inquiries.',
+      hoverDescription:
+        'A service-focused site with responsive design, lead-focused layout, and clean visual structure.',
+      tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Azure'],
+      liveUrl: 'https://www.showerpower.co.nz/',
+      githubUrl: 'https://github.com/sue-zadeh/showerpower',
+    },
+    {
+      title: 'Senior Healthcare Auckland Ltd',
+      category: 'Real Company Projects',
+      image: Healthcare,
+      status: 'In Progress',
+      shortDescription:
+        'A healthcare website built from wireframe to production to support client and staffing enquiries.',
+      hoverDescription:
+        'An in-progress real business website focused on service clarity, trust, and responsive UI.',
+      tags: ['Next.js', 'C# .NET', 'PostgreSQL', 'Azure', 'Bootstrap'],
+      githubUrl: 'https://github.com/sue-zadeh/SeniorCareAucklandLtd',
+    },
+    {
+      title: 'Pokedex',
+      category: 'Solo Projects',
+      image: Pokemon,
+      status: 'GitHub',
+      shortDescription:
+        'An interactive Pokédex app with filtering, searching, sorting, and clean responsive UI.',
+      hoverDescription:
+        'Built to practise API use, TypeScript, filtering logic, and modern frontend structure.',
+      tags: ['React Vite', 'TypeScript', 'Flask', 'REST API', 'Bootstrap'],
+      githubUrl: 'https://github.com/sue-zadeh/pokedex',
+    },
+    {
+      title: 'Selwyn Campground',
+      category: 'Solo Projects',
+      image: Scg,
+      status: 'GitHub',
+      shortDescription:
+        'A campground management app for customer and booking records.',
+      hoverDescription:
+        'Built to support office staff with adding, editing, and managing booking information.',
+      tags: ['Python', 'Flask', 'Jinja', 'MySQL', 'Bootstrap'],
+      githubUrl: 'https://github.com/sue-zadeh/scg',
+    },
+    {
+      title: 'My Sportlist',
+      category: 'Solo Projects',
+      image: Sportflix,
+      status: 'GitHub',
+      shortDescription:
+        'A sport discovery app with sidebar navigation and API-based content.',
+      hoverDescription:
+        'A Netflix-style sports browsing project built for frontend and API practice.',
+      tags: ['React', 'CSS', 'APIs', 'Responsive UI'],
+      githubUrl: 'https://github.com/sue-zadeh/my-sportlist',
+    },
+    {
+      title: 'Chatroom',
+      category: 'Solo Projects',
+      image: Chat,
+      status: 'GitHub',
+      shortDescription:
+        'A real-time chatroom app with media sharing features.',
+      hoverDescription:
+        'Built with Firebase and realtime database features for live user interaction.',
+      tags: ['React', 'Firebase', 'Realtime DB', 'Media Sharing'],
+      githubUrl: 'https://github.com/sue-zadeh/chatroom',
+    },
+    {
+      title: 'TreeTalk',
+      category: 'Solo Projects',
+      image: Treetalk,
+      status: 'GitHub',
+      shortDescription:
+        'A community platform for posting, replying, reacting, and sharing images.',
+      hoverDescription:
+        'A social-style app focused on user interaction, account features, and community discussion.',
+      tags: ['Python', 'Flask', 'Jinja', 'JavaScript', 'Bootstrap'],
+      githubUrl: 'https://github.com/sue-zadeh/tree-talk',
+    },
+    {
+      title: 'Minesweeper',
+      category: 'Solo Projects',
+      image: Minesweeper,
+      status: 'GitHub',
+      shortDescription:
+        'A JavaScript Minesweeper game built for logic and DOM practice.',
+      hoverDescription:
+        'A small but useful project for practising JavaScript game logic. Painful, but character-building.',
+      tags: ['JavaScript', 'CSS', 'Game Logic'],
+      githubUrl: 'https://github.com/sue-zadeh/minesweeper',
+    },
+    {
+      title: 'Tic Tac Toe',
+      category: 'Solo Projects',
+      image: Toe,
+      status: 'GitHub',
+      shortDescription:
+        'A simple Tic Tac Toe game built with JavaScript and CSS.',
+      hoverDescription:
+        'A classic practice project for frontend logic, user interaction, and basic game flow.',
+      tags: ['JavaScript', 'CSS', 'Game'],
+      githubUrl: 'https://github.com/sue-zadeh/tic-tac-toe',
+    },
+    {
+      title: 'Music Band',
+      category: 'Solo Projects',
+      image: Music,
+      status: 'Live',
+      shortDescription:
+        'A music band website created from self-study and early frontend practice.',
+      hoverDescription:
+        'One of the early projects showing HTML, CSS, and JavaScript foundations.',
+      tags: ['HTML', 'CSS', 'JavaScript', '2021'],
+      liveUrl: 'https://sue-zadeh.github.io/music-band/',
+      githubUrl: 'https://github.com/sue-zadeh/music-band',
+    },
+    {
+      title: 'DevStagram',
+      category: 'Group Projects',
+      image: Devstagram,
+      status: 'GitHub',
+      shortDescription:
+        'A one-day group project where users could display and add JSON-based content.',
+      hoverDescription:
+        'I developed the sign-in page and helped manage Git. Humanity survived group Git somehow.',
+      tags: ['React', 'Redux', 'TypeScript', 'CSS', 'Git'],
+      githubUrl: 'https://github.com/sue-zadeh/DevStagram',
+    },
+    {
+      title: 'Squishy-Squish',
+      category: 'Group Projects',
+      image: Squish,
+      status: 'Live',
+      shortDescription:
+        'A one-week final group game project with frontend, backend, tests, and Git teamwork.',
+      hoverDescription:
+        'I contributed to frontend, backend, Git management, and testing for pages.',
+      tags: ['p5.js', 'JavaScript', 'Redux', 'Jest', 'TypeScript'],
+      liveUrl: 'https://helpfulself.xyz/',
+      githubUrl: 'https://github.com/sue-zadeh/Squishy-Squish',
+    },
+    {
+      title: 'No Deal or Deal',
+      category: 'Group Projects',
+      image: Nodeal,
+      status: 'GitHub',
+      shortDescription:
+        'A one-day group game project where I worked as the frontend lead.',
+      hoverDescription:
+        'A fast team project focused on UI, game flow, and React state structure.',
+      tags: ['React', 'Redux', 'TypeScript', 'CSS'],
+      githubUrl: 'https://github.com/sue-zadeh/no-deal-or-deal',
+    },
+    {
+      title: 'Dev Eats',
+      category: 'Group Projects',
+      image: Eat,
+      status: 'GitHub',
+      shortDescription:
+        'A restaurant showcase website for Indian, Italian, Asian, and Vegan food options.',
+      hoverDescription:
+        'A one-day group project using JavaScript, server-side handling, and CSS.',
+      tags: ['JavaScript', 'Server Side', 'CSS', 'Group Project'],
+      githubUrl: 'https://github.com/sue-zadeh/dev-eats',
+    },
+    {
+      title: 'Voting Center',
+      category: 'Group Projects',
+      image: Votingcenter,
+      status: 'GitHub',
+      shortDescription:
+        'A voting platform for choosing the best walkway in New Zealand.',
+      hoverDescription:
+        'I built registration, login, voting, results pages, backend logic, and responsive styling.',
+      tags: ['Python', 'Flask', 'Jinja', 'MySQL', 'Bootstrap'],
+      githubUrl:
+        'https://github.com/sue-zadeh/voting-best-track-NZ',
+    },
+  ]
+
+  const filteredProjects = useMemo(() => {
+    if (selectedCategory === 'All') {
+      return projects
+    }
+
+    return projects.filter((project) => project.category === selectedCategory)
+  }, [selectedCategory])
+
+  const openProject = (url) => {
+    if (!url) return
+    window.open(url, '_blank', 'noopener,noreferrer')
+  }
+
   return (
-    <div data-aos="fade-up" className="projects">
-      <h2 data-aos="fade-down-right" className="h2-projects">
-        Projects
-      </h2>
-      <div className="div-squish">
-        <div className="projects2">
-          <h2 data-aos="fade-down-left" className="h2-projects2 text-center">
-            building and Testing website for the real companies:
-          </h2>
-          <div className="projects2">
-            <p data-aos="fade-down-right" className="p-projects">
-              <b>SAMCT :</b>
-              Language/Technologies: ReactJS, C#, .Net, PostgreSQL, PlayWright, Postman, verified responsive behaviour using browser DevTools , CSS
-              animation, AOS, Bootstrap Description: A multi-role SaaS platform
-              with public pages, resident access, and admin dashboards for
-              structured village operations.
-              <br />
-              An in-progress village management platform combining public
-              information, resident-facing features, and administrative tools in
-              one scalable system.
-              <a
-                className="aa"
-                href="https://github.com/sue-zadeh/SAMCT"
-                target="blank"
-              >
-                Check out this project on GitHub
-              </a>
-              <img
-                data-aos="fade-down-right"
-                className="picsquish"
-                src={SAMCTpublic}
-                alt="Sportflix"
-              />
-            </p>
+    <section className="portfolio-projects-page">
+      <div className="portfolio-projects-overlay"></div>
 
-            <p data-aos="fade-down-right" className="p-projects">
-              <b>Lodge-Matariki476:</b>
-              Language/Technologies: Python, Flask, Rest API, PlayWright, Postman, verified responsive behaviour using browser DevTools, CSS, CSS
-              Animation, AOS, Bootstrap, PostgreSQLDevOps, Deployed on Azure App
-              Service, configured domains, enabled SSL(HTTPS), and managed
-              production settings (RDS, Elastic Beanstalk, Route 53)
-              <br />
-              Description: A membership-focused web application with internal
-              features, administrative tools, and secure access. <br />A custom
-              web platform designed for member management, internal use, and
-              structured administrative control.
-              <a
-                className="aa"
-                href="https://lodgematariki476.co.nz/"
-                target="blank"
-              >
-                Lodge Matariki 476 on the Internet
-              </a>
-              <a
-                className="aa"
-                href="https://github.com/sue-zadeh/lodge-matarik476-python"
-                target="blank"
-              >
-                Check out this project on GitHub
-              </a>
-            </p>
-            {/* <div className="projects2"> */}
-            <h2 data-aos="fade-down-left" className="h2-projects2  fs-3">
-              Lodge Matarik 476
-            </h2>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={Lodge}
-              alt="Sportflix"
-            />
-            <img
-              data-aos="fade-down-left"
-              className="picsquish"
-              src={LodgeEvent}
-              alt="Sportflix"
-            />
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={LodgeFile}
-              alt="Sportflix"
-            />
-            <img
-              data-aos="fade-down-left"
-              className="picsquish"
-              src={LodgeMember}
-              alt="Sportflix"
-            />
-            {/* </div>{' '} */}
-          </div>
+      <div className="container position-relative portfolio-projects-content">
+        <div className="text-center projects-hero" data-aos="fade-up">
+          <span className="projects-badge">Selected Projects</span>
 
-          <div className="projects2">
-            <p data-aos="fade-down-right" className="p-projects">
-              <b>FieldSafe (CVNZ company):</b>
-              Language/Technologies: ReactVite, Typescript, CSS, Bootstrap, API
-              Integration, MySQL, PlayWright, Postman, verified responsive behaviour using browser DevTools 
-              <br />
-              Description: This project aimed to build a digital solution called
-              FieldSafe to help conservation groups manage their daily
-              tasks—such as assigning staff, overseeing activities, and logging
-              risks—all in one user-friendly platform while ensuring compliance
-              with health and safety regulations.
-              <br />
-              Currently enhancing FieldSafe with PWA features for offline access
-              using service workers, manifest integration, and IndexedDB
-              <a className="aa" href="https://fieldsafe.org.nz/" target="blank">
-                Click here to view the FieldSafe app online
-              </a>
-              <br />
-              <a
-                href="https://github.com/sue-zadeh/offline-fieldsafe"
-                className="aa"
-                target="blank"
-              >
-                Check out this project on GitHub
-              </a>
-              <br /> <br /> <br />
-            </p>
-            {/* <div className="projects2"> */}
-            <h2 data-aos="fade-down-left" className="h2-projects2">
-              FieldSafe
-            </h2>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish-toe"
-              src={Fieldsafe}
-              alt="FieldSafe"
-            />
-            <img
-              data-aos="fade-down-left"
-              className="picsquish-toe"
-              src={Riskactivity}
-              alt="FieldSafe"
-            />{' '}
-            <img
-              data-aos="fade-down-right"
-              className="picsquish-toe"
-              src={Objectivesactivity}
-              alt="FieldSafe"
-            />
-            <img
-              data-aos="fade-down-left"
-              className="picsquish-toe"
-              src={Groupadmin}
-              alt="FieldSafe"
-            />
-            {/* </div> */}
-          </div>
-          <div className="projects2">
-            <p data-aos="fade-down-right" className="p-projects">
-              <b>smart Panel Homes Ltd:</b>
-              Language/Technologies: ReactJS, Node.js, Express js, PHP, MySQL,
-              CSS animation, AOS, Bootstrap
-              <br />
-              Description: A professional company website built to showcase
-              services, branding, and trust.
-              <br />A business presentation website with polished layout, clear
-              structure, and modern visual design.
-              <a
-                className="aa"
-                href="https://www.smartpanelhomes.co.nz/"
-                target="blank"
-              >
-                view this project on the Internet
-              </a>
-              <a
-                className="aa"
-                href="https://github.com/sue-zadeh/smart-panel"
-                target="blank"
-              >
-                Check out this project with Nodjs here(GitHub)
-              </a>
-              <a
-                className="aa"
-                href="https://github.com/sue-zadeh/smart-php-panel"
-                target="blank"
-              >
-                Check out this project with php here (GitHub)
-              </a>
-              <img
-                data-aos="fade-down-right"
-                className="picsquish"
-                src={Smartpanel}
-                alt="Sportflix"
-              />
-            </p>
+          <h3 className="projects-title fw-semibold mt-3">
+            Projects built for real users, real problems, and real learning
+          </h3>
 
-            <p data-aos="fade-down-right" className="p-projects">
-              <b>ShowerPower Ltd:</b>
-              Language/Technologies: ReactJS, Node.js, Express js, Azure(App
-              Service, configured domains, enabled SSL(HTTPS)) PostgreSQL, CSS
-              animation, AOS, Bootstrap Description: A modern business website
-              designed to present services clearly and support customer
-              inquiries.
-              <br />A service-focused website with strong visual presentation,
-              responsive layout, and lead-oriented design.
-              <a
-                className="aa"
-                href="https://www.showerpower.co.nz/"
-                target="blank"
-              >
-                view this project on the Internet
-              </a>
-              <a
-                className="aa"
-                href="https://github.com/sue-zadeh/showerpower"
-                target="blank"
-              >
-                Check out this project on GitHub
-              </a>
-              <img
-                data-aos="fade-down-left"
-                className="picsquish"
-                src={Showerpower}
-                alt="Sportflix"
-              />
-            </p>
+          <p className="projects-intro">
+            A collection of real company websites, solo projects, and group
+            projects showing my full-stack development, testing, responsive UI,
+            and problem-solving skills.
+          </p>
 
-            <p data-aos="fade-down-right" className="p-projects">
-              <b>Senior Healthcare Auckland Ltd (in progress):</b>
-              Language/Technologies: Next.JS, C#, .Net, PostgreSQL, will be
-              deployed on Azure(App Service, configured domains, enabled
-              SSL(HTTPS)) MySQL, CSS animation, AOS, Bootstrap
-              <br />
-              Description:This web site is A service-focused website with strong
-              visual presentation, responsive layout, and lead-oriented design.
-              <br />
-              An in-progress healthcare website built from wireframe to
-              production, designed to present services clearly and support both
-              staffing and client enquiries.
-              {/* <a
-                className="aa"
-                href="https://www.showerpower.co.nz/"
-                target="blank"
-              >
-              </a> */}
-              <a
-                className="aa"
-                href="https://github.com/sue-zadeh/SeniorCareAucklandLtd"
-                target="blank"
-              >
-                Check out this project on GitHub
-              </a>
-              <img
-                data-aos="fade-down-left"
-                className="picsquish"
-                src={Healthcare}
-                alt="Sportflix"
-              />
-            </p>
+          <div className="row g-3 justify-content-center mt-4 projects-stats">
+            <div className="col-6 col-md-3">
+              <div className="stat-box">
+                <strong>6+</strong>
+                <span>Real company projects</span>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="stat-box">
+                <strong>Full-stack</strong>
+                <span>Frontend + backend</span>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="stat-box">
+                <strong>Testing</strong>
+                <span>Playwright + Postman</span>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="stat-box">
+                <strong>Responsive</strong>
+                <span>Mobile-friendly UI</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="projects2">
-        <h2 data-aos="fade-down-left" className="h2-projects2">
-          Solo Projects:
-        </h2>
-        <div className="div-squish">
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>Pokedex:</b>
-            Language/Technologies: React.js (Vite), TypeScript, Bootstrap,
-            Flask, REST API Description: An interactive Pokémon Pokédex web
-            application that allows users to explore, filter, and search through
-            Pokémon details, with advanced search options and sorting
-            functionality for attributes like type, height, and weight. The
-            project demonstrates modern UI/UX principles and clean, maintainable
-            coding practices.
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/pokedex"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={Pokemon}
-              alt="Pokemon"
-            />
-          </p>
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>Selwyn Campground(scg):</b>
-            Language/Technologies: Python, Bootstrap, Flask, Jinja, MySQL{' '}
-            Description: A web application for Selwyn Campground to assist
-            office staff in managing customer and booking data efficiently, with
-            features for adding, editing, and managing records.
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/scg"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            {/* <a
-              className="aa"
-              href="https://suezadeh.pythonanywhere.com/"
-              target="blank"
-            >
-              
-            </a> */}
-            <img
-              data-aos="fade-down-left"
-              className="picsquish"
-              src={Scg}
-              alt="Sportflix"
-            />
-          </p>
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>my-sportlist:</b>
-            <b>Language/Technologies: reactjs, css3, Various APIs </b>
-            Description: Similar to Netflix but for sports, this project allows
-            users to explore different sports, read detailed information, and
-            navigate using a sidebar—great for backend API practice.
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/my-sportlist"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={Sportflix}
-              alt="Sportflix"
-            />
-          </p>
 
-          <p data-aos="fade-down-left" className="p-projects">
-            <b>chatroom:</b>
-            Language/Technologies: reactjs, Firebase, Realtime Database
-            Description: This project focuses on creating a chatroom with
-            enhanced media sharing capabilities, utilizing Firebase and Realtime
-            Database for live interactions.
-            {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}{' '}
-            <span className="push-word"></span>
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/chatroom"
-              target="blank"
+        <div className="filter-row" data-aos="fade-up">
+          {categories.map((category) => (
+            <button
+              key={category}
+              type="button"
+              className={`filter-btn ${
+                selectedCategory === category ? 'active' : ''
+              }`}
+              onClick={() => setSelectedCategory(category)}
             >
-              Check out this project on Github
-              {/* <span
-                style={{
-                  paddingRight: '1.5em',
-                  color: 'rgb(240, 240, 165)',
-                  fontSize: '17px',
-                  textDecoration: 'none',
-                }}
-              >
-                <b>( On going )</b>
-              </span> */}
-            </a>
-            <img
-              data-aos="fade-up-left"
-              className="picsquish"
-              src={Chat}
-              alt="Chat"
-            />
-          </p>
+              {category}
+            </button>
+          ))}
         </div>
 
-        <div className="div-squish">
-          <p data-aos="fade-up-right" className="p-projects">
-            <b>TreeTalk:</b>
-            Language/Technologies:Python, Flask, Jinja,Javascript, Bootstrap and
-            CSS3
-            <br />
-            Description: Tree Talk is a community platform where neighbors can
-            discuss and share insights about tree-related topics in their
-            neighborhood. Users can post messages, reply to others, and engage
-            in conversations.
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/tree-talk"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <img
-              data-aos="fade-up-right"
-              className="picsquish-toe"
-              src={Treetalk}
-              alt="TreeTalk"
-            />
-          </p>
+        <div className="row g-4">
+          {filteredProjects.map((project) => (
+            <div className="col-md-6 col-xl-4" key={project.title}>
+              <article className="project-card h-100" data-aos="fade-up">
+                <div className="project-image-wrap">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="project-image"
+                  />
 
-          <p data-aos="fade-up-right" className="p-projects">
-            <b>minesweeper:</b>
-            Language/Technologies:Javascript and CSS3
-            <br />
-            Description: This is the Minesweeper game. I built this to have more
-            practice on javascript
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/minesweeper"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <img
-              data-aos="fade-up-right"
-              className="picsquish-toe"
-              src={Minesweeper}
-              alt="Minesweeper"
-            />
-          </p>
-          <p data-aos="fade-down-left" className="p-projects">
-            <b>tic-tac-toe:</b>
-            Language/Technologies: Javascript and CSS3
-            <br />
-            Description: This is the TIc-Tac-Toe game. I built this to have more
-            practice on javascript .
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/tic-tac-toe"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <img
-              data-aos="fade-up-right"
-              className="picsquish-toe"
-              src={Toe}
-              alt="Toe"
-            />
-          </p>
-          <p data-aos="fade-down-left" className="p-projects">
-            <b>music-band:</b>
-            Language/Technologies: HTML5, CSS3, JavaScript
-            <br />
-            Description: Created in February 2021 from self-study and online
-            courses, this website features an Iranian folk music band. backend
-            functionality is with JavaScript.
-            <a
-              className="aa"
-              href="https://sue-zadeh.github.io/music-band/"
-              target="blank"
-            >
-              Check out this project on Github
-              <br />
-              <span
-                style={{
-                  paddingRight: '1.5em',
-                  color: 'rgb(240, 240, 165)',
-                  fontSize: '20px',
-                  textDecoration: 'none',
-                }}
-              ></span>
-            </a>
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/music-band"
-              target="blank"
-            >
-              Check out this project on Github
-              <br />
-              <span
-                style={{
-                  paddingRight: '1.5em',
-                  color: 'rgb(240, 240, 165)',
-                  fontSize: '18px',
-                  textDecoration: 'none',
-                }}
-              >
-                <b>( 2021 )</b>
-              </span>
-            </a>
-            <img
-              data-aos="fade-up-right"
-              className="picsquish-toe"
-              src={Music}
-              alt="Music"
-            />
-          </p>
+                  <div className="project-hover-layer">
+                    <span className="project-type">{project.category}</span>
+                    <h3>{project.title}</h3>
+                    <p>{project.hoverDescription}</p>
+
+                    <div className="project-hover-actions">
+                      {project.liveUrl && (
+                        <button
+                          type="button"
+                          className="btn btn-light btn-sm rounded-pill"
+                          onClick={() => openProject(project.liveUrl)}
+                        >
+                          View Live
+                        </button>
+                      )}
+
+                      {project.githubUrl && (
+                        <button
+                          type="button"
+                          className="btn btn-outline-light btn-sm rounded-pill"
+                          onClick={() => openProject(project.githubUrl)}
+                        >
+                          GitHub
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="project-body">
+                  <div className="d-flex justify-content-between align-items-start gap-3 mb-2">
+                    <h3 className="project-name">{project.title}</h3>
+                    <span
+                      className={`project-status ${
+                        project.status === 'Live'
+                          ? 'status-live'
+                          : project.status === 'In Progress'
+                          ? 'status-progress'
+                          : ''
+                      }`}
+                    >
+                      {project.status}
+                    </span>
+                  </div>
+
+                  <p className="project-description">
+                    {project.shortDescription}
+                  </p>
+
+                  <div className="project-tags">
+                    {project.tags.map((tag) => (
+                      <span key={tag}>{tag}</span>
+                    ))}
+                  </div>
+
+                  <div className="d-flex flex-wrap gap-2 mt-4">
+                    {project.liveUrl && (
+                      <button
+                        type="button"
+                        className="btn btn-primary btn-sm rounded-pill px-3"
+                        onClick={() => openProject(project.liveUrl)}
+                      >
+                        View Live
+                      </button>
+                    )}
+
+                    {project.githubUrl && (
+                      <button
+                        type="button"
+                        className="btn btn-outline-light btn-sm rounded-pill px-3"
+                        onClick={() => openProject(project.githubUrl)}
+                      >
+                        GitHub
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </article>
+            </div>
+          ))}
         </div>
       </div>
-      <div className="projects2">
-        <h2 data-aos="fade-down-right" className="h2-projects2">
-          group Projects:
-        </h2>
-
-        <div className="div-squish">
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>DevStagram:</b>
-            Language/Technologies: reactjs,Redux.js,TypeScript, css <br />
-            Description: DevStagram, a one-day group project, pulls and displays
-            data, letting users add to the JSON. I evolve it into a chatroom
-            with media. I developed the sign-in page and led the git management.
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/DevStagram"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={Devstagram}
-              alt="Devstagram"
-            />
-          </p>
-          {/* </div> */}
-          {/* className="pro1"
-          onMouseEnter={() => setShowText(true)}
-          onMouseLeave={() => setShowText(false)} */}
-          {/* <div className="rows"> */}
-          {/* <div className="div-squish"> */}
-          <p data-aos="fade-down-left" className="p-projects">
-            <b>Squishy-Squish:</b>
-            Language/Technologies: p5, Javascript,Redux.js, Jest, and
-            TypeScript, CSS3 <br />
-            Description: This was a 1-week final group project, and a game. I
-            contributed to the frontend, backend, managed git, and wrote tests
-            for pages.
-            <a className="aa" href="https://helpfulself.xyz/" target="blank">
-              Squishy-Squish
-            </a>
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/Squishy-Squish"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <img
-              data-aos="fade-up-left"
-              className="picsquish"
-              src={Squish}
-              alt="Jumpy"
-            />
-          </p>
-          {/* </div> */}
-          {/* {showText && ( */}
-          {/* // <div className="text-layer"> */}
-          {/* show the text layer when showText is true */}
-          {/* </div>
-        </div> */}
-
-          {/* </div> */}
-          {/* <div className="rows"> */}
-          {/* <div className="div-squish"> */}
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>no-deal-or-deal:</b>
-            Language/Technologies: React.js, Redux.js, TypeScript, CSS3 <br />
-            Description: This website was a one-day group project. It is a game
-            created. In the group, my role was to work as the frontend lead.
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/no-deal-or-deal"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <img
-              data-aos="fade-up-right"
-              className="picsquish"
-              src={Nodeal}
-              alt="Nodeal"
-            />
-          </p>
-          {/* </div>
-        <div className="div-squish"> */}
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>dev-eats:</b>
-            Language/Technologies: JavaScript with server-side handling and
-            CSS3.
-            <br />
-            Description: This one-day group project website showcases Indian,
-            Italian, Asian, and Vegan restaurants.
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/dev-eats"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <br />
-            <br />
-            <img
-              data-aos="fade-up-right"
-              className="picsquish"
-              src={Eat}
-              alt="Eat"
-            />
-          </p>
-          {/* </div>
-        <div className="div-squish"> */}
-        </div>
-        <div className="div-squish">
-          <p data-aos="fade-down-right" className="p-projects">
-            <b>voting-center:</b>
-            Language/Technologies: Python, Flask, Jinja, javaScript, MySQL,
-            Bootstrap and css
-            <a
-              className="aa"
-              href="https://github.com/LUMasterOfAppliedComputing2024S2/COMP639S2_project_1_Gamma/tree/sue"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            <br />
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/voting-best-track-NZ"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            Description: This project was part of a group assignment for a
-            Master's course in Applied Computing. The website allows users to
-            vote for the best walkway in New Zealand. I was responsible for
-            developing all pages(front-end and back-end) related to user
-            registration, login, voting, displaying results, and ensuring the
-            pages were styled responsively.
-            <br />
-            {/* <p data-aos="fade-down-right" className="p-projects  "> */}
-            we improve it and Built a customization tool letting users set
-            background and font styling for their own voting site, simulating
-            CMS-style personalization.
-            <br />
-            <img
-              data-aos="fade-down-right"
-              className="picsquish"
-              src={Votingcenter}
-              alt="Devstagram"
-            />{' '}
-            <a
-              className="aa"
-              href="https://github.com/sue-zadeh/let-create-voting-site"
-              target="blank"
-            >
-              Check out this project on Github
-            </a>
-            {/* </p> */}
-          </p>
-        </div>
-      </div>
-    </div>
+    </section>
   )
 }
+
 export default Projects

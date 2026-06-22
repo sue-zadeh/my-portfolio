@@ -5,45 +5,44 @@ import { CgStack } from 'react-icons/cg'
 import { FaComment } from 'react-icons/fa'
 
 const NavBar = () => {
+  const navItems = [
+    {
+      label: 'Home',
+      href: '#home',
+      icon: <TiHome />,
+    },
+    {
+      label: 'About Me',
+      href: '#about-me',
+      icon: <MdSchool />,
+    },
+    {
+      label: 'Projects',
+      href: '#projects',
+      icon: <CgStack />,
+    },
+    {
+      label: 'Contact Me',
+      href: '#contact-me',
+      icon: <FaComment />,
+    },
+  ]
+
   return (
-    <div className="nav">
-      <div className="allnav">
-        <ul className="NavBar">
-          <li className="NavBarli">
-            <a
-              className="Nav1 `Nav1 ${isActive('#home')}`"
-              href="#home"
-              style={{ marginRight: '5px' }}
-            >
-              <TiHome size={27} style={{ marginRight: '5px' }} />
-              Home
+    <nav className="site-nav" aria-label="Main navigation">
+      <ul className="site-nav-list">
+        {navItems.map((item) => (
+          <li className="site-nav-item" key={item.href}>
+            <a className="site-nav-link" href={item.href}>
+              <span className="site-nav-icon" aria-hidden="true">
+                {item.icon}
+              </span>
+              <span className="site-nav-text">{item.label}</span>
             </a>
           </li>
-          <li className="NavBarli">
-            <a className="Nav3" href="#about-me" style={{ marginRight: '5px' }}>
-              <MdSchool size={27} style={{ marginRight: '5px' }} />
-              About Me
-            </a>
-          </li>
-          <li className="NavBarli">
-            <a className="Nav4" href="#projects" style={{ marginRight: '5px' }}>
-              <CgStack size={27} style={{ marginRight: '5px' }} />
-              Projects
-            </a>
-          </li>
-          <li className="NavBarli">
-            <a
-              className="Nav5"
-              href="#contact-me"
-              style={{ marginRight: '5px' }}
-            >
-              <FaComment size={27} style={{ marginRight: '5px' }} />
-              Contact Me
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+        ))}
+      </ul>
+    </nav>
   )
 }
 
