@@ -79,7 +79,7 @@ function ContactMe() {
   }
 
   return (
-    <div data-aos="fade-up">
+    <div id="contact-me" data-aos="fade-up">
       {/* <div className="devNavcontact">
         <NavBar />
       </div> */}

@@ -128,7 +128,7 @@ export default function AboutMe() {
     })
   }, [])
   return (
-    <div style={S.pageWrap} className="AboutMe" data-aos="fade-up">
+    <div style={S.pageWrap} className="AboutMe" id="about-me" data-aos="fade-up">
       <div style={S.container} className="content-about">
         <h1 style={S.title} className="h-me2" data-aos="fade-down-right">
           {/* <MdDeveloperBoard size={42} color="#fff" />  */}

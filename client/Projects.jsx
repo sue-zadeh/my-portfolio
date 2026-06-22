@@ -292,7 +292,7 @@ function Projects() {
   }
 
   return (
-    <section className="portfolio-projects-page">
+    <section id="projects" className="portfolio-projects-page">
       <div className="portfolio-projects-overlay"></div>
 
       <div className="container position-relative portfolio-projects-content">
