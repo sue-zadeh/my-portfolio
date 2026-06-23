@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import Projects from './Projects'
