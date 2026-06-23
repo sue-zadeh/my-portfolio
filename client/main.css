@@ -280,7 +280,7 @@ section {
   }
 
   .web {
-    font-size: clamp(1.45rem, 8vw, 2.2rem);
+    font-size: clamp(1.75rem, 8.2vw, 2.25rem);
     line-height: 1.18;
     letter-spacing: 0.5px;
   }
@@ -535,7 +535,7 @@ h4 {
   }
 
   .web {
-    font-size: clamp(1.15rem, 6vw, 1.75rem);
+    font-size: clamp(1.45rem, 6.4vw, 1.95rem);
     line-height: 1.18;
     letter-spacing: 0.5px;
   }
