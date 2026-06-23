@@ -5,93 +5,76 @@ import { CgStack } from 'react-icons/cg'
 import { FaComment } from 'react-icons/fa'
 
 const NavBar = () => {
-  const [activeSection, setActiveSection] = useState('home')
-
-  const navItems = [
-    {
-      label: 'Home',
-      href: 'home',
-      icon: <TiHome />,
-    },
-    {
-      label: 'About Me',
-      href: 'about-me',
-      icon: <MdSchool />,
-    },
-    {
-      label: 'Projects',
-      href: 'projects',
-      icon: <CgStack />,
-    },
-    {
-      label: 'Contact Me',
-      href: 'contact-me',
-      icon: <FaComment />,
-    },
-  ]
+  const [activeSection, setActiveSection] = useState(
+    window.location.hash || '#home'
+  )
 
   useEffect(() => {
-    const handleScroll = () => {
-      const sections = navItems
-        .map((item) => document.getElementById(item.href))
-        .filter(Boolean)
-
-      const currentSection = sections.find((section) => {
-        const rect = section.getBoundingClientRect()
-        return rect.top <= 130 && rect.bottom >= 130
-      })
-
-      if (currentSection) {
-        setActiveSection(currentSection.id)
-      }
+    const handleHashChange = () => {
+      setActiveSection(window.location.hash || '#home')
     }
 
-    handleScroll()
+    window.addEventListener('hashchange', handleHashChange)
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange)
+    }
   }, [])
 
-  const goToSection = (sectionId) => {
-    const section = document.getElementById(sectionId)
-
-    if (!section) {
-      return
-    }
-
-    const navHeight = 95
-    const sectionTop =
-      section.getBoundingClientRect().top + window.pageYOffset - navHeight
-
-    window.scrollTo({
-      top: sectionTop,
-      behavior: 'auto',
-    })
-
-    setActiveSection(sectionId)
+  const isActive = (section) => {
+    return activeSection === section ? 'active' : ''
   }
 
   return (
-    <nav className="site-nav" aria-label="Main navigation">
-      <ul className="site-nav-list">
-        {navItems.map((item) => (
-          <li className="site-nav-item" key={item.href}>
-            <button
-              type="button"
-              className={`site-nav-link ${
-                activeSection === item.href ? 'active' : ''
-              }`}
-              onClick={() => goToSection(item.href)}
+    <div className="nav">
+      <div className="allnav">
+        <ul className="NavBar">
+          <li className="NavBarli">
+            <a
+              className={`NavLink ${isActive('#home')}`}
+              href="#home"
+              onClick={() => setActiveSection('#home')}
             >
-              <span className="site-nav-icon" aria-hidden="true">
-                {item.icon}
-              </span>
-              <span className="site-nav-text">{item.label}</span>
-            </button>
+              <TiHome className="NavIcon" />
+              <span>Home</span>
+            </a>
           </li>
-        ))}
-      </ul>
-    </nav>
+
+          <li className="NavBarli">
+            <a
+              className={`NavLink ${isActive('#about-me')}`}
+              href="#about-me"
+              onClick={() => setActiveSection('#about-me')}
+            >
+              <MdSchool className="NavIcon" />
+              <span>About Me</span>
+            </a>
+          </li>
+
+          <li className="NavBarli">
+            <a
+              className={`NavLink ${isActive('#projects')}`}
+              href="#projects"
+              onClick={() => setActiveSection('#projects')}
+            >
+              <CgStack className="NavIcon" />
+              <span>Projects</span>
+            </a>
+          </li>
+
+          <li className="NavBarli">
+            <a
+              className={`NavLink ${isActive('#contact-me')}`}
+              href="#contact-me"
+              onClick={() => setActiveSection('#contact-me')}
+            >
+              <FaComment className="NavIcon" />
+              <span>Contact Me</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   )
 }
 

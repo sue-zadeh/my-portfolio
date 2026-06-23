@@ -4,7 +4,7 @@ import Body from './Body'
 
 function Home() {
   return (
-    <div className="App" id="home">
+    <div className="App">
       <Banner />
       <Body />
     </div>

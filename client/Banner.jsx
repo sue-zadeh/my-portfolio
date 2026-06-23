@@ -15,7 +15,7 @@ function Banner() {
       text: 'Hi, I am Sue Zadeh',
       icon: (
         <HiOutlineHand
-          size={58}
+          size={65}
           color="#cd7700"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
@@ -25,7 +25,7 @@ function Banner() {
       text: 'Full Stack Web Developer',
       icon: (
         <FaLaptopCode
-          size={63}
+          size={73}
           color="beige"
           style={{ paddingRight: '14px', paddingLeft: '14px' }}
         />
@@ -35,14 +35,14 @@ function Banner() {
       text: 'Master’s in Applied Computing',
       icon: (
         <FaGraduationCap
-          size={60}
+          size={70}
           color="#cd7700"
           style={{ paddingRight: '12px', paddingLeft: '12px' }}
         />
       ),
     },
     {
-      text: 'ISTQB® Certified Tester (iSQI, Aug 2025)',
+      text: 'ISTQB® Certified Tester (iSQI)',
       icon: (
         <FaCertificate
           size={70}
@@ -52,7 +52,7 @@ function Banner() {
       ),
     },
     {
-      text: 'ICAgile Certified Professional (ICP, Nov 2025)',
+      text: 'ICAgile Certified Professional (ICP)',
       icon: (
         <FaCertificate
           size={70}
@@ -65,7 +65,7 @@ function Banner() {
       text: 'Microsoft Azure Certified',
       icon: (
         <HiCloud
-          size={70}
+          size={80}
           color="#cd7700"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />
@@ -75,7 +75,7 @@ function Banner() {
       text: 'Dev Academy Graduate',
       icon: (
         <FaGraduationCap
-          size={63}
+          size={83}
           color="beige"
           style={{ paddingRight: '14px', paddingLeft: '13px' }}
         />
@@ -86,7 +86,7 @@ function Banner() {
       text: 'Tech enthusiast',
       icon: (
         <FaLightbulb
-          size={55}
+          size={53}
           color="#cd7700"
           style={{ paddingRight: '10px', paddingLeft: '10px' }}
         />

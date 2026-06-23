@@ -292,7 +292,7 @@ function Projects() {
   }
 
   return (
-    <section id="projects" className="portfolio-projects-page">
+    <section className="portfolio-projects-page">
       <div className="portfolio-projects-overlay"></div>
 
       <div className="container position-relative portfolio-projects-content">
@@ -358,7 +358,7 @@ function Projects() {
         <div className="row g-4">
           {filteredProjects.map((project) => (
             <div className="col-md-6 col-xl-4" key={project.title}>
-              <article className="project-card h-100" data-aos="fade-up">
+              <article className="project-card h-100" data-aos="fade-up" tabIndex="0">
                 <div className="project-image-wrap">
                   <img
                     src={project.image}
