@@ -7,6 +7,16 @@ import ContactMe from './ContactMe'
 import NavBar from './NavBar'
 
 function App() {
+   useEffect(() => {
+    AOS.init({
+      duration: 900,
+      once: false,
+      offset: 80,
+    })
+
+    AOS.refresh()
+  }, [])
+
   return (
     <div>
       <NavBar />
