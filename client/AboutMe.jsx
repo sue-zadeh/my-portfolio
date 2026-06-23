@@ -137,26 +137,26 @@ export default function AboutMe() {
 
         {/* ✅ Intro with smaller spacing */}
         <div style={S.introWrap}>
-          <p style={S.introP1} data-aos="fade-up">
+          <p style={S.introP1} data-aos="fade-left">
             I’m Sue, a full-stack developer based in Auckland. I build modern
             web apps end-to-end: clean UI, strong APIs, solid database design,
             and reliable deployments.
           </p>
 
-          <p style={S.introP2} data-aos="fade-up">
+          <p style={S.introP2} data-aos="fade-right">
             I started my career in education (teacher + computer workshop
             supervisor), then moved into software. Since then, I’ve focused on
             building real products for real businesses - not just demos.
           </p>
         </div>
 
-        <div style={S.card} data-aos="fade-up">
+        <div style={S.card} data-aos="fade-left">
           {/* Projects */}
           <h3 style={S.sectionHead} data-aos="fade-right">
             <MdWork /> Client websites & production projects (selected)
           </h3>
 
-          <ul style={S.list} data-aos="fade-up">
+          <ul style={S.list} data-aos="fade-right">
             <IconItem icon={FaServer} aos="fade-down-right">
               <b>Shower Power</b> — full-stack production website (React,
               Node/Express, PostgreSQL, Docker, Azure App Service, CI/CD).

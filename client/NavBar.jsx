@@ -9,6 +9,29 @@ const NavBar = () => {
     window.location.hash || '#home'
   )
 
+  const navItems = [
+    {
+      label: 'Home',
+      href: '#home',
+      icon: <TiHome className="NavIcon" />,
+    },
+    {
+      label: 'About Me',
+      href: '#about-me',
+      icon: <MdSchool className="NavIcon" />,
+    },
+    {
+      label: 'Projects',
+      href: '#projects',
+      icon: <CgStack className="NavIcon" />,
+    },
+    {
+      label: 'Contact Me',
+      href: '#contact-me',
+      icon: <FaComment className="NavIcon" />,
+    },
+  ]
+
   useEffect(() => {
     const handleHashChange = () => {
       setActiveSection(window.location.hash || '#home')
@@ -21,57 +44,48 @@ const NavBar = () => {
     }
   }, [])
 
-  const isActive = (section) => {
-    return activeSection === section ? 'active' : ''
+  const isActive = (href) => {
+    return activeSection === href ? 'active' : ''
+  }
+
+  const handleNavClick = (event, href) => {
+    event.preventDefault()
+
+    const sectionId = href.replace('#', '')
+    const section = document.getElementById(sectionId)
+
+    if (!section) return
+
+    const navHeight = document.querySelector('.NavBar')?.offsetHeight || 90
+    const sectionTop =
+      section.getBoundingClientRect().top + window.pageYOffset - navHeight
+
+    // Force instant scroll, even if another CSS file says smooth
+    document.documentElement.style.scrollBehavior = 'auto'
+    document.body.style.scrollBehavior = 'auto'
+
+    window.scrollTo(0, sectionTop)
+
+    window.history.pushState(null, '', href)
+    setActiveSection(href)
   }
 
   return (
     <div className="nav">
       <div className="allnav">
         <ul className="NavBar">
-          <li className="NavBarli">
-            <a
-              className={`NavLink ${isActive('#home')}`}
-              href="#home"
-              onClick={() => setActiveSection('#home')}
-            >
-              <TiHome className="NavIcon" />
-              <span>Home</span>
-            </a>
-          </li>
-
-          <li className="NavBarli">
-            <a
-              className={`NavLink ${isActive('#about-me')}`}
-              href="#about-me"
-              onClick={() => setActiveSection('#about-me')}
-            >
-              <MdSchool className="NavIcon" />
-              <span>About Me</span>
-            </a>
-          </li>
-
-          <li className="NavBarli">
-            <a
-              className={`NavLink ${isActive('#projects')}`}
-              href="#projects"
-              onClick={() => setActiveSection('#projects')}
-            >
-              <CgStack className="NavIcon" />
-              <span>Projects</span>
-            </a>
-          </li>
-
-          <li className="NavBarli">
-            <a
-              className={`NavLink ${isActive('#contact-me')}`}
-              href="#contact-me"
-              onClick={() => setActiveSection('#contact-me')}
-            >
-              <FaComment className="NavIcon" />
-              <span>Contact Me</span>
-            </a>
-          </li>
+          {navItems.map((item) => (
+            <li className="NavBarli" key={item.href}>
+              <a
+                className={`NavLink ${isActive(item.href)}`}
+                href={item.href}
+                onClick={(event) => handleNavClick(event, item.href)}
+              >
+                {item.icon}
+                <span>{item.label}</span>
+              </a>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

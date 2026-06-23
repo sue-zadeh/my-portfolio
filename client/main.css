@@ -695,10 +695,10 @@ h4 {
 
 .projects-title {
   color: #fff7ed;
-  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-size: clamp(1.5rem, 4vw, 3.2rem);
   line-height: 1.12;
-  font-weight: 480;
-  letter-spacing: -0.06em;
+  font-weight: 400;
+  letter-spacing: -0.04em;
 }
 
 .projects-intro {
