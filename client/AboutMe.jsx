@@ -125,10 +125,17 @@ export default function AboutMe() {
   useEffect(() => {
     AOS.init({
       duration: 900,
+      once: false,
+      offset: 80,
     })
   }, [])
   return (
-    <div id="about-me"style={S.pageWrap} className="AboutMe" data-aos="fade-up">
+    <div
+      id="about-me"
+      style={S.pageWrap}
+      className="AboutMe"
+      data-aos="fade-up"
+    >
       <div style={S.container} className="content-about">
         <h1 style={S.title} className="h-me2" data-aos="fade-down-right">
           {/* <MdDeveloperBoard size={42} color="#fff" />  */}
